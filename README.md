@@ -1,165 +1,76 @@
-# 📖 Lore Sync — RPG PDF to Markdown Pipeline
+# 🏔️ Moria: Through the Doors of Durin
 
-A tool for automatically converting RPG rulebook PDFs into clean, structured Markdown. Uses local AI models for layout detection and Google Gemini for intelligent text refinement and table formatting.
-
----
-
-## ✅ Prerequisites
-
-Before you begin, make sure you have the following installed:
-
-- **Python 3.13+** — [python.org](https://www.python.org/downloads/)
-- **An NVIDIA GPU** *(recommended)* — Required for fast local processing. A GTX 1070 or better is recommended. The script will fall back to CPU if no GPU is available, but will be significantly slower.
-- **A Google Gemini API Key** — Get one for free at [aistudio.google.com](https://aistudio.google.com/apikey)
+A comprehensive campaign toolkit and adventure repository for ***The One Ring 2nd Edition*** (Year 2989 TA / Balin's Expedition Era).
 
 ---
 
-## ⚙️ Installation
+## 🗺️ Repository Overview
 
-### 1. Clone or download the project
+This repository is organized to prioritize **lore, session preparation, adventure modules, and GM table play aids**, while housing source ingestion tools in dedicated subpackages.
 
-Place the project files in a folder of your choice.
+```text
+Moria/
+├── adventures/                          # Publication-Ready Adventure Modules
+│   └── armouries_of_the_third_deep/     # The Armouries of the Third Deep (Complete 3-Act Module)
+│       ├── 00_overview_and_background.md
+│       ├── 01_campaign_context.md
+│       ├── 02_band_mechanics.md
+│       ├── 03_operational_mechanics.md
+│       ├── 04_keyed_locations.md
+│       ├── 05_adversaries_and_hazards.md
+│       ├── 06_relics_and_rewards.md
+│       ├── 07_gm_playbook_and_pacing.md
+│       └── handouts/                    # GM Cheat Sheets, Band Worksheets, Node Maps, Letter Props
+├── campaign_log.md                      # Ongoing Campaign Chronicle & Hero Rosters
+├── session_prep_armouries.md            # Session Prep & Extended Fellowship Phase Guide
+├── PROJECT.md                           # Master Architecture & Feature Inventory
+├── TEST_INFRA.md                        # E2E Test Suite Specification
+├── TEST_READY.md                        # Verification Audit & Multi-Agent Sign-off Report
+├── tests/                               # 4-Tier Automated System Verification Suite
+└── pdf_parser/                          # Rulebook PDF Ingestion & OCR Pipeline (see pdf_parser/README.md)
+```
 
-### 2. Install PyTorch with CUDA support
+---
 
-> **Important:** You must install the CUDA-enabled version of PyTorch, **not** the default CPU version. The default `pip install torch` will download the CPU version.
+## 📜 Campaign & Lore Highlights
 
-Run the following in your terminal from the project folder:
+### 1. The Fellowship & Campaign Chronicle ([`campaign_log.md`](campaign_log.md))
+- **Active Heroes**:
+  - **Torvir Hammerstone** (*Champion*, Dwarf of Durin) — Great Axe specialist & frontline anchor.
+  - **Einar son of Anar** (*Treasure Hunter*, Dwarf of Durin) — Master scout carrying the Broken Key.
+  - **Khoril Hornblower** (*Captain*, Dwarf of Durin) — Band leader carrying the ancient battle-horn.
+- **Strategic State**: Transitioning from Thrym Thistlebeard's Caves to the East-Gate Camp; Eye Awareness tracking and Balin's colony politics.
+
+### 2. Session Preparation ([`session_prep_armouries.md`](session_prep_armouries.md))
+- **Extended Fellowship Phase**: Undertakings at Dimrill Dale, healing, companion hardening, and council with Lord Balin.
+- **Ascent Journey Rolls**: Travel mechanics, hazard resolution, and safe haven establishment.
+
+### 3. Feature Adventure: *The Armouries of the Third Deep* ([`adventures/armouries_of_the_third_deep/`](adventures/armouries_of_the_third_deep/))
+- **Act I: The Descent & Mustering**: Staging at the Upper Mustering-Yard and entering the darkened shafts.
+- **Act II: Despoiled Halls & Toxic Deeps**: Navigating toxic miasma, the Goblin Village, and siege weapon positions.
+- **Act III: The Apex Vault & Fighting Withdrawal**: The duel with The Mauler, Grimnar's ambush at the King's Door, claiming Durin's Axe, and the timed escape.
+- **Handouts & Play Aids**:
+  - [`gm_cheat_sheet.md`](adventures/armouries_of_the_third_deep/handouts/gm_cheat_sheet.md): 1-page quick combat and DC dashboard.
+  - [`band_worksheet.md`](adventures/armouries_of_the_third_deep/handouts/band_worksheet.md): Band tactical roles, readiness, and morale tracking.
+  - [`node_map.md`](adventures/armouries_of_the_third_deep/handouts/node_map.md): 3-tier elevation tactical flowchart.
+  - [`dying_scribe_letter.md`](adventures/armouries_of_the_third_deep/handouts/dying_scribe_letter.md): In-world prop clue for the Marshal's Key.
+
+---
+
+## 🧪 Verification & Automated Testing
+
+The adventure mechanics, DC math, Band operational rules, adversary balance, and multi-session workflows are covered by a comprehensive 188-test E2E test harness.
 
 ```powershell
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
-```
+# Run the complete test suite (Tiers 1-4)
+python tests/test_runner.py
 
-> 💡 This is a large download (~2.5 GB). It only needs to be done once.
-
-### 3. Install Python dependencies
-
-```powershell
-pip install marker-pdf python-dotenv
-```
-
-### 4. Patch the marker-pdf library for better API stability
-
-The `marker-pdf` library does not retry on `504 Gateway Timeout` errors by default. Apply this fix manually to prevent incomplete conversions on large PDFs.
-
-Open the following file:
-```
-<your Python installation>\Lib\site-packages\marker\services\gemini.py
-```
-
-Find this line (around line 95):
-```python
-if e.code in [429, 443, 503]:
-```
-
-Change it to:
-```python
-if e.code in [429, 443, 503, 504]:
-```
-
-Save the file. This allows the converter to gracefully retry when Gemini is slow to respond.
-
----
-
-## 🔑 Configuration
-
-Create a `.env` file in the project root with the following content:
-
-```env
-GOOGLE_API_KEY=your_api_key_here
-LLM_SERVICE=google
-GEMINI_MODEL=gemini-3.1-pro-preview
-```
-
-Replace `your_api_key_here` with your actual Gemini API key.
-
----
-
-## 📁 Directory Structure
-
-The script manages files through a strict folder pipeline. These folders are created automatically on first run.
-
-```
-project/
-├── Source_Material/
-│   ├── Unprocessed/    ← DROP YOUR PDFs HERE
-│   └── Processed/      ← Script moves files here after successful conversion
-├── output/             ← Output Markdown files appear here
-│   └── <BookName>/
-│       ├── <BookName>.md
-│       └── <images>.jpeg
-├── sync_lore.py
-└── .env
+# Run a specific tier (e.g. Tier 1: Feature Coverage)
+python tests/test_runner.py --tier 1
 ```
 
 ---
 
-## 🚀 Running the Script
+## ⚙️ PDF Ingestion & Rulebook Processing
 
-### Basic usage (convert all PDFs in the Unprocessed folder):
-
-```powershell
-python sync_lore.py
-```
-
-### Test with only a few pages first:
-
-```powershell
-python sync_lore.py --pages 1-5
-```
-
-### Convert without LLM refinement (faster, raw layout only):
-
-```powershell
-python sync_lore.py --no-llm
-```
-
-### Use a specific Gemini model:
-
-```powershell
-python sync_lore.py --model gemini-3.1-pro-preview
-```
-
-### See all available options:
-
-```powershell
-python sync_lore.py --help
-```
-
----
-
-## ⏱️ What to Expect
-
-| Phase | What Happens | Time Estimate |
-|---|---|---|
-| **Layout Detection** | Local GPU models scan every page for columns, headers, tables | ~2-3s per page |
-| **OCR Error Detection** | Local model checks for garbled characters | ~30s total |
-| **Table Refinement** | Gemini API reformats tables into clean Markdown | ~15-45s per table |
-| **Section Headers** | Gemini corrects heading hierarchy | ~30-90s total |
-
-For a typical 56-page RPG rulebook, expect the full run to take **8–15 minutes**.
-
-> ⚠️ You may see `504 DEADLINE_EXCEEDED` warnings in the console. These are harmless — the script will automatically retry up to 3 times. If a section still fails after retrying, it will use the local model's best effort and continue.
-
----
-
-## 🔁 Re-running on Existing Files
-
-The script includes **duplicate protection**. If a PDF has already been converted, it will be skipped automatically:
-
-- If `output/<BookName>/` already exists → **SKIP**
-- If `Source_Material/Processed/<BookName>.pdf` already exists → **SKIP**
-
-To re-process a file, delete its output folder from `output/` and move the PDF back to `Source_Material/Unprocessed/`.
-
----
-
-## 🐛 Troubleshooting
-
-| Problem | Solution |
-|---|---|
-| `CUDA available: False` after PyTorch install | Make sure you used the `--index-url https://download.pytorch.org/whl/cu126` flag when installing torch |
-| `No PDFs found in ... Exiting.` | Make sure your PDF is in `Source_Material/Unprocessed/`, not the project root |
-| `504 DEADLINE_EXCEEDED` (no retry) | Make sure you applied the `gemini.py` patch in Step 4 of Installation |
-| Very slow processing (many hours) | You are running on CPU. Install the CUDA version of torch (Step 2) |
-| `APIError: 401` | Your `GOOGLE_API_KEY` in `.env` is invalid or missing |
+For processing source PDFs into searchable Markdown and JSONL indexes, see the documentation in [`pdf_parser/README.md`](pdf_parser/README.md).

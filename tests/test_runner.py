@@ -672,7 +672,7 @@ def run_test_suite(tier: Optional[int] = None) -> int:
     }
 
     print("=" * 80)
-    print("  THE ONE RING 2e — MORIA: ARMOURIES OF THE THIRD DEEP")
+    print("  THE ONE RING 2e - MORIA: ARMOURIES OF THE THIRD DEEP")
     print("  E2E TEST HARNESS & SYSTEM VERIFICATION")
     print("=" * 80)
     
@@ -724,7 +724,7 @@ def run_test_suite(tier: Optional[int] = None) -> int:
                 print(rec["error"])
         return 1
     else:
-        print("\n[✓] ALL TESTS PASSED SUCCESSFULLY.")
+        print("\n[OK] ALL TESTS PASSED SUCCESSFULLY.")
         return 0
 
 

@@ -145,9 +145,9 @@ class TestTier4_DelveScenarios(unittest.TestCase):
         self.assertTrue(grimnar.is_dead)
 
         # 3. Location 10: Lower Armoury & Claiming Durin's Axe
-        # Claiming Durin's Axe adds +4 Eye Awareness
+        # Claiming Durin's Axe adds +4 Eye Awareness (starting from 2 due to prior siege noise)
         tracker.add_eye_awareness(4)
-        self.assertEqual(tracker.eye_awareness, 4)
+        self.assertEqual(tracker.eye_awareness, 6)
         # Claiming Tunnel-Guard Wargear
         wargear_claimed = ["Shield of the Deep Gate", "Mattock of Moria-Silver", "Mail of Unyielding Stone"]
         self.assertEqual(len(wargear_claimed), 3)

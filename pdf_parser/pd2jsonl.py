@@ -150,15 +150,16 @@ def pdf_to_jsonl(pdf_path, output_path):
     print(f"Success! Output saved to '{output_path}'")
 
 if __name__ == "__main__":
+    BASE_DIR = Path(__file__).parent.resolve()
     parser = argparse.ArgumentParser(description="Convert a directory of PDFs to individual JSONL files (Fast heuristic method).")
     parser.add_argument(
         "--input", "-i", 
-        default="Source_Material/Unprocessed", 
+        default=str(BASE_DIR / "Source_Material" / "Unprocessed"), 
         help="Directory containing PDFs to process"
     )
     parser.add_argument(
         "--output", "-o", 
-        default="output/quick_indexes", 
+        default=str(BASE_DIR / "output" / "quick_indexes"), 
         help="Directory where JSONL files will be saved"
     )
     args = parser.parse_args()
