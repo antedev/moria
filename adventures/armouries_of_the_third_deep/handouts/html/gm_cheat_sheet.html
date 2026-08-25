@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GM Rapid Reference Cheat Sheet — Armouries of the Third Deep</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap');
+
+@page {
+    size: A4 portrait;
+    margin: 10mm 12mm 12mm 12mm;
+}
+
+@page :left {
+    @bottom-left {
+        content: "The Armouries of the Third Deep — The One Ring 2e";
+        font-family: 'Cinzel', serif;
+        font-size: 7pt;
+        color: #666;
+    }
+    @bottom-right {
+        content: counter(page);
+        font-family: 'Cinzel', serif;
+        font-size: 8pt;
+        font-weight: bold;
+    }
+}
+
+@page :right {
+    @bottom-left {
+        content: "The Armouries of the Third Deep — The One Ring 2e";
+        font-family: 'Cinzel', serif;
+        font-size: 7pt;
+        color: #666;
+    }
+    @bottom-right {
+        content: counter(page);
+        font-family: 'Cinzel', serif;
+        font-size: 8pt;
+        font-weight: bold;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+body {
+    font-family: 'Cormorant Garamond', 'Georgia', serif;
+    font-size: 9.5pt;
+    line-height: 1.25;
+    color: #111;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, .cinzel {
+    font-family: 'Cinzel', 'Palatino', serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0;
+    color: #000;
+}
+
+h1 {
+    font-size: 15pt;
+    font-weight: 900;
+    text-align: center;
+    border-bottom: 2px solid #222;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 11pt;
+    font-weight: 700;
+    border-bottom: 1px solid #444;
+    padding-bottom: 1px;
+    margin-top: 6px;
+    margin-bottom: 3px;
+    background: #f0f0f0;
+    padding-left: 4px;
+}
+
+h3 {
+    font-size: 9.5pt;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 8pt;
+    font-style: italic;
+    color: #444;
+    margin-bottom: 6px;
+}
+
+/* Grayscale Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-size: 8.5pt;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 2.5px 4px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #e2e2e2;
+    font-family: 'Cinzel', serif;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #000;
+}
+
+tr:nth-child(even) td {
+    background-color: #f7f7f7;
+}
+
+/* Grids & Cards */
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px;
+}
+
+.card {
+    border: 1.5px solid #222;
+    padding: 5px 7px;
+    background: #fff;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+.card-header {
+    font-family: 'Cinzel', serif;
+    font-size: 8.5pt;
+    font-weight: bold;
+    background: #e8e8e8;
+    margin: -5px -7px 4px -7px;
+    padding: 2px 7px;
+    border-bottom: 1px solid #333;
+}
+
+/* Rune & In-World Prop Styling */
+.rune-frame {
+    border: 3px double #222;
+    padding: 10px;
+    background: #fafafa;
+    position: relative;
+}
+
+.cirth-inscription {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11pt;
+    letter-spacing: 0.15em;
+    background: #eee;
+    padding: 8px;
+    border: 1px dashed #444;
+    text-align: center;
+    margin: 6px 0;
+}
+
+/* Checkboxes & Form Elements */
+.checkbox-box {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1.2px solid #000;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.bubble {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1.2px solid #000;
+    border-radius: 50%;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+.page-break {
+    page-break-before: always;
+    break-before: page;
+}
+
+.avoid-break {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+/* High-Density ASCII Map Container */
+.ascii-map {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 6.8pt;
+    line-height: 1.1;
+    background: #fdfdfd;
+    border: 1.5px solid #333;
+    padding: 6px;
+    white-space: pre;
+    overflow: hidden;
+}
+
+.stat-badge {
+    display: inline-block;
+    border: 1px solid #444;
+    background: #e8e8e8;
+    padding: 1px 3px;
+    font-size: 7.5pt;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    margin-right: 3px;
+}
+</style>
+</head>
+<body>
+
+<h1>The Armouries of the Third Deep — GM Rapid Cheat Sheet</h1>
+<div class="subtitle">The One Ring 2e • Moria: Through the Doors of Durin • Balin's Expedition 2989 T.A.</div>
+
+<div class="grid-2">
+    <!-- Left Column: Heroes & Core Systems -->
+    <div>
+        <div class="card avoid-break">
+            <div class="card-header">1. PLAYER-HERO TARGET NUMBERS (ATTRIBUTE TN)</div>
+            <table>
+                <tr>
+                    <th>Hero & Calling</th>
+                    <th>STR TN</th>
+                    <th>HRT TN</th>
+                    <th>WIT TN</th>
+                    <th>Parry / Mail</th>
+                    <th>Key Distinctive Traits (+1d)</th>
+                </tr>
+                <tr>
+                    <td><b>Torvir Hammerstone</b><br><i>Champion (Durin)</i></td>
+                    <td><b>13</b></td>
+                    <td><b>18</b></td>
+                    <td><b>15</b></td>
+                    <td>15 / 5d</td>
+                    <td>Fierce, Willful, <i>Enemy-lore (Orcs)</i></td>
+                </tr>
+                <tr>
+                    <td><b>Einar son of Anar</b><br><i>Treasure Hunter (Iron)</i></td>
+                    <td><b>14</b></td>
+                    <td><b>17</b></td>
+                    <td><b>15</b></td>
+                    <td>20 / 3d</td>
+                    <td>Cunning, Wary, <i>Burglary</i>, Broken Key (+2 Scan)</td>
+                </tr>
+                <tr>
+                    <td><b>Khoril Hornblower</b><br><i>Captain (Durin)</i></td>
+                    <td><b>13</b></td>
+                    <td><b>16</b></td>
+                    <td><b>16</b></td>
+                    <td>17 / 3d</td>
+                    <td>Wary, Cunning, <i>Leadership</i>, Battle Horn (+1 Battle)</td>
+                </tr>
+            </table>
+            <div style="font-size:7.5pt; color:#444;">
+                * <b>Band Target Number</b>: <b>TN 15</b> (20 − Readiness Rating 5). Dispositions: War 3, Vigilance 2, Manoeuvre 2, Expertise 2, Rally 1.
+            </div>
+        </div>
+
+        <div class="card avoid-break">
+            <div class="card-header">2. THE 4-STAGE ALERT TRACKER & NOISE ECONOMY</div>
+            <table>
+                <tr>
+                    <th>Alert Stage</th>
+                    <th>Points</th>
+                    <th>Infiltration Effects & Enemy Posture</th>
+                </tr>
+                <tr>
+                    <td><b>0: Quiet Shadows</b></td>
+                    <td>0–3 AP</td>
+                    <td>Standard patrol routines; careless sentries; standard Stealth.</td>
+                </tr>
+                <tr>
+                    <td><b>1: Unease & Sniffers</b></td>
+                    <td>4–7 AP</td>
+                    <td>Torches lit; Udûn sniffers & bats released; <b>Stealth is Ill-favoured</b>.</td>
+                </tr>
+                <tr>
+                    <td><b>2: Hunted & Barricaded</b></td>
+                    <td>8–11 AP</td>
+                    <td>Chokepoints barricaded; sentry squads doubled; <b>Grimnar stalks rear</b>.</td>
+                </tr>
+                <tr>
+                    <td><b>3: Drums in the Deep</b></td>
+                    <td>12+ AP</td>
+                    <td>Iron drums sound general alarm! <b>10 combat rounds / 2 turns to extract</b>.</td>
+                </tr>
+            </table>
+            <div style="font-size:7.5pt; line-height:1.2;">
+                <b>Noise Triggers</b>: Unmuffled march (+1 AP) • Echo combat (+1 AP/round) • Horn (+3 AP, +1 Eye) • Stone smash (+2 AP) • Troll roar (+3 AP) • Durin's Axe lifted (<b>+4 Eye Awareness</b>).<br>
+                <b>Noise Relief</b>: Silent kill in R1 (-1 AP) • Diversion fire (-2 AP) • Bribe Grik (-2 AP) • Gatehouse fortified (-1 AP/Act).
+            </div>
+        </div>
+
+        <div class="card avoid-break">
+            <div class="card-header">3. CRITICAL HAZARDS & SKILL ENDEAVOURS</div>
+            <div style="font-size:8pt; line-height:1.25;">
+                • <b>Balrog Toxic Gas (Breath of the Pit)</b>: Entering Areas 7/8. With respirator/herbs, test <b>Protection (STR TN)</b> once per hour. Failure: 2 End loss + Weary. (Without masks: roll every 1 minute for 4 End loss + Dread).<br>
+                • <b>Slag-Worms Collapse</b>: Explosive noise causes iron collapse. Test <b>ATHLETICS (STR TN)</b> or take 8 Dmg (Inj 16).<br>
+                • <b>Area 2 Gatehouse Fortification</b>: Skill Endeavour <b>Resistance 3</b> (CRAFT / EXPLORE).<br>
+                • <b>Area 3 Scythe Trap Network</b>: Skill Endeavour <b>Resistance 3</b> (CRAFT / SCAN).<br>
+                • <b>Area 4 Balrog Idol Toppling</b>: Skill Endeavour <b>Resistance 3</b> (ATHLETICS / CRAFT).<br>
+                • <b>Area 5 Siege Ballista Calibrate</b>: Skill Endeavour <b>Resistance 3</b> (CRAFT / BATTLE).<br>
+                • <b>Area 7 Squad Respirators</b>: Skill Endeavour <b>Resistance 3</b> (HEALING / CRAFT).<br>
+                • <b>Area 9 King's Door Lock</b>: Skill Endeavour <b>Resistance 6</b> (CRAFT / LORE).
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Column: Keyed Locations & Adversary Stats -->
+    <div>
+        <div class="card avoid-break">
+            <div class="card-header">4. 10 KEYED LOCATIONS OPERATIONAL MATRIX</div>
+            <table>
+                <tr>
+                    <th>Loc # & Landmark</th>
+                    <th>Skill Checks (Attribute TN)</th>
+                    <th>Consequence on Failure / 6s</th>
+                </tr>
+                <tr>
+                    <td><b>1. Mustering-Yard</b></td>
+                    <td>STEALTH (WIT) to slip past<br>BATTLE (HRT) for ambush</td>
+                    <td>Fail: Patrol spotted (+1 AP)<br>6: Silent kill / +1d on opening round</td>
+                </tr>
+                <tr>
+                    <td><b>2. Upper Gatehouse</b></td>
+                    <td>CRAFT (STR) Endeavour Res 3<br>AWARENESS (STR) spot trap</td>
+                    <td>Fail: Door unsecured<br>6: +1 extraction round / -1 AP per Act</td>
+                </tr>
+                <tr>
+                    <td><b>3. First Armoury</b></td>
+                    <td>SCAN (WIT) spot scrap-traps<br>CRAFT (STR) scavenge arms</td>
+                    <td>Fail: 4 Dmg + loud crash (+2 AP)<br>6: Recovers 12 spearheads & pry-bars</td>
+                </tr>
+                <tr>
+                    <td><b>4. Broken Hall</b></td>
+                    <td>VALOUR (HRT) vs Dread (+1 Shad)<br>LORE (WIT) Last Redoubt clue</td>
+                    <td>Torvir flaw: Wrath urges idol smash<br>6: Reveals King's Key is in Old Moria</td>
+                </tr>
+                <tr>
+                    <td><b>5. Second Armoury</b></td>
+                    <td>CRAFT (STR) Endeavour Res 3<br>ATHLETICS (STR) ram brace</td>
+                    <td>Fail: Ballista jams<br>6: Heavy Ballista armed (24 Dmg to Troll!)</td>
+                </tr>
+                <tr>
+                    <td><b>6. Hall of Mauler</b></td>
+                    <td>STEALTH (WIT) across scrap<br>RIDDLE (WIT) duel in Fwd</td>
+                    <td>Fail: Troll awakens (+3 AP)<br>6: Strips 1 Hate/icon from The Mauler</td>
+                </tr>
+                <tr>
+                    <td><b>7. Poisoned Halls</b></td>
+                    <td>Protection (STR TN) hourly<br>SCAN (WIT) find Scribe Letter</td>
+                    <td>Fail: 2 End loss + Weary<br>6: Recovers Scribe Slate & 3 Gromril Mails</td>
+                </tr>
+                <tr>
+                    <td><b>8. Upper Armoury</b></td>
+                    <td>EXPLORE (WIT) clear gas cache</td>
+                    <td>Yields 30 masterwork Dwarven weapons</td>
+                </tr>
+                <tr>
+                    <td><b>9. King's Door</b></td>
+                    <td>CRAFT (STR) Endeavour Res 6<br>VALOUR (HRT) Blood of Durin</td>
+                    <td>Fail: Lock jams; requires Marshal Key<br>6: Adamant door unlocks smoothly</td>
+                </tr>
+                <tr>
+                    <td><b>10. Lower Vault</b></td>
+                    <td>Greater Hoard (120 TP)</td>
+                    <td><b>Claiming Durin's Axe: +4 Eye Awareness!</b></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="card avoid-break">
+            <div class="card-header">5. ADVERSARY COMBAT PROFILES</div>
+            <table>
+                <tr>
+                    <th>Adversary</th>
+                    <th>Stats & Armour</th>
+                    <th>Proficiencies & Special Attacks</th>
+                    <th>Fell Abilities & Key Tactics</th>
+                </tr>
+                <tr>
+                    <td><b>THE MAULER</b><br><i>Armoured Cave-Troll</i></td>
+                    <td>AL 10, End 80<br>Might 2, Hate 10<br>Parry —, <b>Armour 5</b></td>
+                    <td>• Crush 3 (6/12, Seize)<br>• Maul 3 (8/16, Break Shield)</td>
+                    <td><b>Dull-Witted</b> (Riddle duel strips Hate)<br><b>Hideous Toughness</b> (Reset to 40 End)<br><b>Strike Fear</b> (2 Shadow) • <b>Thick Hide</b> (+2d)</td>
+                </tr>
+                <tr>
+                    <td><b>GRIMNAR</b><br><i>Disgraced Great Orc</i></td>
+                    <td>AL 6, End 36<br>Might 2, Hate 6<br><b>Parry +2, Armour 3d</b></td>
+                    <td>• Heavy Scimitar 3 (5/16)<br>• Stolen Dagger 3 (4/14 Keen)</td>
+                    <td><b>Hatred (Dwarves)</b> (+1d vs Torvir/Khoril)<br><b>Craven Ambush</b> (Auto Pierce from stealth)<br><b>Fierce Command</b> (Bonus minion attack)</td>
+                </tr>
+                <tr>
+                    <td><b>GRIK THE SKULKER</b><br><i>Goblin Informant</i></td>
+                    <td>AL 3, End 12<br>Hate 2, Parry +3</td>
+                    <td>• Jagged Dagger 2 (3/12)<br>• Slingshot 2 (3/12)</td>
+                    <td><b>Shadow-Blend</b> (+2d Stealth)<br><b>Snake-like Speed</b> (Incoming attacks Ill-fav)</td>
+                </tr>
+                <tr>
+                    <td><b>UDÛN SNIFFERS</b><br><i>Deep Trackers (x4)</i></td>
+                    <td>AL 4, End 16<br>Hate 3, Armour 2d</td>
+                    <td>• Serrated Spear 2 (4/14 Pois)<br>• Short Bow 2 (3/12)</td>
+                    <td><b>Blood-Scent</b> (Ignores darkness penalties)<br><b>Orc-Poison</b> (2 End loss / 10 min on Injury)</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

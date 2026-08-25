@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Band Management Worksheet — The Armouries of the Third Deep</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap');
+
+@page {
+    size: A4 portrait;
+    margin: 10mm 12mm 12mm 12mm;
+}
+
+@page :left {
+    @bottom-left {
+        content: "The Armouries of the Third Deep — The One Ring 2e";
+        font-family: 'Cinzel', serif;
+        font-size: 7pt;
+        color: #666;
+    }
+    @bottom-right {
+        content: counter(page);
+        font-family: 'Cinzel', serif;
+        font-size: 8pt;
+        font-weight: bold;
+    }
+}
+
+@page :right {
+    @bottom-left {
+        content: "The Armouries of the Third Deep — The One Ring 2e";
+        font-family: 'Cinzel', serif;
+        font-size: 7pt;
+        color: #666;
+    }
+    @bottom-right {
+        content: counter(page);
+        font-family: 'Cinzel', serif;
+        font-size: 8pt;
+        font-weight: bold;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+body {
+    font-family: 'Cormorant Garamond', 'Georgia', serif;
+    font-size: 9.5pt;
+    line-height: 1.25;
+    color: #111;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, .cinzel {
+    font-family: 'Cinzel', 'Palatino', serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0;
+    color: #000;
+}
+
+h1 {
+    font-size: 15pt;
+    font-weight: 900;
+    text-align: center;
+    border-bottom: 2px solid #222;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 11pt;
+    font-weight: 700;
+    border-bottom: 1px solid #444;
+    padding-bottom: 1px;
+    margin-top: 6px;
+    margin-bottom: 3px;
+    background: #f0f0f0;
+    padding-left: 4px;
+}
+
+h3 {
+    font-size: 9.5pt;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 8pt;
+    font-style: italic;
+    color: #444;
+    margin-bottom: 6px;
+}
+
+/* Grayscale Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-size: 8.5pt;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 2.5px 4px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #e2e2e2;
+    font-family: 'Cinzel', serif;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #000;
+}
+
+tr:nth-child(even) td {
+    background-color: #f7f7f7;
+}
+
+/* Grids & Cards */
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px;
+}
+
+.card {
+    border: 1.5px solid #222;
+    padding: 5px 7px;
+    background: #fff;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+.card-header {
+    font-family: 'Cinzel', serif;
+    font-size: 8.5pt;
+    font-weight: bold;
+    background: #e8e8e8;
+    margin: -5px -7px 4px -7px;
+    padding: 2px 7px;
+    border-bottom: 1px solid #333;
+}
+
+/* Rune & In-World Prop Styling */
+.rune-frame {
+    border: 3px double #222;
+    padding: 10px;
+    background: #fafafa;
+    position: relative;
+}
+
+.cirth-inscription {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11pt;
+    letter-spacing: 0.15em;
+    background: #eee;
+    padding: 8px;
+    border: 1px dashed #444;
+    text-align: center;
+    margin: 6px 0;
+}
+
+/* Checkboxes & Form Elements */
+.checkbox-box {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1.2px solid #000;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.bubble {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1.2px solid #000;
+    border-radius: 50%;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+.page-break {
+    page-break-before: always;
+    break-before: page;
+}
+
+.avoid-break {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+/* High-Density ASCII Map Container */
+.ascii-map {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 6.8pt;
+    line-height: 1.1;
+    background: #fdfdfd;
+    border: 1.5px solid #333;
+    padding: 6px;
+    white-space: pre;
+    overflow: hidden;
+}
+
+.stat-badge {
+    display: inline-block;
+    border: 1px solid #444;
+    background: #e8e8e8;
+    padding: 1px 3px;
+    font-size: 7.5pt;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    margin-right: 3px;
+}
+</style>
+</head>
+<body>
+
+<h1>Dwarf Companion Band — Tactical Worksheet</h1>
+<div class="subtitle">Moria Band Engine • Readiness Rating 5 (Band TN 15) • Balin's Vanguard (2989 T.A.)</div>
+
+<div class="grid-2">
+    <div class="card">
+        <div class="card-header">EXPEDITION SQUAD METRICS</div>
+        <table>
+            <tr>
+                <th>Metric</th>
+                <th>Rating / Value</th>
+                <th>Mechanical Effect at Table</th>
+            </tr>
+            <tr>
+                <td><b>Band Readiness</b></td>
+                <td><b>5 (Band TN 15)</b></td>
+                <td>Roll Feat Die + Disposition against TN 15 for all Band tests.</td>
+            </tr>
+            <tr>
+                <td><b>Band Size & Load</b></td>
+                <td><b>7 Dwarves (Heavy Load)</b></td>
+                <td>Can haul 600 lbs of recovered wargear without hero penalties.</td>
+            </tr>
+            <tr>
+                <td><b>Band Hope</b></td>
+                <td><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span> (12 / 12)</td>
+                <td>Spend to grant +1d to Band roll. Demoralized at 0 (-1d to all rolls).</td>
+            </tr>
+            <tr>
+                <td><b>Alert Tracker</b></td>
+                <td>[ 0 ] [ 1 ] [ 2 ] [ 3 ] [ 4 ] [ 5 ] [ 6 ] [ 7 ] [ 8 ] [ 9 ] [ 10 ] [ 11 ] [ 12+ ]</td>
+                <td>0–3: Normal | 4–7: Sniffers | 8–11: Hunted | 12+: General Alarm</td>
+            </tr>
+            <tr>
+                <td><b>Eye Awareness</b></td>
+                <td>[ 2 ] [ 3 ] [ 4 ] [ 5 ] [ 6 ] [ 7 ] [ 8 ] [ 9 ] [ 10 ] [ 11 ] [ 12 ] [ 13 ] <b>[ 14 HUNT ]</b></td>
+                <td>Revelation Episode triggers when Eye Awareness reaches 14!</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <div class="card-header">THE 5 BAND DISPOSITIONS</div>
+        <table>
+            <tr>
+                <th>Disposition</th>
+                <th>Rating</th>
+                <th>Active Table Function</th>
+            </tr>
+            <tr>
+                <td><b>WAR</b></td>
+                <td><b>+3d</b></td>
+                <td>Melee clashes, holding chokepoints, forming shield-wall phalanxes.</td>
+            </tr>
+            <tr>
+                <td><b>VIGILANCE</b></td>
+                <td><b>+2d</b></td>
+                <td>Scout screens, detecting ambushes, spotting Orc patrol lanterns.</td>
+            </tr>
+            <tr>
+                <td><b>MANOEUVRE</b></td>
+                <td><b>+2d</b></td>
+                <td>Marching discipline, keeping armor muffled, swift tactical repositioning.</td>
+            </tr>
+            <tr>
+                <td><b>EXPERTISE</b></td>
+                <td><b>+2d</b></td>
+                <td>Smithing, bracing stone archways, repairing siege engines, prying chests.</td>
+            </tr>
+            <tr>
+                <td><b>RALLY</b></td>
+                <td><b>+1d</b></td>
+                <td>Recovering from fear, restoring morale after troll encounters.</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<h2>Active Companion Roster & Squad Assignment Tracker</h2>
+<table>
+    <tr>
+        <th>Companion Dwarf</th>
+        <th>Specialty & Gear</th>
+        <th>Max End</th>
+        <th>Current End</th>
+        <th>Injury Box</th>
+        <th>Assigned Tactical Squad Role</th>
+    </tr>
+    <tr>
+        <td><b>Dúrmer</b></td>
+        <td>Veteran Heavy Infantry • Tower Shield</td>
+        <td>22</td>
+        <td>[ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; / 22 ]</td>
+        <td><span class="checkbox-box"></span> Uninjured<br><span class="checkbox-box"></span> Moderate<br><span class="checkbox-box"></span> Severe</td>
+        <td>
+            <span class="checkbox-box"></span> <b>Vanguard Shield-Wall</b> (Absorbs 1 Pierce for Torvir)<br>
+            <span class="checkbox-box"></span> <b>Gatehouse Guard</b> (Holds extraction point)
+        </td>
+    </tr>
+    <tr>
+        <td><b>Hjoldring</b></td>
+        <td>Stonemason • Heavy Wedges & Mallet</td>
+        <td>18</td>
+        <td>[ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; / 18 ]</td>
+        <td><span class="checkbox-box"></span> Uninjured<br><span class="checkbox-box"></span> Moderate<br><span class="checkbox-box"></span> Severe</td>
+        <td>
+            <span class="checkbox-box"></span> <b>Engineering Specialist</b> (Braces collapses/traps)<br>
+            <span class="checkbox-box"></span> <b>Forward Sentry Screen</b>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Bláin</b></td>
+        <td>Scout • Crossbow & Short Axe</td>
+        <td>18</td>
+        <td>[ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; / 18 ]</td>
+        <td><span class="checkbox-box"></span> Uninjured<br><span class="checkbox-box"></span> Moderate<br><span class="checkbox-box"></span> Severe</td>
+        <td>
+            <span class="checkbox-box"></span> <b>Forward Recon Scout</b> (Spots patrols ahead)<br>
+            <span class="checkbox-box"></span> <b>Ranged Suppressing Fire</b> (Strips 1 Hate/round)
+        </td>
+    </tr>
+    <tr>
+        <td><b>Fáin</b></td>
+        <td>Smith Apprentice • Iron Crowbars & Wedges</td>
+        <td>18</td>
+        <td>[ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; / 18 ]</td>
+        <td><span class="checkbox-box"></span> Uninjured<br><span class="checkbox-box"></span> Moderate<br><span class="checkbox-box"></span> Severe</td>
+        <td>
+            <span class="checkbox-box"></span> <b>Heavy Salvage Porter</b> (Hauls 300 lbs wargear)<br>
+            <span class="checkbox-box"></span> <b>Siege Ballista Mechanic</b> (Assists Area 5)
+        </td>
+    </tr>
+    <tr>
+        <td><b>Bróga</b></td>
+        <td>Crossbow Marksman • Sentry</td>
+        <td>12</td>
+        <td>[ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; / 12 ]</td>
+        <td><span class="checkbox-box"></span> Uninjured<br><span class="checkbox-box"></span> Moderate<br><span class="checkbox-box"></span> Severe</td>
+        <td>
+            <span class="checkbox-box"></span> <b>Gatehouse Guard</b> (Fortifies Upper Gatehouse)<br>
+            <span class="checkbox-box"></span> <b>Ranged Overwatch</b>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Austri</b></td>
+        <td>Porter & Heavy Infantry</td>
+        <td>18</td>
+        <td>[ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; / 18 ]</td>
+        <td><span class="checkbox-box"></span> Uninjured<br><span class="checkbox-box"></span> Moderate<br><span class="checkbox-box"></span> Severe</td>
+        <td>
+            <span class="checkbox-box"></span> <b>Heavy Salvage Porter</b> (Hauls 300 lbs wargear)<br>
+            <span class="checkbox-box"></span> <b>Rearguard Defender</b>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Dolg</b></td>
+        <td>Tower Shield & Broad Mattock</td>
+        <td>18</td>
+        <td>[ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; / 18 ]</td>
+        <td><span class="checkbox-box"></span> Uninjured<br><span class="checkbox-box"></span> Moderate<br><span class="checkbox-box"></span> Severe</td>
+        <td>
+            <span class="checkbox-box"></span> <b>Rearguard Chokepoint Defense</b> (Delays swarms)<br>
+            <span class="checkbox-box"></span> <b>Vanguard Shield-Wall</b>
+        </td>
+    </tr>
+</table>
+
+<div class="grid-2 avoid-break" style="margin-top:6px;">
+    <div class="card">
+        <div class="card-header">TACTICAL SQUAD DEPLOYMENT RULES</div>
+        <div style="font-size:8pt; line-height:1.2;">
+            1. <b>Gatehouse Garrison (2 Dwarves)</b>: Secures extraction redoubt. Adds +2 to final withdrawal and reduces Alert by -1 AP per Act.<br>
+            2. <b>Salvage Porter Squad (2 Dwarves)</b>: Carries up to 600 lbs of recovered wargear/mithril without penalizing hero Fatigue.<br>
+            3. <b>Shield-Wall Phalanx (Attached to Torvir)</b>: Absorbs 1 Piercing Blow per battle on behalf of a hero.<br>
+            4. <b>Crossbow Suppressing Fire</b>: Strips 1 Hate point per round from enemy commanders on a successful War test.
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">BAND MARCHING & COMBAT RESOLUTION</div>
+        <div style="font-size:8pt; line-height:1.2;">
+            • <b>Marching Test</b>: Khoril tests <b>TRAVEL (HRT TN 16)</b> or Band rolls <b>MANOEUVRE (TN 15)</b>. Failure: +1 Alert Point.<br>
+            • <b>Band Clash in Combat</b>: Roll Feat Die + WAR (3d) vs TN 15. Each success inflicts 4 Endurance damage on enemy minion mob; each 6 icon inflicts a Piercing Blow.<br>
+            • <b>Casualty Threshold</b>: If $\ge 4$ companions become wounded, the Band becomes <b>Weary</b> (-1d to all rolls).
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

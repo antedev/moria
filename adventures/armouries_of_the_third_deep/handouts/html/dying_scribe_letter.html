@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>In-World Handout — The Dying Scribe's Basalt Slate</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap');
+
+@page {
+    size: A4 portrait;
+    margin: 10mm 12mm 12mm 12mm;
+}
+
+@page :left {
+    @bottom-left {
+        content: "The Armouries of the Third Deep — The One Ring 2e";
+        font-family: 'Cinzel', serif;
+        font-size: 7pt;
+        color: #666;
+    }
+    @bottom-right {
+        content: counter(page);
+        font-family: 'Cinzel', serif;
+        font-size: 8pt;
+        font-weight: bold;
+    }
+}
+
+@page :right {
+    @bottom-left {
+        content: "The Armouries of the Third Deep — The One Ring 2e";
+        font-family: 'Cinzel', serif;
+        font-size: 7pt;
+        color: #666;
+    }
+    @bottom-right {
+        content: counter(page);
+        font-family: 'Cinzel', serif;
+        font-size: 8pt;
+        font-weight: bold;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+body {
+    font-family: 'Cormorant Garamond', 'Georgia', serif;
+    font-size: 9.5pt;
+    line-height: 1.25;
+    color: #111;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, .cinzel {
+    font-family: 'Cinzel', 'Palatino', serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0;
+    color: #000;
+}
+
+h1 {
+    font-size: 15pt;
+    font-weight: 900;
+    text-align: center;
+    border-bottom: 2px solid #222;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 11pt;
+    font-weight: 700;
+    border-bottom: 1px solid #444;
+    padding-bottom: 1px;
+    margin-top: 6px;
+    margin-bottom: 3px;
+    background: #f0f0f0;
+    padding-left: 4px;
+}
+
+h3 {
+    font-size: 9.5pt;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 8pt;
+    font-style: italic;
+    color: #444;
+    margin-bottom: 6px;
+}
+
+/* Grayscale Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-size: 8.5pt;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 2.5px 4px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #e2e2e2;
+    font-family: 'Cinzel', serif;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #000;
+}
+
+tr:nth-child(even) td {
+    background-color: #f7f7f7;
+}
+
+/* Grids & Cards */
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px;
+}
+
+.card {
+    border: 1.5px solid #222;
+    padding: 5px 7px;
+    background: #fff;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+.card-header {
+    font-family: 'Cinzel', serif;
+    font-size: 8.5pt;
+    font-weight: bold;
+    background: #e8e8e8;
+    margin: -5px -7px 4px -7px;
+    padding: 2px 7px;
+    border-bottom: 1px solid #333;
+}
+
+/* Rune & In-World Prop Styling */
+.rune-frame {
+    border: 3px double #222;
+    padding: 10px;
+    background: #fafafa;
+    position: relative;
+}
+
+.cirth-inscription {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11pt;
+    letter-spacing: 0.15em;
+    background: #eee;
+    padding: 8px;
+    border: 1px dashed #444;
+    text-align: center;
+    margin: 6px 0;
+}
+
+/* Checkboxes & Form Elements */
+.checkbox-box {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1.2px solid #000;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.bubble {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1.2px solid #000;
+    border-radius: 50%;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+.page-break {
+    page-break-before: always;
+    break-before: page;
+}
+
+.avoid-break {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+/* High-Density ASCII Map Container */
+.ascii-map {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 6.8pt;
+    line-height: 1.1;
+    background: #fdfdfd;
+    border: 1.5px solid #333;
+    padding: 6px;
+    white-space: pre;
+    overflow: hidden;
+}
+
+.stat-badge {
+    display: inline-block;
+    border: 1px solid #444;
+    background: #e8e8e8;
+    padding: 1px 3px;
+    font-size: 7.5pt;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    margin-right: 3px;
+}
+</style>
+</head>
+<body>
+
+<h1>In-World Artifact Handout — Scribe Frár's Basalt Slate</h1>
+<div class="subtitle">Recovered from the Twelfth Hall of the Poisoned Deeps • Preserved since 1980 T.A.</div>
+
+<div class="rune-frame" style="margin-top:10px;">
+    <div style="text-align:center; font-family:'Cinzel', serif; font-size:11pt; font-weight:bold; letter-spacing:0.1em; border-bottom:1px solid #333; padding-bottom:4px; margin-bottom:8px;">
+        ▲ BASALT SLATE OF THE DWARVEN MARSHAL'S OFFICE ▲
+    </div>
+
+    <div class="cirth-inscription">
+        ᚴᚪᛋᚪᛞ ᛞᚢᛗ • ᛒᚪᛚᚱᚩᚷ • ᚷᚪᛋᚻ • ᛗᚪᚱᛋᚻᚪᛚ ᚠᚪᛚᛚᛖᚾ<br>
+        ᚴᛖᛁ • ᛋᛁᚴᛋᛏᛖᛖᚾᛏᚻ • ᚠᛁᚠᛏᚻ • ᛞᛖᛖᛈ • ᚷᚩᛒᛚᛁᚾᛋ • ᚢᛞᚢᚾ<br>
+        ᚴᛁᚾᚷ • ᛋᛖᚾᛞ • ᚴᛖᛁ • ᚱᛖᛞᚩᚢᛒᛏ • ᛞᚢᚱᛁᚾ • ᚪᚾᚡᛁᛚ • ᛒᛚᚩᚩᛞ
+    </div>
+
+    <div style="margin-top:12px; padding:8px 12px; background:#fff; border:1px solid #555;">
+        <h3 style="text-align:center; font-size:10pt; margin-bottom:6px;">RUNEMASTER TRANSLATION (LORE / CRAFT TEST SUCCESS)</h3>
+        <p style="font-size:10pt; font-style:italic; line-height:1.4; margin:0; text-align:justify;">
+            "The fire-demon’s breath fills the fourteenth hall... No helm nor cloth can stay the burning vapour. The Tunnel-guards stand fast, but their breath turns to ash where they stand. 
+            <br><br>
+            Hear me, King Durin! The Marshal of the Armies has fallen in the Sixteenth Hall of the Fifth Deep, and his Iron Key was torn from his breast by the fleeing goblin-swarms. The Lower Vault cannot be opened without it! 
+            <br><br>
+            Send the King’s Key from the Last Redoubt, or let the blood of Durin and the ancient Craft of Aulë command the adamant seal, else the Axe of the First Father is sealed in the dark forever..."
+        </p>
+        <div style="text-align:right; font-family:'Cinzel', serif; font-size:8pt; margin-top:6px; font-weight:bold;">
+            — Frár, Scribe of the Royal Arsenal (Year 1980 of the Third Age)
+        </div>
+    </div>
+</div>
+
+<div class="card avoid-break" style="margin-top:12px;">
+    <div class="card-header">LOREMASTER INSTRUCTIONS & SKILL REVELATIONS</div>
+    <table style="margin:0;">
+        <tr>
+            <th>Skill Tested</th>
+            <th>Required Check</th>
+            <th>Lore & Clues Revealed to the Fellowship</th>
+        </tr>
+        <tr>
+            <td><b>LORE</b></td>
+            <td><b>Wits TN 15/16</b></td>
+            <td>Identifies the script as Royal Khuzdul Cirth. Confirms the <b>Marshal's Key</b> was carried into the deep warrens (connecting toward Goblin Village or Udûn tracks), while the <b>King's Key</b> was sealed in the Last Redoubt (Old Moria).</td>
+        </tr>
+        <tr>
+            <td><b>CRAFT</b></td>
+            <td><b>Strength TN 13/14</b></td>
+            <td>Recognizes the runic schematics sketched on the reverse of the slate: reveals the <b>King's Door uses a dual-interlocking cam mechanism</b> and can be bypassed via the <b>Blood of Durin ritual</b> (VALOUR test) if the King's Key is missing.</td>
+        </tr>
+        <tr>
+            <td><b>SCAN</b></td>
+            <td><b>Wits TN 15 (Einar +2)</b></td>
+            <td>Spots tiny mineral crystalline residue along the fracture line: indicates the poison gas pooled from lower ventilation shafts and can be filtered with tallow-greased linen soaked in spirits or athelas.</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tactical Node Map — The Armouries of the Third Deep</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap');
+
+@page {
+    size: A4 portrait;
+    margin: 10mm 12mm 12mm 12mm;
+}
+
+@page :left {
+    @bottom-left {
+        content: "The Armouries of the Third Deep — The One Ring 2e";
+        font-family: 'Cinzel', serif;
+        font-size: 7pt;
+        color: #666;
+    }
+    @bottom-right {
+        content: counter(page);
+        font-family: 'Cinzel', serif;
+        font-size: 8pt;
+        font-weight: bold;
+    }
+}
+
+@page :right {
+    @bottom-left {
+        content: "The Armouries of the Third Deep — The One Ring 2e";
+        font-family: 'Cinzel', serif;
+        font-size: 7pt;
+        color: #666;
+    }
+    @bottom-right {
+        content: counter(page);
+        font-family: 'Cinzel', serif;
+        font-size: 8pt;
+        font-weight: bold;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+body {
+    font-family: 'Cormorant Garamond', 'Georgia', serif;
+    font-size: 9.5pt;
+    line-height: 1.25;
+    color: #111;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, .cinzel {
+    font-family: 'Cinzel', 'Palatino', serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0;
+    color: #000;
+}
+
+h1 {
+    font-size: 15pt;
+    font-weight: 900;
+    text-align: center;
+    border-bottom: 2px solid #222;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 11pt;
+    font-weight: 700;
+    border-bottom: 1px solid #444;
+    padding-bottom: 1px;
+    margin-top: 6px;
+    margin-bottom: 3px;
+    background: #f0f0f0;
+    padding-left: 4px;
+}
+
+h3 {
+    font-size: 9.5pt;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 8pt;
+    font-style: italic;
+    color: #444;
+    margin-bottom: 6px;
+}
+
+/* Grayscale Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-size: 8.5pt;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 2.5px 4px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #e2e2e2;
+    font-family: 'Cinzel', serif;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #000;
+}
+
+tr:nth-child(even) td {
+    background-color: #f7f7f7;
+}
+
+/* Grids & Cards */
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px;
+}
+
+.card {
+    border: 1.5px solid #222;
+    padding: 5px 7px;
+    background: #fff;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+.card-header {
+    font-family: 'Cinzel', serif;
+    font-size: 8.5pt;
+    font-weight: bold;
+    background: #e8e8e8;
+    margin: -5px -7px 4px -7px;
+    padding: 2px 7px;
+    border-bottom: 1px solid #333;
+}
+
+/* Rune & In-World Prop Styling */
+.rune-frame {
+    border: 3px double #222;
+    padding: 10px;
+    background: #fafafa;
+    position: relative;
+}
+
+.cirth-inscription {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11pt;
+    letter-spacing: 0.15em;
+    background: #eee;
+    padding: 8px;
+    border: 1px dashed #444;
+    text-align: center;
+    margin: 6px 0;
+}
+
+/* Checkboxes & Form Elements */
+.checkbox-box {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1.2px solid #000;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.bubble {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1.2px solid #000;
+    border-radius: 50%;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+.page-break {
+    page-break-before: always;
+    break-before: page;
+}
+
+.avoid-break {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+/* High-Density ASCII Map Container */
+.ascii-map {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 6.8pt;
+    line-height: 1.1;
+    background: #fdfdfd;
+    border: 1.5px solid #333;
+    padding: 6px;
+    white-space: pre;
+    overflow: hidden;
+}
+
+.stat-badge {
+    display: inline-block;
+    border: 1px solid #444;
+    background: #e8e8e8;
+    padding: 1px 3px;
+    font-size: 7.5pt;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    margin-right: 3px;
+}
+</style>
+</head>
+<body>
+
+<h1>Tactical Spatial Atlas & Elevation Node Map</h1>
+<div class="subtitle">The Armouries of the Third Deep • Subterranean Levels 3A, 3B, 3C • Moria Delve Atlas</div>
+
+<div class="ascii-map">
+========================================================================================================
+                                3-TIER ELEVATION CROSS-SECTION & FLOWCHART
+========================================================================================================
+
+ [LEVEL 3A: UPPER RESIDENCE]  <--- Secret Climbing Shaft from Thrym Thistlebeard's Haven
+               │
+               ▼
+   +───────────────────────+
+   │ 2. UPPER GATEHOUSE    │  <--- [EXPEDITION RALLY REDOUBT] (CRAFT Res 3 to fortify; -1 AP/Act)
+   +───────────┬───────────+
+               │ (Wide Granitic Stairway - March Test: Travel HRT TN 16 / Band Manoeuvre TN 15)
+               ▼
+   +───────────────────────+
+┌──┤ 1. MUSTERING-YARD     ├──┐  <--- [NEUTRAL GROUND] (Sentry Squad: 4 Orc Soldiers, 1 Udûn Sniffer)
+│  +───────────┬───────────+  │       (Stealth WIT TN 15 to slip past | Battle HRT TN 16 to ambush)
+│ (West Flank) │ (Central)    │ (East Flank)
+▼              ▼              ▼
++───────────+  +───────────+  +───────────+
+│ 3. FIRST  │  │ 4. BROKEN │  │ 5. SECOND │ [LEVEL 3B: THE WEAPONS MANUFACTORY]
+│   ARMOURY │  │    HALL   │  │   ARMOURY │ • Area 3: Scrap-traps (Scan WIT TN 15) | 12 Spearheads
+│(Scrap-Trap│  │ (Morgoth  │  │ (Siege     │ • Area 4: Valour HRT TN 18 vs Dread | Last Redoubt Clue
+│ Traps)    │  │  Idol)    │  │  Engines) │ • Area 5: Heavy Ballista (Craft Res 3; 24 Dmg to Troll!)
++───────────+  +─────┬─────+  +─────┬─────+
+                     │              │
+                     ▼              │
+        +─────────────────────────+ │
+        │ 7. THE POISONED HALLS   │◄┘  <--- [FATAL HAZARD] (Balrog Miasma: Protection STR TN 13 hourly)
+        │ (12th & 14th Halls)     │         (Preserved Dwarf Knights | Scribe's Dying Slate recovered)
+        +────────────┬────────────+
+                     │
+                     ▼
+        +─────────────────────────+
+        │ 8. THE UPPER ARMOURY    │  <--- [PRISTINE CACHE] (30 Masterwork Dwarf Weapons & Mail)
+        +────────────┬────────────+
+                     │
+        ┌────────────┴──────────────────────────┐
+        ▼                                       ▼
++─────────────────────────+           +─────────────────────────+
+│ 6. HALL OF THE MAULER   │           │ 9. THE KING'S DOOR      │ [LEVEL 3C: THE ROYAL VAULT]
+│ (Armoured Cave-Troll)   │           │ (Adamant Ithildin Seal) │ • Area 6: The Mauler (AL 10 Troll)
+│ • Forward Riddle Duel   │           +────────────┬────────────+ • Area 9: Skill Endeavour Res 6
+│ • Grimnar Catwalk Ambush│                        │              (Marshal's Key + Blood of Durin)
++─────────────────────────+                        ▼
+                                      +─────────────────────────+
+                                      │ 10. THE LOWER ARMOURY   │ <--- [THE GREATER HOARD]
+                                      │ (The Grand Royal Vault) │ • 120 Treasure Points in Mithril
+                                      │  [ DURIN'S AXE ]        │ • DURIN'S AXE (+4 Eye Awareness!)
+                                      +─────────────────────────+
+
+========================================================================================================
+CONNECTING SUBTERRANEAN PATHWAYS:
+• Eastern Fissure: Descends 2 miles to Goblin Village (Granny Goblin & Grik's Under-Market).
+• South-Eastern Gallery: Connects to the Ledge of Woe & The Wailing Stairs descending to the Mines.
+========================================================================================================
+</div>
+
+<div class="grid-2 avoid-break" style="margin-top:6px;">
+    <div class="card">
+        <div class="card-header">CRITICAL TACTICAL BYPASSES & CHOKEPOINTS</div>
+        <div style="font-size:8pt; line-height:1.25;">
+            • <b>The Flue Bypass</b>: A narrow ventilation shaft connects Area 2 directly to Area 5, bypassing the central Mustering-Yard entirely (requires <b>EXPLORE [WIT TN 15]</b>).<br>
+            • <b>The Catwalk Overwatch</b>: High stone walkways run above Area 6 and Area 1, accessible via stone rungs. Perfect for companion crossbow marksmen (Bláin & Bróga).<br>
+            • <b>The Keystone Collapse Point</b>: Over Area 2, an unstable archway can be rigged to collapse during the final withdrawal, sealing the shafts against Malech's shock-troops.
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">EXTRACTION & WITHDRAWAL CHECKLIST</div>
+        <div style="font-size:8pt; line-height:1.25;">
+            1. <span class="checkbox-box"></span> Secure Upper Gatehouse with 2 Dwarves in Act I.<br>
+            2. <span class="checkbox-box"></span> Recover Scribe Slate & Marshal's Key in Act II.<br>
+            3. <span class="checkbox-box"></span> Prime Heavy Ballista in Area 5 for troll defense.<br>
+            4. <span class="checkbox-box"></span> Claim Durin's Axe (<b>Eye Awareness +4</b>) in Act III.<br>
+            5. <span class="checkbox-box"></span> Form Companion Shield-Wall and extract 600 lbs wargear back up to Thistlebeard Haven!
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
