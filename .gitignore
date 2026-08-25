@@ -8,6 +8,8 @@
 # ==========================================
 # PDF Source Material
 # ==========================================
+*.pdf
+**/*.pdf
 Source_Material/Unprocessed/*.pdf
 Source_Material/Processed/*.pdf
 !Source_Material/**/.gitkeep
