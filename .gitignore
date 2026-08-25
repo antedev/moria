@@ -6,22 +6,11 @@
 .env.*
 
 # ==========================================
-# PDF Source Material & Ingestion
+# PDF Source Material (Strictly Exclude All PDFs)
 # ==========================================
 *.pdf
 **/*.pdf
-pdf_parser/Source_Material/Unprocessed/*.pdf
-pdf_parser/Source_Material/Processed/*.pdf
 !pdf_parser/Source_Material/**/.gitkeep
-Source_Material/
-The_One_Ring/
-
-# ==========================================
-# Converted Output (Markdown, JSONL + Images)
-# ==========================================
-pdf_parser/output/*
-!pdf_parser/output/.gitkeep
-output/
 
 # ==========================================
 # Python
