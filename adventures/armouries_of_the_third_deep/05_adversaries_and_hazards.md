@@ -29,7 +29,7 @@ In *The One Ring 2nd Edition* (*Moria: Through the Doors of Durin*), combat with
 ### 1.1 Core Adversary Combat Rules
 
 * **Target Numbers for Attacks**:
-  * **Player-Hero attacking an Adversary**: The hero rolls against $\mathbf{\text{Strength TN} + \text{Adversary Parry modifier}}$.
+  * **Player-Hero attacking an Adversary**: The hero rolls against $\mathbf{\text{Strength TN} + \text{Adversary Parry modifier}}$ (Torvir: Strength TN 13 + Parry; Einar: Strength TN 14 + Parry; Khoril: Strength TN 13 + Parry).
   * **Adversary attacking a Player-Hero**: The adversary rolls **1 Feat Die + Success Dice equal to Combat Proficiency** against $\mathbf{\text{Hero's Target TN} + \text{Hero Shield/Parry modifier}}$.
 * **The Feat Die for Servants of Shadow**:
   * The **Eye of Sauron ($\mathbf{S}$)** represents the ultimate result: it counts as **10** (and triggers a Piercing Blow).
@@ -61,16 +61,16 @@ Orcs and goblins are cowardly by nature, driven only by fear of their chieftains
 ========================================================================================
  TRIGGER EVENT                    MORALE CHECK REQUIRED           ROUT CONSEQUENCE
 ----------------------------------------------------------------------------------------
- Chieftain / Champion Slain       Roll Valour vs TN 14            Warband breaks immediately; 
+ Chieftain / Champion Slain       Roll Valour vs Attribute Level  Warband breaks immediately; 
  (e.g. Grimnar or Black Uruk)     (Ill-favoured for Goblins)      minions flee into side vents.
 ----------------------------------------------------------------------------------------
- Casualties Exceed 50%            Roll Valour vs TN 12            Surviving Orcs enter Craven 
- (Half of warband defeated)       (Craven foes check instantly)   state; withdraw to barricades.
+ Casualties Exceed 50%            Roll Valour vs Attribute Level  Surviving Orcs enter Craven 
+ (Half of warband defeated)       (Craven foes fail instantly)    state; withdraw to barricades.
 ----------------------------------------------------------------------------------------
  The Mauler Defeated / Pacified   No roll needed                  All accompanying goblins scatter 
  (Troll collapses or befriends)   Automatic Goblin Panic          screaming in blind terror.
 ----------------------------------------------------------------------------------------
- Powerful Light / Flame Unleashed Roll Valour vs TN 15            Orcs suffer -1d to all attacks 
+ Powerful Light / Flame Unleashed Roll Valour vs Attribute Level  Orcs suffer -1d to all attacks 
  (Durin's Axe Flame of Hope)      (Hate Sunlight applies)         and attempt to flee darkward.
 ========================================================================================
 ```
@@ -92,27 +92,32 @@ Orcs and goblins are cowardly by nature, driven only by fear of their chieftains
  ENDURANCE:       80 (Weary at 0 Hate)
  MIGHT:           2 (Takes 2 Wounds to kill; 2 attacks per combat round)
  HATE:            10
- PARRY:           5 (— / Unarmoured baseline 0; +5 from massive scrap plating and bulk)
+ PARRY:           — (0 / Unarmoured baseline 0; scrap plating modeled by Armour 5d)
  ARMOUR:          5d (Twisted scrap-iron, boiler shields, anvil fragments)
 ----------------------------------------------------------------------------------------
  COMBAT PROFICIENCIES:
- • Heavy Club / Maul:  3d  (Damage 8, Injury 14 / 16, Break Shield, Heavy Blow)
+ • Heavy Club / Maul:  3d  (Damage 8, Injury 16, Break Shield, Heavy Blow)
  • Seize / Slam:       3d  (Damage 4 / 6, Injury 12, Seize)
  • Scrap Shrapnel:     2d  (Damage 6, Injury 12, Ranged missile, Area burst)
 ----------------------------------------------------------------------------------------
  FELL ABILITIES:
- • Dull-Witted: Heroes in Forward Stance may engage in a Riddle duel as their main combat 
-   action. On a success, the Mauler becomes confused/panicked and loses 1 Hate (+1 Hate 
-   per Success icon). 3 cumulative successes pacify or bypass the beast.
+ • Dull-Witted: Player-heroes in Forward stance can use their main combat action to 
+   attempt a RIDDLE test (Wits TN: Torvir 15, Einar 15, Khoril 16), Favoured due to 
+   Dull-Witted. On a success, The Mauler loses 1 point of Hate, plus 1 additional point 
+   of Hate per Success icon (6) rolled (the troll bellows and attacks shadows/echoes in 
+   confusion). A Gandalf rune (G) causes the troll to lose its full turn in confusion. 
+   3 cumulative successes pacify or bypass the creature.
  • Hideous Toughness: Unarmed blows cannot harm the troll. When an attack reduces the 
    Mauler to 0 Endurance, it causes a Piercing Blow instead. If it survives the Protection 
    roll, its Endurance immediately resets to 40 (half maximum).
- • Strike Fear: Spend 1 Hate at combat start. All heroes within sight must pass a Valour 
-   test (TN 14) or suffer 2 Shadow (Dread) and become Daunted (cannot spend Hope).
+ • Strike Fear: Spend 1 Hate at combat start. All Player-heroes within sight must pass a 
+   VALOUR test against their Heart TN (Torvir: 18, Einar: 17, Khoril: 16) or suffer 
+   2 Shadow (Dread) and become Daunted (cannot spend Hope for the rest of the battle).
  • Thick Hide: Spend 1 Hate on a Protection roll to gain +2d Armour dice (rolling 7d total).
- • Scavenged Iron Carapace: If a Piercing Blow fails to wound, the attacker's weapon 
-   becomes lodged in the plating unless the hero passes a Craft or Athletics test (TN 14). 
-   A direct hit from a siege engine strips this plating, reducing Armour from 5d to 3d.
+ • Scavenged Iron Carapace: If a Piercing Blow fails to inflict a Wound, the attacker's 
+   weapon becomes lodged in the plating unless the hero succeeds on a CRAFT or ATHLETICS 
+   test against their Strength TN (Torvir: 13, Einar: 14, Khoril: 13). A direct hit from 
+   a heavy siege engine strips this plating, reducing Armour from 5d to 3d.
 ========================================================================================
 ```
 
@@ -149,17 +154,20 @@ The Mauler is not merely a brute; it is a creature broken by cognitive trauma fr
  • STANCE REQUIREMENT : The negotiating hero (Torvir, Einar, or Khoril) must stand in 
                         FORWARD STANCE, facing the troll within arm's reach.
  • ACTION COST        : Executing the Riddle duel consumes the hero's main combat action.
- • TARGET NUMBER      : Standard Riddle test against TN 14 (or Wits TN 15).
+ • TARGET NUMBER      : RIDDLE test against the hero's Wits TN (Torvir: 15, Einar: 15, 
+                        Khoril: 16), Favoured due to The Mauler's Dull-Witted trait.
  • RESOLUTION TRACK   : 3 Successes required before 3 Failures.
 ----------------------------------------------------------------------------------------
  SUCCESSES / OUTCOMES :
  • 1st Success : The Mauler halts its swing mid-air, blinking in confusion. It loses 
-                 1 Hate (+1 additional Hate per Success icon rolled).
+                 1 Hate (+1 additional Hate per Success icon 6 rolled).
  • 2nd Success : The troll drops its club to clasp its iron-plated ears, weeping in 
                  frustration. It loses 2 Hate and forfeits its next attack round.
  • 3rd Success : Complete cognitive breakdown! The troll cowers against the north wall, 
                  whimpering and covering its head. It is PACIFIED and will not attack 
                  unless struck with weapons.
+ • Gandalf (G) : The troll strikes wildly at empty echoes, losing its entire turn in 
+                 addition to standard Hate loss.
 ----------------------------------------------------------------------------------------
  FAILURES / RETALIATION :
  • 1st Failure : The Mauler roars in anger; gains +1d on its next Maul attack.
@@ -173,26 +181,26 @@ The Mauler is not merely a brute; it is a creature broken by cognitive trauma fr
 
 ### 2.2 Dynamic Arena Tactics (Location 6)
 
-The Hall of the Mauler is an interactive combat playground featuring three major tactical mechanics:
+The Hall of the Mauler is an interactive combat playground featuring four major tactical mechanics:
 
 1. **Catwalk Sweeping (15–20 ft Elevation)**:
    * Heroes scaling the ancient iron inspection ladders can reach the perimeter catwalks, gaining **+1d on ranged attacks** and immunity to ground-level slam attacks.
-   * *The Mauler's Reaction*: The troll can use one attack action to sweep its 12-foot tree-trunk club through the iron catwalk struts. All characters on that section must make an **Athletics (TN 14)** test:
+   * *The Mauler's Reaction*: The troll can use one attack action to sweep its 12-foot tree-trunk club through the iron catwalk struts. All characters on that section must make an **ATHLETICS** test (**Strength TN: Torvir 13, Einar 14, Khoril 13**):
      * *Success*: The hero leaps to an adjacent pillar or ceiling chain, holding fast.
      * *Failure*: The catwalk buckles! The character falls 20 feet to the stone flags below, suffering **10 Falling Damage** and landing Prone.
 2. **Stalactite Dropping (20 Direct Damage)**:
    * Colossal mineral stalactites hang from the cracked ceiling vaults directly above the troll's scrap-nest.
-   * A hero on the high catwalks can use their action to lever loose a cracked stalactite with a crowbar, spear, or war-mattock (**Athletics TN 14** or **Craft TN 14**).
+   * A hero on the high catwalks can use their action to lever loose a cracked stalactite with a crowbar, spear, or war-mattock (**ATHLETICS** or **CRAFT** [**Strength TN: Torvir 13, Einar 14, Khoril 13**]).
    * *Impact*: The falling stone spear crashes into the Mauler, inflicting **20 Direct Damage** (bypassing Armour) and knocking the beast Prone.
 3. **Weapon Pile Hurling (Improvised Area Missiles)**:
    * The Mauler frequently digs both hands into heaps of rusted broadswords, iron wedges, and bucklers, hurling a wave of shrapnel at heroes in Open or Rearward stance.
-   * *Resolution*: Ranged attack roll (2d) against all heroes in the target arc. Targets hit suffer **6 Damage (Injury 12)** and must pass a **Protection test** or become Weary from shrapnel lacerations.
+   * *Resolution*: Ranged attack roll (2d) against all heroes in the target arc. Targets hit suffer **6 Damage (Injury 12)** and must pass a **Protection test** (rolling Armour dice + Helm vs Injury 12) or become Weary from shrapnel lacerations.
 4. **Siege Engine Integration (Stripping the Carapace)**:
    * If the party managed to aim and prime the heavy Dwarven Torsion Ballista from **Location 5 (The Second Armoury)** into Location 6, firing the harpoon bolt deals **25 Direct Damage** and **permanently strips the troll's scrap-iron plating**, reducing its Armour rating from **5d to 3d**.
 
 ---
 
-## 3. Archfoe: Grimnar the Disgraced (Great Orc Bodyguard)
+## 3. Archfoe: Grimnar the Disgraced (Great Orc Chieftain / Stalker)
 
 > *"A towering, whipcord-muscled Great Orc chieftain whose leather harness is adorned with blackened Dwarven beards. He twitches with manic speed, brandishing a notched heavy scimitar in one claw and a gleaming, stolen Dwarven dirk in the other."*
 
@@ -204,32 +212,37 @@ The Hall of the Mauler is an interactive combat playground featuring three major
  Culture: Great Orc of the Misty Mountains | Distinctive Features: Fierce, Vengeful, Cunning
 ----------------------------------------------------------------------------------------
  ATTRIBUTE LEVEL: 6
- ENDURANCE:       32 (Weary at 0 Hate)
- MIGHT:           1 (or Might 2 in Apex Ambush; 2 attacks per round when dual-wielding)
- HATE:            6 (or 7 in full vengeance mode)
- PARRY:           6 (+3 Base + 3 from dual-wielding stolen Dwarven dagger and speed)
+ ENDURANCE:       36 (Weary at 0 Hate)
+ MIGHT:           2 (Takes 2 Wounds to kill; 2 attacks per combat round)
+ HATE:            6
+ PARRY:           +2 (+3 when dual-wielding stolen Dwarven dagger)
  ARMOUR:          3d (Scavenged heavy dwarf-mail reinforced with boiled leather)
 ----------------------------------------------------------------------------------------
  COMBAT PROFICIENCIES:
- • Heavy Scimitar:         3d  (Damage 5, Injury 16 / 18, Break Shield, Pierce)
- • Stolen Dwarven Dagger:  3d  (Damage 3, Injury 14, Keen [Pierce on 9–10 or S])
+ • Heavy Scimitar:         3d  (Damage 5, Injury 16, Pierce, Break Shield)
+ • Stolen Dwarven Dagger:  3d  (Damage 4, Injury 14, Keen [Pierce on 9–10 or Eye (S)])
  • Broad-headed Spear:     2d  (Damage 5, Injury 16, Pierce, Throwable)
 ----------------------------------------------------------------------------------------
  FELL ABILITIES:
  • Denizen of the Dark: Attack rolls are Favoured when fighting in subterranean darkness.
- • Fierce Shot: When throwing his broad-headed spear from stealth, gains +1d and +2 Damage.
+ • Craven Ambush: When attacking from darkness or surprise (Alert Tier 2+), his first 
+   attack inflicts an automatic Piercing Blow.
+ • Fierce Command: Spend 1 Hate to allow 2 nearby Orc Soldiers to make an immediate bonus 
+   attack outside their normal turn.
  • Great Leap: Spend 1 Hate to leap over frontline defenders (bypassing the Shield-Wall) 
    to land directly in front of Rearward heroes or archers.
  • Hate Sunlight: Loses 1 Hate per round if exposed to full direct sunlight.
  • Hatred (Durin's Folk): Attack rolls against Torvir, Khoril, and Dwarf Companions 
-   are permanently Favoured.
+   are permanently Favoured (+1d on attack rolls).
  • Hideous Toughness: Unarmed attacks cannot harm him. When an attack reduces Grimnar 
    to 0 Endurance, it causes a Piercing Blow; if he survives the Protection roll, his 
-   Endurance immediately resets to 16 (half maximum).
+   Endurance immediately resets to 18 (half maximum).
  • Snake-like Speed: Spend 1 Hate when targeted by an incoming melee or ranged attack 
    to make the attacker's roll Ill-favoured.
  • Vengeful Strike: If struck in melee by Torvir, Einar, or Khoril, Grimnar may spend 
    1 Hate as an immediate reaction to deliver a free retaliation strike against that hero.
+ • Gleaming Dagger: The stolen dagger glints with captured starlight (Famous Dagger 
+   of Durin); if Grimnar is slain, the heroes can recover it.
 ========================================================================================
 ```
 
@@ -286,8 +299,10 @@ Grimnar is vengeful but not suicidal. He knows when to break contact:
                        Piercing Blow that penetrates his Armour.
  • ESCAPE ROUTE      : Grimnar hurls a smoke-bomb of crushed brimstone into the doorway 
                        and slips through a narrow drainage flue leading toward Location 1.
- • PURSUIT CHECK     : To prevent his escape, a hero must succeed on an Athletics (TN 16) 
-                       or Ranged Attack (TN 16) test before he reaches the flue.
+ • PURSUIT CHECK     : To prevent his escape, a hero must succeed on an ATHLETICS 
+                       (Strength TN: Torvir 13, Einar 14, Khoril 13) test or make a 
+                       Ranged Attack beating Grimnar's Parry modifier before he reaches 
+                       the flue.
  • ESCAPE CONSEQUENCE: If Grimnar escapes, he immediately sounds the garrison horns, 
                        advancing the Alert Tracker directly to Alert Tier 3!
 ========================================================================================
@@ -306,23 +321,27 @@ Grimnar is vengeful but not suicidal. He knows when to break contact:
  "He hates the great Orcs, fears the fire-devils, and worships bright silver above all."
  Culture: Moria Goblin / Sneak | Distinctive Features: Cunning, Talkative, Cowardly
 ----------------------------------------------------------------------------------------
- ATTRIBUTE LEVEL: 2 (or AL 3 as an elite tunnel scout)
- ENDURANCE:       8 (or 12 Endurance)
+ ATTRIBUTE LEVEL: 3
+ ENDURANCE:       12
  MIGHT:           1
- HATE:            2 (or 3 Hate)
- PARRY:           4 (+1 Base + 3 from small stature and dodging)
- ARMOUR:          1d (or 2d in patched hides)
+ HATE:            2
+ PARRY:           +3 (+1 Base + 2 from small size and dodging)
+ ARMOUR:          1d (Scrap leather & tattered cloak)
 ----------------------------------------------------------------------------------------
  COMBAT PROFICIENCIES:
- • Jagged Knife:      2d  (Damage 2 / 3, Injury 12 / 14, Pierce on 10)
- • Blown Bone-Darts:  2d  (Damage 2, Injury 10, Poison: Moderate Endurance drain)
+ • Jagged Knife:      2d  (Damage 3, Injury 12, Pierce on 10)
+ • Blown Bone-Darts:  2d  (Damage 2, Injury 10, Poison: Black Venom / Moderate Endurance drain)
 ----------------------------------------------------------------------------------------
  FELL ABILITIES:
  • Craven: If Grik suffers even 1 point of Endurance loss or witnesses an ally fall, 
-   he must pass a Valour test (TN 14) or immediately drop his weapons and flee or surrender.
- • Fierce Shot: Gains +1d on ranged dart attacks launched from complete concealment.
+   he must pass a VALOUR test (vs Attribute Level 3) or immediately drop his weapons 
+   and flee or surrender.
  • Sneak in Shadows: When rolling Stealth to hide in darkness or narrow crawlspaces, 
-   all tests are Favoured and generate 0 Noise Points.
+   all tests are Favoured and generate 0 Noise Points. Detecting him requires an opposed 
+   SCAN test (Wits TN: Torvir 15, Einar 15, Khoril 16, Favoured for Einar with The Broken Key).
+ • Snake-like Speed: Spend 1 Hate to make any incoming melee attack against him Ill-favoured.
+ • Treacherous Bargain: Grik will NOT fight to the death. If cornered, he drops his 
+   weapons and bargains.
 ========================================================================================
 ```
 
@@ -336,16 +355,22 @@ Grik is an opportunistic survivor serving **Granny Goblin** in the lower settlem
 ========================================================================================
                           GRIK THE SKULKER NEGOTIATION MATRIX
 ========================================================================================
- APPROACH / SKILL TEST         TN     SUCCESS OUTCOME & REVELATION
+ APPROACH / SKILL TEST         ATTRIBUTE TN                   SUCCESS OUTCOME & REVELATION
 ----------------------------------------------------------------------------------------
- Persuade / Customs            TN 14  Grik agrees to talk; demands a token bribe of 
-                                      bright silver, Beorning honey-rations, or tobacco.
+ PERSUADE                      Heart TN                       Grik agrees to talk; demands a 
+                               (Torvir 18, Einar 17, Khoril 16) token bribe of bright silver, 
+                                                              honey-rations, or pipe-weed.
 ----------------------------------------------------------------------------------------
- Enhearten / Intimidate        TN 14  Grik cowers and spills patrol shift times for 
-                                      Location 1 and Location 3 without asking for silver.
+ ENHEARTEN                     Heart TN                       Grik cowers and spills patrol 
+                               (Torvir 18, Einar 17, Khoril 16) shift times for Location 1 and 
+                                                              Location 3 without asking for silver.
 ----------------------------------------------------------------------------------------
- Riddle (Trading Secrets)      TN 14  Grik reveals the secret acoustic blind spots in the 
-                                      Mustering-Yard (+1d on all Band Manoeuvre tests).
+ RIDDLE (Trading Secrets)      Wits TN                        Grik reveals the secret acoustic 
+                               (Torvir 15, Einar 15, Khoril 16) blind spots in the Mustering-Yard 
+                                                              (+1d on all Band Manoeuvre tests).
+----------------------------------------------------------------------------------------
+ AWE (Intimidation)            Strength TN                    Grik weeps and delivers the sentry 
+                               (Torvir 13, Einar 14, Khoril 13) roster and horn signals for the gate.
 ----------------------------------------------------------------------------------------
  BRIBE DEMAND                 VALUE   INTELLIGENCE DELIVERED
 ----------------------------------------------------------------------------------------
@@ -363,7 +388,7 @@ Grik is an opportunistic survivor serving **Granny Goblin** in the lower settlem
 
 * **Flee / Panic Behavior**:
   * If the party attacks Grik, draws steel aggressively, or allows the **Alert Tracker to reach Tier 2+**, Grik screeches in terror and scrambles up a 6-inch drainage chute, disappearing into the walls.
-  * If captured, Grik can be interrogated using **Persuade (TN 14)** or **Awe (TN 14)** to yield the exact layout of Keyed Locations 1, 2, and 5.
+  * If captured, Grik can be interrogated using **PERSUADE** (**Heart TN: Torvir 18, Einar 17, Khoril 16**) or **AWE** (**Strength TN: Torvir 13, Einar 14, Khoril 13** / **Heart TN**) to yield the exact layout of Keyed Locations 1, 2, and 5.
 
 ---
 
@@ -381,8 +406,8 @@ The armed forces of the Third Deep consist of two rival factions forced into une
  Orc Guard           4   16     1     4   +2    3d     Heavy Scimitar 3d Dmg 4, Inj 16 (Pierce)
  Udûn Sniffer        4   16     1     4    —    3d     Torch-staff 3d    Dmg 4, Inj 14 (Fiery)
  Moria Orc Drummer   3   12     1     3   +1    2d     Curved Knife 2d   Dmg 3, Inj 14 (Pierce)
- Black Uruk          5   20     1     5   +2    3d     Uruk Sword 3d     Dmg 4, Inj 16 (Pierce)
- Black Uruk Captain  6   24     1     6   +3    4d     Great Scimitar 3d Dmg 5, Inj 16 (Pierce)
+ Black Uruk          5   20     1     5   +2    3d     Broadsword 3d     Dmg 4, Inj 16 (Pierce)
+ Black Uruk Captain  6   24     2     6   +3    4d     Great Scimitar 3d Dmg 5, Inj 16 (Pierce)
 ========================================================================================
 ```
 
@@ -399,7 +424,7 @@ The armed forces of the Third Deep consist of two rival factions forced into une
 * **Fell Abilities**:
   * *Denizen of the Dark*: Attack rolls are Favoured in darkness.
   * *Hate Sunlight*: Loses 1 Hate per round in sunlight.
-  * *Craven*: Must pass Valour (TN 14) or flee if health drops below half.
+  * *Craven*: If reduced below half Endurance (6 End) or if their Chieftain falls, must make a Valour test (vs Attribute Level 3) or flee.
 
 #### 2. Moria Orc Guard (Attribute Level 4)
 * **Culture**: Moria Orc / Heavy Sentry | **Distinctive Features**: Brutish, Disciplined
@@ -411,21 +436,22 @@ The armed forces of the Third Deep consist of two rival factions forced into une
   * *Denizen of the Dark*: Attack rolls are Favoured in darkness.
   * *Hate Sunlight*: Loses 1 Hate per round in sunlight.
   * *Thick Armour*: Spend 1 Hate on a Protection test to roll +1d Armour.
+  * *Shield-Wall*: When fighting in pairs or adjacent to an ally, gains +1 Parry.
 
 #### 3. Udûn Sniffer / Fire-Fanatic (Attribute Level 4)
 * **Culture**: Udûn Zealot / Balrog Worshipper | **Distinctive Features**: Crazed, Tough, Keen Scent
 * **Endurance**: 16 | **Might**: 1 | **Hate**: 4 | **Parry**: — | **Armour**: 3d (Soot-caked hides & ash)
 * **Combat Proficiencies**:
   * *Torch-staff*: 3d (Damage 4, Injury 14, Fiery Blow [Severe fire damage])
-  * *Poisoned Blowdart*: 2d (Damage 2, Injury 12, Poison [Black Venom])
+  * *Poisoned Blowdart / Bow*: 2d (Damage 2, Injury 12, Poison [Black Venom])
 * **Fell Abilities**:
   * *Denizen of the Dark*: Attack rolls are Favoured in darkness.
-  * *Heartless*: Immune to the *Intimidate Foe* combat action unless triggered by a Magical or Gandalf result.
-  * *Keen Scent / Tracker*: Gains +2d on Awareness rolls to detect hidden intruders by scent.
+  * *Heartless*: Immune to standard *Intimidate Foe* actions unless triggered by a Gandalf result.
+  * *Keen Scent*: Gains +2d on Awareness rolls to detect hidden intruders by scent.
   * *Hate Sunlight*: Loses 1 Hate per round in direct sunlight.
 
 #### 4. Moria Orc Drummer (Attribute Level 3)
-* **Culture**: Moria Orc / Signal Corps | **Distinctive Features**: Deformed, Loud
+* **Culture**: Moria Orc / Signal Corps | **Distinctive Features**: Deformed, Loud, Resonant
 * **Endurance**: 12 | **Might**: 1 | **Hate**: 3 | **Parry**: +1 | **Armour**: 2d (Hide vest)
 * **Combat Proficiencies**:
   * *Curved Knife*: 2d (Damage 3, Injury 14, Pierce)
@@ -433,13 +459,13 @@ The armed forces of the Third Deep consist of two rival factions forced into une
 * **Fell Abilities**:
   * *Denizen of the Dark*: Attack rolls are Favoured in darkness.
   * *Hate Sunlight*: Loses 1 Hate per round in sunlight.
-  * *Drums in the Deep*: Instead of making an attack action, the Drummer may spend **1 Hate** to beat its massive kettle-drum, instantly raising the Company's **Strategic Eye Awareness by +3**!
+  * *Drums in the Deep*: Instead of making an attack action, the Drummer may spend **1 Hate** to beat its massive kettle-drum, instantly raising the Company's **Strategic Eye Awareness by +3** and adding **+2 Alert Points**!
 
 #### 5. Black Uruk of Mordor (Attribute Level 5 — Elite Reinforcement)
 * **Culture**: Uruk of Mordor / Shock-Troop | **Distinctive Features**: Fierce, Strong, Relentless
 * **Endurance**: 20 | **Might**: 1 | **Hate**: 5 | **Parry**: +2 | **Armour**: 3d (Black iron plate)
 * **Combat Proficiencies**:
-  * *Broad-bladed Sword*: 3d (Damage 4, Injury 16, Pierce)
+  * *Broadsword*: 3d (Damage 4, Injury 16, Pierce)
   * *Bow of Horn*: 3d (Damage 3, Injury 14, Pierce)
 * **Fell Abilities**:
   * *Horrible Strength*: Spend 1 Hate when scoring a Piercing Blow to make the target hero's Protection roll **Ill-favoured**.
@@ -447,7 +473,7 @@ The armed forces of the Third Deep consist of two rival factions forced into une
 
 #### 6. Black Uruk Captain (Attribute Level 6 — Vanguard Commander)
 * **Culture**: Uruk of Mordor / War-Leader | **Distinctive Features**: Cruel, Commanding
-* **Endurance**: 24 | **Might**: 1 (or Might 2) | **Hate**: 6 | **Parry**: +3 | **Armour**: 4d (Full black plate)
+* **Endurance**: 24 | **Might**: 2 | **Hate**: 6 | **Parry**: +3 | **Armour**: 4d (Full black plate)
 * **Combat Proficiencies**:
   * *Great Scimitar*: 3d (Damage 5, Injury 16, Pierce, Break Shield)
   * *Iron Javelin*: 2d (Damage 5, Injury 14, Pierce)
@@ -467,15 +493,18 @@ Many sentry weapons (darts, arrows, and scavenged dagger blades in Locations 1, 
 ========================================================================================
  • TRIGGER           : When an adversary lands a Piercing Blow using a poisoned weapon, 
                        or spends a Success icon (6) to inject venom.
- • INITIAL EFFECT    : Target must make an immediate ENDURANCE / HEALING test (TN 14):
+ • INITIAL EFFECT    : Struck hero must make an immediate HEALING or ENDURANCE test 
+                       (Heart TN: Torvir 18, Einar 17, Khoril 16 or Strength TN: 
+                       Torvir 13, Einar 14, Khoril 13):
    - Success : The venom is resisted; target suffers standard weapon damage only.
    - Failure : The target contracts MODERATE POISON (loses 4 Endurance immediately 
                and gains the Weary condition until treated).
  • SEVERE INFECTION  : If the Feat Die shows the Eye of Sauron (S), the poison is SEVERE 
                        (loses 8 Endurance, suffers -1d on all physical tests, and requires 
                        First Aid to halt necrotic spread).
- • TREATMENT         : First Aid treatment requires a Healing (TN 14) test during a rest. 
-                       Healing rolls lose (-1d) if Severe, and (-2d) if Grievous.
+ • TREATMENT         : First Aid treatment requires a HEALING test (Heart TN: Torvir 18, 
+                       Einar 17, Khoril 16) during a rest. Healing rolls are Ill-favoured 
+                       if Severe.
 ========================================================================================
 ```
 
@@ -495,12 +524,12 @@ The physical architecture of the Third Deep is an ancient, crumbling ruin beset 
  [BALROG TOXIC MIASMA]         [SLAG-WORM TREMORS]           [PITFALLS & CHASMS]
   • Preserved toxic breath      • Seismic tremors & cave-ins  • Rungless vertical drops
   • 1-min vs 1-hr checks        • 30 Dmg keystone collapse    • 30–60 ft falls (Athletics)
-  • Craft TN 15 respirators     • Athletics / Awareness TNs   • Band safety rope lines
+  • Craft TN respirators        • Athletics / Scan tests      • Band safety rope lines
 ```
 
 ---
 
-### 6.1 Hazard 1: The Balrog Neurotoxic Miasma
+### 6.1 Hazard 1: The Balrog Neurotoxic Miasma (*Breath of the Pit*)
 
 * **Location & Context**: Preserved within the depressed vaults of **Location 7 (The Poisoned Halls)** and **Location 8 (The Upper Armoury)**. Unleashed by Durin's Bane during the slaughter of the Dwarven Tunnel-guards, this emerald-tinged vapor pools at floor level and rises to chest height.
 
@@ -510,23 +539,29 @@ The physical architecture of the Third Deep is an ancient, crumbling ruin beset 
 ========================================================================================
  EXPOSURE TIER         TESTING INTERVAL           FAILURE CONSEQUENCE
 ----------------------------------------------------------------------------------------
- 1. Unprotected        Roll Endurance / Healing   Ill-favoured Feat Die roll:
-    (Raw inhalation,   EVERY MINUTE               • 1–10: Lose that much Endurance.
-     exposed mucous)                              • Eye (S): Reduced to 0 End & DYING!
+ 1. Unprotected        Roll ENDURANCE /           Ill-favoured Feat Die roll:
+    (Raw inhalation,   HEALING every exploration  • 1–10: Lose that much Endurance.
+     exposed mucous)   turn (or 1 min in combat)  • Eye (S): Reduced to 0 End & DYING!
 ----------------------------------------------------------------------------------------
- 2. Protected          Roll Endurance / Healing   Standard Feat Die roll:
-    (Vinegar cloths,   EVERY HOUR                 • 1–6: Lose that much Endurance.
+ 2. Protected          Roll ENDURANCE /           Standard Feat Die roll:
+    (Vinegar cloths,   HEALING every hour         • 1–6: Lose that much Endurance.
      chewed herbs)                                • Eye (S): Suffer Severe Poison.
 ----------------------------------------------------------------------------------------
  3. Masterwork Mask    COMPLETE IMMUNITY          No tests required for 4 continuous 
-    (Craft TN 15 mask) FOR 4 HOURS                exploration hours.
+    (Crafted mask)     FOR 4 HOURS                exploration hours.
 ========================================================================================
 ```
 
+* **Skill Tests & Resolutions**:
+  * **Primary Exposure Test**: **ENDURANCE / PROTECTION** (**Strength TN: Torvir 13, Einar 14, Khoril 13**) or **HEALING** (**Heart TN: Torvir 18, Einar 17, Khoril 16**).
+  * **Degrees of Success (6 icons)**:
+    * **6**: Avoids all Endurance loss and grants **+1d** to an adjacent companion's test.
+    * **66**: Completely resists toxic fumes, discovering an intact air pocket or downdraft flue.
+    * **Gandalf (G)**: Invigorated by ancestral constitution; restores 1 Hope or clears 1 tier of Fatigue/Weary.
 * **Remedies & Engineering Solutions**:
-  1. **Constructing Respirator Masks (Craft TN 14 / TN 15)**: Hjoldring, Einar, or Bróga can assemble up to 10 squad respirators utilizing oiled leather, charcoal granules, fine brass mesh, and dwarf-goggles. Success grants **4 hours of absolute immunity**.
-  2. **Emergency Field Mask Repair**: If an Udûn Torch-staff scores a *Fiery Blow* against a hero wearing a mask, the mask ruptures! Repairing it in combat requires a **Craft (TN 14)** action (1 round).
-  3. **Unjamming the Overhead Flue Damper**: In Location 7, a hero can climb the iron chimney wall and force open the ceiling ventilation lever (**Athletics TN 16** or **Craft TN 16**). Success vents the toxic fog from the chamber in 3 combat rounds, but the shrieking iron generates **+3 Noise Points**.
+  1. **Constructing Squad Respirators (Skill Endeavour: Resistance 3 / 4)**: Hjoldring, Einar, or Bróga can assemble up to 10 squad respirators utilizing oiled leather, charcoal granules, fine brass mesh, and dwarf-goggles via **CRAFT** (**Strength TN: Torvir 13, Einar 14, Khoril 13**, $+1\text{d}$ in workshop with tools). Success grants **4 hours of absolute immunity**.
+  2. **Emergency Field Mask Repair**: If an Udûn Torch-staff scores a *Fiery Blow* against a hero wearing a mask, the mask ruptures! Repairing it in combat requires a **CRAFT** (**Strength TN: Torvir 13, Einar 14, Khoril 13**) action (1 round).
+  3. **Unjamming the Overhead Flue Damper**: In Location 7, a hero can climb the iron chimney wall and force open the ceiling ventilation lever (**ATHLETICS** or **CRAFT** [**Strength TN: Torvir 13, Einar 14, Khoril 13**]). Success vents the toxic fog from the chamber in 3 combat rounds, but the shrieking iron generates **+3 Noise Points**.
 
 ---
 
@@ -541,15 +576,22 @@ Centuries of mining by subterranean worms and the immense mass of Mount Silverti
  • TRIGGER ACTIONS   : Firing heavy siege engines (Location 5), toppling the stone idol 
                        (Location 4), detonating explosive powders, or pulling the 
                        Upper Gatehouse keystone winch (Location 2).
- • DETECTION CHECK   : Einar or Austri can detect shifting keystones via Scan (TN 14) 
-                       (Einar rolls Favoured with The Broken Key).
+ • DETECTION CHECK   : Einar or Austri can detect shifting keystones via SCAN 
+                       (Wits TN: Torvir 15, Einar 15, Khoril 16, Favoured for Einar 
+                       with The Broken Key).
  • HAZARD RESOLUTION : All characters in the 30-foot collapse zone must make a 
-                       PROTECTION TEST (rolling 4d Armour) or ATHLETICS (TN 14) test:
+                       PROTECTION TEST (rolling Armour dice + Helm vs Injury 16) or 
+                       ATHLETICS (Strength TN: Torvir 13, Einar 14, Khoril 13) test:
    - Success : The character dives clear, taking 10 Falling Rubble Damage.
    - Failure : The character suffers 20 to 30 CRUSHING DAMAGE and is PINNED under fallen 
                masonry (suffering the Weary condition until extracted).
- • CLEARING RUBBLE   : Freeing a pinned ally requires an Athletics (TN 16) test or a 
-                       collective Band War (3d) check against Readiness TN 15.
+ • DEGREES OF SUCCESS:
+   - 6  : Dives clear taking 0 damage.
+   - 66 : Pulls an adjacent companion clear as well, negating their check.
+   - G  : Identifies an intact ancient Dwarven arch, preventing further collapse in the zone.
+ • CLEARING RUBBLE   : Freeing a pinned ally requires an ATHLETICS (Strength TN: Torvir 13, 
+                       Einar 14, Khoril 13) test or a collective Band WAR (3d) check 
+                       against Band TN 15.
 ========================================================================================
 ```
 
@@ -563,19 +605,26 @@ Between the Mustering-Yard and the lower arsenals lie deep natural fissures, ero
 ========================================================================================
                              PITFALL & CHASM HAZARD MATRIX
 ========================================================================================
- HAZARD TYPE           LOCATION          TN / MECHANIC           CONSEQUENCE ON FAILURE
+ HAZARD TYPE           LOCATION          PRIMARY SKILL TEST      CONSEQUENCE ON FAILURE
 ----------------------------------------------------------------------------------------
- False Flagstone Pit   Location 3        Scan TN 14              Falls 30 ft onto iron spikes: 
- (Orc Scrap-Trap)      (First Armoury)   (Disarm Craft TN 14)    15 Damage, Moderate Poison.
+ False Flagstone Pit   Location 3        SCAN (Wits TN: 15/16)   Falls 30 ft onto iron spikes: 
+ (Orc Scrap-Trap)      (First Armoury)   to spot; CRAFT          15 Damage, Moderate Poison, 
+                                         (Strength TN: 13/14)    +2 Alert Points.
+                                         to disarm (+1d Burglary)
 ----------------------------------------------------------------------------------------
- Fractured Chasm       Location 1 -> 2   Athletics TN 14         Slips into the abyss! Must pass 
- (Acoustic Bridge)     (Gatehouse)       (Rope anchor +1d)       Athletics (TN 16) or be held by 
-                                                                 companion rope line (+2 Noise).
+ Fractured Chasm       Location 1 -> 2   ATHLETICS (Strength TN: Slips into the abyss! Must be 
+ (Acoustic Bridge)     (Gatehouse)       13/14; Rope anchor +1d) held by companion safety rope 
+                                                                 (+2 Noise Points).
 ----------------------------------------------------------------------------------------
- Rungless Ladder       Location 7 -> 8   Athletics TN 14         Falls 40 ft into toxic pool: 
- (Corroded Shaft)      (Upper Armoury)   (Climbing Rig +1d)      16 Damage, mask compromised.
+ Rungless Ladder       Location 7 -> 8   ATHLETICS (Strength TN: Falls 40 ft into toxic pool: 
+ (Corroded Shaft)      (Upper Armoury)   13/14; Rigging +1d)     16 Damage, mask compromised.
 ========================================================================================
 ```
+
+* **Degrees of Success (6 icons) for Trap & Chasm Tests**:
+  * **6**: Action completed silently in half the time; recovers useful scrap parts or secures the anchor point.
+  * **66**: Perfectly dismantles mechanism or sets a permanent safety line, allowing all companions to pass without rolling.
+  * **Gandalf (G)**: Discovers a concealed floor cache or secret Dwarven ledge containing ancient supplies.
 
 ---
 
@@ -590,18 +639,21 @@ Whenever a character drinks from an untested pool, well, or cistern in the Third
  FEAT DIE ROLL   WATER CONDITION & GAMEPLAY EFFECT
 ----------------------------------------------------------------------------------------
  Gandalf (G)     Pristine Ancient Dwarven Spring: Crystal-clear mineral water. Restores 
-                 2 points of Hope and clears 1 tier of Fatigue immediately!
- 9–10            Icy Snowmelt: Freezing runoff from Silvertine; refreshing and safe.
+                 2 points of Hope and clears the Weary condition immediately!
+ 9–10            Icy Snowmelt: Freezing runoff from Silvertine; refreshing, cold, and safe.
  7–8             Orc-Filth: Befouled with offal and tallow grease. Moderate Poison 
-                 (Endurance loss 4, cleared by Short Rest).
- 5–6             Bitter Mineral Water: Heavy with alkali. Must pass Valour (TN 14) 
-                 to swallow; failure causes violent nausea (-1d on physical tests for 1 hr).
+                 (4 Endurance loss; cured by Short Rest or HEALING test [Heart TN: 
+                 Torvir 18, Einar 17, Khoril 16]).
+ 5–6             Bitter Mineral Water: Heavy with alkali salts. Must pass a VALOUR 
+                 test (Heart TN: Torvir 18, Einar 17, Khoril 16) to swallow; failure 
+                 causes violent nausea (-1d on physical tests for 1 hour).
  3–4             Acidic Mine Runoff: Tainted with nitric acid and heavy metals. Severe 
-                 Poison (Endurance loss 8; requires First Aid to purge).
+                 Poison (8 Endurance loss; requires HEALING test [Heart TN: Torvir 18, 
+                 Einar 17, Khoril 16]).
  1–2             Malice of Durin's Bane: Tainted by demonic residue. The imbiber gains 
                  2 Shadow Points (Sorcery) and experiences terrifying hallucinations.
- Eye (S)         The Lurker's Pool: The water is clear, but the cistern is guarded by a 
-                 concealed Udûn sentry ambush or a subterranean stone-crawler!
+ Eye (S)         The Lurker's Pool: The water appears clear, but the cistern is guarded 
+                 by a concealed Udûn sentry ambush or a subterranean stone-crawler!
 ========================================================================================
 ```
 
@@ -615,15 +667,15 @@ Whenever a character drinks from an untested pool, well, or cistern in the Third
 =======================================================================================================
  FOE NAME            AL  END  MIGHT HATE PARRY ARMOUR  MAIN ATTACK       DMG/INJ   KEY FELL ABILITY
 -------------------------------------------------------------------------------------------------------
- The Mauler          10  80     2    10    5     5d    Maul / Club 3d    8 / 16    Dull-Witted, Toughness
- Grimnar Disgraced    6  32     1/2   6/7  6     3d    Scimitar/Dagger 3d 5 / 16    Snake-Speed, Retaliate
- Grik the Skulker     2/3 8/12  1     2/3  4     1d/2d Jagged Knife 2d   3 / 12    Craven, Sneak Shadows
+ The Mauler          10  80     2    10    —     5d    Maul / Club 3d    8 / 16    Dull-Witted, Toughness
+ Grimnar Disgraced    6  36     2     6   +2     3d    Scimitar/Dagger 3d 5 / 16    Snake-Speed, Retaliate
+ Grik the Skulker     3  12     1     2   +3     1d    Jagged Knife 2d   3 / 12    Craven, Sneak Shadows
  Udûn Sniffer         4  16     1     4    —     3d    Torch-staff 3d    4 / 14    Fiery Blow, Keen Scent
- Orc Guard            4  16     1     4   +2     3d    Scimitar 3d       4 / 16    Denizen Dark, Thick Arm
+ Orc Guard            4  16     1     4   +2     3d    Heavy Scimitar 3d 4 / 16    Denizen Dark, Thick Arm
  Orc Soldier          3  12     1     3   +1     2d    Orc-axe 2d        3 / 18    Craven, Break Shield
- Orc Drummer          3  12     1     3   +1     2d    Knife 2d          3 / 14    Drums in Deep (+3 Eye)
+ Orc Drummer          3  12     1     3   +1     2d    Curved Knife 2d   3 / 14    Drums in Deep (+3 Eye)
  Black Uruk           5  20     1     5   +2     3d    Broadsword 3d     4 / 16    Horrible Strength
- Black Uruk Captain   6  24     1     6   +3     4d    Great Scimitar 3d 5 / 16    Yell of Triumph
+ Black Uruk Captain   6  24     2     6   +3     4d    Great Scimitar 3d 5 / 16    Yell of Triumph
 =======================================================================================================
 ```
 
@@ -642,5 +694,5 @@ When running mass skirmishes involving the Player-Heroes and their seven compani
 ### 7.2 Safety & Escalation Rules for the GM
 
 * **Avoiding Unfair Swarms**: Never spawn additional adversary waves unless the **Alert Tracker** actively advances to a new Tier or a surviving Orc escapes into a side flue.
-* **The Mauler Escalation Arc**: If the party engages The Mauler in straight melee without using the catwalks, stalactites, or Riddle duel, allow **Torvir's Enemy-lore (Orcs/Trolls)** or **Einar's Scan** to highlight the loose ceiling stones or the beast's weeping fear of pain.
+* **The Mauler Escalation Arc**: If the party engages The Mauler in straight melee without using the catwalks, stalactites, or Riddle duel, allow **Torvir's Enemy-lore (Orcs)** or **Einar's Scan** to highlight the loose ceiling stones or the beast's weeping fear of pain.
 * **Rewarding Stealth**: Defeating sentries silently in 1 round generates **+0 Noise Points**, allowing tactical parties to clear outposts in Locations 1, 3, and 5 without raising the dungeon alarm.

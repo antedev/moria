@@ -3,59 +3,79 @@
 
 ---
 
-## 1. 10-Room Operational Summary Matrix
+## 1. Hero & Band Quick-Reference Dashboard
+
+```
++========================================================================================================+
+|                                    HERO & BAND OPERATIONAL REFERENCE                                    |
++========================================================================================================+
+| PLAYER-HERO ATTRIBUTE TNS (20 - Attribute Rating):                                                     |
+| • Torvir Hammerstone : STR 7 (TN 13) | HRT 2 (TN 18) | WIT 5 (TN 15) | Parry 15 | Mail 5d | Axe 3d (8/20)|
+| • Einar son of Anar  : STR 6 (TN 14) | HRT 3 (TN 17) | WIT 5 (TN 15) | Parry 20 | Mail 3d | Swd 3d (4/16)|
+| • Khoril Hornblower  : STR 7 (TN 13) | HRT 4 (TN 16) | WIT 4 (TN 16) | Parry 17 | Mail 3d | Axe 3d (6/18)|
+|                                                                                                        |
+| BAND READINESS & DISPOSITIONS:                                                                         |
+| • Band Readiness: 5 (Band TN 15 = 20 - 5) | Band Hope: 12 / 12 | Band Shadow: 1 / 12                   |
+| • Dispositions: WAR: 3d | VIGILANCE: 2d | MANOEUVRE: 2d | EXPERTISE: 2d | RALLY: 1d                     |
++========================================================================================================+
+```
+
+---
+
+## 2. 10-Room Operational Summary Matrix
 
 ```
 ========================================================================================================================
                                              ROOM OPERATIONAL MATRIX
 ========================================================================================================================
- LOC NAME & ELEVATION     LIGHT & ATMOSPHERE   HAZARDS & ADVERSARIES        KEY SKILL CHECKS & TNS     SOUND / NOISE PTS
+ LOC NAME & ELEVATION     LIGHT & ATMOSPHERE   HAZARDS & ADVERSARIES        KEY SKILL CHECKS (ATTRIBUTE TN) SOUND & NOISE
 ------------------------------------------------------------------------------------------------------------------------
-  1  The Mustering-Yard   Pitch dark; green    2 Udûn Sniffers behind P4;   Scan TN 14 (spot tent;     +0 (Shadow-crawl)
-     (Level 3A)           lichen; cold drafts  Grik in north drainage slit  Einar +2 Adv); Stealth 14  +1 (1-rd kill)
-                                                                            Battle 14; Parley TN 14    +3 (Alert/Whistle)
+  1  The Mustering-Yard   Pitch dark; green    2 Udûn Sniffers behind P4;   STEALTH (Wits TN) to bypass;    +0 (Shadow-crawl)
+     (Level 3A)           lichen; cold drafts  Grik in north drainage slit  BATTLE (Heart TN) for ambush;   +1 (1-rd kill)
+                                                                            SCAN (Wits TN, Favoured Einar); +3 (Horn alarm)
+                                                                            PERSUADE/RIDDLE (Wits TN) parley.
 ------------------------------------------------------------------------------------------------------------------------
-  2  The Upper Gatehouse  Deep shadow; roaring Buckled adamant doors;       Craft TN 14 (Fortify redoubt) +1 (Shore timber)
-     (Level 3A)           drafts; muffled talk Keystone Winch Trap (30 Dmg) Craft TN 16 / Battle 14   +4 (Trigger Cave-In)
-                                                                            (Rig keystone collapse)
+  2  The Upper Gatehouse  Deep shadow; roaring Buckled adamant doors;       CRAFT (Strength TN) fortify;    +1 (Shore timber)
+     (Level 3A)           drafts; muffled talk Keystone Winch Trap (30 Dmg) AWARENESS (Strength TN) Slag-Worm;+4 (Trigger Cave-In)
+                                                                            CRAFT/BATTLE (Strength/Heart TN) rig.
 ------------------------------------------------------------------------------------------------------------------------
-  3  The First Armoury    Pitch dark; stagnant Scythe scrap-traps; venom    Scan TN 14 (find tripwires); +0 (Disarm silently)
-     (Level 3B)           air; rot & venom     vats (Injury 16 + Poison)    Burglary/Craft TN 14 (Disarm)+2 (Spring trap)
-                                                                            Healing TN 14 (Harvest venom)+1 (Search scrap)
+  3  The First Armoury    Pitch dark; stagnant Scythe scrap-traps; venom    SCAN (Wits TN, Favoured Einar); +0 (Disarm silently)
+     (Level 3B)           air; rot & venom     vats (Injury 16 + Poison)    CRAFT (Strength TN, +1d Burglary);+2 (Spring trap)
+                                                                            HEALING (Heart TN) harvest venom.+1 (Search scrap)
 ------------------------------------------------------------------------------------------------------------------------
-  4  The Broken Hall      Pitch dark; warm     12-ft Balrog Idol; Dread     Dread (Valour/Awe TN 14);  +0 (Sneak/Lurk)
-     (Level 3B)           downdraft; char      Aura; Defaced murals         Old Lore 14 (King's Door)  +3 (Topple idol)
-                                                                            Song/Enhearten 14 (+1 Hope)+1 (Muffle topple)
+  4  The Broken Hall      Pitch dark; warm     12-ft Balrog Idol; Dread     VALOUR vs Heart TN vs Dread;    +0 (Sneak/Lurk)
+     (Level 3B)           downdraft; char      Aura; Defaced murals         LORE/RIDDLE (Wits TN) Cartouche;+3 (Topple idol)
+                                                                            SONG/ENHEARTEN (Heart TN) +1d.  +1 (Muffle topple)
 ------------------------------------------------------------------------------------------------------------------------
-  5  The Second Armoury   Gloom; cedar & pine  Siege Engines; Grond-ram;    Craft TN 14 (Prime engines) +0 (Inspect gears)
-     (Level 3B)           pitch; muffled steps Torsion Ballistas; Patrol    Athletics 14 (Aim ballista) +3 (Ballista fire)
-                                                                            Battle 14 (Kill-zone)      +4 (Grond-ram)
+  5  The Second Armoury   Gloom; cedar & pine  Siege Engines; Grond-ram;    CRAFT (Strength TN) prime siege;+0 (Inspect gears)
+     (Level 3B)           pitch; muffled steps Torsion Ballistas; Patrol    ATHLETICS (Strength TN) aim ram;+3 (Ballista fire)
+                                                                            BATTLE (Heart TN) ambush zone.  +4 (Grond-ram)
 ------------------------------------------------------------------------------------------------------------------------
-  6  Hall of the Mauler   Dim moss; foul breath; The Mauler (AL 10 Troll,   Riddle TN 14 (Riddle duel); +0 (Catwalk sneak)
-     (Level 3C)           floor-shaking snore  Scrap Armour 5d, Might 2)    Athletics 14 (Catwalk leap) +2 (Combat/round)
-                                                                            Craft 14 (Drop stalactite) +3 (Stalactite/Roar)
+  6  Hall of the Mauler   Dim moss; foul breath; The Mauler (AL 10 Troll,   STEALTH (Wits TN) across scrap; +0 (Catwalk sneak)
+     (Level 3C)           floor-shaking snore  Scrap Armour 5d, Might 2)    Forward stance RIDDLE (Wits TN) +2 (Combat/round)
+                                                                            (-1 Hate/success, -1 Hate / 6). +3 (Stalactite/Roar)
 ------------------------------------------------------------------------------------------------------------------------
-  7  The Poisoned Halls   Emerald phosphores-  Balrog Neurotoxic Miasma;    Craft TN 15 (Respirators); +0 (Silent gas move)
-     (Level 3B-minus)     cence; sulfur/almond Petrified Dwarf Scribe       Healing 14 (Herbal poultice)+3 (Unjam flue lever)
-                                               (Handout #1: Scribe Slate)   Old Lore 14 (Translate)    +1 (Drop tool)
+  7  The Poisoned Halls   Emerald phosphores-  Balrog Neurotoxic Miasma;    Protection vs Strength TN (gas);+0 (Silent gas move)
+     (Level 3B-minus)     cence; sulfur/almond Petrified Dwarf Scribe       CRAFT (Strength TN) respirators;+3 (Flue lever)
+                                               (Handout #1: Scribe Slate)   HEALING (Heart TN) remedies.    +1 (Drop tool)
 ------------------------------------------------------------------------------------------------------------------------
-  8  The Upper Armoury    Sterile dry cold;    Garrison Salvage (50 Mail);  Explore/Battle 14 (Packs); +1 (Quiet packing)
-     (Level 3B)           gleaming steel       Lead-sealed Munitions Chest  Craft 14 (Liquid fire seal)+3 (Rushed clatter)
-                                               (6 Flasks Liquid Fire)       Burglary 14 (Officer chest)+0 (Open bronze door)
+  8  The Upper Armoury    Sterile dry cold;    Garrison Salvage (50 Mail);  EXPLORE (Wits TN) for storage;  +1 (Quiet packing)
+     (Level 3B)           gleaming steel       Lead-sealed Munitions Chest  CRAFT (Strength TN) liquid fire;+3 (Rushed clatter)
+                                               (6 Flasks Liquid Fire)       ATHLETICS (Strength TN) haul.   +0 (Open bronze door)
 ------------------------------------------------------------------------------------------------------------------------
-  9  The King's Door      Pulsing Ithildin blue; Dual Runic Master Locks;   Awareness 14 (Spot ambush);+0 (Marshal's Key)
-     (Level 3C)           sacred cool hush     Grimnar's Parapet Ambush     Burglary 16 (Skill Endeavour)+1 (Lockpick/round)
-                                               (Grimnar AL 6 + 4 Stalkers)  Duel Combat Task (Torvir)  +2 (Skirmish/round)
+  9  The King's Door      Pulsing Ithildin blue; Dual Runic Master Locks;   AWARENESS (Strength TN) ambush; +0 (Marshal's Key)
+     (Level 3C)           sacred cool hush     Grimnar's Parapet Ambush     Skill Endeavour (Resistance 6,  +1 (Lockpick/turn)
+                                               (Grimnar AL 6 + 4 Stalkers)  3 Turns: SCAN/CRAFT/RIDDLE).    +2 (Skirmish/round)
 ------------------------------------------------------------------------------------------------------------------------
- 10  The Lower Armoury    Radiant gold/silver; Durin's Axe (Artifact);      Awe/Song 14 (Gaze relic);  Special: +4 STRATEGIC
-     (Level 3C)           sacred pure mountain 3 Relic Coffers; Hoard       Valour 14 (Dragon-sickness) EYE AWARENESS &
-                          air; snow & cedar    Vault Blast Barricade        Craft 14 (Stasis field)    INSTANT ALERT 3!
+ 10  The Lower Armoury    Radiant gold/silver; Durin's Axe (Artifact);      AWE/SONG (Strength/Heart TN);   Special: +4 STRATEGIC
+     (Level 3C)           sacred pure mountain 3 Relic Coffers; Hoard       VALOUR vs Heart TN (Greed flaw);EYE AWARENESS &
+                          air; snow & cedar    Vault Blast Barricade        CRAFT (Strength TN) stasis.     INSTANT ALERT 3!
 ========================================================================================================================
 ```
 
 ---
 
-## 2. Adversary Combat Quick-Stats
+## 3. Adversary Combat Quick-Stats
 
 ```
 ========================================================================================================================
@@ -63,39 +83,39 @@
 ========================================================================================================================
  ADVERSARY           AL  END  MIGHT HATE PARRY ARMOUR  MAIN ATTACK        DMG/INJ  SPECIAL DAMAGE & FELL ABILITIES
 ------------------------------------------------------------------------------------------------------------------------
- The Mauler          10  80     2    10    5     5d    Maul / Club 3d     8 / 16   Break Shield; Heavy Blow (+10); Seize;
- (Armoured Troll)                                      Scrap Shrapnel 2d  6 / 12   Dull-Witted (Riddle duel); Hideous Tough;
-                                                                                   Strike Fear; Thick Hide (7d); Plating
+ The Mauler          10  80     2    10    —     5d    Maul / Club 3d     8 / 16   Break Shield; Crush 3d (6/12, Seize);
+ (Armoured Troll)                                      Scrap Shrapnel 2d  6 / 12   Dull-Witted (RIDDLE vs Wits TN in Forward);
+                                                                                   Hideous Tough (Reset 40); Strike Fear
 ------------------------------------------------------------------------------------------------------------------------
- Grimnar the          6  32    1/2   6/7   6     3d    Heavy Scimitar 3d  5 / 16   Break Shield; Pierce; Snake-Speed (Ill-fav);
- Disgraced (Stalker)                                   Stolen Dagger 3d   3 / 14   Keen (Pierce on 9+); Great Leap (Skip wall);
-                                                       Broad Spear 2d     5 / 16   Vengeful Strike (Free counter); Hatred
+ Grimnar the          6  36     2     6   +2     3d    Heavy Scimitar 3d  5 / 16   Break Shield; Stolen Dagger 3d (4/14, Keen);
+ Disgraced (Stalker)                                   Broad Spear 2d     5 / 16   Hatred (Durin's Folk, Favoured); Snake-Speed
+                                                                                   (Ill-favoured); Vengeful Strike; Hideous Tough
 ------------------------------------------------------------------------------------------------------------------------
- Grik the Skulker    2/3 8/12   1    2/3   4    1d/2d  Jagged Knife 2d    3 / 12   Pierce; Craven (Flee on wound);
- (Goblin Informant)                                    Blowdarts 2d       2 / 10   Poison (Moderate); Sneak Shadows (0 Noise)
+ Grik the Skulker     3  12     1     2   +3     1d    Jagged Knife 2d    3 / 12   Pierce on 10; Blowdarts 2d (2/10, Poison);
+ (Goblin Informant)                                                                Craven (Flee on wound); Sneak in Shadows (0 Noise)
 ------------------------------------------------------------------------------------------------------------------------
- Udûn Sniffer         4  16     1     4    —     3d    Torch-staff 3d     4 / 14   Fiery Blow (Severe Fire); Black Venom;
- (Balrog Zealot)                                       Blowdart 2d        2 / 12   Heartless; Keen Scent (+2d Awareness)
+ Udûn Sniffer         4  16     1     4    —     3d    Torch-staff 3d     4 / 14   Fiery Blow (Severe Fire); Blowdart 2d (2/12,
+ (Balrog Zealot)                                                                   Black Venom); Heartless; Keen Scent (+2d Aware)
 ------------------------------------------------------------------------------------------------------------------------
- Orc Guard            4  16     1     4   +2     3d    Heavy Scimitar 3d  4 / 16   Pierce; Heavy Spear (4/14); Thick Armour;
- (Moria Sentry)                                                                    Denizen Dark (Favoured); Hate Sun
+ Orc Guard            4  16     1     4   +2     3d    Heavy Scimitar 3d  4 / 16   Pierce; Heavy Spear 3d (4/14); Thick Armour;
+ (Moria Sentry)                                                                    Denizen of Dark (Favoured); Hate Sunlight
 ------------------------------------------------------------------------------------------------------------------------
- Orc Soldier          3  12     1     3   +1     2d    Orc-axe 2d         3 / 18   Break Shield; Short Bow (3/14); Craven;
- (Moria Minion)                                                                    Denizen Dark; Hate Sun
+ Orc Soldier          3  12     1     3   +1     2d    Orc-axe 2d         3 / 18   Break Shield; Short Bow 2d (3/14); Craven;
+ (Moria Minion)                                                                    Denizen of Dark; Hate Sunlight
 ------------------------------------------------------------------------------------------------------------------------
  Orc Drummer          3  12     1     3   +1     2d    Curved Knife 2d    3 / 14   Pierce; Drums in Deep (1 Hate = +3 Eye!)
 ------------------------------------------------------------------------------------------------------------------------
- Black Uruk           5  20     1     5   +2     3d    Broadsword 3d      4 / 16   Pierce; Bow of Horn (3/14); Horrible
- (Mordor Shock-Troop)                                                              Strength (Ill-fav Protection); Thick Arm
+ Black Uruk           5  20     1     5   +2     3d    Broadsword 3d      4 / 16   Pierce; Bow of Horn 3d (3/14); Horrible
+ (Mordor Shock-Troop)                                                              Strength (Ill-fav Protection); Thick Armour
 ------------------------------------------------------------------------------------------------------------------------
- Black Uruk Captain   6  24    1/2    6   +3     4d    Great Scimitar 3d  5 / 16   Break Shield; Pierce; Horrible Strength;
- (Vanguard Leader)                                                                 Yell of Triumph (1 Hate = +1 Hate allies)
+ Black Uruk Captain   6  24     2     6   +3     4d    Great Scimitar 3d  5 / 16   Break Shield; Pierce; Horrible Strength;
+ (Vanguard Leader)                                                                 Yell of Triumph (1 Hate = +1 Hate to allies)
 ========================================================================================================================
 ```
 
 ---
 
-## 3. 4-Stage Alert Tracker & Sound Economy
+## 4. 4-Stage Alert Tracker & Sound Economy
 
 ```
 ========================================================================================================================
@@ -103,13 +123,13 @@
 ========================================================================================================================
  ALERT STAGE           NOISE POINTS   AMBIENT POSTURE              MECHANICAL MODIFIERS & GM TRIGGERS
 ------------------------------------------------------------------------------------------------------------------------
- Alert 0: Quiet        0–3 Noise      Tomb-like quiet; loose       +1d to all Stealth & Explore tests;
+ Alert 0: Quiet        0–3 Noise      Tomb-like quiet; loose       +1d to all STEALTH & EXPLORE tests;
  Shadows                              sentries gambling/sleeping   Company gains automatic Surprise Round
 ------------------------------------------------------------------------------------------------------------------------
  Alert 1: Unease &     4–7 Noise      Rhythmic wall tapping;       Standard dice pools; Roaming Udûn Sniffer patrol
  Scent                                burnt tallow stench          enters chamber on Feat Die Eye of Sauron (S)
 ------------------------------------------------------------------------------------------------------------------------
- Alert 2: Hunted &     8–11 Noise     Sulfur smoke; iron horns;    -1d on Awareness to avoid ambushes; doors barred;
+ Alert 2: Hunted &     8–11 Noise     Sulfur smoke; iron horns;    -1d on AWARENESS to avoid ambushes; doors barred;
  Barricaded                           Grimnar actively stalks      Hunt Threshold reduced by 2 (14 -> 12)
 ------------------------------------------------------------------------------------------------------------------------
  Alert 3: Drums in     12+ Noise      Doom, doom war-drums;        REVELATION EPISODE! Full garrison assault;
@@ -128,23 +148,23 @@
 
 ---
 
-## 4. Toxic Gas Hazard & Subterranean Water Perils
+## 5. Toxic Gas Hazard & Subterranean Water Perils
 
 ```
 ========================================================================================================================
                                       HAZARD QUICK-REFERENCE MATRIX
 ========================================================================================================================
  BALROG TOXIC MIASMA (Rooms 7 & 8):
- • Unprotected (Raw breathing) : Roll Endurance/Healing TN 14 EVERY MINUTE (Ill-favoured). 1-10: Lose End; Eye: 0 End & Dying!
- • Protected (Vinegar cloth/herb): Roll Endurance/Healing TN 14 EVERY HOUR. 1-6: Lose End; Eye: Severe Poison.
- • Masterwork Mask (Craft TN 15): COMPLETE IMMUNITY for 4 hours (up to 10 characters).
- • Unjam Flue Damper (Craft/Athletics TN 16): Vents room in 3 rounds (+3 Noise Points).
+ • Unprotected (Raw breathing) : Roll Protection test vs Strength TN EVERY TURN (Ill-favoured). 1-10: Lose End; Eye: Dying!
+ • Protected (Vinegar cloth/herb): Roll Protection test vs Strength TN EVERY HOUR. 1-6: Lose End; Eye: Severe Poison.
+ • Masterwork Mask (CRAFT vs Strength TN): COMPLETE IMMUNITY for 4 hours (up to 10 characters).
+ • Unjam Flue Damper (CRAFT/ATHLETICS vs Strength TN): Vents room in 3 rounds (+3 Noise Points).
 ------------------------------------------------------------------------------------------------------------------------
  WATER PERILS TABLE (Roll Feat Die on drinking untested water):
  • Gandalf Rune (G): Pristine Ancient Spring (Restores +2 Hope, clears 1 tier of Fatigue).
  • 9–10: Icy Snowmelt (Clean and refreshing).
- • 7–8: Orc-Filth (Moderate Poison: lose 4 End, cleared by Short Rest).
- • 5–6: Bitter Water (Valour TN 14 to swallow; failure = -1d on physical tests for 1 hour).
+ • 7–8: Orc-Filth (Moderate Poison: lose 4 End, cleared by rest).
+ • 5–6: Bitter Water (VALOUR test vs Heart TN to swallow; failure = -1d on physical tests for 1 hour).
  • 3–4: Acidic Mine Runoff (Severe Poison: lose 8 End; requires First Aid).
  • 1–2: Malice of Durin's Bane (2 Shadow [Sorcery]; hallucinations).
  • Eye of Sauron (S): The Lurker's Pool (Clean water, but triggers concealed Udûn sentry ambush!).
@@ -153,20 +173,20 @@
 
 ---
 
-## 5. Band Mechanics & Tactical Squad Reference
+## 6. Band Mechanics & Tactical Squad Reference
 
 ```
 ========================================================================================================================
                                        BAND QUICK-REFERENCE DASHBOARD
 ========================================================================================================================
- BAND READINESS: 5 (Readiness TN 15)  |  BURDEN: Medium -> Heavy (Salvaging)  |  HOPE: 12  |  SHADOW: 1
- DISPOSITIONS:   War: 3d  |  Vigilance: 2d  |  Manoeuvre: 2d  |  Expertise: 2d  |  Rally: 1d
+ BAND READINESS: 5 (Band TN 15)  |  BURDEN: Medium -> Heavy (Salvaging)  |  HOPE: 12  |  SHADOW: 1
+ DISPOSITIONS:   WAR: 3d  |  VIGILANCE: 2d  |  MANOEUVRE: 2d  |  EXPERTISE: 2d  |  RALLY: 1d
 ------------------------------------------------------------------------------------------------------------------------
  TACTICAL SQUADS:
- 1. Forward Scout Screen (Austri & Bróga): Rolls Vigilance (2d) vs TN 15. Prevents surprise; Einar +2 Scan safety.
- 2. Shield-Wall Phalanx (Dúrmer, Dolg, Bláin): Rolls War (3d) vs TN 15. Dolg intercepts 1 attack/rd; anti-swarm.
+ 1. Forward Scout Screen (Austri & Bróga): Rolls Vigilance (2d) vs Band TN 15. Prevents surprise; Einar Scan safety.
+ 2. Shield-Wall Phalanx (Dúrmer, Dolg, Bláin): Rolls War (3d) vs Band TN 15. Dolg intercepts 1 attack/rd; anti-swarm.
  3. Rearguard Choke Point (Bláin & Fáin): Held at Location 2 Gatehouse. Guarantees escape route; +2 Band Readiness.
- 4. Heavy Salvage Porters (Hjoldring & Dúrmer): Hauls 50 mail suits (+50 Supply Points). Shifts Band to Heavy Burden.
+ 4. Heavy Salvage Porters (Hjoldring & Dúrmer): Hauls 50 mail suits for Balin's colony. Shifts Band to Heavy Burden.
 ------------------------------------------------------------------------------------------------------------------------
  CRITICAL CONDITIONS & RULES:
  • Band Weary: Triggered when >= 4 companions are incapacitated (Severe/Grievous/Spent/Collapsed). 1, 2, 3 on Success dice = 0!

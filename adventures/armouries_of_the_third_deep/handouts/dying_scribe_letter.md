@@ -123,21 +123,22 @@ When **Einar son of Anar** (*Treasure Hunter*), **Khoril Hornblower** (*Captain 
 ========================================================================================
                               SKILL REVELATIONS & LORE CUES
 ========================================================================================
- SKILL TEST & TN               RUNIC INSIGHT & OPERATIONAL BENEFIT
+ SKILL TEST & ATTRIBUTE TN     RUNIC INSIGHT & OPERATIONAL BENEFIT
 ----------------------------------------------------------------------------------------
- Lore / Scan (TN 12)           • Confirms the date of writing: 1981 TA (The Fall of Moria).
- (Einar with Broken Key)       • Identifies the key mechanism: The King's Door uses a 
-                                 synchronized double-cylinder tumbler requiring either 
+ LORE / SCAN (Wits TN)         • Confirms the date of writing: 1981 TA (The Fall of Moria).
+ (Favoured for Einar with      • Identifies the key mechanism: The King's Door uses a 
+  The Broken Key)                synchronized double-cylinder tumbler requiring either 
                                  the King's Key, the Marshal's Key, or a Craft bypass.
 ----------------------------------------------------------------------------------------
- Craft / Healing (TN 14)       • Analyzes the yellow crust on the slate: Confirms it is 
- (Hjoldring or Einar)            residue of the Balrog's neurotoxic miasma.
-                               • Reveals the remedy: Vinegar-soaked linen and crushed 
-                                 charcoal will filter the vapor (see Craft TN 15 mask).
+ CRAFT (Strength TN) /         • Analyzes the yellow crust on the slate: Confirms it is 
+ HEALING (Heart TN)              residue of the Balrog's neurotoxic miasma.
+ (Hjoldring or Einar)          • Reveals the remedy: Vinegar-soaked linen and crushed 
+                                 charcoal will filter the vapor (see CRAFT [Strength TN] 
+                                 respirator masks).
 ----------------------------------------------------------------------------------------
- Riddle / Old Khuzdul (TN 14)  • Deciphers the marginal scratches at the bottom of the 
- (Khoril Hornblower)             slab: Scribe Frár scratched the tumbler layout—3 left, 
-                                 2 right, 1 center—granting +2d on the Turn 1 roll of 
+ RIDDLE (Wits TN)              • Deciphers the marginal scratches at the bottom of the 
+ (Khoril Hornblower invoking     slab: Scribe Frár scratched the tumbler layout—3 left, 
+  Old Khuzdul lore)              2 right, 1 center—granting +2d on the Turn 1 roll of 
                                  the Lockbreaker Skill Endeavour (see Chapter 6 §4.3).
 ========================================================================================
 ```

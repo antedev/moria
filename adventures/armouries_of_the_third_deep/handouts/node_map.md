@@ -13,7 +13,7 @@
   [SURFACE / UPPER LEVELS]
   • The Great Gates of the Dimrill Dale (East-Gate Encampment & Lord Balin)
      │
-     ▼ (Wild Land Travel - Hunt 16)
+     ▼ (Wild Land Travel — TRAVEL [Heart TN: Torvir 18, Einar 17, Khoril 16])
   • THE CAVES OF THRYM THISTLEBEARD (Second Deep Safe Haven)
      │
      │ [Vertical Counterweight Shaft of the Pillars: 400-Foot Ingress/Egress Drop]
@@ -93,11 +93,11 @@
 ------------------------------------------------------------------------------------------------------------------------
  Safe Haven (Thrym)    1. Mustering-Yard     400-ft Vertical Bucket Shaft    Counterweight ropes & iron ladder flues
  1. Mustering-Yard     2. Upper Gatehouse    30-ft Open Granite Archway      None (Open transit)
- 1. Mustering-Yard     3. First Armoury      East Smuggler's Crawl-Vent      Concealed stone grating (Explore TN 14)
+ 1. Mustering-Yard     3. First Armoury      East Smuggler's Crawl-Vent      Concealed stone grating (Explore [WIT TN])
  2. Upper Gatehouse    3. First Armoury      Sloping 20-ft Granite Ramp      Buckled Adamant Blast-Doors; Keystone Winch
- 3. First Armoury      4. Broken Hall        Open Pillared Archway           2 Interlocking Scythe Scrap-Traps (Scan TN 14)
- 3. First Armoury      5. Second Armoury     West Maintenance Duct           Narrow duct (Explore TN 14; bypasses Room 4)
- 4. Broken Hall        5. Second Armoury     Heavy Double Cedar Doors        Bronze-bound; barred from inside (Athletics 14)
+ 3. First Armoury      4. Broken Hall        Open Pillared Archway           2 Interlocking Scythe Scrap-Traps (Scan [WIT TN])
+ 3. First Armoury      5. Second Armoury     West Maintenance Duct           Narrow duct (Explore [WIT TN]; bypasses Room 4)
+ 4. Broken Hall        5. Second Armoury     Heavy Double Cedar Doors        Bronze-bound; barred from inside (Athletics [STR TN])
  5. Second Armoury     6. Hall of Mauler     Heavy Bronze Double Doors       Swings outward; target for Grond-ram
  5. Second Armoury     7. Poisoned Halls     Sealed Iron Pressure-Door       Wheel-latch with airtight lead gasket
  7. Poisoned Halls     8. Upper Armoury      Reinforced Bronze Door          Greased pivots; airtight seal
@@ -236,7 +236,7 @@
 |                                                  • LEAD SCROLL TUBE: Scribe's Slate  |
 |                                                                                      |
 |  [JAMMED CEILING VENTILATION FLUE]                                                   |
-|  (Overhead Iron Damper Lever - Vents room in 3 rounds; +3 Noise Points)              |
+|  (Overhead Iron Damper Lever - Vents room in 2 rounds; +3 Noise Points)              |
 |                                         │                                            |
 |                                         ▼ (Reinforced Bronze Door)                   |
 |  ┌────────────────────────────────────────────────────────────────────────────────┐  |
@@ -281,7 +281,7 @@
 |                         └─────────────────────────────┘                              |
 |                                                                                      |
 |  [COFFER 1: Deep Gate Shield]   [COFFER 2: Moria-Silver Mattock]   [COFFER 3: Stone Mail]
-|  [CHESTS OF REFINED MITHRIL INGOTS (12 Bars)]   [ROYAL REGALIA OF THE THIRD DEEP]    |
+|  [CHESTS OF REFINED MITHRIL INGOTS (5 Bars)]   [ROYAL REGALIA OF THE THIRD DEEP]      |
 +--------------------------------------------------------------------------------------+
 ```
 
@@ -293,18 +293,18 @@
 ========================================================================================================================
                                      SECRET BYPASS DUCTS & FLUES
 ========================================================================================================================
- FLUE NAME             CONNECTS                  DETECTION & TRANSIT TN       TACTICAL UTILITY
+ FLUE NAME             CONNECTS                  DETECTION & TRANSIT TEST     TACTICAL UTILITY
 ------------------------------------------------------------------------------------------------------------------------
- 1. Smuggler's Vent    Loc 1 -> Loc 3            Explore TN 14                Completely bypasses the sentries and 
-                                                 (Einar +2 from Broken Key)   buckled blast-doors of Location 2.
+ 1. Smuggler's Vent    Loc 1 -> Loc 3            EXPLORE (Wits TN)            Completely bypasses the sentries and 
+                                                 (Einar Favoured)             buckled blast-doors of Location 2.
 ------------------------------------------------------------------------------------------------------------------------
- 2. Maintenance Flue   Loc 3 -> Loc 5            Explore TN 14 / Burglary 14  Bypasses the Balrog Idol in Location 4,
-                                                 (Bróga +1d from Gift)        avoiding all Dread tests!
+ 2. Maintenance Flue   Loc 3 -> Loc 5            EXPLORE (Wits TN)            Bypasses the Balrog Idol in Location 4,
+                                                 (Burglary Trait / Bróga +1d) avoiding all Dread tests!
 ------------------------------------------------------------------------------------------------------------------------
- 3. Arsenal Flue       Loc 8 -> Loc 9            Scan TN 12 (Clear passage)   Direct connecting chute from Upper Armoury
+ 3. Arsenal Flue       Loc 8 -> Loc 9            SCAN (Wits TN)               Direct connecting chute from Upper Armoury
                                                                               to King's Door; bypasses Location 6 Troll!
 ------------------------------------------------------------------------------------------------------------------------
- 4. Grik's Chute       Loc 1 -> Lower Slag Pits  Customs / Persuade TN 14     Grik's personal escape drain (6 inches;
+ 4. Grik's Chute       Loc 1 -> Lower Slag Pits  PERSUADE or RIDDLE (Wits TN) Grik's personal escape drain (6 inches;
                                                  (Grik only; unpassable)      goblins only; unpursuable).
 ========================================================================================================================
 ```
@@ -324,7 +324,7 @@
   [LOCATION 10: VAULT REDOUBT]   ──► Short Rest (30 min) / Distribute Relics / Pack 50 Suits of Mail (Heavy Burden)
                                                                                 │
                                                                                 ▼
-  [LOCATION 9: KING'S DOOR EXIT] ──► Rearguard deploys / Band Clash vs Orc Advance Squad (War vs TN 15)
+  [LOCATION 9: KING'S DOOR EXIT] ──► Rearguard deploys / Band Clash vs Orc Advance Squad (Band WAR 3d vs Band TN 15)
                                                                                 │
                                                                                 ▼
   [LOCATION 6 / 8 TRANSIT]       ──► Heavy Porters escorted through Flue / Mauler arena bypassed or bottled
@@ -347,6 +347,7 @@
   [VERTICAL ASCENT (400 FT)]     ──► Winch squad up Shaft of the Pillars into The Caves of Thrym Thistlebeard
                                                                                 │
                                                                                 ▼
-  [SAFE HAVEN & EAST-GATE CAMP]  ──► Extraction Complete! +50 Garrison Supply Points & Royal Proof for King Dáin!
+  [SAFE HAVEN & EAST-GATE CAMP]  ──► Extraction Complete! 40 Mail-shirts, 30 Shields, 50 Mattocks/Axes (+2 Readiness,
+                                     50 Treasure Points in tribute, and Royal Renown for King Dáin Ironfoot!)
 ========================================================================================================================
 ```

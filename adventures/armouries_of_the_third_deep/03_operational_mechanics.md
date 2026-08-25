@@ -54,7 +54,7 @@ The Alert Tracker measures the local garrison’s awareness, suspicion, and defe
 
 #### Alert 0: Quiet Shadows (0–3 Noise Points)
 * **Atmosphere**: The vast halls are wrapped in suffocating, tomb-like stillness. Faint drafts whistle through ancient ventilation flues, and slow water droplets chime like glass against distant flags.
-* **Enemy Posture**: Orc sentry posts are relaxed. Goblins are asleep in hide tents, squabbling over bone dice, or gnawing cave-bat wings. Sentries suffer a **-2 penalty to passive Awareness**.
+* **Enemy Posture**: Orc sentry posts are relaxed. Goblins are asleep in hide tents, squabbling over bone dice, or gnawing cave-bat wings. Sentries suffer **-1d** to Awareness tests.
 * **Tactical Benefits**:
   * All **Stealth** and **Explore** tests made by Player-Heroes or the Band gain **+1d**.
   * The Company automatically gains a **Surprise Round** on any combat engagement initiated from stealth.
@@ -73,7 +73,7 @@ The Alert Tracker measures the local garrison’s awareness, suspicion, and defe
 * **Enemy Posture**: The Orcs recognize a disciplined Dwarven infiltration. Major corridors and archways are barred with heavy cedar balks and iron chains. Murder-holes are manned by archers with poisoned arrows. **Grimnar the Disgraced** actively stalks the party, preparing a coordinated ambush.
 * **Tactical Penalties**:
   * Awareness tests made to detect concealed ambushes lose **-1d**.
-  * Forcing closed stone doors requires an **Athletics (TN 16)** test or generating **+2 Noise Points** with crowbars.
+  * Forcing closed stone doors requires an **ATHLETICS** test (Strength TN: Torvir 13, Einar 14, Khoril 13, Ill-favoured or at $-1\text{d}$) or generating **+2 Noise Points** with crowbars.
   * Strategic Eye Awareness Hunt Threshold is temporarily reduced by **2 points** (e.g. from 14 to 12).
 
 #### Alert 3: Drums in the Deep (12+ Noise Points)
@@ -186,7 +186,7 @@ The physical environment of the Third Deep is as lethal as its Orcish inhabitant
  [BALROG NEUROTOXIC MIASMA]     [STRUCTURAL COLLAPSE]         [TAINTED WATER PERILS]
   • Preserved toxic breath       • Cracked lintels & vaults    • Untested springs & pits
   • Grievous/Severe poison       • 30 Dmg keystone traps       • 1d12 Water Peril roll
-  • Craft TN 15 respirators      • Clearing rubble via War     • Sorcery/Poison effects
+  • Masterwork respirators       • Clearing rubble via War     • Sorcery/Poison effects
 ```
 
 ---
@@ -200,22 +200,24 @@ The physical environment of the Third Deep is as lethal as its Orcish inhabitant
 ========================================================================================
  PROTECTION STATUS             EXPOSURE TESTING RATE        CONSEQUENCE ON FAILURE
 ----------------------------------------------------------------------------------------
- Unprotected                   Roll Endurance / Healing     1–10: Lose that much Endurance.
- (Raw breathing, open skin)    EVERY MINUTE (Ill-favoured)  Eye (S): Reduced to 0 End & DYING!
+ Unprotected                   Protection test vs Strength  Lose 4 Endurance and gain 1 
+ (Raw breathing, open skin)    TN EVERY MINUTE              Shadow (Dread). On Eye (S): 
+                               (Ill-favoured)               Severe Poison (collapse/dying).
 ----------------------------------------------------------------------------------------
- Protected                     Roll Endurance / Healing     1–6: Lose that much Endurance.
- (Vinegar cloth & herbs)       EVERY HOUR                   Eye (S): Suffer Severe Poison.
+ Protected                     Protection test vs Strength  Lose 2 Endurance (Weary). 
+ (Vinegar cloth & herbs)       TN EVERY HOUR                On Eye (S): Suffer Severe Poison.
+                               (Standard roll)
 ----------------------------------------------------------------------------------------
  Masterwork Respirator         COMPLETE IMMUNITY            No tests required for 4 hours.
- (Craft TN 15 dwarf-mask)      FOR 4 HOURS
+ (Crafted dwarf-mask filter)   FOR 4 HOURS
 ========================================================================================
 ```
 
 * **Countermeasures & Engineering Remedies**:
-  1. **Crafting Respirators (Craft TN 15)**: Einar, Hjoldring, or Bróga can construct squad filter masks utilizing oiled leather, charcoal granules, crushed sponge, and dwarf-goggles. Success provides **4 hours of complete immunity** for up to 10 characters.
-  2. **Herbal Treatments (Healing TN 14)**: Soaking cloth in strong vinegar, chewing dried *Athelas* or mountain herbs, and sealing collars with grease downgrades the hazard to **Protected status** (1 check per hour).
-  3. **First Aid Triage**: Removing the poison from an afflicted character requires a **Healing** test (**-1d if Severe, -2d if Grievous**).
-  4. **Unjamming the Flue**: In Location 7, unjamming the ancient overhead iron damper lever (**Craft TN 16** or **Athletics TN 16**) vents the entire hall in 3 rounds, but the shrieking iron generates **+3 Noise Points**.
+  1. **Crafting Masterwork Respirators**: Skill Endeavour (**Resistance 3**). Heroes test **CRAFT** (Strength TN: Torvir 13, Einar 14, Khoril 13), invoking the *Smith* or *Burglary* Trait for **+1d**, or the Band tests **EXPERTISE** (2d vs Band TN 15). Success crafts squad filter masks utilizing oiled leather, charcoal granules, crushed sponge, and dwarf-goggles, granting **4 hours of complete immunity** for up to 10 characters.
+  2. **Field Herbal Treatments**: **HEALING** (Heart TN: Torvir 18, Einar 17, Khoril 16) or **CRAFT** (Strength TN). Soaking cloth in strong vinegar, chewing dried *Athelas* or mountain herbs, and sealing collars with grease downgrades the hazard to **Protected status** (1 check per hour).
+  3. **First Aid Triage**: Treating the poison on an afflicted character requires a **HEALING** test (Heart TN: Ill-favoured if Severe, at **-1d** if Grievous) or Band **EXPERTISE** (2d vs Band TN 15).
+  4. **Unjamming the Flue**: In Location 7, unjamming the ancient overhead iron damper lever requires **CRAFT** or **ATHLETICS** (Strength TN: Torvir 13, Einar 14, Khoril 13, made **Ill-favoured** due to corroded iron). Success vents the entire hall in 3 rounds, but the shrieking iron generates **+3 Noise Points**.
 
 ---
 
@@ -229,11 +231,11 @@ Thousands of years of subterranean tremors and the colossal weight of Mount Silv
  • TRIGGER CONDITIONS: Firing siege ballistas, triggering the Grond-ram, toppling the 
    Morgoth idol, or pulling the Upper Gatehouse keystone winch.
  • IMPACT ZONE: 30-foot radius area of effect.
- • DAMAGE & PROTECTION: All targets in the zone must make a PROTECTION ROLL (4d):
+ • DAMAGE & PROTECTION: All targets in the zone must make a Protection test (4d vs Strength TN):
    - On a Failure: Target suffers 20 DAMAGE and is PINNED under fallen stone (Weary).
    - On a Success: Target suffers 10 Damage and dives clear to the perimeter.
- • CLEARING RUBBLE: Pinned characters require an Athletics (TN 14) test or a 
-   Band War (3d) test to extract before suffocating.
+ • CLEARING RUBBLE: Pinned characters require an ATHLETICS test (Strength TN: Torvir 13, 
+   Einar 14, Khoril 13) or a Band WAR (3d vs Band TN 15) test to extract before suffocating.
 ========================================================================================
 ```
 
@@ -253,8 +255,9 @@ Untested water sources in the deeps are frequently befouled by mine runoff, Orc 
  9–10            Icy Snowmelt: Freezing cold runoff from Silvertine; refreshing and safe.
  7–8             Orc-Filth: Befouled with offal and rancid grease. Moderate Poison 
                  (Endurance loss 4, cured by Short Rest).
- 5–6             Bitter Mineral Water: Heavy with alkali. Must pass a Valour test (TN 14) 
-                 to force swallow; failure causes violent nausea (-1d for 1 hour).
+ 5–6             Bitter Mineral Water: Heavy with alkali. Must pass a Protection test 
+                 against Strength TN (or ENHEARTEN vs Heart TN) to force swallow; failure 
+                 causes violent nausea (-1d on all tests for 1 hour).
  3–4             Acidic Mine Runoff: Tainted with nitric acid and heavy metals. Severe 
                  Poison (Endurance loss 8; requires First Aid to purge).
  1–2             Malice of Durin's Bane: Tainted by demonic residue. The imbiber suffers 

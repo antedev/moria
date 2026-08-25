@@ -10,9 +10,12 @@
                                              EXPEDITION HEADER
 ========================================================================================================================
  EXPEDITION FORCE:      Balin's Vanguard — Third Deep Infiltration Force (Year 2989 TA)
- EXPEDITION LEADERS:    Torvir Hammerstone (Champion) | Einar son of Anar (Treasure Hunter) | Khoril Hornblower (Captain)
+ EXPEDITION LEADERS & ATTRIBUTE TN MATRIX (20 - Attribute Rating):
+ • Torvir Hammerstone (Champion)      : STR 7 (TN 13) | HRT 2 (TN 18) | WIT 5 (TN 15) | Parry 15 | Mail 5d
+ • Einar son of Anar (Treasure Hunter): STR 6 (TN 14) | HRT 3 (TN 17) | WIT 5 (TN 15) | Parry 20 | Mail 3d
+ • Khoril Hornblower (Captain)        : STR 7 (TN 13) | HRT 4 (TN 16) | WIT 4 (TN 16) | Parry 17 | Mail 3d
  SAFE HAVEN BASE:       The Caves of Thrym Thistlebeard (Second Deep)
- PRIMARY MISSION:       Salvage 50 Suits of Garrison Wargear (+50 Supply) & Recover Durin's Axe for King Dáin
+ PRIMARY MISSION:       Salvage 50 Suits of Garrison Wargear & Recover Durin's Axe for King Dáin
 ========================================================================================================================
 ```
 
@@ -21,7 +24,7 @@
                                          BAND STATISTICAL DASHBOARD
 ========================================================================================================================
  BAND READINESS RATING:  [ 5 ]  (Base 4 + 1 for Hardened Veteran Dúrmer)
- BAND READINESS TN:      [ 15 ] (Calculated as 20 - Band Readiness)
+ BAND READINESS TN:      [ 15 ] (Calculated as 20 - Band Readiness 5)
  ACTIVE BAND SIZE:       [ 7 ]  Veteran Dwarf Companions
  CURRENT BAND BURDEN:    [ ] Light    [X] Medium (Ingress)    [ ] Heavy (Salvaging)    [ ] Overburdened
  
@@ -98,12 +101,12 @@ Fill in the checkboxes and assign companion names to active operational squads:
 
   [ ] 1. FORWARD SCOUT SCREEN (2 Companions)
       • Assigned: Austri the Wayfinder & Bróga Vaultbreaker
-      • Tactical Function: Advances 50 paces ahead. Rolls Band Vigilance (2d6) or Manoeuvre (2d6) vs TN 15.
-      • Benefits: Prevents surprise; spots sentries/traps; allows Einar to use The Broken Key (+2 Scan) in total safety.
+      • Tactical Function: Advances 50 paces ahead. Rolls Band Vigilance (2d6) or Manoeuvre (2d6) vs Band TN 15.
+      • Benefits: Prevents surprise; spots sentries/traps; allows Einar to use The Broken Key (Favoured Scan) safely.
 
   [ ] 2. SHIELD-WALL PHALANX (3 Companions)
       • Assigned: Dúrmer the Iron-Shouldered, Dolg the Bulwark, Bláin the Cleaver
-      • Tactical Function: Locks heavy tower-shields across choke points. Rolls Band War (3d6) vs TN 15.
+      • Tactical Function: Locks heavy tower-shields across choke points. Rolls Band War (3d6) vs Band TN 15.
       • Benefits: Dolg intercepts 1 melee strike/round; blocks enemy flanking; spending 6s pushes enemy lines back 10 paces.
 
   [ ] 3. REARGUARD CHOKE POINT DEFENSE (2 Companions stationed at Location 2 Gatehouse)
@@ -113,7 +116,7 @@ Fill in the checkboxes and assign companion names to active operational squads:
 
   [ ] 4. HEAVY SALVAGE PORTER SQUAD (4 Companions)
       • Assigned: Hjoldring the Armourer, Dúrmer the Iron-Shouldered, Dolg the Bulwark, Bróga Vaultbreaker
-      • Tactical Function: Hauls 50 suits of gromril-mail, 30 shields, and weapons from Location 8 (+50 Supply Points).
+      • Tactical Function: Hauls 50 suits of gromril-mail, 30 shields, and weapons from Location 8 for Balin's colony.
       • Drawbacks: Band shifts to Heavy Burden (-1d Manoeuvre, -1d Fatigue, +1 Noise Point per hall traversed).
 ========================================================================================================================
 ```
@@ -132,15 +135,18 @@ Use this section during combat encounters against organized Orc warbands:
  [ ] AGGRESSIVE : Ill-favoured Clash roll; automatically deals +1 bonus Resistance damage on any success.
  [ ] BALANCED   : Standard Clash roll; full tactical versatility.
  [ ] GUARDED    : Favoured Clash roll; ignores the first Special Damage trigger rolled by the enemy.
- [ ] FLEEING    : Manoeuvre roll vs TN 15 + Enemy Might to disengage and retreat to previous room.
+ [ ] FLEEING    : Band Manoeuvre roll vs Band TN 15 + Enemy Might to disengage and retreat to previous room.
 ------------------------------------------------------------------------------------------------------------------------
  STEP 2: HERO LEADER ACTIONS
- • Khoril Hornblower  : [ ] Command (Battle TN 14 -> +1d to Clash)   [ ] Inspire (Enhearten TN 14 -> +1 Hope)
- • Torvir Hammerstone : [ ] Fight (Great Axe vs TN 13 + Might)       [ ] Duel (Single combat vs Enemy Champion)
- • Einar son of Anar  : [ ] Fight (Sword vs TN 14 + Might)           [ ] Flank / Lockpick (Burglary / Scan TN 14)
+ • Khoril Hornblower  : [ ] Command (BATTLE [Heart TN 16] -> +1d to Clash)
+                        [ ] Inspire (ENHEARTEN [Heart TN 16] -> +1 Hope / clear Faltering)
+ • Torvir Hammerstone : [ ] Fight (Great Axe vs STRENGTH TN 13 + Adversary Parry/Might)
+                        [ ] Duel (Single combat vs Enemy Champion, negates Might penalty)
+ • Einar son of Anar  : [ ] Fight (Sword vs STRENGTH TN 14 + Adversary Parry/Might)
+                        [ ] Flank / Lockpick (SCAN / CRAFT [Wits TN 15 / Strength TN 14], +1d Trait Burglary)
 ------------------------------------------------------------------------------------------------------------------------
  STEP 3: RESOLVE CLASH ROLL
- • Roll Band War (3d6) vs Target Number: [ 15 + Enemy Might: _____ ] = Total TN: [ _____ ]
+ • Roll Band War (3d6) vs Target Number: [ Band TN 15 + Enemy Might: _____ ] = Total TN: [ _____ ]
  • Feat Die Result: [ _____ ]   Success Dice (6s): [ _____ ] [ _____ ] [ _____ ]   Success? [ YES / NO ]
 ------------------------------------------------------------------------------------------------------------------------
  STEP 4: ENEMY RESISTANCE TRACKER

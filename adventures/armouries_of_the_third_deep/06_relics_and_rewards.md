@@ -27,7 +27,7 @@ When the Balrog (*Durin's Bane*) awoke in 1980 TA and slew King Durin VI and Kin
  3. The Marshal's Key       Rooms 3/5, Grik, Craft  Unlocks Location 9 (The King's Door); 
                                                     Vital puzzle key / bypass mechanic.
  4. Garrison Armament Haul  Location 8 (Upper Arm.) 40+ Mail, 30 Shields, Crates of Axes; 
-                                                    +50 Garrison Supply Points for Balin.
+                                                    Equips 50 frontline Dwarves for Balin.
  5. Custom Greater Hoard    Location 10 (Vault)     Royal gold, Mirrormere gems, gromril 
                                                     ingots; 120+ Treasure Points.
  6. D66 Scavenge Table      Throughout Third Deep   36 Unique subterranean items, lore curios, 
@@ -76,7 +76,8 @@ When Khazad-dûm fell in 1981 TA, the dying royal guards placed the axe upon the
  DAMAGE:               9 (Base 7 + Superior Grievous +2)
  INJURY:               20
  LOAD:                 4
- CRAFT QUALITIES:      • Rune-scored (Indestructible, +1 to Feat die rolls on attacks)
+ CRAFT QUALITIES:      • Rune-scored (Indestructible; all attack rolls made with 
+                         Durin's Axe are Favoured)
                        • Superior Grievous (+2 Damage)
                        • Superior Keen (Scores Piercing Blow on 8, 9, 10, or Gandalf Rune)
 ----------------------------------------------------------------------------------------
@@ -92,10 +93,10 @@ When Khazad-dûm fell in 1981 TA, the dying royal guards placed the axe upon the
  
  2. GLEAM OF TERROR:
     • When the axe is drawn in battle, its keen edge rings with the thunder of the forge.
-    • Intimidate Foe combat tasks made by the wielder are automatically FAVOURED.
+    • Intimidate Foe combat tasks (AWE) made by the wielder are automatically FAVOURED.
     • On a success, the targeted adversary (or all minions of Attribute Level <= 4 in the 
       opposing front rank) loses 2 Hate/Resolve instead of 1, and must make an immediate 
-      Dread test (Ill-favoured) or flee to the rear rank.
+      Dread test against Heart TN (Ill-favoured) or flee to the rear rank.
 ----------------------------------------------------------------------------------------
  SHADOW ATTRACTION & THE WEIGHT OF DOOM:
  • The ancient malice of Moria is bound to the axe. The moment a hero lifts Durin's Axe 
@@ -111,7 +112,7 @@ When Khazad-dûm fell in 1981 TA, the dying royal guards placed the axe upon the
 
 ### 2.3 Strategic & Narrative Impact in the Campaign
 1. **The Mandate of King Dáin Ironfoot**: Presenting Durin's Axe to the emissaries of Erebor provides irrefutable royal proof that Khazad-dûm can be reclaimed. It guarantees that King Dáin will mobilize **five hundred heavy Dwarf veterans** from the Iron Hills and Lonely Mountain to reinforce Balin's colony in 2990 TA.
-2. **Torvir Hammerstone's Destiny**: If Torvir (a Champion of Durin's Folk with Great Axe Mastery) takes up the axe, his *Curse of Vengeance* is both empowered and imperiled. When fighting Orcs with Durin's Axe, Torvir scores Piercing Blows on a Feat die roll of **7, 8, 9, 10, or Gandalf Rune** (stacking Mastery with Superior Keen). However, failing a Valour test while wielding the axe adds **+2 Shadow (Dread)** instead of 1.
+2. **Torvir Hammerstone's Destiny**: If Torvir (a Champion of Durin's Folk with Great Axe Mastery) takes up the axe, his *Curse of Vengeance* is both empowered and imperiled. When fighting Orcs with Durin's Axe, Torvir scores Piercing Blows on a Feat die roll of **7, 8, 9, 10, or Gandalf Rune** (stacking Mastery with Superior Keen). However, failing a **VALOUR** test (**Heart TN 18**) while wielding the axe adds **+2 Shadow (Dread)** instead of 1.
 
 ---
 
@@ -140,7 +141,7 @@ Forged in the legendary deep-smithies of the Third Age, these masterwork pieces 
 * **Parry Modifier**: **+3** | **Load**: 3 | **Reward Qualities**: *Reinforced* (Unbreakable), *Cunning Make*
 * **Craft Virtue — Unyielding**:
   * **Anti-Crush & Anti-Seize**: The bearer cannot be knocked down, pushed back, or trapped in the *Seized* condition by trolls, cave-beasts, or adversary Special Damage triggers while braced in the Defensive or Forward stance.
-  * **Shield-Wall Bulwark**: When the bearer forms part of a *Shield-Wall Phalanx* (see Chapter 2), the Band gains an automatic **+1d on all Band War tests** and absorbs 1 additional point of enemy Resistance damage per round.
+  * **Shield-Wall Bulwark**: When the bearer forms part of a *Shield-Wall Phalanx* (see Chapter 2), the Band gains an automatic **+1d on all Band War rolls** and absorbs 1 additional point of enemy Resistance damage per round.
   * **Adversary Weapon Sunder**: When an adversary rolls a failure on an attack against the bearer while showing an Eye of Sauron ($\mathbf{S}$) on the Feat die, their mundane weapon (scimitar, spear, club) shatters against the adamant rim.
 
 ---
@@ -148,7 +149,7 @@ Forged in the legendary deep-smithies of the Third Age, these masterwork pieces 
 ### 3.2 Mattock of Moria-Silver (True Mithril-Alloy Great Weapon)
 * **Item Type**: Two-handed Mattock
 * **Damage Rating**: **8** (Base 7 + Grievous +1) | **Injury Rating**: **18** | **Load**: 3 (Forged of lightweight Mithril-steel)
-* **Craft Qualities**: *Grievous*, *Close Fitting / Light Weight* (Load reduced from 5 to 3), *Superior Craftsmanship*
+* **Craft Qualities**: *Grievous*, *Close Fitting* (Load reduced from 5 to 3), *Superior Craftsmanship*
 * **Craft Virtue — Gleaming Edge**:
   * **Subterranean Superiority**: Attacks made with this mattock against underground adversaries (Orcs, Goblins, Cave-trolls, Spiders) in dark or subterranean environments are permanently **FAVOURED**.
   * **Armour Penetration**: On a Piercing Blow, the target adversary's Protection roll suffers a **-1d penalty** due to the razor-keen, high-density Moria-silver pick-head.
@@ -217,7 +218,7 @@ The Player-Heroes have three distinct operational pathways to secure or bypass t
 * **Context**: Sometime after the fall of the Third Deep, an Udûn scouting patrol ransacking the Second Armoury (Location 5) discovered the bronze-and-gromril key upon the remains of a Dwarf officer. The key is currently worn as an ostentatious war-talisman around the neck of **Captain Grashnak** (an Udûn-orc Fire-touched Champion).
 * **Location**: Wandering between **Location 3 (First Armoury)** and **Location 5 (Second Armoury)**.
 * **Encounter Breakdown**:
-  * **Enemy Roster**: Captain Grashnak (Attribute Level 6, End 24, Might 2, Hate 6, Armour 3d, Torch-staff 3 [4/14, Fiery Blow], *Hideous Toughness*) leading 3 **Udûn Sniffers** (AL 4, End 16, Hate 4).
+  * **Enemy Roster**: Captain Grashnak (Attribute Level 6, End 24, Might 2, Hate 6, Armour 3d, Torch-staff 3d [4/14, Fiery Blow], *Hideous Toughness*) leading 3 **Udûn Sniffers** (AL 4, End 16, Hate 4).
   * **Tactical Conditions**: The patrol moves with smoky torches, casting wild shadows. If the Company uses the *Forward Scout Screen* (Austri & Bróga), they spot the patrol 40 paces away.
   * **Combat Resolution**:
     * If ambushed and eliminated within **2 combat rounds**, the key is claimed with **+0 Noise Points** generated.
@@ -237,8 +238,8 @@ The Player-Heroes have three distinct operational pathways to secure or bypass t
     3. **Blood Revenge**: The heroes must ambush and slaughter Grashnak's brute squad without implicating Grik.
     4. **Dwarven Strong Spirits**: Khoril’s iron flask of fiery Mountain Spirits.
   * **Skill Resolution**:
-    * **Riddle (TN 14)** or **Persuade (TN 15)**: Success convinces Grik to accept a single offering and provide a crude charcoal map of the patrol's blind spot.
-    * **Enhearten / Intimidate Foe (TN 14)**: Torvir can terrify Grik into surrendering the key immediately. However, an intimidated Grik will alert Grimnar at Alert Tier 2 out of spite (+1 Eye Awareness).
+    * **RIDDLE** (**Wits TN: Torvir 15, Einar 15, Khoril 16**) or **PERSUADE** (**Wits TN: Torvir 15, Einar 15, Khoril 16**): Success convinces Grik to accept a single offering and provide a crude charcoal map of the patrol's blind spot.
+    * **ENHEARTEN** (**Heart TN: Torvir 18, Einar 17, Khoril 16**) or **AWE** (**Strength TN: Torvir 13, Einar 14, Khoril 13**): Torvir can terrify Grik into surrendering the key immediately. However, an intimidated Grik will alert Grimnar at Alert Tier 2 out of spite (+1 Eye Awareness).
 * **Benefit**: A completely silent acquisition (**+0 Noise Points, +0 Alert increase**).
 
 ---
@@ -262,23 +263,23 @@ The Player-Heroes have three distinct operational pathways to secure or bypass t
 
 ```
 Turn 1: Tumbler Alignment ──► Turn 2: Tension & Deadfall Bypass ──► Turn 3: Forcing the Bolt
- (Scan / Craft / Burglary)       (Burglary / Riddle / Athletics)      (Craft / War / Strength)
+ (Scan / Craft)                  (Craft / Riddle / Athletics)         (Craft / Athletics / Band Expertise)
 ```
 
 1. **Turn 1: Aligning the Internal Wards**:
-   * *Eligible Skills*: **Scan (TN 14)** or **Craft (TN 15)**.
-   * *Einar Synergy*: Einar gains **+2 / Advantage** on his Scan test using *The Broken Key*.
-   * *Bróga Synergy*: Bróga adds **+1d** via his *Vaultbreaker* gift.
-   * *Outcome*: Each rolled success adds 1 point toward the Resistance pool; each Success icon ($\mathbf{6}$) adds 1 additional point.
+   * *Eligible Skills*: **SCAN** (**Wits TN: Torvir 15, Einar 15, Khoril 16**) or **CRAFT** (**Strength TN: Torvir 13, Einar 14, Khoril 13**).
+   * *Einar Synergy*: Einar gains **Favoured** status on his Scan test using *The Broken Key*.
+   * *Bróga Synergy*: Bróga adds **+1d** via his *Vaultbreaker* Trait.
+   * *Degrees of Success (6 icons)*: Each standard success adds 1 point toward Resistance; each Success icon ($\mathbf{6}$) adds 1 additional point (2 points total). Gandalf Rune ($\mathbf{G}$) contributes 2 points and reveals the internal gear sequence.
 2. **Turn 2: Disarming the Counterweight Deadfall**:
-   * *Eligible Skills*: **Burglary (TN 15)**, **Craft (TN 14)**, or **Riddle (TN 16)** (deciphering the runic puzzle sequence).
-   * *Complication on Failure*: If no successes are rolled on Turn 2, an internal stone needle snaps: the lock releases a loud harmonic gong, generating **+2 Noise Points** (advancing the Alert Tracker).
+   * *Eligible Skills*: **CRAFT** (**Strength TN: Torvir 13, Einar 14, Khoril 13**, $+1\text{d}$ if invoking the *Burglary* Trait) or **RIDDLE** (**Wits TN: Torvir 15, Einar 15, Khoril 16**) (deciphering the runic puzzle sequence).
+   * *Complication on Failure*: If no successes are rolled on Turn 2, an internal stone needle snaps: the lock releases a loud harmonic chime, generating **+2 Noise Points** (advancing the Alert Tracker).
 3. **Turn 3: Forcing the Final Gromril Tumbler**:
-   * *Eligible Skills*: **Craft (TN 15)**, **Athletics (TN 14)** (turning heavy iron levers), or **Band Expertise (2d vs TN 15)**.
-   * *Torvir Support*: Torvir can spend 1 Hope to brace the torsion bar, granting +1d to the roller.
+   * *Eligible Skills*: **CRAFT** (**Strength TN: Torvir 13, Einar 14, Khoril 13**), **ATHLETICS** (**Strength TN: Torvir 13, Einar 14, Khoril 13**) (turning heavy iron levers), or Band **EXPERTISE** (2d vs **Band TN 15**).
+   * *Torvir Support*: Torvir can spend 1 Hope to brace the torsion bar, granting $+1\text{d}$ to the roller.
 
 #### Endeavour Outcomes
-* **Total Success ($\ge 6$ Successes within 3 Turns)**: The massive adamant doors slide back silently along oiled basalt tracks. The King's Door opens without triggering the alarm.
+* **Total Success ($\ge 6$ Successes within 3 Turns)**: The massive adamant doors slide back silently along oiled basalt tracks. The King's Door opens without triggering the alarm (+0 Noise).
 * **Marginal Success (Reached 6 Successes on Turn 3 with failures)**: The door opens, but the internal counterweight crashes into the floorpit, generating **+3 Noise Points** (+1 Alert Tier, +1 Eye Awareness).
 * **Failure ($< 6$ Successes after 3 Turns)**: The lock jams permanently in emergency lockdown! To open the door now requires a violent battering operation with a siege ram from Location 5 (generating **+5 Noise Points** and triggering an instant **Alert 3 / Drums in the Deep** alarm).
 
@@ -296,7 +297,7 @@ Beyond the legendary *Durin's Axe*, the Lower Armoury (Keyed Location 10) holds 
  MAGICAL REWARD DICE:   Roll 3d6 on the Magical Treasure Index (TOR 2e Core pp. 158–162)
  SPECIAL METALS:        12 Crated Ingots of Refined Moria-Silver (True Mithril / Gromril)
  GARRISON ARSENAL:      40+ Dwarf-forged Mail-shirts, 30 Tower Shields, 60 War-axes
- STRATEGIC VALUE:       +50 GARRISON SUPPLY POINTS FOR LORD BALIN'S COLONY
+ STRATEGIC PAYOFF:      EQUIPS 50 FRONTLINE DWARVES & SECURES UPPER MANSIONS
 ========================================================================================
 ```
 
@@ -304,7 +305,7 @@ Beyond the legendary *Durin's Axe*, the Lower Armoury (Keyed Location 10) holds 
 
 ### 5.1 Detailed Hoard Inventory
 1. **The Royal Regalia of the Third Deep**:
-   * *The Mithril Circlet of the High Warden*: A delicate crown of interwoven ithildin wire set with three radiant starlight-diamonds from the depths of Celebdil. Worth **30 Treasure Points** or grants **+1d to all Enhearten and Persuade rolls** when worn by a Dwarf of noble blood.
+   * *The Mithril Circlet of the High Warden*: A delicate crown of interwoven ithildin wire set with three radiant starlight-diamonds from the depths of Celebdil. Worth **30 Treasure Points** or grants **+1d to all ENHEARTEN and PERSUADE rolls** when worn by a Dwarf of noble blood.
    * *The Golden Casket of Mirrormere Pearls*: A cedar box bound in platinum containing forty-eight lustrous, black subterranean river-pearls dredged from Kheled-zâram before the Shadow fell. Worth **25 Treasure Points**.
    * *Ceremonial Gorget of King Náin I*: Heavy electrum neck-guard chased with scenes of the founding of the Great Gates. Worth **15 Treasure Points**.
 2. **Refined Gromril (Mithril) Ingots**:
@@ -312,7 +313,7 @@ Beyond the legendary *Durin's Axe*, the Lower Armoury (Keyed Location 10) holds 
    * *Weight & Value*: Each ingot weighs 2 pounds and is worth **10 Treasure Points** (120 Treasure Points total for all twelve).
    * *Crafting Power*: Delivering these ingots to master smiths (such as Hjoldring or the forges of Erebor) allows the forging of **up to three custom enchanted Dwarven weapons or armor pieces** during future Fellowship Phases.
 3. **Ancient Royal Cartography**:
-   * Preserved slate maps showing the forgotten aqueducts, ventilation flues, and hydraulic lift shafts connecting the Third Deep to the *Sixth Deep* and the *Endless Stair*. Grants **Advantage on all Explore rolls** in deeper sectors of Moria.
+   * Preserved slate maps showing the forgotten aqueducts, ventilation flues, and hydraulic lift shafts connecting the Third Deep to the *Sixth Deep* and the *Endless Stair*. Grants **Favoured status on all EXPLORE rolls** in deeper sectors of Moria.
 
 ---
 
@@ -338,10 +339,12 @@ The primary operational goal of the delve is salvaging enough heavy wargear to o
 ----------------------------------------------------------------------------------------
  STRATEGIC PAYOFF:
  • Delivering the arsenal back to Commander Fróra at the East-Gate Camp awards:
-   1. +50 GARRISON SUPPLY POINTS (securing all Upper Mansions against Orc counter-attacks).
-   2. REPUTATION & RENOWN: The Player-Heroes gain +2 Fellowship Score and are declared 
-      *Champions of the Deeps* by Lord Balin.
-   3. ROYAL REINFORCEMENTS: Convinces King Dáin Ironfoot to dispatch military aid.
+   1. GARRISON ARMAMENT: Fully equips 50 frontline Dwarves of Balin's colony with 
+      dwarf-mail and masterwork weapons, securing the Upper Mansions permanently.
+   2. REPUTATION & RENOWN: The Player-Heroes gain +2 Fellowship Score, +4 Adventure 
+      Points, +3 Skill Points, and are declared *Champions of the Deeps* by Lord Balin.
+   3. ROYAL REINFORCEMENTS: Convinces King Dáin Ironfoot in Erebor to dispatch 500 
+      veteran Dwarf reinforcements to Moria in 2990 TA.
 ========================================================================================
 ```
 
@@ -359,10 +362,10 @@ Every single one of the 36 entries is detailed below with evocative lore, immedi
 ========================================================================================================================
  D66  ITEM NAME                   HISTORICAL LORE & DESCRIPTION             MECHANICAL UTILITY & IN-GAME EFFECT    VALUE
 ------------------------------------------------------------------------------------------------------------------------
- 11   Cured Dwarf-Tobacco         A sealed lead pouch of "Long-Beard Leaf"  Consuming a pipeful during a Short     2 Silver
-      (Second Age Vintage)        grown in ancient mountain terraces.       Rest restores +1 Hope to a Dwarf.      Pennies
+ 11   Cured Dwarf-Tobacco         A sealed lead pouch of "Long-Beard Leaf"  Consuming a pipeful during a rest      2 Silver
+      (Second Age Vintage)        grown in ancient mountain terraces.       restores +1 Hope to a Dwarf.           Pennies
 ------------------------------------------------------------------------------------------------------------------------
- 12   Gromril-Tipped Pitons       Four masterwork climbing spikes forged    Grants +1d on all Athletics rolls      1 Treasure
+ 12   Gromril-Tipped Pitons       Four masterwork climbing spikes forged    Grants +1d on all ATHLETICS rolls      1 Treasure
       (Set of 4)                  of blackened steel with mithril points.   made to scale walls or secure ropes.   Point
 ------------------------------------------------------------------------------------------------------------------------
  13   Scribe's Luminescent Ink    A crystal vial of glowing squid-bile      Can be used to write secret messages   5 Silver
@@ -377,13 +380,13 @@ Every single one of the 36 entries is detailed below with evocative lore, immedi
  16   Notched Orc Scimitar        A crude, blackened blade bearing the      Can be shattered to yield +1 Noise or  0 Pennies
       (Udûn Scrap)                jagged eye-brand of Malech's horde.       wielded as a disposable 3-Dmg weapon.  (Scrap)
 ------------------------------------------------------------------------------------------------------------------------
- 21   Silver Runic Dice           A pair of weighted knucklebone dice       Grants +1d on Riddle tests or social   2 Treasure
-      (Set of 2)                  inlaid with Khuzdul numerals.             gambling checks against Goblins/Dwarves. Points
+ 21   Silver Runic Dice           A pair of weighted knucklebone dice       Grants +1d on RIDDLE tests or social   2 Treasure
+      (Set of 2)                  inlaid with Khuzdul numerals.             gambling checks against foes/allies.   Points
 ------------------------------------------------------------------------------------------------------------------------
  22   Flask of Dragon-Fire Oil    A ceramic flask of pressurized dwarven    Throwable weapon (Ranged, 3d); deals   2 Treasure
                                   naphtha used for forge bellows.           6 Fire Damage and ignites wooden doors. Points
 ------------------------------------------------------------------------------------------------------------------------
- 23   Acoustic Listening Horn     A folding brass cone crafted to magnify   Grants Favoured rolls on Awareness     1 Treasure
+ 23   Acoustic Listening Horn     A folding brass cone crafted to magnify   Grants Favoured rolls on AWARENESS     1 Treasure
                                   vibrations traveling through solid rock.  tests made to detect approaching foes. Point
 ------------------------------------------------------------------------------------------------------------------------
  24   Chiseled Blood-Agate        A thumb-sized crimson gemstone dropped    Can be socketed into a weapon hilt or  3 Treasure
@@ -398,10 +401,10 @@ Every single one of the 36 entries is detailed below with evocative lore, immedi
  31   Dwarven Salve of Stone-Skin A clay jar of pungent mineral paste       Applying the paste grants +1d to a     2 Treasure
                                   blended from sulfur and cave-tallow.      Protection roll against crush damage.  Points
 ------------------------------------------------------------------------------------------------------------------------
- 32   Masterwork Pick-Head        A heavy, drop-forged steel pick-head      Grants +1d on Craft or Athletics checks 1 Treasure
+ 32   Masterwork Pick-Head        A heavy, drop-forged steel pick-head      Grants +1d on CRAFT or ATHLETICS checks 1 Treasure
                                   bearing the hallmark of King Durin IV.    made to undermine walls or dig flues.  Point
 ------------------------------------------------------------------------------------------------------------------------
- 33   Torn Page of the Armouries  A scorched parchment leaf recording the   Grants +2 on Scan rolls to locate the  2 Treasure
+ 33   Torn Page of the Armouries  A scorched parchment leaf recording the   Grants +1d on SCAN rolls to locate the 2 Treasure
                                   storage location of gromril mail-shirts.  hidden vault chests in Location 8.     Points
 ------------------------------------------------------------------------------------------------------------------------
  34   Black Orc-Poison Phial      A glass vial of thick, curdled viper-     Coating a blade inflicts Severe Poison 1 Treasure
@@ -411,10 +414,10 @@ Every single one of the 36 entries is detailed below with evocative lore, immedi
                                   tuned to canine hearing.                  that distracts and confuses cave bats. Pennies
 ------------------------------------------------------------------------------------------------------------------------
  36   Electrum Belt Clasp         A heavy oval buckle depicting the Crown   A noble heirloom; worth immediate      4 Treasure
-                                  and Seven Stars of Durin's Folk.          Treasure points or boosts Enhearten.   Points
+                                  and Seven Stars of Durin's Folk.          Treasure points or boosts ENHEARTEN.   Points
 ------------------------------------------------------------------------------------------------------------------------
  41   Folded Silk Rope            A 50-foot coil of gossamer-light spider-  Weighs only 1 Load; grants +1d on all  3 Treasure
-      (Dwarf-Weave)               silk and silver thread rope (Load 1).     Athletics rolls for climbing/rappelling. Points
+      (Dwarf-Weave)               silk and silver thread rope (Load 1).     ATHLETICS rolls for climbing/ropes.    Points
 ------------------------------------------------------------------------------------------------------------------------
  42   Charcoal Filtration Mask    A primitive leather mask packed with      Protects the wearer against the toxic  2 Treasure
                                   activated charcoal and dried mint leaves. Balrog miasma for 2 continuous hours.  Points
@@ -426,10 +429,10 @@ Every single one of the 36 entries is detailed below with evocative lore, immedi
                                   fiery plum brandy from the East.          mediately removes the Weary condition. Point
 ------------------------------------------------------------------------------------------------------------------------
  45   Runic Key-Blank             An uncut brass key-blank stamped with     Bróga can file it into a skeleton key  2 Treasure
-                                  the cipher of the Royal Locksmiths.       (+1d to pick masterwork dwarf locks).  Points
+                                  the cipher of the Royal Locksmiths.       (+1d to CRAFT when picking locks).     Points
 ------------------------------------------------------------------------------------------------------------------------
- 46   Severed Troll-Claw Amulet   A fossilized cave-troll talon strung on   Wearing it grants +1 to Intimidate Foe 1 Treasure
-                                  a thong of dried wolf-sinew.              against goblins and lesser Orcs.       Point
+ 46   Severed Troll-Claw Amulet   A fossilized cave-troll talon strung on   Wearing it grants +1d to AWE on        1 Treasure
+                                  a thong of dried wolf-sinew.              Intimidate Foe against goblins/Orcs.   Point
 ------------------------------------------------------------------------------------------------------------------------
  51   Vial of Mirrormere Water    A lead-stoppered crystal flask containing Imbibing this water purges all poison  5 Treasure
                                   pure, blessed water from Kheled-zâram.    and restores 2 points of Hope.         Points
@@ -440,11 +443,11 @@ Every single one of the 36 entries is detailed below with evocative lore, immedi
  53   Ancient Stone Mason's Wedge A hardened steel wedge stamped with the   Hammering it into a doorframe perma-   1 Treasure
                                   rune of the Master Builders of Khazad.    nently jams a door against pursuit.    Point
 ------------------------------------------------------------------------------------------------------------------------
- 54   Preserved Herbal Poultice   A linen wrap impregnated with dried       Grants +1d on a Healing test to treat  2 Treasure
+ 54   Preserved Herbal Poultice   A linen wrap impregnated with dried       Grants +1d on a HEALING test to treat  2 Treasure
                                   Athelas and crushed wintergreen roots.    Severe or Grievous wounds.             Points
 ------------------------------------------------------------------------------------------------------------------------
- 55   Serrated Goblin Scalping Kn. A rusted, jagged iron blade crusted with Gives +1d on Hunting/Harvesting tests  0 Pennies
-                                  dried black blood.                        in the dark; despised by Dwarves.      (Scrap)
+ 55   Serrated Goblin Scalp Knife A rusted, jagged iron blade crusted with Gives +1d on HUNTING tests in the dark; 0 Pennies
+                                  dried black blood.                        despised by Dwarves.                   (Scrap)
 ------------------------------------------------------------------------------------------------------------------------
  56   Gold Ingot of the Royal Mint A stamped 1-pound ingot bearing the      Pure currency; instantly convertible   5 Treasure
                                   anvil mark of King Náin I.                into royal wealth in Dale or Erebor.   Points
@@ -452,17 +455,17 @@ Every single one of the 36 entries is detailed below with evocative lore, immedi
  61   Ithildin Lens               A ground crystal lens rimmed in silver;   Reveals hidden moon-runes, secret door 4 Treasure
                                   catches faint ambient starlight.          seams, and concealed writing in dark.  Points
 ------------------------------------------------------------------------------------------------------------------------
- 62   Dwarven War-Horn Mouthpiece A carved silver mouthpiece salvaged from  Fitting it to a war-horn grants +1 to  2 Treasure
-                                  a shattered muster-horn of the Guard.     subsequent Battle and Rally rolls.     Points
+ 62   Dwarven War-Horn Mouthpiece A carved silver mouthpiece salvaged from  Fitting it to a war-horn grants +1d to 2 Treasure
+                                  a shattered muster-horn of the Guard.     subsequent BATTLE and RALLY rolls.     Points
 ------------------------------------------------------------------------------------------------------------------------
  63   Black Iron Caltrops         A leather bag containing twenty four-     Throwing them behind the Company slows 1 Treasure
       (Bag of 20)                 pointed iron spikes.                      pursuing Orcs and inflicts 4 Damage.   Point
 ------------------------------------------------------------------------------------------------------------------------
- 64   Seal of the Third Marshal   A heavy bronze signet ring bearing the    Grants Favoured rolls when interacting 3 Treasure
-                                  crest of the Lord Marshal of the Armies.  with Balin’s officers and Erebor kin.  Points
+ 64   Seal of the Third Marshal   A heavy bronze signet ring bearing the    Grants Favoured rolls on COURTESY and  3 Treasure
+                                  crest of the Lord Marshal of the Armies.  PERSUADE with Balin’s officers/kin.    Points
 ------------------------------------------------------------------------------------------------------------------------
  65   Ancient Dwarven Compass     A gimballed magnetic lodestone set in a   Functions flawlessly underground,      3 Treasure
-                                  case of carved serpentine stone.          preventing the Company from getting lost. Points
+                                  case of carved serpentine stone.          preventing Company from getting lost.  Points
 ------------------------------------------------------------------------------------------------------------------------
  66   True Gromril Chain Link     A single link of pristine, gleaming       Radiates faint starlight; grants the   10 Treasure
                                   True Mithril, cold to the touch.          bearer +1 Hope and cleanses 1 Shadow.  Points

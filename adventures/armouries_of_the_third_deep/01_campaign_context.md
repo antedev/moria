@@ -37,7 +37,7 @@ At the East-Gate Encampment, within the sound of the Mirrormere’s waters, the 
 * **King Dáin Ironfoot (in Erebor)**: From his throne beneath the Mountain, King Dáin looks upon Balin’s venture with grim foreboding. Having felt the icy dread that lingers beyond the East-Gate, Dáin has forbidden royal military mobilization until Balin can present **undeniable proof** of Moria’s reclaimable splendour—specifically ancient royal heirlooms, such as the fabled **Durin's Axe**, and intact arsenals that prove Khazad-dûm is not merely a tomb, but a viable realm.
 
 The strategic mandate given to the Player-Heroes is twofold:
-1. **Salvage Garrison Wargear**: Infiltrate the sealed Upper and Lower Armouries of the Third Deep to secure suits of dwarf-mail, shields, and war-mattocks to equip Balin's frontline defenders (+50 Garrison Supply Points).
+1. **Salvage Garrison Wargear**: Infiltrate the sealed Upper and Lower Armouries of the Third Deep to secure 40–50 suits of gromril-mail, shields, and masterwork dwarf-weapons to equip Balin's frontline vanguard, eliminating the colony's defensive vulnerability and securing the Caves of Thrym Thistlebeard.
 2. **Recover Royal Proof**: Unlock the ancient Vault of Kings to retrieve royal heirlooms—chief among them **Durin's Axe**—to dispatch with an emissary to King Dáin in Erebor to secure five hundred heavily armed Dwarf veterans.
 
 ---
@@ -52,9 +52,10 @@ The delve into the Third Deep is entrusted to three seasoned Player-Heroes who h
 ========================================================================================
  HERO                 CULTURE / CALLING       STRENGTH   HEART   WITS   ROLE / KEY FOCUS
 ----------------------------------------------------------------------------------------
- Torvir Hammerstone   Durin's Folk / Champion  7 (TN 13) 2 (18)  5 (15) Sentry / Breacher
- Einar son of Anar    Iron Hills / Hunter      6 (TN 14) 3 (17)  5 (15) Scout / Burglar
- Khoril Hornblower    Durin's Folk / Captain   7 (TN 13) 3 (16)  4 (16) Guide / Commander
+ Torvir Hammerstone   Durin's Folk / Champion  7 (TN 13) 2 (TN 18) 5 (TN 15) Sentry / Breacher
+ Einar son of Anar    Iron Hills / Hunter      6 (TN 14) 3 (TN 17) 5 (TN 15) Scout / Infiltrator
+ Khoril Hornblower    Durin's Folk / Captain   7 (TN 13) 3 (TN 16)*4 (TN 16) Guide / Commander
+                                              *Heart TN reduced via Prowess Virtue
 ========================================================================================
 ```
 
@@ -121,12 +122,12 @@ The delve into the Third Deep is entrusted to three seasoned Player-Heroes who h
   * *Keen (Sword)*: Pierce trigger modified to 9–10 on the Feat die.
   * *Reinforced Shield*: Cannot be destroyed by an adversary's *Break Shield* special damage; provides +1 additional Parry.
   * *Mastery (Awareness, Healing)*: Rolls for Awareness and Healing are **Favoured**.
-* **Distinctive Features**: Cunning, Wary, *Burglary*.
+* **Distinctive Features**: Cunning, Wary, *Burglary* (Trait: invoked for +1d on **STEALTH**, **SCAN**, or **CRAFT** tests regarding locks, traps, and vaults).
 * **Backstory & Motivation**: The youngest of nine brothers from the red mines of the Iron Hills. Agile, sharp-eyed, and quiet on his feet, Einar volunteered for Balin's venture dreaming of ancient gold and mithril veins. Yet the glittering dust of the Deeps whispers to him in the dark; his fascination with forgotten treasures threatens to kindle the fires of Dragon-sickness.
 * **Carried Gear & Relics**:
-  * **The Broken Key**: An ancient, fractured key of masterwork dwarf-craft. Grants a permanent **+2 modifier / Advantage (roll 2 Feat dice, take the best)** on all **Scan** rolls to detect concealed doors, hidden compartments, mechanical traps, and structural weaknesses.
-  * **Wind-proof Lantern**: Dwarf-forged shuttered lantern (+2 to Scan in darkness).
-  * **Soothing Balm**: Herbal salve (+1d to Healing tests).
+  * **The Broken Key**: An ancient, fractured key of masterwork dwarf-craft. Makes all **SCAN** rolls **Favoured** (roll 2 Feat dice, keep the higher result) to detect concealed doors, hidden compartments, mechanical traps, and structural weaknesses.
+  * **Wind-proof Lantern**: Dwarf-forged shuttered lantern (+1d on **SCAN** rolls in dark subterranean chambers).
+  * **Soothing Balm**: Herbal salve (+1d on **HEALING** tests).
   * *Pack Pony (Frodo)*: Stationed safely at the East-Gate Camp.
 
 ---
@@ -135,7 +136,7 @@ The delve into the Third Deep is entrusted to three seasoned Player-Heroes who h
 * **Culture**: Dwarf of Durin's Folk (Age: 85)  
 * **Standard of Living**: Prosperous | **Cultural Blessing**: *Redoubtable*  
 * **Calling**: Captain | **Shadow Path**: Lure of Power  
-* **Journey Role**: Guide (TN 14) / Squad Commander  
+* **Journey Role**: Guide (**TRAVEL** — Heart TN 16) / Squad Commander  
 
 #### Attributes & Target Numbers
 * **STRENGTH 7** $\rightarrow$ **Target Number (TN) 13**
@@ -158,12 +159,12 @@ The delve into the Third Deep is entrusted to three seasoned Player-Heroes who h
   * *Prowess (Heart)*: Permanently reduces Heart TN by 1 (TN 16).
   * *Durin's Way*: +2 Parry when fighting underground.
   * *Reinforced Shield*: Unbreakable shield with +1 Parry bonus.
-* **Distinctive Features**: Wary, Cunning, *Leadership*.
+* **Distinctive Features**: Wary, Cunning, *Leadership* (Trait: invoked for +1d on **ENHEARTEN**, **TRAVEL**, or **BATTLE** tests).
 * **Backstory & Motivation**: A veteran officer of the Erebor garrison who blew the muster horns during the clearing of the East-Gate. Khoril views the expedition through the strict lens of military discipline and order. His mind is consumed by ancient architectural treatises; he is obsessed with discovering the **Mithril key for the "Pillar Door on the Stairs"** along the Dimrill Stair, believing it holds the key to sealing Khazad-dûm from eastern invasion.
 * **Carried Gear & Relics**:
-  * **Battle-horn of the Realm**: A massive, silver-banded war-horn of Durin's Folk. Grants **+1 to all Battle rolls** made by Khoril or the Band, and allows the *Rally Companions* combat maneuver. *Acoustic Danger: Blown in enclosed halls, its thunderous echo immediately raises the Alert Tracker by +1 and adds +2 to Eye Awareness.*
-  * **Dwarven Strong Spirits**: Cured spirit flask (+1 to Enhearten rolls).
-  * **Climbing Rig**: Silk-braided rope and iron pitons (+1d to Athletics climbing rolls).
+  * **Battle-horn of the Realm**: A massive, silver-banded war-horn of Durin's Folk. Grants **+1d on all BATTLE rolls** made by Khoril or Band **WAR** / **RALLY** rolls, and allows the *Rally Companions* combat maneuver. *Acoustic Danger: Blown in enclosed halls, its thunderous echo immediately raises the Alert Tracker by +1 and adds +2 to Eye Awareness.*
+  * **Dwarven Strong Spirits**: Cured spirit flask (+1d on **ENHEARTEN** rolls).
+  * **Climbing Rig**: Silk-braided rope and iron pitons (+1d on **ATHLETICS** climbing tests).
 
 ---
 
@@ -227,7 +228,7 @@ Accompanying the three heroes is a seasoned squad of **seven veteran Dwarf Compa
 
 #### 5. Bróga Vaultbreaker
 * **Health**: 12 / 12 Endurance | **Status**: Fleeting Injury (Restored).
-* **Gift — Vaultbreaker**: Gains **+1d** on all Burglary and Craft rolls to pick masterwork Dwarven puzzle locks, disarm mechanical pressure plates, and bypass counterweight traps.
+* **Gift — Vaultbreaker**: Gains **+1d** on **CRAFT** and **STEALTH** rolls to pick masterwork Dwarven puzzle locks, disarm mechanical pressure plates, and bypass counterweight traps (invoking the *Burglary* Trait).
 * **Quirk**: Every finger on both hands is weighed down with thick copper, brass, and electrum rings, each notched with secret measuring marks and pick-angles.
 * **Tactical Role & Bond**: Einar's trusted infiltration counterpart. Bróga moves ahead with picks, wedges, and listening horns to assess locked portals and trapped flagstones.
 
@@ -287,8 +288,8 @@ During prior operations in the Slave-Mines and upper halls, the Fellowship liber
  RELIC                 HOLDER    MECHANICAL BENEFIT          THIRD DEEP CONSTRAINT
 ----------------------------------------------------------------------------------------
  The Eye of Thrym      Torvir    Scries via Haven statues    STRICTLY INERT / INACTIVE
- The Broken Key        Einar     +2 / Advantage on Scan      Active (traps/locks/caches)
- Battle-horn of Realm  Khoril    +1 Battle, Band Rally       Raises Alert (+1) & Eye (+2)
+ The Broken Key        Einar     Favoured on SCAN rolls      Active (traps/locks/caches)
+ Battle-horn of Realm  Khoril    +1d Battle, Band Rally      Raises Alert (+1) & Eye (+2)
 ========================================================================================
 ```
 
@@ -299,13 +300,13 @@ During prior operations in the Slave-Mines and upper halls, the Fellowship liber
 
 ### 5.2 The Broken Key (Einar's Masterwork Tool)
 * **Description**: A heavy, fractured key of blackened gromril-steel, etched with the runic cipher of the Royal Locksmiths of Durin III.
-* **Operational Mechanics**: Grants Einar a permanent **+2 modifier / Advantage (roll 2 Feat dice, keep the highest)** on all **Scan** and **Burglary** rolls made to locate concealed doors, detect mechanical tripwires, bypass pressure plates, and identify weakened structural lintels.
+* **Operational Mechanics**: Makes all of Einar's **SCAN** rolls **Favoured** (roll 2 Feat dice, keep the higher result) to locate concealed doors, detect mechanical tripwires, bypass pressure plates, and identify weakened structural lintels. Also allows invoking the *Burglary* Trait for **+1d** on lockpicking and trap-disarming **CRAFT** tests.
 * **Limitation**: While it reveals the locking mechanisms of *The King's Door* (Location 9), the physical fragment is incomplete and cannot open the door alone without the *Marshal's Key* or a masterwork Craft Endeavour.
 
 ### 5.3 Battle-horn of the Realm (Khoril's Double-Edged Weapon)
 * **Description**: A colossal war-horn carved from the horn of a Great Kine of Araw, banded in engraved silver and inscribed with the Battle-Runes of the Lonely Mountain.
 * **Operational Mechanics**:
-  * Grants **+1 to all Battle rolls** made by Khoril or the Band.
+  * Grants **+1d on all BATTLE rolls** made by Khoril or Band **WAR** / **RALLY** rolls.
   * Allows Khoril to execute the *Rally Companions* action in combat, clearing the *Faltering* condition or restoring 1 point of Band Hope.
 * **Acoustic Trade-Off**: Sounding the great horn in the vaulted stone chambers of the Third Deep produces a deafening, harmonic roar that carries for miles. Sounding the horn **immediately raises the Alert Tracker by +1 Tier** and adds **+2 to the Company's Strategic Eye Awareness**.
 
