@@ -30,7 +30,7 @@
 ========================================================================================================================
  LOC NAME & ELEVATION     LIGHT & ATMOSPHERE   HAZARDS & ADVERSARIES        KEY SKILL CHECKS                 SOUND & NOISE
 ------------------------------------------------------------------------------------------------------------------------
-  1  The Mustering-Yard   Pitch dark; green    2 Udûn Sniffers behind P4;   STEALTH roll to bypass;          +0 (Shadow-crawl)
+  1  The Mustering-Yard   Pitch dark; green    2 Moria Sniffers behind P4;  STEALTH roll to bypass;          +0 (Shadow-crawl)
      (Level 3A)           lichen; cold drafts  Sentry Camp & Brazier        BATTLE roll for ambush;          +1 (1-rd kill)
                                                                             SCAN roll (Favoured);            +3 (Horn alarm)
                                                                             SCAN/AWE roll to interrogate.
@@ -63,7 +63,7 @@
      (Level 3B)           gleaming steel       Lead-sealed Munitions Chest  CRAFT roll for liquid fire;      +3 (Rushed clatter)
                                                (6 Flasks Liquid Fire)       ATHLETICS roll to haul.          +0 (Open bronze door)
 ------------------------------------------------------------------------------------------------------------------------
-  9  The King's Door      Pulsing Ithildin blue; Dual Runic Master Locks;   AWARENESS roll for ambush;       +0 (Marshal's Key)
+  9  The King's Door      Pulsing Ithildin blue; Dual Runic Master Locks;   AWARENESS roll for ambush;       +0 (Dual Keys)
      (Level 3C)           sacred cool hush     Grimnar's Parapet Ambush     Skill Endeavour (Resistance 6,   +1 (Lockpick/turn)
                                                (Grimnar AL 6 + 4 Stalkers)  3 Turns: SCAN/CRAFT/RIDDLE).     +2 (Skirmish/round)
 ------------------------------------------------------------------------------------------------------------------------
@@ -91,8 +91,8 @@
  Disgraced (Stalker)                                   Broad Spear 2d     5 / 16   Hatred (Durin's Folk, Favoured); Snake-Speed
                                                                                    (Ill-favoured); Vengeful Strike; Hideous Tough
 ------------------------------------------------------------------------------------------------------------------------
- Udûn Sniffer         4  16     1     4    —     3d    Torch-staff 3d     4 / 14   Fiery Blow (Severe Fire); Blowdart 2d (2/12,
- (Balrog Zealot)                                                                   Black Venom); Heartless; Keen Scent (+2d Aware)
+ Moria Sniffer        4  16     1     4    —     3d    Iron-shod Staff 3d Dmg 4, Inj 14 (Heavy); Blowdart 2d (2/12,
+ (Goblin Hunter)                                                                       Black Venom); Heartless; Keen Scent (+2d Aware)
 ------------------------------------------------------------------------------------------------------------------------
  Orc Guard            4  16     1     4   +2     3d    Heavy Scimitar 3d  4 / 16   Pierce; Heavy Spear 3d (4/14); Thick Armour;
  (Moria Sentry)                                                                    Denizen of Dark (Favoured); Hate Sunlight
@@ -123,7 +123,7 @@
  Alert 0: Quiet        0–3 Noise      Tomb-like quiet; loose       +1d to all STEALTH & EXPLORE tests;
  Shadows (Unwary)                     sentries gambling/sleeping   Company gains automatic Surprise Round
 ------------------------------------------------------------------------------------------------------------------------
- Alert 1: Unease &     4–7 Noise      Rhythmic wall tapping;       Standard dice pools; Roaming Udûn Sniffer patrol
+ Alert 1: Unease &     4–7 Noise      Rhythmic wall tapping;       Standard dice pools; Roaming Moria Sniffer patrol
  Scent (Suspicious)                   burnt tallow stench          enters chamber on Feat Die Eye of Sauron (S)
 ------------------------------------------------------------------------------------------------------------------------
  Alert 2: Hunted &     8–11 Noise     Sulfur smoke; iron horns;    -1d on AWARENESS to avoid ambushes; doors barred;
@@ -164,7 +164,7 @@
  • 5–6: Bitter Water (**VALOUR roll** to swallow; failure = -1d on physical tests for 1 hour).
  • 3–4: Acidic Mine Runoff (Severe Poison: lose 8 End; requires First Aid).
  • 1–2: Malice of Durin's Bane (2 Shadow [Sorcery]; hallucinations).
- • Eye of Sauron (S): The Lurker's Pool (Clean water, but triggers concealed Udûn sentry ambush!).
+ • Eye of Sauron (S): The Lurker's Pool (Clean water, but triggers concealed Moria sentry ambush!).
 ========================================================================================================================
 ```
 

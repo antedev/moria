@@ -302,39 +302,37 @@ During prior operations in the Slave-Mines and upper halls, the Fellowship liber
 ### 5.2 The Broken Key (Ancient Masterwork Tool)
 * **Description**: A heavy, fractured key of blackened gromril-steel, etched with the runic cipher of the Royal Locksmiths of Durin III.
 * **Operational Mechanics**: Makes the bearer's **SCAN** rolls **Favoured** (roll 2 Feat dice, keep the higher result) to locate concealed doors, detect mechanical tripwires, bypass pressure plates, and identify weakened structural lintels. Also allows invoking the *Burglary* Trait for **+1d** on lockpicking and trap-disarming **CRAFT** tests.
-* **Limitation**: While it reveals the locking mechanisms of *The King's Door* (Location 9), the physical fragment is incomplete and cannot open the door alone without the *Marshal's Key* or a masterwork Craft Endeavour.
+* **Limitation**: While it reveals the locking mechanisms of *The King's Door* (Location 9), the physical fragment is incomplete and cannot open the door alone without both the *Mithril Key* and the *King's Key* (or a masterwork Craft Endeavour).
 
 ### 5.3 Battle-horn of the Realm (Double-Edged War Horn)
 * **Description**: A colossal war-horn carved from the horn of a Great Kine of Araw, banded in engraved silver and inscribed with the Battle-Runes of the Lonely Mountain.
 * **Operational Mechanics**:
   * Grants **+1d on all BATTLE rolls** made by the bearer or Band **WAR** / **RALLY** rolls.
-  * Allows the bearer to execute the *Rally Companions* action in combat, clearing the *Faltering* condition or restoring 1 point of Band Hope.
-* **Acoustic Trade-Off**: Sounding the great horn in the vaulted stone chambers of the Third Deep produces a deafening, harmonic roar that carries for miles. Sounding the horn **immediately raises the Alert Tracker by +1 Tier** and adds **+2 to the Company's Strategic Eye Awareness**.
+  * Allows a companion to sound the horn to automatically **Rally** all companions, removing the *Weary* condition for the next encounter.
+  * **The Sound of Doom**: Sounding the horn is an incredibly loud act. It immediately generates **+5 Noise Points** on the tracker, advancing the Alert Tracker and the Eye of Sauron's awareness.
 
 ---
 
-## 6. Antagonist Threat Assessment
-
-While the full bestiary and stat blocks are detailed in Chapter 5, the operational parameters of the Third Deep are defined by four distinct adversarial forces:
+## 6. The Factions & Adversaries of the Third Deep
 
 ```
                   [GREAT ORC LORD MALECH] (Looming Threat at Palace of Stairs)
                                      │
-         ┌───────────────────────────┴───────────────────────────┐
-         ▼                                                       ▼
- [GRIMNAR THE DISGRACED]                                 [THE MAULER]
-  • Great Orc Stalker (AL 6)                              • Armoured Great Cave-Troll (AL 10)
-  • Seeking revenge for Durin's Bridge                    • Terrified of pain; iron-plated
-  • Stalks expedition at Alert Tier 2                     • Lairs in Location 6
-         │                                                       │
-         └───────────────────────────┬───────────────────────────┘
-                                     ▼
-                        [UDÛN PATROLS & SNIFFERS]
-                         • Fire-touched sentries & drummers
-                         • Mobilize at Alert Tiers 1-3
+        ┌───────────────────────────┴───────────────────────────┐
+        ▼                                                       ▼
+[GRIMNAR THE DISGRACED]                                 [THE MAULER]
+ • Great Orc Stalker (AL 6)                              • Armoured Great Cave-Troll (AL 10)
+ • Seeking revenge for Durin's Bridge                    • Terrified of pain; iron-plated
+ • Stalks expedition at Alert Tier 2                     • Lairs in Location 6
+        │                                                       │
+        └───────────────────────────┬───────────────────────────┘
+                                    ▼
+                       [MORIA PATROLS & SNIFFERS]
+                        • Sentry sniffers & drummers
+                        • Mobilize at Alert Tiers 1-3
 ```
 
-1. **Grimnar the Disgraced (Great Orc Bodyguard / Stalker)**: Stripped of his command after being humiliated by the heroes at Durin's Bridge, Grimnar stalks the Third Deep with a hand-picked pack of Udûn cutthroats. He fights with a stolen Dwarven dagger and his heavy scimitar, biding his time to ambush the party at Location 9 (The King's Door).
+1. **Grimnar the Disgraced (Great Orc Bodyguard / Stalker)**: Stripped of his command after being humiliated by the heroes at Durin's Bridge, Grimnar stalks the Third Deep with a hand-picked pack of Mordor cutthroats. He fights with a stolen Dwarven dagger and his heavy scimitar, carrying the *Mithril Key* that allows secret passage through the pillar door, and biding his time to ambush the party at Location 9 (The King's Door).
 2. **The Mauler (Armoured Great Cave-Troll)**: A gargantuan troll traumatized by injury during the Battle of Azanulbizar. Driven mad by fear of pain, it has wired tons of scrap breastplates, iron boiler plates, and anvil fragments to its hide, turning itself into an unyielding siege juggernaut in Location 6.
-3. **Grik the Skulker (Goblin Informant)**: An opportunistic goblin spy lurking in the shadows of Location 1. Grik hates the brutal Udûn Orcs and is willing to sell secrets regarding patrol routes and the *Marshal's Key* in exchange for bright silver, tobacco, or safety.
-4. **Great Orc Lord Malech (The Looming Shadow)**: Ruling from the distant *Palace of Stairs*, Malech does not appear in person during this delve. However, if the party allows the Alert Tracker to reach Tier 3 (*Drums in the Deep*), Malech’s war-drums sound throughout the mountain, dispatching elite Black Uruk warbands to seal the shafts and cut off the heroes' retreat.
+3. **Grik the Skulker (Goblin Informant)**: An opportunistic goblin spy lurking in the shadows of Location 1. Grik hates the brutal Mordor and Moria Orcs and is willing to sell secrets regarding patrol routes and the *Mithril Key* (which he knows the Mordor Orcs use to enter secretly via the pillar at the Dimrill Stairs, though he has no idea it leads to the treasure chamber) in exchange for bright silver, tobacco, or safety.
+4. **Great Orc Lord Malech (The Looming Shadow)**: Ruling from the distant *Palace of Stairs*, Malech does not appear in person during this delve. However, if the party allows the Alert Tracker to reach Tier 3 (*Drums in the Deep*), Malech’s war-drums sound throughout the mountain, dispatching elite Black Uruk warbands to seal the shafts and cut off the heroes' retreat. Udûn Orcs under Malech's banner do not guard these armouries; they only come to trade at most.

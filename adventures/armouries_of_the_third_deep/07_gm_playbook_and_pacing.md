@@ -17,7 +17,7 @@ The *Armouries of the Third Deep* is structured as a high-tension, squad-level t
   ACT I: THE LATERAL ADVANCE & FORWARD REDOUBT (Session 1: ~3.5 Hours)
   ┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
   │ • Staging from The Caves of Thrym Thistlebeard (Safe Haven) along the Westward Drift (Level 3A).                 │
-  │ • Infiltration of Location 1 (The Mustering-Yard): Stealth reconnaissance, Udûn sentries, Grik social parley.   │
+  │ • Infiltration of Location 1 (The Mustering-Yard): Stealth reconnaissance, Moria sentries, Grik social parley.   │
   │ • Fortifying Location 2 (The Upper Gatehouse): Rigging the keystone collapse trap and stationing the rearguard.  │
   │ • Breaching Location 3 (The First Armoury): Disarming venom-coated scrap-traps and securing tactical routes.    │
   │ • CLIFFHANGER: Shadowy sightings of Grimnar the Disgraced stalking the lower galleries / Grik's ominous warning. │
@@ -30,7 +30,7 @@ The *Armouries of the Third Deep* is structured as a high-tension, squad-level t
   │ • Location 5 (The Second Armoury): Tactical sandbox with siege engines (Grond-ram, torsion ballistas).          │
   │ • Locations 7 & 8 (The Poisoned Halls & Upper Armoury): Braving the Balrog Neurotoxic Miasma with respirators,   │
   │   recovering Scribe Frár's Slate (Handout #1), salvaging 50 suits of garrison wargear for Balin's colony.       │
-  │ • Acquiring the Marshal's Key: Ambushing Captain Grashnak's patrol or completing Grik's trade.                   │
+  │ • Acquiring the Mithril Key: Ambushing Captain Grashnak's patrol or completing Grik's trade.                   │
   │ • CLIFFHANGER: Standing before the iron blast-doors of Location 6 as The Mauler's floor-shaking snores rumble.  │
   └────────────────────────────────────────────────────────┬─────────────────────────────────────────────────────────┘
                                                            │
@@ -104,7 +104,7 @@ This section provides granular, turn-by-turn facilitator notes for running the m
 | 050–100     The Mustering-Yard             • Boxed read-aloud text. Establish sensory cues: Balrog scorches,        |
 |             (Keyed Location 1)               cold drafts, extreme acoustic echo.                                     |
 |                                            • A scouting hero makes a **SCAN roll (Favoured)** to spot the            |
-|                                              Udûn sentry post behind Pillar #4 and Grik in the north drainage slit.  |
+|                                              Moria sentry post behind Pillar #4 and Grik in the north drainage slit.  |
 |                                            • Social or Stealth challenge: Bypass (**STEALTH roll**) or ambush        |
 |                                              (**BATTLE roll**) sentries (1-round kill = 0 Noise). Optional parley    |
 |                                              with Grik (**PERSUADE roll** or **RIDDLE roll**).                       |
@@ -292,7 +292,7 @@ Subterranean adventures can occasionally run ahead of schedule (if players bypas
 
   DIAL 1: RUNNING TOO FAST / LOW TENSION (Party breezing through stealth)
   ┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-  │ • DISPATCH UDÛN SNIFFER PATROL: Two fire-touched sniffers with torch-staves enter the room, tracking scent.      │
+  │ • DISPATCH MORIA SNIFFER PATROL: Two sniffers with iron-shod staves enter the room, tracking scent.              │
   │ • ACOUSTIC ECHO: A sudden tremor in Mount Silvertine causes loose stones to tumble, adding +2 Noise Points.      │
   │ • GRIMNAR'S TAUNT: Grimnar hurls a black dagger into the lintel above them and vanishes into the vents.         │
   └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘

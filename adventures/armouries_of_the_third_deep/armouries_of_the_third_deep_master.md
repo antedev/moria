@@ -351,42 +351,40 @@ During prior operations in the Slave-Mines and upper halls, the Fellowship liber
 ### 5.2 The Broken Key (Ancient Masterwork Tool)
 * **Description**: A heavy, fractured key of blackened gromril-steel, etched with the runic cipher of the Royal Locksmiths of Durin III.
 * **Operational Mechanics**: Makes the bearer's **SCAN** rolls **Favoured** (roll 2 Feat dice, keep the higher result) to locate concealed doors, detect mechanical tripwires, bypass pressure plates, and identify weakened structural lintels. Also allows invoking the *Burglary* Trait for **+1d** on lockpicking and trap-disarming **CRAFT** tests.
-* **Limitation**: While it reveals the locking mechanisms of *The King's Door* (Location 9), the physical fragment is incomplete and cannot open the door alone without the *Marshal's Key* or a masterwork Craft Endeavour.
+* **Limitation**: While it reveals the locking mechanisms of *The King's Door* (Location 9), the physical fragment is incomplete and cannot open the door alone without both the *Mithril Key* and the *King's Key* (or a masterwork Craft Endeavour).
 
 ### 5.3 Battle-horn of the Realm (Double-Edged War Horn)
 * **Description**: A colossal war-horn carved from the horn of a Great Kine of Araw, banded in engraved silver and inscribed with the Battle-Runes of the Lonely Mountain.
 * **Operational Mechanics**:
   * Grants **+1d on all BATTLE rolls** made by the bearer or Band **WAR** / **RALLY** rolls.
-  * Allows the bearer to execute the *Rally Companions* action in combat, clearing the *Faltering* condition or restoring 1 point of Band Hope.
-* **Acoustic Trade-Off**: Sounding the great horn in the vaulted stone chambers of the Third Deep produces a deafening, harmonic roar that carries for miles. Sounding the horn **immediately raises the Alert Tracker by +1 Tier** and adds **+2 to the Company's Strategic Eye Awareness**.
+  * Allows a companion to sound the horn to automatically **Rally** all companions, removing the *Weary* condition for the next encounter.
+  * **The Sound of Doom**: Sounding the horn is an incredibly loud act. It immediately generates **+5 Noise Points** on the tracker, advancing the Alert Tracker and the Eye of Sauron's awareness.
 
 ---
 
-## 6. Antagonist Threat Assessment
-
-While the full bestiary and stat blocks are detailed in Chapter 5, the operational parameters of the Third Deep are defined by four distinct adversarial forces:
+## 6. The Factions & Adversaries of the Third Deep
 
 ```
                   [GREAT ORC LORD MALECH] (Looming Threat at Palace of Stairs)
                                      │
-         ┌───────────────────────────┴───────────────────────────┐
-         ▼                                                       ▼
- [GRIMNAR THE DISGRACED]                                 [THE MAULER]
-  • Great Orc Stalker (AL 6)                              • Armoured Great Cave-Troll (AL 10)
-  • Seeking revenge for Durin's Bridge                    • Terrified of pain; iron-plated
-  • Stalks expedition at Alert Tier 2                     • Lairs in Location 6
-         │                                                       │
-         └───────────────────────────┬───────────────────────────┘
-                                     ▼
-                        [UDÛN PATROLS & SNIFFERS]
-                         • Fire-touched sentries & drummers
-                         • Mobilize at Alert Tiers 1-3
+        ┌───────────────────────────┴───────────────────────────┐
+        ▼                                                       ▼
+[GRIMNAR THE DISGRACED]                                 [THE MAULER]
+ • Great Orc Stalker (AL 6)                              • Armoured Great Cave-Troll (AL 10)
+ • Seeking revenge for Durin's Bridge                    • Terrified of pain; iron-plated
+ • Stalks expedition at Alert Tier 2                     • Lairs in Location 6
+        │                                                       │
+        └───────────────────────────┬───────────────────────────┘
+                                    ▼
+                       [MORIA PATROLS & SNIFFERS]
+                        • Sentry sniffers & drummers
+                        • Mobilize at Alert Tiers 1-3
 ```
 
-1. **Grimnar the Disgraced (Great Orc Bodyguard / Stalker)**: Stripped of his command after being humiliated by the heroes at Durin's Bridge, Grimnar stalks the Third Deep with a hand-picked pack of Udûn cutthroats. He fights with a stolen Dwarven dagger and his heavy scimitar, biding his time to ambush the party at Location 9 (The King's Door).
+1. **Grimnar the Disgraced (Great Orc Bodyguard / Stalker)**: Stripped of his command after being humiliated by the heroes at Durin's Bridge, Grimnar stalks the Third Deep with a hand-picked pack of Mordor cutthroats. He fights with a stolen Dwarven dagger and his heavy scimitar, carrying the *Mithril Key* that allows secret passage through the pillar door, and biding his time to ambush the party at Location 9 (The King's Door).
 2. **The Mauler (Armoured Great Cave-Troll)**: A gargantuan troll traumatized by injury during the Battle of Azanulbizar. Driven mad by fear of pain, it has wired tons of scrap breastplates, iron boiler plates, and anvil fragments to its hide, turning itself into an unyielding siege juggernaut in Location 6.
-3. **Grik the Skulker (Goblin Informant)**: An opportunistic goblin spy lurking in the shadows of Location 1. Grik hates the brutal Udûn Orcs and is willing to sell secrets regarding patrol routes and the *Marshal's Key* in exchange for bright silver, tobacco, or safety.
-4. **Great Orc Lord Malech (The Looming Shadow)**: Ruling from the distant *Palace of Stairs*, Malech does not appear in person during this delve. However, if the party allows the Alert Tracker to reach Tier 3 (*Drums in the Deep*), Malech’s war-drums sound throughout the mountain, dispatching elite Black Uruk warbands to seal the shafts and cut off the heroes' retreat.
+3. **Grik the Skulker (Goblin Informant)**: An opportunistic goblin spy lurking in the shadows of Location 1. Grik hates the brutal Mordor and Moria Orcs and is willing to sell secrets regarding patrol routes and the *Mithril Key* (which he knows the Mordor Orcs use to enter secretly via the pillar at the Dimrill Stairs, though he has no idea it leads to the treasure chamber) in exchange for bright silver, tobacco, or safety.
+4. **Great Orc Lord Malech (The Looming Shadow)**: Ruling from the distant *Palace of Stairs*, Malech does not appear in person during this delve. However, if the party allows the Alert Tracker to reach Tier 3 (*Drums in the Deep*), Malech’s war-drums sound throughout the mountain, dispatching elite Black Uruk warbands to seal the shafts and cut off the heroes' retreat. Udûn Orcs under Malech's banner do not guard these armouries; they only come to trade at most.
 
 
 
@@ -496,7 +494,7 @@ The Player-Heroes can assign their seven companions to four distinct tactical ro
 * **Positioning**: Advances 40–50 paces ahead of the main body, hugging shadow lines, archway cornices, and drainage troughs.
 * **Operational Rules**:
   * Whenever the expedition enters a new keyed location or intersection, the GM rolls **Band Vigilance (2d6)** or **Band Manoeuvre (2d6)** against **Band TN 15** (modified by ambient Alert Level).
-  * **On a Success**: The scouts identify enemy sentry posts (such as the Udûn sniffers in Location 1), tripwires, or acoustic traps before the main expedition steps into danger. The Company cannot be surprised, and Player-Heroes gain **+1d** on their opening actions.
+  * **On a Success**: The scouts identify enemy sentry posts (such as the Moria sniffers in Location 1), tripwires, or acoustic traps before the main expedition steps into danger. The Company cannot be surprised, and Player-Heroes gain **+1d** on their opening actions.
   * **Scouting Synergy**: A hero moving alongside the screen can make **SCAN rolls (Favoured)** to locate hidden compartments or mechanisms safely without breaking group stealth.
   * **On a Failure**: The scouts blunder into an acoustic tripwire or loose shale, generating **+1 Noise Point** on the Alert Tracker.
 
@@ -507,7 +505,7 @@ The Player-Heroes can assign their seven companions to four distinct tactical ro
 * **Positioning**: Formed in the central or front ranks, locking broad rim-reinforced shields across narrow corridors (10–15 feet wide) or doorframes.
 * **Operational Rules**:
   * **Interception Reaction**: Once per combat round, Dolg or Dúrmer can interpose their tower-shields to absorb one incoming physical melee attack targeted at a Player-Hero or wounded companion. The damage is resolved against the companion’s Endurance and Armour dice (Armour 3d/4d).
-  * **Anti-Swarm Bastion**: While the Shield-Wall remains unbroken, enemy adversaries cannot utilize flanking bonuses, and Orc swarm attacks (such as Udûn Sniffers trying to overwhelm through numbers) cannot target rear-rank characters (such as Fáin or archers in Rearward stance).
+  * **Anti-Swarm Bastion**: While the Shield-Wall remains unbroken, enemy adversaries cannot utilize flanking bonuses, and Orc swarm attacks (such as Moria Sniffers trying to overwhelm through numbers) cannot target rear-rank characters (such as Fáin or archers in Rearward stance).
   * **Shield-Bash Manoeuvre**: When the Band tests **War (3d6)** in combat, spending a Success icon ($\mathbf{6}$) allows the Phalanx to push the enemy frontline back 10 paces, creating room for devastating close combat strikes.
 
 ---
@@ -683,7 +681,7 @@ Navigating the echoing stone vaults of Khazad-dûm requires rigid marching disci
 ---
 
 ### 4.1 Group Stealth & Marching Tests
-* **Resolving Group Movement**: When the expedition attempts to traverse hostile sectors or bypass enemy sentry posts (such as the Udûn sniffers in Location 1 or wandering patrols in Location 5), marching discipline is tested:
+* **Resolving Group Movement**: When the expedition attempts to traverse hostile sectors or bypass enemy sentry posts (such as the Moria sniffers in Location 1 or wandering patrols in Location 5), marching discipline is tested:
   * **Leader Check**: The company's Guide or leader makes a **TRAVEL roll** or **ENHEARTEN roll** (invoking a Trait such as *Leadership* for **+1d**).
   * **Alternative Band Check**: The GM rolls Band **MANOEUVRE** (2d6) against **Band TN 15** ($20 - \text{Readiness } 5$).
 * **Noise Escalation & Consequences of Failure**:
@@ -1152,7 +1150,7 @@ Every keyed location in this chapter interacts directly with the core systems es
 
 1. **The 4-Stage Alert Tracker**:
    - **Alert 0 (*Quiet Shadows*, 0–3 Noise)**: Stealth and Explore rolls gain **+1d**. The Company automatically gains a **Surprise Round** against unaware sentries.
-   - **Alert 1 (*Unease & Scent*, 4–7 Noise)**: Standard rolls. Roaming Udûn Sniffer patrols check the room on a Feat die result of the **Eye of Sauron ($\mathbf{S}$)**.
+   - **Alert 1 (*Unease & Scent*, 4–7 Noise)**: Standard rolls. Roaming Moria Sniffer patrols check the room on a Feat die result of the **Eye of Sauron ($\mathbf{S}$)**.
    - **Alert 2 (*Hunted & Barricaded*, 8–11 Noise)**: Awareness rolls to avoid ambushes lose **-1d**. Reinforced doors are barred. **Grimnar the Disgraced** actively stalks the party.
    - **Alert 3 (*Drums in the Deep*, 12+ Noise)**: Triggers an immediate **Revelation Episode**. A 6-round countdown begins before the Upper Gatehouse escape shafts are sealed.
 2. **Sound Economy & Noise Generation**:
@@ -1187,7 +1185,7 @@ Every keyed location in this chapter interacts directly with the core systems es
   * *East*: The Westward Drift (Great Transverse Gallery) connecting horizontally eastward to *The Caves of Thrym Thistlebeard* (Safe Haven).
   * *South*: Broad 30-foot granite archway descending gently into **Location 2 (The Upper Gatehouse)**.
   * *Northeast*: Choked masonry gallery leading to a narrow ventilation crawlway that bypasses directly into Location 3 (**EXPLORE roll**).
-* **Baseline Threat**: Alert Tier 0 (Quiet Shadows). Two Udûn Sniffers stationed behind Pillar #4.
+* **Baseline Threat**: Alert Tier 0 (Quiet Shadows). Two Moria Sniffers stationed behind Pillar #4.
 
 ```
 ========================================================================================================================
@@ -1197,7 +1195,7 @@ Every keyed location in this chapter interacts directly with the core systems es
                    │
                    ▼ (High Overlook Portal)
     ┌────────────────────────────────────────────────────────┐
-    │  [Pillar 1]     [Pillar 2]     [Pillar 3]    [Pillar 4]│ <── Udûn Sentry Tent &
+    │  [Pillar 1]     [Pillar 2]     [Pillar 3]    [Pillar 4]│ <── Moria Sentry Tent &
     │                                              (Sniffers)│     Smoldering Brazier
     │             ┌────────────────────────┐                 │
     │             │   SCORCHED PAVILION    │                 │
@@ -1222,9 +1220,9 @@ Every keyed location in this chapter interacts directly with the core systems es
 * **Smells**: Old coal soot, damp stone, stale tallow grease, and the faint, biting ozone tang of rock vitrified by demonic fire.
 
 #### Interactive Environmental Features
-1. **The Scorched Pavilion**: A raised platform of dark granite (4 feet high) with shallow steps on four sides. The center bears the glassy, vitrified footprint of Durin's Bane—a four-foot circle of fused black glass where the demon stood during the Fall. The stone parapet grants **Half Cover (+1 Parry)** during ranged exchanges.
+1. **The Scorched Pavilion**: A raised platform of dark granite (4 feet high) with shallow steps on three sides. The center bears the glassy, vitrified footprint of Durin's Bane—a four-foot circle of fused black glass where the demon stood during the Fall. The stone parapet grants **Half Cover (+1 Parry)** during ranged exchanges.
 2. **Elevated Sentry Galleries**: Narrow stone ledges running along the east and west walls ten feet above the yard floor, accessed by shallow recessed wall-rungs. Provides an ideal vantage point for archers (Rearward stance without distance penalty).
-3. **The Udûn Sentry Post**: Tucked behind Pillar #4 sits a crude shelter of stitched cave-bear hides and blackened cedar poles. Inside, two **Udûn Sniffers** crouch over a smoldering brazier of dried bat dung, squabbling over knucklebone dice.
+3. **The Moria Sentry Post**: Tucked behind Pillar #4 sits a crude shelter of stitched cave-bear hides and blackened cedar poles. Inside, two **Moria Sniffers** crouch over a smoldering brazier of dried bat dung, squabbling over knucklebone dice.
 4. **Discarded Charcoal Dispatch Slate**: Half-buried in cold ash near the sentry brazier lies a flat basalt fragment scrawled with crude orkish runes detailing watch rotations and guard warnings.
 
 #### TOR 2e Skill Tests & Mechanics
@@ -1234,11 +1232,11 @@ Every keyed location in this chapter interacts directly with the core systems es
   * *Degrees of Success (6 icons)*:
     * **6**: The Company moves like smoke across the basalt floor; generates **+0 Noise** and grants **+1d** to the lead hero's next test in Location 2 or 3.
     * **66**: Flawless silent infiltration; bypasses sentries completely and identifies the optimal rear ambush angle.
-* **Overlook Sentry Scouting — SCAN roll**: Spot the Udûn sentry post behind Pillar #4 and identify patrol timing before stepping onto the open floor.
+* **Overlook Sentry Scouting — SCAN roll**: Spot the Moria sentry post behind Pillar #4 and identify patrol timing before stepping onto the open floor.
   * *Modifiers*: A hero utilizing *The Broken Key* rolls **Favoured**. Having a scout on point grants **+1d**.
   * *Consequence of Failure*: Sentry post is not spotted before entering open ground; Company loses the surprise round if combat starts.
   * *Degrees of Success (6 icons)*:
-    * **6**: Discovers the 2 Udûn Sniffers dozing behind Pillar #4, notes their bone-dice distraction, and spots the crude charcoal slate near their brazier.
+    * **6**: Discovers the 2 Moria Sniffers dozing behind Pillar #4, notes their bone-dice distraction, and spots the crude charcoal slate near their brazier.
     * **66**: Uncovers a discarded Orc message scroll regarding friction between Malech and Thu the Firespeaker (*"Malech demands more iron from the deep foundries. Let the Fire-priests choke on their smoke"*).
 * **Ambush Assault — BATTLE roll**: Attack sentries from surprise from the high balconies or unseen pillars.
   * *Modifiers*: Attacking from surprise grants **+1d**.
@@ -1251,24 +1249,24 @@ Every keyed location in this chapter interacts directly with the core systems es
   * *Consequence of Failure*: Inconclusive inspection; wastes 10 minutes.
   * *Degrees of Success (6 icons)*:
     * **6**: Confirms scorch marks are vitrified Balrog footprints from 1980 T.A. and identifies ancient engineered Dwarven defensive kill-zones across the plaza.
-* **Searching the Sentry Camp / Interrogating an Udûn Sentry — SCAN roll, RIDDLE roll, or AWE roll**: Inspect the charcoal dispatch slate or interrogate a captured sniffer.
+* **Searching the Sentry Camp / Interrogating a Moria Sentry — SCAN roll, RIDDLE roll, or AWE roll**: Inspect the charcoal dispatch slate or interrogate a captured sniffer.
   * *Modifiers*: Invoking a relevant Trait such as *Enemy-lore (Orcs)*, *Fierce*, or *Cunning* grants **+1d**.
   * *Consequence of Failure*: The charcoal runes crumble or the sniffer spits black bile before dying; wastes 5 minutes.
   * *Degrees of Success (6 icons)*:
-    * **6**: Recovers critical intelligence: confirms that **Grimnar the Disgraced** is stationed on the Lower Level defending the royal approach, reveals that the **Marshal's Key** was carried down toward the deeps, and notes a crude sketch warning of the scythe tripwires in Location 3.
+    * **6**: Recovers critical intelligence: confirms that **Grimnar the Disgraced** (a Mordor Orc) is stationed on the Lower Level defending the royal approach, reveals that his patrol carries the **Mithril Key** (which unlocks the secret pillar door by the Dimrill Stairs), and notes a crude sketch warning of the scythe tripwires in Location 3.
 
 #### Tactical Band Deployment & Companion Operations
-* **Forward Scout Screen**: Advance along the high eastern gallery. Roll Band **VIGILANCE** (2d) against **Band TN 15**. Success spots the Udûn sentries instantly and allows the Company to bypass or neutralize them in a silent surprise round.
+* **Forward Scout Screen**: Advance along the high eastern gallery. Roll Band **VIGILANCE** (2d) against **Band TN 15**. Success spots the Moria sentries instantly and allows the Company to bypass or neutralize them in a silent surprise round.
 * **Marching Discipline**: A Player-Hero leading the Company rolls **TRAVEL** or **ENHEARTEN** (invoking *Leadership* Trait grants **+1d**), or Band **MANOEUVRE** (2d) against **Band TN 15**. Success allows the entire squad to traverse the 100-pace yard in complete silence (**+0 Noise generated**).
 
 #### Sound & Alert Tracker Impact
 * Crossing the yard in silent shadow-crawl: **+0 Noise**.
-* Engaging the 2 Udûn Sniffers and slaying them within 1 round: **+1 Noise**.
-* Letting an Udûn Sniffer blow a bone whistle or escape south: **+3 Noise (+1 Alert Tier, +2 Eye Awareness)**.
+* Engaging the 2 Moria Sniffers and slaying them within 1 round: **+1 Noise**.
+* Letting a Moria Sniffer blow a bone whistle or escape south: **+3 Noise (+1 Alert Tier, +2 Eye Awareness)**.
 * Blowing the *Battle-horn of the Realm*: **+5 Noise (Instant Alert 3 / Drums in the Deep!)**.
 
 #### Loot & Discoveries
-* **Udûn Sentry Pouch**: 8 crude iron pence, a bag of greasy dried mushrooms, and a jagged bone-handled skewer.
+* **Moria Sentry Pouch**: 8 crude iron pence, a bag of greasy dried mushrooms, and a jagged bone-handled skewer.
 * **Scorched Rubble Cache** (**SCAN roll**): A rusted iron coffer containing 3 heavy Dwarven throwing mattocks (Damage 5, Injury 16) and an intact flask of *Dwarven Lantern Oil* (burns for 6 hours).
 
 ---
@@ -1490,7 +1488,7 @@ Every keyed location in this chapter interacts directly with the core systems es
     │              └──────────────────────────┘              │
     │                                                        │
     │  [SECRET CARTOUCHE] ── Low Border of East Wall Frieze   │
-    │  (Reveals Dual King's Key & Marshal's Key Cipher)      │
+    │  (Reveals Dual King's Key & Mithril Key Cipher)        │
     └─────────────────────────────┬──────────────────────────┘
                                   │ (Bronze-Bound Doors)
                                   ▼
@@ -1510,7 +1508,7 @@ Every keyed location in this chapter interacts directly with the core systems es
 #### Interactive Environmental Features
 1. **The Balrog/Morgoth Dark Idol**: A 12-foot totem constructed from jagged iron bars, slagged armour plates, and the charred bones of slaughtered Dwarves. The idol acts as a focal point for the lingering Shadow of Durin's Bane.
 2. **Defaced Wall of Kings & The Secret Cartouche**: A 30-foot frieze on the east wall depicting the coronation of Durin III. While the king's face has been smashed away, the decorative runic border along the base remains intact beneath a layer of soot.
-   * *The Architectural Clue*: Deciphering the runes (**LORE roll or RIDDLE roll**) reveals the master cipher of the Armouries: *"The Vault of the Crown shall yield neither to pick nor hammer, save when the Marshal’s Baton turns the left ward and the King’s Signet turns the right."* This proves that opening **Location 9 (The King's Door)** requires both the *Marshal's Key* and *King's Key* (or an extraordinary lockpicking bypass).
+   * *The Architectural Clue*: Deciphering the runes (**LORE roll or RIDDLE roll**) reveals the master cipher of the Armouries: *"The Vault of the Crown shall yield neither to pick nor hammer, save when the Mithril Ring turns the left ward and the King’s Signet turns the right."* This proves that opening **Location 9 (The King's Door)** requires both the *Mithril Key* and *King's Key* (or an extraordinary lockpicking bypass).
 3. **Toppling the Effigy**: The iron idol is anchored to a cracked stone plinth with rusted iron pins. Can be toppled via the Skill Endeavour below.
 
 #### TOR 2e Skill Tests & Mechanics
@@ -1526,7 +1524,7 @@ Every keyed location in this chapter interacts directly with the core systems es
   * *Modifiers*: A Dwarf of Durin lineage gains **+1d**.
   * *Consequence of Failure*: Runic cipher remains garbled; key mechanics of the King's Door remain unknown until Location 9.
   * *Degrees of Success (6 icons)*:
-    * **6**: Translates the master cipher (*"The Vault of the Crown shall yield neither to pick nor hammer, save when the Marshal's Baton turns the left ward and the King's Signet turns the right"*), confirming that the King's Door requires both keys or an extraordinary bypass endeavour.
+    * **6**: Translates the master cipher (*"The Vault of the Crown shall yield neither to pick nor hammer, save when the Mithril Ring turns the left ward and the King's Signet turns the right"*), confirming that the King's Door requires both keys or an extraordinary bypass endeavour.
 * **Banish the Gloom — SONG roll or ENHEARTEN roll**: A Player-Hero sings a stanza of *The Song of Durin* or raises a solemn chant to banish the oppressive gloom.
   * *Consequence of Failure*: Voice falters in the oppressive gloom; no effect.
   * *Degrees of Success (6 icons)*:
@@ -1909,7 +1907,7 @@ Every keyed location in this chapter interacts directly with the core systems es
    * *Campaign Value*: Safely extracting these crates back to the East-Gate Camp equips Balin's frontline vanguard, permanently awards **+2 Band Readiness**, provides **50 Treasure Points** in colony tribute, and earns the royal favor of King Dáin Ironfoot!
 2. **Lead-Sealed Munitions Chest**: A heavy iron coffer sealed with poured lead stamped with the Seal of the Royal Armouries.
    * *Cracking the Seal*: Requires a **CRAFT roll or STEALTH roll**, invoking *Burglary* Trait (+1d).
-   * *Contents*: Contains **6 flasks of Dwarven Liquid Fire** (alchemical incendiary weapons; thrown as a missile weapon: Damage 8, Injury 18, *Fiery Blow* [severe fire damage], illuminates a 30-foot area).
+   * *Contents*: Contains **6 flasks of Dwarven Liquid Fire** (alchemical incendiary weapons). Rules: Thrown as a ranged attack using **ATHLETICS** (Short range 10y, Medium 20y [-1d], Long 30y [-2d]). On a hit, deals 8 Endurance damage. If a Piercing Blow is scored, or if the target fails a **PROTECTION test** (Injury TN 18), they suffer a Wound and are set ablaze, taking 3 Endurance damage per round at the start of their turn until they spend an action and succeed on an Athletics or Craft roll (TN 12) to extinguish the flames. It ignites flammable materials and illuminates a 30-foot radius for 1 minute (suppressing the *Denizen of the Dark* fell ability for Orcs).
 3. **Dead Goblin Looter Corpses**: Searching the desiccated bodies (**SCAN roll**) reveals stolen loot pried from the outer halls.
    * *Found*: 18 tarnished silver coins, a brass whistle, and a stolen iron key that unlocks the Officer's Locker in this room.
 4. **The Officer's Locker**: A reinforced iron cabinet containing officer-grade equipment.
@@ -1963,7 +1961,7 @@ Every keyed location in this chapter interacts directly with the core systems es
   * *West*: Reinforced maintenance flue from **Location 8 (The Upper Armoury)**.
   * *South*: The King's Door threshold opening directly into **Location 10 (The Lower Armoury / Royal Vault)**.
   * *Overhead*: High defensive parapet and murder-hole balcony where Grimnar and his stalkers lurk.
-* **Baseline Threat**: Alert Tier 2. Grimnar the Disgraced and 4 Udûn Stalkers positioned for ambush.
+* **Baseline Threat**: Alert Tier 2. Grimnar the Disgraced and 4 Stalkers positioned for ambush.
 
 ```
 ========================================================================================================================
@@ -1974,7 +1972,7 @@ Every keyed location in this chapter interacts directly with the core systems es
                                   ▼
     ┌────────────────────────────────────────────────────────┐
     │  ═════════ [OVERHEAD DEFENSIVE PARAPET] ═════════ (15ft)│ <── Grimnar & 4 Elite
-    │  (Murder-Holes, Crossbow Slits, Poison Javelins)       │     Udûn Stalkers!
+    │  (Murder-Holes, Crossbow Slits, Poison Javelins)       │     Moria Orc Stalkers!
     │                                                        │
     │               ┌────────────────────────┐               │
     │               │  THE KING'S DOOR       │               │
@@ -2000,13 +1998,13 @@ Every keyed location in this chapter interacts directly with the core systems es
 
 #### Interactive Environmental Features
 1. **The King's Door & The Dual Runic Locks**:
-   * *Ithildin Inscription*: Reads in ancient Sindarin/Khuzdul: *"None shall pass into the Vault of Kings save by the Marshal's Word and Durin's Will."*
+   * *Ithildin Inscription*: Reads in ancient Sindarin/Khuzdul: *"None shall pass into the Vault of Kings save by the Mithril Ring and Durin's Will."*
    * *Unlocking Options*:
-     1. **Dual Keys**: Inserting the *Marshal's Key* (recovered from the Udûn patrol or sentry camp) and speaking the King's Invocation smoothly opens the door in **1 combat round** with zero noise!
-     2. **The Masterwork Bypass**: If the key is missing, the Company can attempt the **Skill Endeavour: Bypassing the Adamant Runic Lock (Resistance 6)** (*see below*).
+     1. **Dual Keys**: Inserting both the *Mithril Key* (recovered from Grimnar's Mordor patrol) and the *King's Key* (recovered from the Last Redoubt of the Dwarves in the Fifth Hall) and speaking the King's Invocation smoothly opens the door in **1 combat round** with zero noise!
+     2. **The Masterwork Bypass**: If the keys are missing, the Company can attempt the **Skill Endeavour: Bypassing the Adamant Runic Lock (Resistance 6)** (*see below*).
 2. **Grimnar's Overhead Ambush Parapet**:
    * A raised gallery fifteen feet above the door with narrow arrow embrasures.
-   * *The Ambush Trigger*: **Grimnar the Disgraced** and four **Udûn Stalkers** wait until the Company gathers at the door to begin unlocking it, then unleash a coordinated volley of poisoned broad-headed javelins!
+   * *The Ambush Trigger*: **Grimnar the Disgraced** and four **Moria Orc Stalkers** wait until the Company gathers at the door to begin unlocking it, then unleash a coordinated volley of poisoned broad-headed javelins!
 
 #### TOR 2e Skill Tests & Mechanics
 * **Overhead Ambush Detection — AWARENESS roll**: Spot the glint of Grimnar’s stolen Dwarven dagger and poisoned javelins before stepping into the kill-zone.
@@ -2016,7 +2014,7 @@ Every keyed location in this chapter interacts directly with the core systems es
   * *Degrees of Success (6 icons)*:
     * **6**: Spots the glint of poisoned javelins in the murder-holes before stepping into the kill-zone; Company avoids surprise and gains a free ranged volley.
 * **Skill Endeavour: Bypassing the Adamant Runic Lock (Resistance 6)**:
-  * *Context*: Picking the dual meteoric-iron and adamant tumblers if the *Marshal's Key* or royal blood is unavailable.
+  * *Context*: Picking the dual meteoric-iron and adamant tumblers if the *Mithril Key* and *King's Key*, or royal blood, are unavailable.
   * *Resistance*: **6**. Each attempt represents 1 combat round (or 5 minutes outside combat).
   * *Allowed Skills*: **CRAFT roll**, **STEALTH roll**, **RIDDLE roll**.
   * *Modifiers*: Invoking the *Burglary* Trait grants **+1d**; using *The Broken Key* rolls **Favoured**; assistance from a companion with *Vaultbreaker* grants **+1d**.
@@ -2042,13 +2040,13 @@ Every keyed location in this chapter interacts directly with the core systems es
 * **Counter-Sniper Overwatch**: Companions with bows fire upward into the parapet murder-holes to suppress Grimnar's javelin-throwers.
 
 #### Sound & Alert Tracker Impact
-* Opening the door smoothly with the Marshal's Key: **+0 Noise**.
+* Opening the door smoothly with both keys: **+0 Noise**.
 * Picking the adamant lock with picks and wedges: **+1 Noise per round**.
 * Resolving the skirmish with Grimnar's stalkers: **+2 Noise per round (+1 Alert Tier)**.
 
 #### Loot & Discoveries
-* **Grimnar's Gear (Upon Defeat)**: Grimnar's heavy scimitar (Damage 5, Injury 18, Break Shield) and the **Stolen Dwarven Dagger** (Damage 3, Injury 14, Keen, inlaid with gold filigree).
-* **Udûn Stalker Pouches**: 4 doses of Black Venom, 24 silver pennies, and an iron climbing claw.
+* **Grimnar's Gear (Upon Defeat)**: Grimnar's heavy scimitar (Damage 5, Injury 18, Break Shield) and the **Stolen Dwarven Dagger** (Damage 3, Injury 14, Keen, inlaid with gold filigree), and the **Mithril Key** (which unlocks the secret pillar door by the Dimrill Stairs).
+* **Mordor Stalker Pouches**: 4 doses of Black Venom, 24 silver pennies, and an iron climbing claw.
 
 ---
 
@@ -2478,7 +2476,7 @@ Grimnar is vengeful but not suicidal. He knows when to break contact:
 
 ## 4. Garrison Ranks: Orc Patrols & Sentry Squads
 
-The armed forces of the Third Deep consist of two rival factions forced into uneasy cooperation: the standard **Moria Orcs** (cave scavengers) and the fanatical **Udûn Orcs** (fire-worshippers serving the shadow of Durin's Bane).
+The garrison of the Third Deep consists of standard **Moria Orcs** (cave scavengers, soldiers, guards, drummers, and sniffers) and a small troop of elite **Mordor Orcs** (Grimnar's cutthroats). Udûn Orcs serving Malech's banner do not guard these armouries; they may occasionally come to trade at most.
 
 ```
 ========================================================================================
@@ -2488,7 +2486,7 @@ The armed forces of the Third Deep consist of two rival factions forced into une
 ----------------------------------------------------------------------------------------
  Orc Soldier         3   12     1     3   +1    2d     Orc-axe 2d        Dmg 3, Inj 18 (Break)
  Orc Guard           4   16     1     4   +2    3d     Heavy Scimitar 3d Dmg 4, Inj 16 (Pierce)
- Udûn Sniffer        4   16     1     4    —    3d     Torch-staff 3d    Dmg 4, Inj 14 (Fiery)
+ Moria Sniffer       4   16     1     4    —    3d     Iron-shod Staff 3d Dmg 4, Inj 14 (Heavy)
  Moria Orc Drummer   3   12     1     3   +1    2d     Curved Knife 2d   Dmg 3, Inj 14 (Pierce)
  Black Uruk          5   20     1     5   +2    3d     Broadsword 3d     Dmg 4, Inj 16 (Pierce)
  Black Uruk Captain  6   24     2     6   +3    4d     Great Scimitar 3d Dmg 5, Inj 16 (Pierce)
@@ -2522,11 +2520,11 @@ The armed forces of the Third Deep consist of two rival factions forced into une
   * *Thick Armour*: Spend 1 Hate on a Protection test to roll +1d Armour.
   * *Shield-Wall*: When fighting in pairs or adjacent to an ally, gains +1 Parry.
 
-#### 3. Udûn Sniffer / Fire-Fanatic (Attribute Level 4)
-* **Culture**: Udûn Zealot / Balrog Worshipper | **Distinctive Features**: Crazed, Tough, Keen Scent
+#### 3. Moria Sniffer (Attribute Level 4)
+* **Culture**: Moria Goblin / Hunter | **Distinctive Features**: Sullen, Alert, Keen Scent
 * **Endurance**: 16 | **Might**: 1 | **Hate**: 4 | **Parry**: — | **Armour**: 3d (Soot-caked hides & ash)
 * **Combat Proficiencies**:
-  * *Torch-staff*: 3d (Damage 4, Injury 14, Fiery Blow [Severe fire damage])
+  * *Iron-shod Staff*: 3d (Damage 4, Injury 14, Heavy Blow)
   * *Poisoned Blowdart / Bow*: 2d (Damage 2, Injury 12, Poison [Black Venom])
 * **Fell Abilities**:
   * *Denizen of the Dark*: Attack rolls are Favoured in darkness.
@@ -2804,7 +2802,7 @@ When the Balrog (*Durin's Bane*) awoke in 1980 TA and slew King Durin VI and Kin
                                                     Key to convincing King Dáin Ironfoot.
  2. Tunnel-Guard Wargear    Locations 8 & 10        Masterwork Mithril & Gromril Gear; 
                                                     Favoured combat bonuses & Virtues.
- 3. The Marshal's Key       Rooms 3/5, Sentry, Craft Unlocks Location 9 (The King's Door); 
+ 3. Mithril & King's Keys  Rooms 1/5/Last Redoubt   Unlocks Location 9 (The King's Door); 
                                                     Vital puzzle key / bypass mechanic.
  4. Garrison Armament Haul  Location 8 (Upper Arm.) 40+ Mail, 30 Shields, Crates of Axes; 
                                                     Equips 50 frontline Dwarves for Balin.
@@ -2986,32 +2984,32 @@ The Player-Heroes have three distinct operational pathways to secure or bypass t
                                                 │
          ┌──────────────────────────────────────┼──────────────────────────────────────┐
          ▼                                      ▼                                      ▼
- [PATHWAY 1: COMBAT AMBUSH]           [PATHWAY 2: SOCIAL DEAL]              [PATHWAY 3: CRAFT ENDEAVOUR]
-  • Intercept Udûn Patrol              • Negotiate with Grik                 • Masterwork Lock Bypass
-  • Slay Captain in Room 3 or 5        • Trade: Silver / Tobacco / Revenge   • Resistance 6 / Time Limit 3
-  • Alert: +1 Tier on noise            • Alert: +0 (Completely Silent)       • Failure: Alarm & Broken Tools
+  [PATHWAY 1: COMBAT AMBUSH]           [PATHWAY 2: SOCIAL DEAL]              [PATHWAY 3: CRAFT ENDEAVOUR]
+   • Intercept Mordor Patrol            • Negotiate with Grik                 • Masterwork Lock Bypass
+   • Slay Captain in Room 3 or 5        • Trade: Silver / Tobacco / Revenge   • Resistance 6 / Time Limit 3
+   • Alert: +1 Tier on noise            • Alert: +0 (Completely Silent)       • Failure: Alarm & Broken Tools
 ```
 
 ---
 
-### 4.1 Pathway 1: Defeating the Udûn Patrol Captain (Combat Infiltration)
-* **Context**: Sometime after the fall of the Third Deep, an Udûn scouting patrol ransacking the Second Armoury (Location 5) discovered the bronze-and-gromril key upon the remains of a Dwarf officer. The key is currently worn as an ostentatious war-talisman around the neck of **Captain Grashnak** (an Udûn-orc Fire-touched Champion).
+### 4.1 Pathway 1: Defeating the Mordor Patrol Captain (Combat Infiltration)
+* **Context**: Centuries after the fall of the Third Deep, a Mordor Orc scouting patrol ransacking the ruins near the Dimrill Stairs discovered the shining Mithril Key where Marshal Thrain fell. The key is currently worn as an ostentatious war-talisman around the neck of **Captain Grashnak** (a Mordor Uruk Champion). It lets the Mordor Orcs slip secretly in and out of the mountain via the pillar at the Dimrill Stairs.
 * **Location**: Wandering between **Location 3 (First Armoury)** and **Location 5 (Second Armoury)**.
 * **Encounter Breakdown**:
-  * **Enemy Roster**: Captain Grashnak (Attribute Level 6, End 24, Might 2, Hate 6, Armour 3d, Torch-staff 3d [4/14, Fiery Blow], *Hideous Toughness*) leading 3 **Udûn Sniffers** (AL 4, End 16, Hate 4).
+  * **Enemy Roster**: Captain Grashnak (Attribute Level 6, End 24, Might 2, Hate 6, Armour 3d, Heavy Scimitar 3d [5/16, Pierce], *Horrible Strength*) leading 3 **Moria Sniffers** (AL 4, End 16, Hate 4).
   * **Tactical Conditions**: The patrol moves with smoky torches, casting wild shadows. If the Company uses the *Forward Scout Screen* (Austri & Bróga), they spot the patrol 40 paces away.
   * **Combat Resolution**:
     * If ambushed and eliminated within **2 combat rounds**, the key is claimed with **+0 Noise Points** generated.
     * If combat extends to **3+ rounds**, or if Grashnak bellows a challenge, the clash generates **+2 Noise Points** (advancing the Alert Tracker by +1/2 Tier).
     * If any Orc flees into the vents, the escape immediately adds **+2 to Strategic Eye Awareness**.
-* **Reward**: The physical **Marshal's Key**, forged of heavy dark bronze and set with three interlocking square wards.
+* **Reward**: The physical **Mithril Key**, forged of shining dwarf-mithril and star-iron, etched with the secret rune of the Dimrill Stairs pillar.
 
 ---
 
 ### 4.2 Pathway 2: Bargaining with Grik the Skulker (Social Parley)
-* **Context**: **Grik the Skulker** (the cunning goblin informant lurking near Location 1's Mustering-Yard) has watched Grashnak's patrol for days. Grik knows Grashnak carries the "shiny Dwarf-lock iron" and knows where the patrol sleeps in the ventilation flues above Location 3. Alternatively, if Grik managed to pilfer it during a drunken brawl, he has it stashed in a bone-filled crevice near the Upper Gatehouse.
+* **Context**: **Grik the Skulker** (the cunning goblin informant lurking near Location 1's Mustering-Yard) has watched Grashnak's patrol for days. Grik knows Grashnak carries the "bright mithril key" that lets the Mordor Orcs enter secretly via the pillar at the Dimrill Stairs. Crucially, Grik does **not** know this key also unlocks the left ward of the King's Door to the treasure chamber (he only knows it operates the secret stairs entrance). Grik knows where the patrol sleeps in the ventilation flues above Location 3. Alternatively, if Grik managed to pilfer it during a drunken brawl, he has it stashed in a bone-filled crevice near the Upper Gatehouse.
 * **Negotiation Encounter**:
-  * **Grik’s Disposition**: Opportunistic, terrified of the Udûn Orcs, greedy for luxuries.
+  * **Grik’s Disposition**: Opportunistic, terrified of the Mordor Orcs, greedy for luxuries.
   * **Grik’s Demands (The Price)**: Grik will deliver the key (or lead the heroes to its exact hiding spot) in exchange for any **two** of the following:
     1. **Bright Silver / Dwarf Coin**: 5 Treasure Points / 30 Silver Pennies.
     2. **Fragrant Surface Tobacco**: A pouch of *Old Toby* or Longbottom Leaf (carried by a hero or companion).
@@ -3163,8 +3161,16 @@ Every single one of the 36 entries is detailed below with evocative lore, immedi
  21   Silver Runic Dice           A pair of weighted knucklebone dice       Grants +1d on RIDDLE tests or social   2 Treasure
       (Set of 2)                  inlaid with Khuzdul numerals.             gambling checks against foes/allies.   Points
 ------------------------------------------------------------------------------------------------------------------------
- 22   Flask of Dragon-Fire Oil    A ceramic flask of pressurized dwarven    Throwable weapon (Ranged, 3d); deals   2 Treasure
-                                  naphtha used for forge bellows.           6 Fire Damage and ignites wooden doors. Points
+ 22   Flask of Dragon-Fire Oil    A ceramic flask of pressurized dwarven    Throwable weapon (Ranged, using ATH-   2 Treasure
+                                  naphtha used for forge bellows.           LETICS). Short range 10y, Medium 20y   Points
+                                                                            (-1d), Long 30y (-2d). On a hit, deals
+                                                                            6 Endurance damage. If a Piercing
+                                                                            Blow is scored, or if the target
+                                                                            fails a PROTECTION test (Injury TN 16),
+                                                                            they suffer a Wound and are set ablaze
+                                                                            (takes 2 Endurance damage per round
+                                                                            until extinguished by Athletics/Craft
+                                                                            roll vs TN 10). Ignites wood/flammables.
 ------------------------------------------------------------------------------------------------------------------------
  23   Acoustic Listening Horn     A folding brass cone crafted to magnify   Grants Favoured rolls on AWARENESS     1 Treasure
                                   vibrations traveling through solid rock.  tests made to detect approaching foes. Point
@@ -3173,7 +3179,7 @@ Every single one of the 36 entries is detailed below with evocative lore, immedi
                                   by a fleeing jeweler during the Fall.     traded to Grik for secret intel.       Points
 ------------------------------------------------------------------------------------------------------------------------
  25   Hard-Tallow Scent Candles   Three beeswax tapers infused with pine    Burning one masks the Company's scent, 1 Treasure
-      (Bundle of 3)               pitch and dried thyme.                    giving Udûn sniffers -1d on Awareness. Point
+      (Bundle of 3)               pitch and dried thyme.                    giving Moria sniffers -1d on Awareness. Point
 ------------------------------------------------------------------------------------------------------------------------
  26   Shattered Mail Rings        A handful of severed mithril-iron rings   Hjoldring can use these to repair a    2 Treasure
                                   torn from an ancient captain's hauberk.   damaged suit of mail (+1 Protection).  Points
@@ -3188,7 +3194,7 @@ Every single one of the 36 entries is detailed below with evocative lore, immedi
                                   storage location of gromril mail-shirts.  hidden vault chests in Location 8.     Points
 ------------------------------------------------------------------------------------------------------------------------
  34   Black Orc-Poison Phial      A glass vial of thick, curdled viper-     Coating a blade inflicts Severe Poison 1 Treasure
-                                  venom taken from an Udûn stalker.         on the next successful Piercing Blow.  Point
+                                  venom taken from a Mordor stalker.        on the next successful Piercing Blow.  Point
 ------------------------------------------------------------------------------------------------------------------------
  35   Carved Bone Whistle         A hollowed mountain-eagle wing bone       Sounds a silent, high-pitch frequency  5 Silver
                                   tuned to canine hearing.                  that distracts and confuses cave bats. Pennies
@@ -3309,7 +3315,7 @@ The *Armouries of the Third Deep* is structured as a high-tension, squad-level t
   ACT I: THE LATERAL ADVANCE & FORWARD REDOUBT (Session 1: ~3.5 Hours)
   ┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
   │ • Staging from The Caves of Thrym Thistlebeard (Safe Haven) along the Westward Drift (Level 3A).                 │
-  │ • Infiltration of Location 1 (The Mustering-Yard): Stealth reconnaissance, Udûn sentries, Grik social parley.   │
+  │ • Infiltration of Location 1 (The Mustering-Yard): Stealth reconnaissance, Moria sentries, Grik social parley.   │
   │ • Fortifying Location 2 (The Upper Gatehouse): Rigging the keystone collapse trap and stationing the rearguard.  │
   │ • Breaching Location 3 (The First Armoury): Disarming venom-coated scrap-traps and securing tactical routes.    │
   │ • CLIFFHANGER: Shadowy sightings of Grimnar the Disgraced stalking the lower galleries / Grik's ominous warning. │
@@ -3322,7 +3328,7 @@ The *Armouries of the Third Deep* is structured as a high-tension, squad-level t
   │ • Location 5 (The Second Armoury): Tactical sandbox with siege engines (Grond-ram, torsion ballistas).          │
   │ • Locations 7 & 8 (The Poisoned Halls & Upper Armoury): Braving the Balrog Neurotoxic Miasma with respirators,   │
   │   recovering Scribe Frár's Slate (Handout #1), salvaging 50 suits of garrison wargear for Balin's colony.       │
-  │ • Acquiring the Marshal's Key: Ambushing Captain Grashnak's patrol or completing Grik's trade.                   │
+  │ • Acquiring the Mithril Key: Ambushing Captain Grashnak's patrol or completing Grik's trade.                   │
   │ • CLIFFHANGER: Standing before the iron blast-doors of Location 6 as The Mauler's floor-shaking snores rumble.  │
   └────────────────────────────────────────────────────────┬─────────────────────────────────────────────────────────┘
                                                            │
@@ -3396,7 +3402,7 @@ This section provides granular, turn-by-turn facilitator notes for running the m
 | 050–100     The Mustering-Yard             • Boxed read-aloud text. Establish sensory cues: Balrog scorches,        |
 |             (Keyed Location 1)               cold drafts, extreme acoustic echo.                                     |
 |                                            • A scouting hero makes a **SCAN roll (Favoured)** to spot the            |
-|                                              Udûn sentry post behind Pillar #4 and Grik in the north drainage slit.  |
+|                                              Moria sentry post behind Pillar #4 and Grik in the north drainage slit.  |
 |                                            • Social or Stealth challenge: Bypass (**STEALTH roll**) or ambush        |
 |                                              (**BATTLE roll**) sentries (1-round kill = 0 Noise). Optional parley    |
 |                                              with Grik (**PERSUADE roll** or **RIDDLE roll**).                       |
@@ -3584,7 +3590,7 @@ Subterranean adventures can occasionally run ahead of schedule (if players bypas
 
   DIAL 1: RUNNING TOO FAST / LOW TENSION (Party breezing through stealth)
   ┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-  │ • DISPATCH UDÛN SNIFFER PATROL: Two fire-touched sniffers with torch-staves enter the room, tracking scent.      │
+  │ • DISPATCH MORIA SNIFFER PATROL: Two sniffers with iron-shod staves enter the room, tracking scent.              │
   │ • ACOUSTIC ECHO: A sudden tremor in Mount Silvertine causes loose stones to tumble, adding +2 Noise Points.      │
   │ • GRIMNAR'S TAUNT: Grimnar hurls a black dagger into the lintel above them and vanishes into the vents.         │
   └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
@@ -3840,7 +3846,7 @@ During the subsequent Fellowship Phase at *The Caves of Thrym Thistlebeard* or t
  7. Poisoned Halls     8. Upper Armoury      Reinforced Bronze Door          Greased pivots; airtight seal
  8. Upper Armoury      9. King's Door        Reinforced Stone Flue           Straight corridor; connects Level 3B to 3C
  6. Hall of Mauler     9. King's Door        Grand Colonnade Avenue          30-ft wide pillared thoroughfare
- 9. King's Door        10. Lower Armoury     The King's Door (Star-Iron)     Dual Locks (Marshal's Key + King's Invocation)
+  9. King's Door        10. Lower Armoury     The King's Door (Star-Iron)     Dual Locks (Mithril & King's Keys + King's Invocation)
  10. Lower Armoury     10. (Inner Redoubt)   Vault Blast Barricade           Adamant portcullis bolted from inside
 ========================================================================================================================
 ```
@@ -3858,7 +3864,7 @@ During the subsequent Fellowship Phase at *The Caves of Thrym Thistlebeard* or t
 | [Descent Shaft from Safe Haven] (High Overlook Gallery - 20 ft above floor)          |
 |  ══════════════════════════════════════════════════════════════════════════════════  |
 |  [Pillar 1]               [Pillar 2]               [Pillar 3]             [Pillar 4] |
-|                                                                           (Udûn Tent)|
+|                                                                           (Moria Tent)|
 |                    ┌────────────────────────────────────┐                            |
 |                    │       THE SCORCHED PAVILION        │                            |
 |                    │  • Raised Granite Dais (4 ft high) │                            |
@@ -3997,7 +4003,7 @@ During the subsequent Fellowship Phase at *The Caves of Thrym Thistlebeard* or t
 |                                         │                                            |
 |                                         ▼                                            |
 |  ═════════════════════════ [OVERHEAD DEFENSIVE PARAPET] ═══════════════════════════  |
-|  (15-ft Elevation; Murder-Holes; Grimnar the Disgraced & 4 Udûn Stalkers Ambush!)    |
+|  (15-ft Elevation; Murder-Holes; Grimnar the Disgraced & 4 Moria Orc Stalkers Ambush!)|
 |                                                                                      |
 |                         ┌─────────────────────────────┐                              |
 |                         │       THE KING'S DOOR       │                              |
@@ -4005,7 +4011,7 @@ During the subsequent Fellowship Phase at *The Caves of Thrym Thistlebeard* or t
 |                         │ • Pulsing Ithildin Runes    │                              |
 |                         │ • Dual Runic Master Locks   │                              |
 |                         └──────────────┬──────────────┘                              |
-|                                        │ (Unlocked via Marshal's Key / Endeavour)    |
+|                                        │ (Unlocked via Mithril & King's Keys / Endeavour) |
 |                                        ▼                                             |
 |  ═══════════════════════════ [VAULT BLAST BARRICADE] ═══════════════════════════════  |
 |  (Inner Adamant Portcullis — Boltable from inside; 30-Minute Safe Rest Redoubt)      |
@@ -4127,7 +4133,7 @@ During the subsequent Fellowship Phase at *The Caves of Thrym Thistlebeard* or t
 ========================================================================================================================
  LOC NAME & ELEVATION     LIGHT & ATMOSPHERE   HAZARDS & ADVERSARIES        KEY SKILL CHECKS                 SOUND & NOISE
 ------------------------------------------------------------------------------------------------------------------------
-  1  The Mustering-Yard   Pitch dark; green    2 Udûn Sniffers behind P4;   STEALTH roll to bypass;          +0 (Shadow-crawl)
+  1  The Mustering-Yard   Pitch dark; green    2 Moria Sniffers behind P4;  STEALTH roll to bypass;          +0 (Shadow-crawl)
      (Level 3A)           lichen; cold drafts  Sentry Camp & Brazier        BATTLE roll for ambush;          +1 (1-rd kill)
                                                                             SCAN roll (Favoured);            +3 (Horn alarm)
                                                                             SCAN/AWE roll to interrogate.
@@ -4160,7 +4166,7 @@ During the subsequent Fellowship Phase at *The Caves of Thrym Thistlebeard* or t
      (Level 3B)           gleaming steel       Lead-sealed Munitions Chest  CRAFT roll for liquid fire;      +3 (Rushed clatter)
                                                (6 Flasks Liquid Fire)       ATHLETICS roll to haul.          +0 (Open bronze door)
 ------------------------------------------------------------------------------------------------------------------------
-  9  The King's Door      Pulsing Ithildin blue; Dual Runic Master Locks;   AWARENESS roll for ambush;       +0 (Marshal's Key)
+  9  The King's Door      Pulsing Ithildin blue; Dual Runic Master Locks;   AWARENESS roll for ambush;       +0 (Dual Keys)
      (Level 3C)           sacred cool hush     Grimnar's Parapet Ambush     Skill Endeavour (Resistance 6,   +1 (Lockpick/turn)
                                                (Grimnar AL 6 + 4 Stalkers)  3 Turns: SCAN/CRAFT/RIDDLE).     +2 (Skirmish/round)
 ------------------------------------------------------------------------------------------------------------------------
@@ -4188,8 +4194,8 @@ During the subsequent Fellowship Phase at *The Caves of Thrym Thistlebeard* or t
  Disgraced (Stalker)                                   Broad Spear 2d     5 / 16   Hatred (Durin's Folk, Favoured); Snake-Speed
                                                                                    (Ill-favoured); Vengeful Strike; Hideous Tough
 ------------------------------------------------------------------------------------------------------------------------
- Udûn Sniffer         4  16     1     4    —     3d    Torch-staff 3d     4 / 14   Fiery Blow (Severe Fire); Blowdart 2d (2/12,
- (Balrog Zealot)                                                                   Black Venom); Heartless; Keen Scent (+2d Aware)
+ Moria Sniffer        4  16     1     4    —     3d    Iron-shod Staff 3d Dmg 4, Inj 14 (Heavy); Blowdart 2d (2/12,
+ (Goblin Hunter)                                                                       Black Venom); Heartless; Keen Scent (+2d Aware)
 ------------------------------------------------------------------------------------------------------------------------
  Orc Guard            4  16     1     4   +2     3d    Heavy Scimitar 3d  4 / 16   Pierce; Heavy Spear 3d (4/14); Thick Armour;
  (Moria Sentry)                                                                    Denizen of Dark (Favoured); Hate Sunlight
@@ -4220,7 +4226,7 @@ During the subsequent Fellowship Phase at *The Caves of Thrym Thistlebeard* or t
  Alert 0: Quiet        0–3 Noise      Tomb-like quiet; loose       +1d to all STEALTH & EXPLORE tests;
  Shadows (Unwary)                     sentries gambling/sleeping   Company gains automatic Surprise Round
 ------------------------------------------------------------------------------------------------------------------------
- Alert 1: Unease &     4–7 Noise      Rhythmic wall tapping;       Standard dice pools; Roaming Udûn Sniffer patrol
+ Alert 1: Unease &     4–7 Noise      Rhythmic wall tapping;       Standard dice pools; Roaming Moria Sniffer patrol
  Scent (Suspicious)                   burnt tallow stench          enters chamber on Feat Die Eye of Sauron (S)
 ------------------------------------------------------------------------------------------------------------------------
  Alert 2: Hunted &     8–11 Noise     Sulfur smoke; iron horns;    -1d on AWARENESS to avoid ambushes; doors barred;
@@ -4261,7 +4267,7 @@ During the subsequent Fellowship Phase at *The Caves of Thrym Thistlebeard* or t
  • 5–6: Bitter Water (**VALOUR roll** to swallow; failure = -1d on physical tests for 1 hour).
  • 3–4: Acidic Mine Runoff (Severe Poison: lose 8 End; requires First Aid).
  • 1–2: Malice of Durin's Bane (2 Shadow [Sorcery]; hallucinations).
- • Eye of Sauron (S): The Lurker's Pool (Clean water, but triggers concealed Udûn sentry ambush!).
+ • Eye of Sauron (S): The Lurker's Pool (Clean water, but triggers concealed Moria sentry ambush!).
 ========================================================================================================================
 ```
 
@@ -4520,17 +4526,13 @@ When a Player-Hero or companion faces a lethal blow or when a critical escape ro
  
  [ CIRTH RUNIC ENGRAVING — ARCHAIC TRANSLATION RECORDED FOR TABLE DISPLAY ]
 
- I AM FRÁR, SON OF FRERIN, SCRIBE OF THE THIRD DEEP AND CHRONICLER OF THE KING'S VAULT. 
- 
- HEAR MY WORDS, O MAHAL, AND FORGIVE OUR SLOW HEARTS.
- 
- THE SHADOW HAS AWOKEN. FROM THE BLACK PITS BENEATH THE ROOTS OF CARADHRAS IT CAME, 
- CLAD IN SMOKE AND RED FIRE. OUR MIGHT IS BROKEN. KING DURIN IS FALLEN; KING NÁIN IS 
- STRUCK DOWN UPON THE GATES OF BRASS. THE UNDER-HOST OF UDÛN POURS THROUGH THE LOWER FLUES 
- LIKE BLACK WATER.
+ I AM FRÁR, SON OF FRERIN, SCRIBE OF THE THIRD DEEP. THE SHADOW HAS AWOKEN. FROM THE BLACK 
+ PITS BENEATH THE ROOTS OF CARADHRAS IT CAME, CLAD IN SMOKE AND RED FIRE. OUR MIGHT IS 
+ BROKEN. KING DURIN IS FALLEN; KING NÁIN IS STRUCK DOWN BY THE SHADOW. THE MOUNTAIN SHAKES, 
+ AND CHOKING ASH POURS THROUGH THE LOWER FLUES.
  
  BY ORDER OF LORD MARSHAL THRAIN, WE HAVE RETREATED TO THE TWELFTH AND FOURTEENTH HALLS. 
- THE HIGH HEIRLOOMS OF OUR ANCESTORS SHALL NOT BE DEFILED BY ORC-HANDS. WE HAVE BORNE 
+ THE HIGH HEIRLOOMS OF OUR ANCESTORS SHALL NOT BE DEFILED BY THE FLAMES. WE HAVE BORNE 
  DURIN'S AXE AND THE ROYAL CROWNS INTO THE DEEPEST ROCK OF THE LOWER ARMOURY.
  
  THE KING'S DOOR IS SEALED.
@@ -4539,20 +4541,20 @@ When a Player-Hero or companion faces a lethal blow or when a critical escape ro
  HOLD THOUGH THE MOUNTAIN SHAKE. BUT WE COULD NOT PRESERVE BOTH KEYS IN ONE BASIN. 
  
  THE KING'S KEY WAS BORNE UPWARD BY LORD NÁIN’S COURIERS, FLEEING TOWARD THE LAST REDOUBT 
- IN THE FIFTH HALL. 
+ IN THE FIFTH HALL. SEEK THE KING'S KEY IN THAT FINAL REFUGE, IF ANY OF DURIN'S FOLK SURVIVE.
  
- THE MARSHAL'S KEY WAS CARRIED DOWN INTO THE CHASM BY MARSHAL THRAIN AND HIS GUARDS, CUT 
- OFF AT THE FIFTEENTH STAIR. THE ORCS HAVE OVERRUN THEM; I FEAR THE FOUL GOBLIN LOOTERS 
- OF THE LOWER MINES HAVE STRIPPED HIS BODY AND CARRIED THE BRONZE KEY INTO THEIR FILTHY 
- NESTS BENEATH THE CRUSHED FORGES.
+ THE MITHRIL KEY WAS CARRIED BY MARSHAL THRAIN AS HE FLED TOWARD THE SECRET PILLAR DOOR 
+ BY THE DIMRILL STAIRS. BUT THE SHADOW OVERTOOK THEM, AND THE KEY IS LOST NEAR THE PILLAR. 
+ I FEAR ANY INVADERS WHO ENTER MANSIONS IN LATER YEARS WILL CLAIM IT FOR ITS BRIGHT METAL, 
+ THOUGH THEY SHALL NEVER KNOW IT LEADS TO THE TREASURE CHAMBER.
  
  NOW THE BREATH OF THE DEMON RISES THROUGH THE VENTILATION CHUTES. IT IS NOT MERE SMOKE. 
  IT IS A FOUL, EMERALD-YELLOW MIASMA THAT TURNS THE BLOOD TO SLAG AND DRIES THE LUNGS TO 
  STONE. WE HAVE NO HERBS LEFT TO CHEW. MY HANDS GROW COLD AS IRON. THE CAPTAINS LIE 
  SLEEPING BESIDE ME, THEIR VISORS UNLIFTED.
  
- IF A TRUE SON OF DURIN EVER CLEANSES THESE MANSIONS, SEEK THE MARSHAL'S KEY AMONG THE 
- ORC CHIEFTAINS OR SET THY MASTER SMITHS TO THE TUMBLERS OF THE PORTAL. 
+ IF A TRUE SON OF DURIN EVER CLEANSES THESE MANSIONS, SEEK THE MITHRIL KEY AND FIND THE 
+ LAST REDOUBT TO RECLAIM THE KING'S KEY, OR SET THY MASTER SMITHS TO THE PORTAL. 
  
  LIFT ONCE MORE THE AXE OF DURIN. 
  LET ITS FLAME SHINE IN THE DARK. 
@@ -4576,7 +4578,7 @@ When a Player-Hero or companion faces a lethal blow or when a critical escape ro
 |                                                                                      |
 |   The Shadow has awoken. From the black pits beneath the roots of                    |
 |   Caradhras it came, clad in smoke and red fire. King Durin is fallen;               |
-|   King Náin is struck down.                                                          |
+|   King Náin is struck down by the Shadow.                                            |
 |                                                                                      |
 |   By order of the Lord Marshal, we have retreated to the Fourteenth Hall.            |
 |   Durin's Axe rests in the sealed Lower Armoury.                                     |
@@ -4584,13 +4586,15 @@ When a Player-Hero or companion faces a lethal blow or when a critical escape ro
 |   THE KING'S DOOR IS SEALED.                                                         |
 |                                                                                      |
 |   The King's Key was borne upward to the Last Redoubt in the Fifth Hall.             |
-|   The Marshal's Key was cut off at the Fifteenth Stair—the goblin looters            |
-|   have dragged it into their lower dens.                                             |
+|   The Mithril Key was lost near the Dimrill Stairs pillar door when Marshal          |
+|   Thrain was overtaken by the Shadow. Later invaders may claim it, though they       |
+|   will not know it leads here.                                                       |
 |                                                                                      |
 |   The breath of the demon rises. It turns the lungs to stone. We have no             |
 |   vinegar or herbs left. My fingers freeze.                                          |
 |                                                                                      |
-|   Seek the Marshal's Key. Lift once more the Axe of Durin.                           |
+|   Find the Last Redoubt for the King's Key, and seek the Mithril Key.                |
+|   Lift once more the Axe of Durin.                                                   |
 |                                                                                      |
 |   BARUK KHAZÂD! KHAZÂD AI-MÊNU!"                                                     |
 |                                                                                      |
@@ -4614,8 +4618,8 @@ When a player-hero or companion examines the stone slab, the GM may share the fo
 ----------------------------------------------------------------------------------------
  LORE roll or SCAN roll        • Confirms the date of writing: 1981 TA (The Fall of Moria).
  (Favoured / +1d if invoking   • Identifies the key mechanism: The King's Door uses a 
-  relevant Traits or tools)      synchronized double-cylinder tumbler requiring either 
-                                 the King's Key, the Marshal's Key, or a Craft bypass.
+  relevant Traits or tools)      synchronized double-cylinder tumbler requiring both 
+                                 the King's Key and the Mithril Key, or a Craft bypass.
 ----------------------------------------------------------------------------------------
  CRAFT roll or HEALING roll    • Analyzes the yellow crust on the slate: Confirms it is 
  (+1d if invoking Smith or       residue of the Balrog's neurotoxic miasma.
@@ -4639,5 +4643,5 @@ When a player-hero or companion examines the stone slab, the GM may share the fo
 * **Sensory Staging**: Describe the heavy chill of the hall, the emerald mist swirling at knee height, and the eerie, untouched dignity of the fallen Dwarven captains. The slate is cold as mountain ice and leaves a faint smudge of sulfur on the finder's fingers.
 * **Tactical Value to the Party**:
   1. **Solves the Vault Mystery**: Explicitly tells the players that *Durin's Axe* is inside Location 10 and that Location 9 (The King's Door) is currently sealed.
-  2. **Points to Key Locations**: Directs the heroes to seek the *Marshal's Key* among local Orc patrols (Grashnak in Rooms 3/5) or Udûn sentries, while noting the *King's Key* lies far away in the Last Redoubt.
+  2. **Points to Key Locations**: Directs the heroes to seek the *Mithril Key* among the Mordor Orc patrol (Grimnar / Grashnak's scout troop) and find the *Last Redoubt* in the Fifth Hall to retrieve the *King's Key*.
   3. **Unlocks the Craft Bypass Option**: Grants tactical advantages (+2d on Tumbler Alignment) if the players decide to pick the adamant lock via the Skill Endeavour.

@@ -104,7 +104,7 @@
  7. Poisoned Halls     8. Upper Armoury      Reinforced Bronze Door          Greased pivots; airtight seal
  8. Upper Armoury      9. King's Door        Reinforced Stone Flue           Straight corridor; connects Level 3B to 3C
  6. Hall of Mauler     9. King's Door        Grand Colonnade Avenue          30-ft wide pillared thoroughfare
- 9. King's Door        10. Lower Armoury     The King's Door (Star-Iron)     Dual Locks (Marshal's Key + King's Invocation)
+  9. King's Door        10. Lower Armoury     The King's Door (Star-Iron)     Dual Locks (Mithril & King's Keys + King's Invocation)
  10. Lower Armoury     10. (Inner Redoubt)   Vault Blast Barricade           Adamant portcullis bolted from inside
 ========================================================================================================================
 ```
@@ -122,7 +122,7 @@
 | [Descent Shaft from Safe Haven] (High Overlook Gallery - 20 ft above floor)          |
 |  ══════════════════════════════════════════════════════════════════════════════════  |
 |  [Pillar 1]               [Pillar 2]               [Pillar 3]             [Pillar 4] |
-|                                                                           (Udûn Tent)|
+|                                                                           (Moria Tent)|
 |                    ┌────────────────────────────────────┐                            |
 |                    │       THE SCORCHED PAVILION        │                            |
 |                    │  • Raised Granite Dais (4 ft high) │                            |
@@ -261,7 +261,7 @@
 |                                         │                                            |
 |                                         ▼                                            |
 |  ═════════════════════════ [OVERHEAD DEFENSIVE PARAPET] ═══════════════════════════  |
-|  (15-ft Elevation; Murder-Holes; Grimnar the Disgraced & 4 Udûn Stalkers Ambush!)    |
+|  (15-ft Elevation; Murder-Holes; Grimnar the Disgraced & 4 Moria Orc Stalkers Ambush!)|
 |                                                                                      |
 |                         ┌─────────────────────────────┐                              |
 |                         │       THE KING'S DOOR       │                              |
@@ -269,7 +269,7 @@
 |                         │ • Pulsing Ithildin Runes    │                              |
 |                         │ • Dual Runic Master Locks   │                              |
 |                         └──────────────┬──────────────┘                              |
-|                                        │ (Unlocked via Marshal's Key / Endeavour)    |
+|                                        │ (Unlocked via Mithril & King's Keys / Endeavour) |
 |                                        ▼                                             |
 |  ═══════════════════════════ [VAULT BLAST BARRICADE] ═══════════════════════════════  |
 |  (Inner Adamant Portcullis — Boltable from inside; 30-Minute Safe Rest Redoubt)      |

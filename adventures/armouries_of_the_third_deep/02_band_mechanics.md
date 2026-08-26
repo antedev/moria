@@ -99,7 +99,7 @@ The Player-Heroes can assign their seven companions to four distinct tactical ro
 * **Positioning**: Advances 40–50 paces ahead of the main body, hugging shadow lines, archway cornices, and drainage troughs.
 * **Operational Rules**:
   * Whenever the expedition enters a new keyed location or intersection, the GM rolls **Band Vigilance (2d6)** or **Band Manoeuvre (2d6)** against **Band TN 15** (modified by ambient Alert Level).
-  * **On a Success**: The scouts identify enemy sentry posts (such as the Udûn sniffers in Location 1), tripwires, or acoustic traps before the main expedition steps into danger. The Company cannot be surprised, and Player-Heroes gain **+1d** on their opening actions.
+  * **On a Success**: The scouts identify enemy sentry posts (such as the Moria sniffers in Location 1), tripwires, or acoustic traps before the main expedition steps into danger. The Company cannot be surprised, and Player-Heroes gain **+1d** on their opening actions.
   * **Scouting Synergy**: A hero moving alongside the screen can make **SCAN rolls (Favoured)** to locate hidden compartments or mechanisms safely without breaking group stealth.
   * **On a Failure**: The scouts blunder into an acoustic tripwire or loose shale, generating **+1 Noise Point** on the Alert Tracker.
 
@@ -110,7 +110,7 @@ The Player-Heroes can assign their seven companions to four distinct tactical ro
 * **Positioning**: Formed in the central or front ranks, locking broad rim-reinforced shields across narrow corridors (10–15 feet wide) or doorframes.
 * **Operational Rules**:
   * **Interception Reaction**: Once per combat round, Dolg or Dúrmer can interpose their tower-shields to absorb one incoming physical melee attack targeted at a Player-Hero or wounded companion. The damage is resolved against the companion’s Endurance and Armour dice (Armour 3d/4d).
-  * **Anti-Swarm Bastion**: While the Shield-Wall remains unbroken, enemy adversaries cannot utilize flanking bonuses, and Orc swarm attacks (such as Udûn Sniffers trying to overwhelm through numbers) cannot target rear-rank characters (such as Fáin or archers in Rearward stance).
+  * **Anti-Swarm Bastion**: While the Shield-Wall remains unbroken, enemy adversaries cannot utilize flanking bonuses, and Orc swarm attacks (such as Moria Sniffers trying to overwhelm through numbers) cannot target rear-rank characters (such as Fáin or archers in Rearward stance).
   * **Shield-Bash Manoeuvre**: When the Band tests **War (3d6)** in combat, spending a Success icon ($\mathbf{6}$) allows the Phalanx to push the enemy frontline back 10 paces, creating room for devastating close combat strikes.
 
 ---
@@ -286,7 +286,7 @@ Navigating the echoing stone vaults of Khazad-dûm requires rigid marching disci
 ---
 
 ### 4.1 Group Stealth & Marching Tests
-* **Resolving Group Movement**: When the expedition attempts to traverse hostile sectors or bypass enemy sentry posts (such as the Udûn sniffers in Location 1 or wandering patrols in Location 5), marching discipline is tested:
+* **Resolving Group Movement**: When the expedition attempts to traverse hostile sectors or bypass enemy sentry posts (such as the Moria sniffers in Location 1 or wandering patrols in Location 5), marching discipline is tested:
   * **Leader Check**: The company's Guide or leader makes a **TRAVEL roll** or **ENHEARTEN roll** (invoking a Trait such as *Leadership* for **+1d**).
   * **Alternative Band Check**: The GM rolls Band **MANOEUVRE** (2d6) against **Band TN 15** ($20 - \text{Readiness } 5$).
 * **Noise Escalation & Consequences of Failure**:

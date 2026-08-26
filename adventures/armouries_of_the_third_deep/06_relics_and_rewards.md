@@ -24,7 +24,7 @@ When the Balrog (*Durin's Bane*) awoke in 1980 TA and slew King Durin VI and Kin
                                                     Key to convincing King Dáin Ironfoot.
  2. Tunnel-Guard Wargear    Locations 8 & 10        Masterwork Mithril & Gromril Gear; 
                                                     Favoured combat bonuses & Virtues.
- 3. The Marshal's Key       Rooms 3/5, Sentry, Craft Unlocks Location 9 (The King's Door); 
+ 3. Mithril & King's Keys  Rooms 1/5/Last Redoubt   Unlocks Location 9 (The King's Door); 
                                                     Vital puzzle key / bypass mechanic.
  4. Garrison Armament Haul  Location 8 (Upper Arm.) 40+ Mail, 30 Shields, Crates of Axes; 
                                                     Equips 50 frontline Dwarves for Balin.
@@ -206,32 +206,32 @@ The Player-Heroes have three distinct operational pathways to secure or bypass t
                                                 │
          ┌──────────────────────────────────────┼──────────────────────────────────────┐
          ▼                                      ▼                                      ▼
- [PATHWAY 1: COMBAT AMBUSH]           [PATHWAY 2: SOCIAL DEAL]              [PATHWAY 3: CRAFT ENDEAVOUR]
-  • Intercept Udûn Patrol              • Negotiate with Grik                 • Masterwork Lock Bypass
-  • Slay Captain in Room 3 or 5        • Trade: Silver / Tobacco / Revenge   • Resistance 6 / Time Limit 3
-  • Alert: +1 Tier on noise            • Alert: +0 (Completely Silent)       • Failure: Alarm & Broken Tools
+  [PATHWAY 1: COMBAT AMBUSH]           [PATHWAY 2: SOCIAL DEAL]              [PATHWAY 3: CRAFT ENDEAVOUR]
+   • Intercept Mordor Patrol            • Negotiate with Grik                 • Masterwork Lock Bypass
+   • Slay Captain in Room 3 or 5        • Trade: Silver / Tobacco / Revenge   • Resistance 6 / Time Limit 3
+   • Alert: +1 Tier on noise            • Alert: +0 (Completely Silent)       • Failure: Alarm & Broken Tools
 ```
 
 ---
 
-### 4.1 Pathway 1: Defeating the Udûn Patrol Captain (Combat Infiltration)
-* **Context**: Sometime after the fall of the Third Deep, an Udûn scouting patrol ransacking the Second Armoury (Location 5) discovered the bronze-and-gromril key upon the remains of a Dwarf officer. The key is currently worn as an ostentatious war-talisman around the neck of **Captain Grashnak** (an Udûn-orc Fire-touched Champion).
+### 4.1 Pathway 1: Defeating the Mordor Patrol Captain (Combat Infiltration)
+* **Context**: Centuries after the fall of the Third Deep, a Mordor Orc scouting patrol ransacking the ruins near the Dimrill Stairs discovered the shining Mithril Key where Marshal Thrain fell. The key is currently worn as an ostentatious war-talisman around the neck of **Captain Grashnak** (a Mordor Uruk Champion). It lets the Mordor Orcs slip secretly in and out of the mountain via the pillar at the Dimrill Stairs.
 * **Location**: Wandering between **Location 3 (First Armoury)** and **Location 5 (Second Armoury)**.
 * **Encounter Breakdown**:
-  * **Enemy Roster**: Captain Grashnak (Attribute Level 6, End 24, Might 2, Hate 6, Armour 3d, Torch-staff 3d [4/14, Fiery Blow], *Hideous Toughness*) leading 3 **Udûn Sniffers** (AL 4, End 16, Hate 4).
+  * **Enemy Roster**: Captain Grashnak (Attribute Level 6, End 24, Might 2, Hate 6, Armour 3d, Heavy Scimitar 3d [5/16, Pierce], *Horrible Strength*) leading 3 **Moria Sniffers** (AL 4, End 16, Hate 4).
   * **Tactical Conditions**: The patrol moves with smoky torches, casting wild shadows. If the Company uses the *Forward Scout Screen* (Austri & Bróga), they spot the patrol 40 paces away.
   * **Combat Resolution**:
     * If ambushed and eliminated within **2 combat rounds**, the key is claimed with **+0 Noise Points** generated.
     * If combat extends to **3+ rounds**, or if Grashnak bellows a challenge, the clash generates **+2 Noise Points** (advancing the Alert Tracker by +1/2 Tier).
     * If any Orc flees into the vents, the escape immediately adds **+2 to Strategic Eye Awareness**.
-* **Reward**: The physical **Marshal's Key**, forged of heavy dark bronze and set with three interlocking square wards.
+* **Reward**: The physical **Mithril Key**, forged of shining dwarf-mithril and star-iron, etched with the secret rune of the Dimrill Stairs pillar.
 
 ---
 
 ### 4.2 Pathway 2: Bargaining with Grik the Skulker (Social Parley)
-* **Context**: **Grik the Skulker** (the cunning goblin informant lurking near Location 1's Mustering-Yard) has watched Grashnak's patrol for days. Grik knows Grashnak carries the "shiny Dwarf-lock iron" and knows where the patrol sleeps in the ventilation flues above Location 3. Alternatively, if Grik managed to pilfer it during a drunken brawl, he has it stashed in a bone-filled crevice near the Upper Gatehouse.
+* **Context**: **Grik the Skulker** (the cunning goblin informant lurking near Location 1's Mustering-Yard) has watched Grashnak's patrol for days. Grik knows Grashnak carries the "bright mithril key" that lets the Mordor Orcs enter secretly via the pillar at the Dimrill Stairs. Crucially, Grik does **not** know this key also unlocks the left ward of the King's Door to the treasure chamber (he only knows it operates the secret stairs entrance). Grik knows where the patrol sleeps in the ventilation flues above Location 3. Alternatively, if Grik managed to pilfer it during a drunken brawl, he has it stashed in a bone-filled crevice near the Upper Gatehouse.
 * **Negotiation Encounter**:
-  * **Grik’s Disposition**: Opportunistic, terrified of the Udûn Orcs, greedy for luxuries.
+  * **Grik’s Disposition**: Opportunistic, terrified of the Mordor Orcs, greedy for luxuries.
   * **Grik’s Demands (The Price)**: Grik will deliver the key (or lead the heroes to its exact hiding spot) in exchange for any **two** of the following:
     1. **Bright Silver / Dwarf Coin**: 5 Treasure Points / 30 Silver Pennies.
     2. **Fragrant Surface Tobacco**: A pouch of *Old Toby* or Longbottom Leaf (carried by a hero or companion).
@@ -383,8 +383,16 @@ Every single one of the 36 entries is detailed below with evocative lore, immedi
  21   Silver Runic Dice           A pair of weighted knucklebone dice       Grants +1d on RIDDLE tests or social   2 Treasure
       (Set of 2)                  inlaid with Khuzdul numerals.             gambling checks against foes/allies.   Points
 ------------------------------------------------------------------------------------------------------------------------
- 22   Flask of Dragon-Fire Oil    A ceramic flask of pressurized dwarven    Throwable weapon (Ranged, 3d); deals   2 Treasure
-                                  naphtha used for forge bellows.           6 Fire Damage and ignites wooden doors. Points
+ 22   Flask of Dragon-Fire Oil    A ceramic flask of pressurized dwarven    Throwable weapon (Ranged, using ATH-   2 Treasure
+                                  naphtha used for forge bellows.           LETICS). Short range 10y, Medium 20y   Points
+                                                                            (-1d), Long 30y (-2d). On a hit, deals
+                                                                            6 Endurance damage. If a Piercing
+                                                                            Blow is scored, or if the target
+                                                                            fails a PROTECTION test (Injury TN 16),
+                                                                            they suffer a Wound and are set ablaze
+                                                                            (takes 2 Endurance damage per round
+                                                                            until extinguished by Athletics/Craft
+                                                                            roll vs TN 10). Ignites wood/flammables.
 ------------------------------------------------------------------------------------------------------------------------
  23   Acoustic Listening Horn     A folding brass cone crafted to magnify   Grants Favoured rolls on AWARENESS     1 Treasure
                                   vibrations traveling through solid rock.  tests made to detect approaching foes. Point
@@ -393,7 +401,7 @@ Every single one of the 36 entries is detailed below with evocative lore, immedi
                                   by a fleeing jeweler during the Fall.     traded to Grik for secret intel.       Points
 ------------------------------------------------------------------------------------------------------------------------
  25   Hard-Tallow Scent Candles   Three beeswax tapers infused with pine    Burning one masks the Company's scent, 1 Treasure
-      (Bundle of 3)               pitch and dried thyme.                    giving Udûn sniffers -1d on Awareness. Point
+      (Bundle of 3)               pitch and dried thyme.                    giving Moria sniffers -1d on Awareness. Point
 ------------------------------------------------------------------------------------------------------------------------
  26   Shattered Mail Rings        A handful of severed mithril-iron rings   Hjoldring can use these to repair a    2 Treasure
                                   torn from an ancient captain's hauberk.   damaged suit of mail (+1 Protection).  Points
@@ -408,7 +416,7 @@ Every single one of the 36 entries is detailed below with evocative lore, immedi
                                   storage location of gromril mail-shirts.  hidden vault chests in Location 8.     Points
 ------------------------------------------------------------------------------------------------------------------------
  34   Black Orc-Poison Phial      A glass vial of thick, curdled viper-     Coating a blade inflicts Severe Poison 1 Treasure
-                                  venom taken from an Udûn stalker.         on the next successful Piercing Blow.  Point
+                                  venom taken from a Mordor stalker.        on the next successful Piercing Blow.  Point
 ------------------------------------------------------------------------------------------------------------------------
  35   Carved Bone Whistle         A hollowed mountain-eagle wing bone       Sounds a silent, high-pitch frequency  5 Silver
                                   tuned to canine hearing.                  that distracts and confuses cave bats. Pennies

@@ -308,7 +308,7 @@ Grimnar is vengeful but not suicidal. He knows when to break contact:
 
 ## 4. Garrison Ranks: Orc Patrols & Sentry Squads
 
-The armed forces of the Third Deep consist of two rival factions forced into uneasy cooperation: the standard **Moria Orcs** (cave scavengers) and the fanatical **Udûn Orcs** (fire-worshippers serving the shadow of Durin's Bane).
+The garrison of the Third Deep consists of standard **Moria Orcs** (cave scavengers, soldiers, guards, drummers, and sniffers) and a small troop of elite **Mordor Orcs** (Grimnar's cutthroats). Udûn Orcs serving Malech's banner do not guard these armouries; they may occasionally come to trade at most.
 
 ```
 ========================================================================================
@@ -318,7 +318,7 @@ The armed forces of the Third Deep consist of two rival factions forced into une
 ----------------------------------------------------------------------------------------
  Orc Soldier         3   12     1     3   +1    2d     Orc-axe 2d        Dmg 3, Inj 18 (Break)
  Orc Guard           4   16     1     4   +2    3d     Heavy Scimitar 3d Dmg 4, Inj 16 (Pierce)
- Udûn Sniffer        4   16     1     4    —    3d     Torch-staff 3d    Dmg 4, Inj 14 (Fiery)
+ Moria Sniffer       4   16     1     4    —    3d     Iron-shod Staff 3d Dmg 4, Inj 14 (Heavy)
  Moria Orc Drummer   3   12     1     3   +1    2d     Curved Knife 2d   Dmg 3, Inj 14 (Pierce)
  Black Uruk          5   20     1     5   +2    3d     Broadsword 3d     Dmg 4, Inj 16 (Pierce)
  Black Uruk Captain  6   24     2     6   +3    4d     Great Scimitar 3d Dmg 5, Inj 16 (Pierce)
@@ -352,11 +352,11 @@ The armed forces of the Third Deep consist of two rival factions forced into une
   * *Thick Armour*: Spend 1 Hate on a Protection test to roll +1d Armour.
   * *Shield-Wall*: When fighting in pairs or adjacent to an ally, gains +1 Parry.
 
-#### 3. Udûn Sniffer / Fire-Fanatic (Attribute Level 4)
-* **Culture**: Udûn Zealot / Balrog Worshipper | **Distinctive Features**: Crazed, Tough, Keen Scent
+#### 3. Moria Sniffer (Attribute Level 4)
+* **Culture**: Moria Goblin / Hunter | **Distinctive Features**: Sullen, Alert, Keen Scent
 * **Endurance**: 16 | **Might**: 1 | **Hate**: 4 | **Parry**: — | **Armour**: 3d (Soot-caked hides & ash)
 * **Combat Proficiencies**:
-  * *Torch-staff*: 3d (Damage 4, Injury 14, Fiery Blow [Severe fire damage])
+  * *Iron-shod Staff*: 3d (Damage 4, Injury 14, Heavy Blow)
   * *Poisoned Blowdart / Bow*: 2d (Damage 2, Injury 12, Poison [Black Venom])
 * **Fell Abilities**:
   * *Denizen of the Dark*: Attack rolls are Favoured in darkness.
