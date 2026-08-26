@@ -468,16 +468,20 @@ def main():
             str(engine),
             "--headless",
             "--disable-gpu",
+            "--no-sandbox",
             "--run-all-compositor-stages-before-draw",
             "--no-pdf-header-footer",
             f"--print-to-pdf={master_pdf_path}",
             str(master_html_path.resolve()),
         ]
-        res = subprocess.run(cmd, capture_output=True, text=True)
-        if master_pdf_path.exists() and master_pdf_path.stat().st_size > 0:
-            print(f"[OK] Master A4 PDF generated: {master_pdf_path.name} ({master_pdf_path.stat().st_size:,} bytes)")
-        else:
-            print(f"[!] PDF generation failed: {res.stderr}")
+        try:
+            res = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+            if master_pdf_path.exists() and master_pdf_path.stat().st_size > 0:
+                print(f"[OK] Master A4 PDF generated: {master_pdf_path.name} ({master_pdf_path.stat().st_size:,} bytes)")
+            else:
+                print(f"[!] PDF generation failed: {res.stderr}")
+        except subprocess.TimeoutExpired:
+            print("[!] PDF generation timed out (exceeded 30 seconds).")
     else:
         print("[!] No Chromium/Edge PDF engine found. Master HTML is ready for manual browser print.")
 
