@@ -4,229 +4,176 @@
 <meta charset="UTF-8">
 <title>In-World Handout — The Dying Scribe's Basalt Slate</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=JetBrains+Mono:wght@400;600&display=swap');
 
 @page {
     size: A4 portrait;
-    margin: 10mm 12mm 12mm 12mm;
-}
-
-@page :left {
-    @bottom-left {
-        content: "The Armouries of the Third Deep — The One Ring 2e";
-        font-family: 'Cinzel', serif;
-        font-size: 7pt;
-        color: #666;
-    }
-    @bottom-right {
-        content: counter(page);
-        font-family: 'Cinzel', serif;
-        font-size: 8pt;
-        font-weight: bold;
-    }
-}
-
-@page :right {
-    @bottom-left {
-        content: "The Armouries of the Third Deep — The One Ring 2e";
-        font-family: 'Cinzel', serif;
-        font-size: 7pt;
-        color: #666;
-    }
-    @bottom-right {
-        content: counter(page);
-        font-family: 'Cinzel', serif;
-        font-size: 8pt;
-        font-weight: bold;
-    }
-}
-
-* {
-    box-sizing: border-box;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
+    margin: 10mm 10mm 10mm 10mm;
 }
 
 body {
-    font-family: 'Cormorant Garamond', 'Georgia', serif;
-    font-size: 9.5pt;
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 8.5pt;
     line-height: 1.25;
-    color: #111;
-    background-color: #fff;
+    color: #1a1a1a;
+    background: #fff;
     margin: 0;
     padding: 0;
 }
 
-h1, h2, h3, h4, .cinzel {
-    font-family: 'Cinzel', 'Palatino', serif;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin: 0;
-    color: #000;
-}
-
 h1 {
-    font-size: 15pt;
-    font-weight: 900;
+    font-family: 'Cinzel', serif;
+    font-size: 13pt;
+    font-weight: 800;
     text-align: center;
-    border-bottom: 2px solid #222;
+    letter-spacing: 0.08em;
+    margin: 0 0 2px 0;
+    color: #2b1d0c;
+    border-bottom: 1.5px solid #8b5a2b;
     padding-bottom: 2px;
-    margin-bottom: 4px;
 }
 
 h2 {
-    font-size: 11pt;
-    font-weight: 700;
-    border-bottom: 1px solid #444;
-    padding-bottom: 1px;
-    margin-top: 6px;
-    margin-bottom: 3px;
-    background: #f0f0f0;
-    padding-left: 4px;
-}
-
-h3 {
+    font-family: 'Cinzel', serif;
     font-size: 9.5pt;
     font-weight: 700;
-    margin-top: 4px;
-    margin-bottom: 2px;
+    margin: 4px 0 2px 0;
+    color: #4a2c0f;
+    border-bottom: 0.5px solid #8b5a2b;
+    padding-bottom: 1px;
 }
 
 .subtitle {
     text-align: center;
-    font-size: 8pt;
     font-style: italic;
-    color: #444;
-    margin-bottom: 6px;
+    font-size: 8pt;
+    color: #555;
+    margin-bottom: 4px;
 }
 
-/* Grayscale Table Styling */
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+}
+
+.card {
+    border: 1px solid #8b5a2b;
+    border-radius: 2px;
+    padding: 4px 6px;
+    background: #faf8f5;
+    margin-bottom: 4px;
+}
+
+.card-header {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 8pt;
+    color: #2b1d0c;
+    background: #e8ded2;
+    margin: -4px -6px 4px -6px;
+    padding: 2px 6px;
+    border-bottom: 1px solid #8b5a2b;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 3px;
-    margin-bottom: 5px;
-    font-size: 8.5pt;
+    font-size: 7.5pt;
+    margin: 2px 0;
 }
 
 th, td {
-    border: 1px solid #333;
-    padding: 2.5px 4px;
+    border: 0.5px solid #a8947e;
+    padding: 2px 3px;
     text-align: left;
     vertical-align: top;
 }
 
 th {
-    background-color: #e2e2e2;
+    background-color: #dfd5c6;
     font-family: 'Cinzel', serif;
-    font-size: 8pt;
-    font-weight: bold;
-    color: #000;
+    font-weight: 700;
+    font-size: 7pt;
+    color: #2b1d0c;
 }
 
-tr:nth-child(even) td {
-    background-color: #f7f7f7;
+tr:nth-child(even) {
+    background-color: #f3efe8;
 }
 
-/* Grids & Cards */
-.grid-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-}
-
-.grid-3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 6px;
-}
-
-.card {
-    border: 1.5px solid #222;
-    padding: 5px 7px;
-    background: #fff;
-    margin-bottom: 5px;
-    border-radius: 2px;
-}
-
-.card-header {
-    font-family: 'Cinzel', serif;
-    font-size: 8.5pt;
-    font-weight: bold;
-    background: #e8e8e8;
-    margin: -5px -7px 4px -7px;
-    padding: 2px 7px;
-    border-bottom: 1px solid #333;
-}
-
-/* Rune & In-World Prop Styling */
-.rune-frame {
-    border: 3px double #222;
-    padding: 10px;
-    background: #fafafa;
-    position: relative;
-}
-
-.cirth-inscription {
+.mono {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 11pt;
-    letter-spacing: 0.15em;
-    background: #eee;
-    padding: 8px;
-    border: 1px dashed #444;
-    text-align: center;
-    margin: 6px 0;
+    font-size: 7pt;
 }
 
-/* Checkboxes & Form Elements */
-.checkbox-box {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border: 1.2px solid #000;
-    margin-right: 3px;
-    vertical-align: middle;
-}
-
-.bubble {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    border: 1.2px solid #000;
-    border-radius: 50%;
-    margin-right: 2px;
-    vertical-align: middle;
+.avoid-break {
+    break-inside: avoid;
 }
 
 .page-break {
     page-break-before: always;
-    break-before: page;
 }
 
-.avoid-break {
-    page-break-inside: avoid;
-    break-inside: avoid;
+.checkbox-box {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #444;
+    margin-right: 3px;
+    vertical-align: middle;
 }
 
-/* High-Density ASCII Map Container */
+.rune-frame {
+    border: 2px double #8b5a2b;
+    padding: 6px;
+    background: #fbf9f4;
+    margin-top: 4px;
+}
+
+.cirth-inscription {
+    font-family: 'Cinzel', serif;
+    font-size: 11pt;
+    letter-spacing: 0.15em;
+    text-align: center;
+    color: #4a2c0f;
+    margin: 4px 0;
+}
+
 .ascii-map {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 6.8pt;
+    font-size: 6.5pt;
     line-height: 1.1;
-    background: #fdfdfd;
-    border: 1.5px solid #333;
-    padding: 6px;
     white-space: pre;
+    background: #1e1e1e;
+    color: #e0e0e0;
+    padding: 4px;
+    border-radius: 2px;
     overflow: hidden;
 }
 
-.stat-badge {
+.bubble {
     display: inline-block;
-    border: 1px solid #444;
-    background: #e8e8e8;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 1px solid #333;
+    background: #fff;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+.bubble-filled {
+    background: #333;
+}
+
+.tag {
+    display: inline-block;
+    font-size: 6.5pt;
     padding: 1px 3px;
-    font-size: 7.5pt;
-    font-family: 'Cinzel', serif;
+    border-radius: 2px;
+    background: #dfd5c6;
+    color: #2b1d0c;
     font-weight: bold;
     margin-right: 3px;
 }
@@ -272,19 +219,19 @@ tr:nth-child(even) td {
             <th>Lore & Clues Revealed to the Fellowship</th>
         </tr>
         <tr>
-            <td><b>LORE</b></td>
-            <td><b>Wits TN 15/16</b></td>
+            <td><b>LORE / SCAN</b></td>
+            <td><b>LORE roll / SCAN roll</b> (Favoured / +1d)</td>
             <td>Identifies the script as Royal Khuzdul Cirth. Confirms the <b>Marshal's Key</b> was carried into the deep warrens (connecting toward Goblin Village or Udûn tracks), while the <b>King's Key</b> was sealed in the Last Redoubt (Old Moria).</td>
         </tr>
         <tr>
-            <td><b>CRAFT</b></td>
-            <td><b>Strength TN 13/14</b></td>
-            <td>Recognizes the runic schematics sketched on the reverse of the slate: reveals the <b>King's Door uses a dual-interlocking cam mechanism</b> and can be bypassed via the <b>Blood of Durin ritual</b> (VALOUR test) if the King's Key is missing.</td>
+            <td><b>CRAFT / HEALING</b></td>
+            <td><b>CRAFT roll / HEALING roll (+1d)</b></td>
+            <td>Recognizes the runic schematics sketched on the reverse of the slate: reveals the <b>King's Door uses a dual-interlocking cam mechanism</b> and can be bypassed via the <b>Blood of Durin ritual</b> (VALOUR roll) if the King's Key is missing.</td>
         </tr>
         <tr>
-            <td><b>SCAN</b></td>
-            <td><b>Wits TN 15 (Einar +2)</b></td>
-            <td>Spots tiny mineral crystalline residue along the fracture line: indicates the poison gas pooled from lower ventilation shafts and can be filtered with tallow-greased linen soaked in spirits or athelas.</td>
+            <td><b>RIDDLE</b></td>
+            <td><b>RIDDLE roll (+1d)</b></td>
+            <td>Deciphers the marginal scratches at the bottom of the slab: Scribe Frár scratched the tumbler layout—3 left, 2 right, 1 center—granting +2d on the Turn 1 roll of the Lockbreaker Skill Endeavour.</td>
         </tr>
     </table>
 </div>

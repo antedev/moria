@@ -29,27 +29,25 @@
 |                                                                             |
 | FELL ABILITIES:                                                             |
 | • Dull-Witted: Player-heroes in Forward stance can use their main combat    |
-|   action to attempt a RIDDLE test (Wits TN: Torvir 15, Einar 15,            |
-|   Khoril 16), Favoured due to Dull-Witted. On a success, The Mauler loses   |
-|   1 point of Hate, plus 1 additional point of Hate per Success icon (6)     |
-|   rolled (the troll bellows and attacks shadows/echoes in confusion). A     |
-|   Gandalf rune (G) causes the troll to lose its entire turn in confusion.   |
-|   3 cumulative successes pacify or bypass the creature.                     |
+|   action to attempt a RIDDLE roll (Favoured due to Dull-Witted). On a        |
+|   success, The Mauler loses 1 point of Hate, plus 1 additional point of      |
+|   Hate per Success icon (6) rolled (the troll bellows and attacks           |
+|   shadows/echoes in confusion). A Gandalf rune (G) causes the troll to lose |
+|   its entire turn in confusion. 3 cumulative successes pacify or bypass      |
+|   the creature.                                                             |
 | • Hideous Toughness: Unarmed blows cannot harm the troll. When an attack    |
 |   would reduce The Mauler to 0 Endurance, it causes a Piercing Blow         |
 |   instead. If still alive after the Protection roll, its Endurance score is |
 |   immediately reset to 40 (half maximum).                                   |
-| • Strike Fear: Spend 1 Hate at combat start to force all Player-heroes to    |
-|   make a VALOUR test against their Heart TN (Torvir 18, Einar 17,           |
-|   Khoril 16). Those who fail gain 2 Shadow (Dread) and are Daunted          |
-|   (cannot spend Hope for the rest of the battle).                           |
+| • Strike Fear: Spend 1 Hate at combat start. All Player-heroes within sight  |
+|   must make a VALOUR test or gain 2 Shadow Points (Dread); heroes whose     |
+|   current Shadow equals or exceeds their Hope become Miserable.             |
 | • Thick Hide: Spend 1 Hate point on a Protection roll to gain +2d Armour     |
 |   dice (rolling 7d total).                                                  |
 | • Scavenged Iron Carapace: If a Piercing Blow fails to inflict a Wound, the |
 |   attacker's weapon becomes lodged in the plating unless the hero succeeds  |
-|   on a CRAFT or ATHLETICS test against their Strength TN (Torvir 13,        |
-|   Einar 14, Khoril 13). A direct hit from a siege engine strips this        |
-|   plating, reducing Armour from 5d to 3d.                                   |
+|   on a CRAFT roll or ATHLETICS roll. A direct hit from a siege engine       |
+|   strips this plating, reducing Armour from 5d to 3d.                       |
 +=============================================================================+
 ```
 
@@ -75,12 +73,12 @@
 | • Denizen of the Dark: Attack rolls are Favoured when fighting in           |
 |   subterranean darkness.                                                    |
 | • Hatred (Durin's Folk): Grimnar gains +1d on all attack rolls against      |
-|   Torvir, Khoril, and Dwarf Companions.                                     |
+|   Dwarves of Durin's Folk and Dwarf Companions.                             |
 | • Snake-like Speed: Spend 1 Hate when targeted by an incoming melee or      |
 |   ranged attack to make the attacker's roll Ill-favoured.                   |
 | • Great Leap: Spend 1 Hate to leap over frontline defenders (bypassing      |
 |   the Shield-Wall) to land directly before Rearward heroes or archers.      |
-| • Vengeful Strike: If struck in melee by Torvir, Einar, or Khoril, Grimnar  |
+| • Vengeful Strike: If struck in melee by a Player-Hero, Grimnar             |
 |   may spend 1 Hate as an immediate reaction to deliver a free retaliation   |
 |   strike against that hero.                                                 |
 | • Hideous Toughness: Unarmed attacks cannot harm him. When an attack        |
@@ -96,40 +94,7 @@
 +=============================================================================+
 ```
 
-```
-+=============================================================================+
-| GRIK THE SKULKER (Goblin Informant & Underground Scout)                     |
-+=============================================================================+
-| Small, Malicious, Cowardly, Opportunistic                                   |
-|                                                                             |
-| ATTRIBUTE LEVEL: 3                                                          |
-| ENDURANCE: 12                                                               |
-| MIGHT: 1                                                                    |
-| HATE: 2                                                                     |
-| PARRY: +3 (+1 Base + 2 from small size and dodging)                         |
-| ARMOUR: 1d (Scrap leather & tattered cloak)                                 |
-|                                                                             |
-| COMBAT PROFICIENCIES:                                                       |
-| • Jagged Knife 2d (Damage 3, Injury 12, Pierce on 10)                        |
-| • Blown Bone-Darts / Slingshot 2d (Damage 2, Injury 10, Poison: Black Venom) |
-|                                                                             |
-| FELL ABILITIES & BEHAVIOR:                                                  |
-| • Craven: If Grik suffers even 1 point of Endurance loss or witnesses an    |
-|   ally fall, he must pass a VALOUR test (vs Attribute Level 3) or           |
-|   immediately drop his weapons and surrender or flee.                       |
-| • Sneak in Shadows: When rolling Stealth to hide in darkness or crawlspaces,|
-|   all tests are Favoured and generate 0 Noise Points. Detecting him         |
-|   requires an opposed SCAN test (Wits TN: Torvir 15, Einar 15, Khoril 16,   |
-|   Favoured for Einar with The Broken Key).                                  |
-| • Snake-like Speed: Spend 1 Hate to make any incoming melee attack against  |
-|   him Ill-favoured.                                                         |
-| • Treacherous Bargain: Grik will NOT fight to the death. If cornered, he    |
-|   drops his weapons and bargains. Social tests require: PERSUADE (Heart TN: |
-|   Torvir 18, Einar 17, Khoril 16), ENHEARTEN (Heart TN: Torvir 18,          |
-|   Einar 17, Khoril 16), RIDDLE (Wits TN: Torvir 15, Einar 15, Khoril 16),  |
-|   or AWE (Strength TN: Torvir 13, Einar 14, Khoril 13 / Heart TN).          |
-+=============================================================================+
-```
+
 
 ---
 
@@ -144,7 +109,7 @@
   * *Denizen of the Dark*: Attack rolls are Favoured in subterranean darkness.
   * *Heartless*: Immune to standard *Intimidate Foe* actions unless triggered by a Gandalf result.
   * *Keen Scent*: Gains +2d on Awareness rolls to detect hidden intruders by scent.
-  * *Black Venom*: On a Piercing Blow or Success icon (6), the struck hero must make an immediate **HEALING** or **ENDURANCE** test (**Heart TN: Torvir 18, Einar 17, Khoril 16** or **Strength TN: Torvir 13, Einar 14, Khoril 13**) or contract Moderate Poison (lose 4 Endurance immediately and gain the Weary condition).
+  * *Black Venom*: On a Piercing Blow or Success icon (6), the struck hero must make an immediate **HEALING roll** or **PROTECTION test** or contract Moderate Poison (lose 4 Endurance immediately and gain the Weary condition).
   * *Hate Sunlight*: Loses 1 Hate per round in direct sunlight.
 
 ### Orc Soldiers of Moria (Garrison Infantry)
@@ -202,11 +167,11 @@
 
 | Hazard | Trigger Condition | Primary Skill Test | Modifiers | Failure Consequence | Degrees of Success (6 icons) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Balrog Toxic Gas** *(Breath of the Pit)* | Entering Poisoned Halls (Area 7/8) | **ENDURANCE / PROTECTION** (**Strength TN: Torvir 13, Einar 14, Khoril 13**) or **HEALING** (**Heart TN: Torvir 18, Einar 17, Khoril 16**) | Unprotected: Ill-favoured, tested every minute in combat or exploration turn. Protected (vinegar/herbs): tested hourly. Masterwork Respirator: 4 hours complete immunity. | Ill-favoured Feat Die roll: 1–10 = lose that much Endurance; Eye of Sauron (S) = 0 Endurance & Dying. Protected: 1–6 Endurance loss; Eye of Sauron (S) = Severe Poison. | **6**: Avoids all Endurance loss and grants +1d to an adjacent ally's test.<br>**66**: Completely resists fumes and identifies a clean draft pocket.<br>**G**: Restores 1 Hope or clears 1 tier of Fatigue/Weary. |
-| **Slag-Worm Tremors & Collapses** | Heavy siege engine fire, toppling idol, or pulling keystone winch | **ATHLETICS** (**Strength TN: Torvir 13, Einar 14, Khoril 13**) or **PROTECTION** roll (Armour dice vs Injury 16) | Detection: **SCAN** (**Wits TN: Torvir 15, Einar 15, Khoril 16**, Favoured for Einar with *The Broken Key*) grants Favoured status on evasion. | 20 to 30 Crushing Damage and pinned under fallen masonry (Weary until extracted). Clearing rubble requires **ATHLETICS** (**Strength TN**) or Band **WAR** (3d vs Band TN 15). | **6**: Dives clear without taking damage.<br>**66**: Pulls an adjacent companion clear as well, negating their check.<br>**G**: Finds an intact ancient Dwarven arch, preventing further collapse in the zone. |
-| **Scrap-Traps & Pitfalls** | Walking down main aisles / false flagstones in Area 3 | **SCAN** (**Wits TN: Torvir 15, Einar 15, Khoril 16**, Favoured for Einar) to detect; **CRAFT** (**Strength TN: Torvir 13, Einar 14, Khoril 13**) to disarm | Invoking Trait *Burglary* on Craft grants **+1d**. Einar's *Broken Key* grants Favoured on Scan. | Triggers spring-scythe or pitfall: 15 Damage, Moderate Poison, makes loud clatter (**+2 Alert Points**). | **6**: Disarms trap silently in half the time, recovering useful iron parts.<br>**66**: Recovers intact Dwarven springs or resets trap to spring on enemy pursuers.<br>**G**: Perfectly dismantles mechanism, discovering a concealed floor niche with ancient craft tools. |
-| **Orc Desecration Idol** | Viewing the defiled altar in Area 4 | **VALOUR** (**Heart TN: Torvir 18, Einar 17, Khoril 16**) | Reciting ancient Dwarven litanies via **LORE** (**Wits TN: Torvir 15, Einar 15, Khoril 16**) or **SONG** (**Heart TN: Torvir 18, Einar 17, Khoril 16**) grants **+1d** to allies' Valour tests. | 1 Shadow (Dread); Torvir and Khoril must test to resist reckless rage. | **6**: Heartened by ancestral pride; gains +1d on next attack roll against Orcs.<br>**66**: Completely rejects dark aura, inspiring an ally to clear 1 Shadow point.<br>**G**: Holy wrath awakens; all allies gain +1d to attack rolls and Protection tests for 1 round. |
-| **Iron-Scrap Floor** | Moving through Area 6 (Troll Lair) | **STEALTH** (**Wits TN: Torvir 15, Einar 15, Khoril 16**) | Moving along perimeter catwalks is **Favoured**; moving quickly or wearing heavy armour is **Ill-favoured**. | Rusted clatter awakens The Mauler (**+3 Alert Points**). | **6**: Moves in absolute silence; generates 0 Noise.<br>**66**: Identifies a silent pathway for all companions, negating rolls for the scene.<br>**G**: Throws a pebble to create an echo, distracting the troll toward the far corner. |
+| **Balrog Toxic Gas** *(Breath of the Pit)* | Entering Poisoned Halls (Area 7/8) | **PROTECTION test** or **HEALING roll** | Unprotected: Ill-favoured, tested every minute in combat or exploration turn. Protected (vinegar/herbs): tested hourly. Masterwork Respirator: 4 hours complete immunity. | Ill-favoured Feat Die roll: 1–10 = lose that much Endurance; Eye of Sauron (S) = Severe Poison (lose 8 End, Weary). Protected: 1–6 Endurance loss; Eye of Sauron (S) = Severe Poison. | **6**: Avoids all Endurance loss and grants +1d to an adjacent ally's test.<br>**66**: Completely resists fumes and identifies a clean draft pocket.<br>**G**: Restores 1 Hope or clears 1 tier of Fatigue/Weary. |
+| **Slag-Worm Tremors & Collapses** | Heavy siege engine fire, toppling idol, or pulling keystone winch | **ATHLETICS roll** or **PROTECTION test** (vs Injury 16) | Detection: **SCAN roll (Favoured)** grants Favoured status on evasion. | 20 to 30 Crushing Damage and pinned under fallen masonry (Weary until extracted). Clearing rubble requires an **ATHLETICS roll** or Band **WAR** (3d vs Band TN 15). | **6**: Dives clear without taking damage.<br>**66**: Pulls an adjacent companion clear as well, negating their check.<br>**G**: Finds an intact ancient Dwarven arch, preventing further collapse in the zone. |
+| **Scrap-Traps & Pitfalls** | Walking down main aisles / false flagstones in Area 3 | **SCAN roll** to detect; **CRAFT roll** to disarm | Invoking Trait *Burglary* on Craft grants **+1d**. A Scout or *The Broken Key* grants Favoured on Scan. | Triggers spring-scythe or pitfall: 15 Damage, Moderate Poison, makes loud clatter (**+2 Alert Points**). | **6**: Disarms trap silently in half the time, recovering useful iron parts.<br>**66**: Recovers intact Dwarven springs or resets trap to spring on enemy pursuers.<br>**G**: Perfectly dismantles mechanism, discovering a concealed floor niche with ancient craft tools. |
+| **Orc Desecration Idol** | Viewing the defiled altar in Area 4 | **VALOUR test** | Reciting ancient Dwarven litanies via **LORE roll** or **SONG roll** grants **+1d** to allies' Valour tests. | 1 Shadow Point (Dread); characters must test to resist reckless rage. | **6**: Heartened by ancestral pride; gains +1d on next attack roll against Orcs.<br>**66**: Completely rejects dark aura, inspiring an ally to clear 1 Shadow point.<br>**G**: Holy wrath awakens; all allies gain +1d to attack rolls and Protection tests for 1 round. |
+| **Iron-Scrap Floor** | Moving through Area 6 (Troll Lair) | **STEALTH roll** | Moving along perimeter catwalks is **Favoured**; moving quickly or wearing heavy armour is **Ill-favoured**. | Rusted clatter awakens The Mauler (**+3 Alert Points**). | **6**: Moves in absolute silence; generates 0 Noise.<br>**66**: Identifies a silent pathway for all companions, negating rolls for the scene.<br>**G**: Throws a pebble to create an echo, distracting the troll toward the far corner. |
 
 ---
 
@@ -218,9 +183,9 @@ Whenever a character drinks from an untested pool, well, or cistern in the Third
 | :---: | :--- | :--- |
 | **Gandalf (G)** | **Pristine Ancient Dwarven Spring** | Crystal-clear mineral water. Restores 2 points of Hope and clears the Weary condition immediately! |
 | **9–10** | **Icy Snowmelt** | Freezing runoff from Mount Silvertine; refreshing, cold, and entirely safe. |
-| **7–8** | **Orc-Filth** | Befouled with tallow and offal. Moderate Poison (4 Endurance loss; cured by Short Rest or **HEALING** vs **Heart TN: Torvir 18, Einar 17, Khoril 16**). |
-| **5–6** | **Bitter Mineral Water** | Heavy with alkali salts. Must pass a **VALOUR** test (**Heart TN: Torvir 18, Einar 17, Khoril 16**) to swallow; failure causes violent nausea (-1d on physical tests for 1 hour). |
-| **3–4** | **Acidic Mine Runoff** | Tainted with nitric vitriol and heavy metals. Severe Poison (8 Endurance loss; requires **HEALING** vs **Heart TN: Torvir 18, Einar 17, Khoril 16**). |
+| **7–8** | **Orc-Filth** | Befouled with tallow and offal. Moderate Poison (4 Endurance loss; cured by Brief Rest or **HEALING roll**). |
+| **5–6** | **Bitter Mineral Water** | Heavy with alkali salts. Must pass a **VALOUR test** to swallow; failure causes violent nausea (-1d on physical tests for 1 hour). |
+| **3–4** | **Acidic Mine Runoff** | Tainted with nitric vitriol and heavy metals. Severe Poison (8 Endurance loss and Weary condition; requires **HEALING roll**). |
 | **1–2** | **Malice of Durin's Bane** | Tainted by demonic ash residue. Imbiber gains 2 Shadow Points (Sorcery) and suffers horrifying visions. |
 | **Eye of Sauron (S)** | **The Lurker's Pool** | The water appears deceptively clear, but the cistern is guarded by an Udûn sentry ambush or a subterranean crawler! |
 

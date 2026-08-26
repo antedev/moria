@@ -14,7 +14,7 @@
  • Torvir Hammerstone (Champion)      : STR 7 (TN 13) | HRT 2 (TN 18) | WIT 5 (TN 15) | Parry 15 | Mail 5d
  • Einar son of Anar (Treasure Hunter): STR 6 (TN 14) | HRT 3 (TN 17) | WIT 5 (TN 15) | Parry 20 | Mail 3d
  • Khoril Hornblower (Captain)        : STR 7 (TN 13) | HRT 4 (TN 16) | WIT 4 (TN 16) | Parry 17 | Mail 3d
- SAFE HAVEN BASE:       The Caves of Thrym Thistlebeard (Second Deep)
+ SAFE HAVEN BASE:       The Caves of Thrym Thistlebeard (Third Deep Stratum)
  PRIMARY MISSION:       Salvage 50 Suits of Garrison Wargear & Recover Durin's Axe for King Dáin
 ========================================================================================================================
 ```
@@ -58,31 +58,31 @@
 ========================================================================================================================
  #  NAME & SPECIALTY     ENDURANCE   INJURY STATUS TRACKER           FATIGUE STATUS TRACKER          ACTIVE SQUAD / ROLE
 ------------------------------------------------------------------------------------------------------------------------
- 1  BLÁIN THE CLEAVER    [10 / 18]   [ ] Fleeting   [X] Moderate     [ ] Fatigued   [ ] Faltering    [ ] Forward Screen
+ 1  BLÁIN THE CLEAVER    [10 / 18]   [ ] Fleeting   [X] Moderate     [ ] Fatigued   [ ] Weary        [ ] Forward Screen
     • Gift: Goblin-Slayer            [ ] Severe     [ ] Grievous     [ ] Spent      [ ] Collapsed    [X] Shield-Wall / Rear
       (+1d vs Orcs/Goblins)          [ ] Lingering                                                   [ ] Salvage Porter
 ------------------------------------------------------------------------------------------------------------------------
- 2  FÁIN IRON-VISOR      [15 / 18]   [ ] Fleeting   [ ] Moderate     [ ] Fatigued   [ ] Faltering    [ ] Forward Screen
+ 2  FÁIN IRON-VISOR      [15 / 18]   [ ] Fleeting   [ ] Moderate     [ ] Fatigued   [ ] Weary        [ ] Forward Screen
     • Gift: Dead-Eye                 [ ] Severe     [ ] Grievous     [ ] Spent      [ ] Collapsed    [X] Rearguard Overwatch
       (+1d Ranged from Rear)         [ ] Lingering                                                   [ ] Salvage Porter
 ------------------------------------------------------------------------------------------------------------------------
- 3  DÚRMER IRON-SHOULDER [22 / 22]   [ ] Fleeting   [ ] Moderate     [ ] Fatigued   [ ] Faltering    [ ] Forward Screen
+ 3  DÚRMER IRON-SHOULDER [22 / 22]   [ ] Fleeting   [ ] Moderate     [ ] Fatigued   [ ] Weary        [ ] Forward Screen
     • Status: Hardened Veteran       [ ] Severe     [ ] Grievous     [ ] Spent      [ ] Collapsed    [X] Phalanx Anchor
     • Gift: Mighty (+1d Labor)       [ ] Lingering                                                   [X] Salvage Porter Lead
 ------------------------------------------------------------------------------------------------------------------------
- 4  HJOLDRING ARMOURER   [18 / 18]   [ ] Fleeting   [ ] Moderate     [ ] Fatigued   [ ] Faltering    [ ] Forward Screen
+ 4  HJOLDRING ARMOURER   [18 / 18]   [ ] Fleeting   [ ] Moderate     [ ] Fatigued   [ ] Weary        [ ] Forward Screen
     • Gift: Smith (+1d Forge,        [ ] Severe     [ ] Grievous     [ ] Spent      [ ] Collapsed    [ ] Shield-Wall Phalanx
       Repair & Salvage)              [ ] Lingering                                                   [X] Heavy Salvage Lead
 ------------------------------------------------------------------------------------------------------------------------
- 5  BRÓGA VAULTBREAKER   [12 / 12]   [ ] Fleeting   [ ] Moderate     [ ] Fatigued   [ ] Faltering    [X] Forward Screen
+ 5  BRÓGA VAULTBREAKER   [12 / 12]   [ ] Fleeting   [ ] Moderate     [ ] Fatigued   [ ] Weary        [X] Forward Screen
     • Gift: Vaultbreaker             [ ] Severe     [ ] Grievous     [ ] Spent      [ ] Collapsed    [ ] Lockbreaker Support
       (+1d Locks & Traps)            [ ] Lingering                                                   [ ] Salvage Porter
 ------------------------------------------------------------------------------------------------------------------------
- 6  AUSTRI WAYFINDER     [10 / 18]   [ ] Fleeting   [ ] Moderate     [ ] Fatigued   [ ] Faltering    [X] Point Scout Screen
+ 6  AUSTRI WAYFINDER     [10 / 18]   [ ] Fleeting   [ ] Moderate     [ ] Fatigued   [ ] Weary        [X] Point Scout Screen
     • Gift: Scout (+1d Flues,        [ ] Severe     [ ] Grievous     [ ] Spent      [ ] Collapsed    [ ] Overwatch
       Bypasses & Stealth)            [ ] Lingering                                                   [ ] Salvage Porter
 ------------------------------------------------------------------------------------------------------------------------
- 7  DOLG THE BULWARK     [18 / 18]   [ ] Fleeting   [ ] Moderate     [ ] Fatigued   [ ] Faltering    [ ] Forward Screen
+ 7  DOLG THE BULWARK     [18 / 18]   [ ] Fleeting   [ ] Moderate     [ ] Fatigued   [ ] Weary        [ ] Forward Screen
     • Gift: Shield-Bearer            [ ] Severe     [ ] Grievous     [ ] Spent      [ ] Collapsed    [X] Shield-Wall Center
       (Intercepts 1 blow/rd)         [ ] Lingering                                                   [ ] Salvage Porter
 ========================================================================================================================
@@ -102,7 +102,7 @@ Fill in the checkboxes and assign companion names to active operational squads:
   [ ] 1. FORWARD SCOUT SCREEN (2 Companions)
       • Assigned: Austri the Wayfinder & Bróga Vaultbreaker
       • Tactical Function: Advances 50 paces ahead. Rolls Band Vigilance (2d6) or Manoeuvre (2d6) vs Band TN 15.
-      • Benefits: Prevents surprise; spots sentries/traps; allows Einar to use The Broken Key (Favoured Scan) safely.
+      • Benefits: Prevents surprise; spots sentries/traps; allows scouts to make SCAN rolls (Favoured) safely.
 
   [ ] 2. SHIELD-WALL PHALANX (3 Companions)
       • Assigned: Dúrmer the Iron-Shouldered, Dolg the Bulwark, Bláin the Cleaver
@@ -111,7 +111,7 @@ Fill in the checkboxes and assign companion names to active operational squads:
 
   [ ] 3. REARGUARD CHOKE POINT DEFENSE (2 Companions stationed at Location 2 Gatehouse)
       • Assigned: Bláin the Cleaver & Fáin Iron-Visor
-      • Tactical Function: Fortifies the Upper Gatehouse to secure the escape route to Thrym's Safe Haven.
+      • Tactical Function: Fortifies the Upper Gatehouse to secure the Westward Drift escape route to Thrym's Safe Haven.
       • Benefits: Guarantees extraction route; +2 Band Readiness on Fighting Withdrawal; rigs 30-Dmg Keystone Collapse Trap!
 
   [ ] 4. HEAVY SALVAGE PORTER SQUAD (4 Companions)
@@ -137,13 +137,13 @@ Use this section during combat encounters against organized Orc warbands:
  [ ] GUARDED    : Favoured Clash roll; ignores the first Special Damage trigger rolled by the enemy.
  [ ] FLEEING    : Band Manoeuvre roll vs Band TN 15 + Enemy Might to disengage and retreat to previous room.
 ------------------------------------------------------------------------------------------------------------------------
- STEP 2: HERO LEADER ACTIONS
- • Khoril Hornblower  : [ ] Command (BATTLE [Heart TN 16] -> +1d to Clash)
-                        [ ] Inspire (ENHEARTEN [Heart TN 16] -> +1 Hope / clear Faltering)
- • Torvir Hammerstone : [ ] Fight (Great Axe vs STRENGTH TN 13 + Adversary Parry/Might)
-                        [ ] Duel (Single combat vs Enemy Champion, negates Might penalty)
- • Einar son of Anar  : [ ] Fight (Sword vs STRENGTH TN 14 + Adversary Parry/Might)
-                        [ ] Flank / Lockpick (SCAN / CRAFT [Wits TN 15 / Strength TN 14], +1d Trait Burglary)
+ STEP 2: HERO LEADER ACTIONS (Player Choice)
+ • Leader / Captain  : [ ] Command (BATTLE roll -> +1d to Clash)
+                       [ ] Inspire (ENHEARTEN roll -> +1 Hope / clear Weary)
+ • Frontline Champion: [ ] Fight (Attack roll vs Adversary Parry)
+                       [ ] Duel (Single combat vs Enemy Champion, negates Might penalty)
+ • Scout / Support   : [ ] Flank / Support (Attack roll or BATTLE roll -> +1d to allies)
+                       [ ] Infiltration / Utility (SCAN roll or CRAFT roll, +1d if invoking Burglary)
 ------------------------------------------------------------------------------------------------------------------------
  STEP 3: RESOLVE CLASH ROLL
  • Roll Band War (3d6) vs Target Number: [ Band TN 15 + Enemy Might: _____ ] = Total TN: [ _____ ]

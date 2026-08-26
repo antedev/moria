@@ -364,7 +364,7 @@ def build_gm_cheat_sheet_html() -> str:
             </table>
             <div style="font-size:7.5pt; line-height:1.2;">
                 <b>Noise Triggers</b>: Unmuffled march (+1 AP) • Echo combat (+1 AP/round) • Horn (+3 AP, +1 Eye) • Stone smash (+2 AP) • Troll roar (+3 AP) • Durin's Axe lifted (<b>+4 Eye Awareness</b>).<br>
-                <b>Noise Relief</b>: Silent kill in R1 (-1 AP) • Diversion fire (-2 AP) • Bribe Grik (-2 AP) • Gatehouse fortified (-1 AP/Act).
+                <b>Noise Relief</b>: Silent kill in R1 (-1 AP) • Diversion fire (-2 AP) • Decoy trap (-2 AP) • Gatehouse fortified (-1 AP/Act).
             </div>
         </div>
 
@@ -390,52 +390,52 @@ def build_gm_cheat_sheet_html() -> str:
             <table>
                 <tr>
                     <th>Loc # & Landmark</th>
-                    <th>Skill Checks (Attribute TN)</th>
+                    <th>Key Skill Checks</th>
                     <th>Consequence on Failure / 6s</th>
                 </tr>
                 <tr>
                     <td><b>1. Mustering-Yard</b></td>
-                    <td>STEALTH (WIT) to slip past<br>BATTLE (HRT) for ambush</td>
+                    <td>STEALTH roll to slip past<br>BATTLE roll for ambush</td>
                     <td>Fail: Patrol spotted (+1 AP)<br>6: Silent kill / +1d on opening round</td>
                 </tr>
                 <tr>
                     <td><b>2. Upper Gatehouse</b></td>
-                    <td>CRAFT (STR) Endeavour Res 3<br>AWARENESS (STR) spot trap</td>
+                    <td>CRAFT roll Endeavour Res 3<br>AWARENESS roll spot trap</td>
                     <td>Fail: Door unsecured<br>6: +1 extraction round / -1 AP per Act</td>
                 </tr>
                 <tr>
                     <td><b>3. First Armoury</b></td>
-                    <td>SCAN (WIT) spot scrap-traps<br>CRAFT (STR) scavenge arms</td>
+                    <td>SCAN roll (Favoured)<br>CRAFT roll (+1d) scavenge arms</td>
                     <td>Fail: 4 Dmg + loud crash (+2 AP)<br>6: Recovers 12 spearheads & pry-bars</td>
                 </tr>
                 <tr>
                     <td><b>4. Broken Hall</b></td>
-                    <td>VALOUR (HRT) vs Dread (+1 Shad)<br>LORE (WIT) Last Redoubt clue</td>
-                    <td>Torvir flaw: Wrath urges idol smash<br>6: Reveals King's Key is in Old Moria</td>
+                    <td>VALOUR roll vs Dread (+1 Shad)<br>LORE/RIDDLE roll Cartouche</td>
+                    <td>Flaw trigger: Wrath urges idol smash<br>6: Reveals King's Key is in Old Moria</td>
                 </tr>
                 <tr>
                     <td><b>5. Second Armoury</b></td>
-                    <td>CRAFT (STR) Endeavour Res 3<br>ATHLETICS (STR) ram brace</td>
+                    <td>CRAFT roll Endeavour Res 3<br>ATHLETICS roll to aim ram</td>
                     <td>Fail: Ballista jams<br>6: Heavy Ballista armed (24 Dmg to Troll!)</td>
                 </tr>
                 <tr>
                     <td><b>6. Hall of Mauler</b></td>
-                    <td>STEALTH (WIT) across scrap<br>RIDDLE (WIT) duel in Fwd</td>
+                    <td>STEALTH roll across scrap<br>RIDDLE roll duel in Forward</td>
                     <td>Fail: Troll awakens (+3 AP)<br>6: Strips 1 Hate/icon from The Mauler</td>
                 </tr>
                 <tr>
                     <td><b>7. Poisoned Halls</b></td>
-                    <td>Protection (STR TN) hourly<br>SCAN (WIT) find Scribe Letter</td>
+                    <td>PROTECTION roll (gas) hourly<br>SCAN roll find Scribe Letter</td>
                     <td>Fail: 2 End loss + Weary<br>6: Recovers Scribe Slate & 3 Gromril Mails</td>
                 </tr>
                 <tr>
                     <td><b>8. Upper Armoury</b></td>
-                    <td>EXPLORE (WIT) clear gas cache</td>
+                    <td>EXPLORE roll clear gas cache</td>
                     <td>Yields 30 masterwork Dwarven weapons</td>
                 </tr>
                 <tr>
                     <td><b>9. King's Door</b></td>
-                    <td>CRAFT (STR) Endeavour Res 6<br>VALOUR (HRT) Blood of Durin</td>
+                    <td>CRAFT roll Endeavour Res 6<br>VALOUR roll Blood of Durin</td>
                     <td>Fail: Lock jams; requires Marshal Key<br>6: Adamant door unlocks smoothly</td>
                 </tr>
                 <tr>
@@ -465,14 +465,9 @@ def build_gm_cheat_sheet_html() -> str:
                     <td><b>GRIMNAR</b><br><i>Disgraced Great Orc</i></td>
                     <td>AL 6, End 36<br>Might 2, Hate 6<br><b>Parry +2, Armour 3d</b></td>
                     <td>• Heavy Scimitar 3 (5/16)<br>• Stolen Dagger 3 (4/14 Keen)</td>
-                    <td><b>Hatred (Dwarves)</b> (+1d vs Torvir/Khoril)<br><b>Craven Ambush</b> (Auto Pierce from stealth)<br><b>Fierce Command</b> (Bonus minion attack)</td>
+                    <td><b>Hatred (Durin's Folk, Favoured)</b><br><b>Snake-Speed (Ill-favoured)</b><br><b>Vengeful Strike</b> • <b>Hideous Toughness</b></td>
                 </tr>
-                <tr>
-                    <td><b>GRIK THE SKULKER</b><br><i>Goblin Informant</i></td>
-                    <td>AL 3, End 12<br>Hate 2, Parry +3</td>
-                    <td>• Jagged Dagger 2 (3/12)<br>• Slingshot 2 (3/12)</td>
-                    <td><b>Shadow-Blend</b> (+2d Stealth)<br><b>Snake-like Speed</b> (Incoming attacks Ill-fav)</td>
-                </tr>
+
                 <tr>
                     <td><b>UDÛN SNIFFERS</b><br><i>Deep Trackers (x4)</i></td>
                     <td>AL 4, End 16<br>Hate 3, Armour 2d</td>
@@ -592,7 +587,7 @@ def build_band_worksheet_html() -> str:
         <td>[ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; / 22 ]</td>
         <td><span class="checkbox-box"></span> Uninjured<br><span class="checkbox-box"></span> Moderate<br><span class="checkbox-box"></span> Severe</td>
         <td>
-            <span class="checkbox-box"></span> <b>Vanguard Shield-Wall</b> (Absorbs 1 Pierce for Torvir)<br>
+            <span class="checkbox-box"></span> <b>Vanguard Shield-Wall</b> (Absorbs 1 Pierce for a hero)<br>
             <span class="checkbox-box"></span> <b>Gatehouse Guard</b> (Holds extraction point)
         </td>
     </tr>
@@ -670,7 +665,7 @@ def build_band_worksheet_html() -> str:
         <div style="font-size:8pt; line-height:1.2;">
             1. <b>Gatehouse Garrison (2 Dwarves)</b>: Secures extraction redoubt. Adds +2 to final withdrawal and reduces Alert by -1 AP per Act.<br>
             2. <b>Salvage Porter Squad (2 Dwarves)</b>: Carries up to 600 lbs of recovered wargear/mithril without penalizing hero Fatigue.<br>
-            3. <b>Shield-Wall Phalanx (Attached to Torvir)</b>: Absorbs 1 Piercing Blow per battle on behalf of a hero.<br>
+            3. <b>Shield-Wall Phalanx</b>: Absorbs 1 Piercing Blow per battle on behalf of a hero.<br>
             4. <b>Crossbow Suppressing Fire</b>: Strips 1 Hate point per round from enemy commanders on a successful War test.
         </div>
     </div>
@@ -678,7 +673,7 @@ def build_band_worksheet_html() -> str:
     <div class="card">
         <div class="card-header">BAND MARCHING & COMBAT RESOLUTION</div>
         <div style="font-size:8pt; line-height:1.2;">
-            • <b>Marching Test</b>: Khoril tests <b>TRAVEL (HRT TN 16)</b> or Band rolls <b>MANOEUVRE (TN 15)</b>. Failure: +1 Alert Point.<br>
+            • <b>Marching Test</b>: March leader tests <b>TRAVEL roll</b> or Band rolls <b>MANOEUVRE (TN 15)</b>. Failure: +1 Alert Point.<br>
             • <b>Band Clash in Combat</b>: Roll Feat Die + WAR (3d) vs TN 15. Each success inflicts 4 Endurance damage on enemy minion mob; each 6 icon inflicts a Piercing Blow.<br>
             • <b>Casualty Threshold</b>: If $\ge 4$ companions become wounded, the Band becomes <b>Weary</b> (-1d to all rolls).
         </div>
@@ -737,19 +732,19 @@ def build_dying_scribe_letter_html() -> str:
             <th>Lore & Clues Revealed to the Fellowship</th>
         </tr>
         <tr>
-            <td><b>LORE</b></td>
-            <td><b>Wits TN 15/16</b></td>
+            <td><b>LORE / SCAN</b></td>
+            <td><b>LORE roll / SCAN roll</b> (Favoured / +1d)</td>
             <td>Identifies the script as Royal Khuzdul Cirth. Confirms the <b>Marshal's Key</b> was carried into the deep warrens (connecting toward Goblin Village or Udûn tracks), while the <b>King's Key</b> was sealed in the Last Redoubt (Old Moria).</td>
         </tr>
         <tr>
-            <td><b>CRAFT</b></td>
-            <td><b>Strength TN 13/14</b></td>
-            <td>Recognizes the runic schematics sketched on the reverse of the slate: reveals the <b>King's Door uses a dual-interlocking cam mechanism</b> and can be bypassed via the <b>Blood of Durin ritual</b> (VALOUR test) if the King's Key is missing.</td>
+            <td><b>CRAFT / HEALING</b></td>
+            <td><b>CRAFT roll / HEALING roll (+1d)</b></td>
+            <td>Recognizes the runic schematics sketched on the reverse of the slate: reveals the <b>King's Door uses a dual-interlocking cam mechanism</b> and can be bypassed via the <b>Blood of Durin ritual</b> (VALOUR roll) if the King's Key is missing.</td>
         </tr>
         <tr>
-            <td><b>SCAN</b></td>
-            <td><b>Wits TN 15 (Einar +2)</b></td>
-            <td>Spots tiny mineral crystalline residue along the fracture line: indicates the poison gas pooled from lower ventilation shafts and can be filtered with tallow-greased linen soaked in spirits or athelas.</td>
+            <td><b>RIDDLE</b></td>
+            <td><b>RIDDLE roll (+1d)</b></td>
+            <td>Deciphers the marginal scratches at the bottom of the slab: Scribe Frár scratched the tumbler layout—3 left, 2 right, 1 center—granting +2d on the Turn 1 roll of the Lockbreaker Skill Endeavour.</td>
         </tr>
     </table>
 </div>
@@ -776,29 +771,29 @@ def build_node_map_html() -> str:
                                 3-TIER ELEVATION CROSS-SECTION & FLOWCHART
 ========================================================================================================
 
- [LEVEL 3A: UPPER RESIDENCE]  <--- Secret Climbing Shaft from Thrym Thistlebeard's Haven
+ [LEVEL 3A: UPPER RESIDENCE]  <--- The Westward Drift from Thrym Thistlebeard's Haven
                │
                ▼
    +───────────────────────+
    │ 2. UPPER GATEHOUSE    │  <--- [EXPEDITION RALLY REDOUBT] (CRAFT Res 3 to fortify; -1 AP/Act)
    +───────────┬───────────+
-               │ (Wide Granitic Stairway - March Test: Travel HRT TN 16 / Band Manoeuvre TN 15)
+               │ (Wide Granitic Stairway - March Test: TRAVEL roll / Band Manoeuvre TN 15)
                ▼
    +───────────────────────+
 ┌──┤ 1. MUSTERING-YARD     ├──┐  <--- [NEUTRAL GROUND] (Sentry Squad: 4 Orc Soldiers, 1 Udûn Sniffer)
-│  +───────────┬───────────+  │       (Stealth WIT TN 15 to slip past | Battle HRT TN 16 to ambush)
+│  +───────────┬───────────+  │       (STEALTH roll to slip past | BATTLE roll to ambush)
 │ (West Flank) │ (Central)    │ (East Flank)
 ▼              ▼              ▼
 +───────────+  +───────────+  +───────────+
 │ 3. FIRST  │  │ 4. BROKEN │  │ 5. SECOND │ [LEVEL 3B: THE WEAPONS MANUFACTORY]
-│   ARMOURY │  │    HALL   │  │   ARMOURY │ • Area 3: Scrap-traps (Scan WIT TN 15) | 12 Spearheads
-│(Scrap-Trap│  │ (Morgoth  │  │ (Siege     │ • Area 4: Valour HRT TN 18 vs Dread | Last Redoubt Clue
+│   ARMOURY │  │    HALL   │  │   ARMOURY │ • Area 3: Scrap-traps (SCAN roll) | 12 Spearheads
+│(Scrap-Trap│  │ (Morgoth  │  │ (Siege     │ • Area 4: VALOUR roll vs Dread | Last Redoubt Clue
 │ Traps)    │  │  Idol)    │  │  Engines) │ • Area 5: Heavy Ballista (Craft Res 3; 24 Dmg to Troll!)
 +───────────+  +─────┬─────+  +─────┬─────+
                      │              │
                      ▼              │
         +─────────────────────────+ │
-        │ 7. THE POISONED HALLS   │◄┘  <--- [FATAL HAZARD] (Balrog Miasma: Protection STR TN 13 hourly)
+        │ 7. THE POISONED HALLS   │◄┘  <--- [FATAL HAZARD] (Balrog Miasma: PROTECTION roll hourly)
         │ (12th & 14th Halls)     │         (Preserved Dwarf Knights | Scribe's Dying Slate recovered)
         +────────────┬────────────+
                      │
@@ -814,7 +809,7 @@ def build_node_map_html() -> str:
 │ (Armoured Cave-Troll)   │           │ (Adamant Ithildin Seal) │ • Area 6: The Mauler (AL 10 Troll)
 │ • Forward Riddle Duel   │           +────────────┬────────────+ • Area 9: Skill Endeavour Res 6
 │ • Grimnar Catwalk Ambush│                        │              (Marshal's Key + Blood of Durin)
-+─────────────────────────+                        ▼
++───────────┬─────────────+                        ▼
                                       +─────────────────────────+
                                       │ 10. THE LOWER ARMOURY   │ <--- [THE GREATER HOARD]
                                       │ (The Grand Royal Vault) │ • 120 Treasure Points in Mithril
@@ -823,7 +818,7 @@ def build_node_map_html() -> str:
 
 ========================================================================================================
 CONNECTING SUBTERRANEAN PATHWAYS:
-• Eastern Fissure: Descends 2 miles to Goblin Village (Granny Goblin & Grik's Under-Market).
+• Eastern Fissure: Descends 2 miles to Goblin Village (Lower Moria Orc Warrens).
 • South-Eastern Gallery: Connects to the Ledge of Woe & The Wailing Stairs descending to the Mines.
 ========================================================================================================
 </div>
@@ -832,9 +827,9 @@ CONNECTING SUBTERRANEAN PATHWAYS:
     <div class="card">
         <div class="card-header">CRITICAL TACTICAL BYPASSES & CHOKEPOINTS</div>
         <div style="font-size:8pt; line-height:1.25;">
-            • <b>The Flue Bypass</b>: A narrow ventilation shaft connects Area 2 directly to Area 5, bypassing the central Mustering-Yard entirely (requires <b>EXPLORE [WIT TN 15]</b>).<br>
+            • <b>The Flue Bypass</b>: A narrow ventilation shaft connects Area 2 directly to Area 5, bypassing the central Mustering-Yard entirely (requires <b>EXPLORE roll</b>).<br>
             • <b>The Catwalk Overwatch</b>: High stone walkways run above Area 6 and Area 1, accessible via stone rungs. Perfect for companion crossbow marksmen (Bláin & Bróga).<br>
-            • <b>The Keystone Collapse Point</b>: Over Area 2, an unstable archway can be rigged to collapse during the final withdrawal, sealing the shafts against Malech's shock-troops.
+            • <b>The Keystone Collapse Point</b>: Over Area 2, an unstable archway can be rigged to collapse during the final withdrawal, sealing the gallery against Malech's shock-troops.
         </div>
     </div>
 
@@ -845,7 +840,7 @@ CONNECTING SUBTERRANEAN PATHWAYS:
             2. <span class="checkbox-box"></span> Recover Scribe Slate & Marshal's Key in Act II.<br>
             3. <span class="checkbox-box"></span> Prime Heavy Ballista in Area 5 for troll defense.<br>
             4. <span class="checkbox-box"></span> Claim Durin's Axe (<b>Eye Awareness +4</b>) in Act III.<br>
-            5. <span class="checkbox-box"></span> Form Companion Shield-Wall and extract 600 lbs wargear back up to Thistlebeard Haven!
+            5. <span class="checkbox-box"></span> Form Companion Shield-Wall and extract 600 lbs wargear along the Westward Drift to Thistlebeard Haven!
         </div>
     </div>
 </div>

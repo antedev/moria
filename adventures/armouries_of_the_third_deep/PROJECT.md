@@ -23,7 +23,7 @@ Every skill check in the module suite strictly follows the format:
 
 ### 3. Trait Integrity & Vocabulary Purge
 - All Distinctive Features (*Burglary*, *Enemy-lore (Orcs)*, *Fierce*, *Cunning*, *Wary*, *Leadership*, *Smith*, *Vaultbreaker*) are Traits that grant $+1\text{d}$ when invoked on applicable skill checks.
-- Purged all non-canonical terms and mechanics: `+50 Garrison Supply Points`, `Burglary TN XX`, `Sleight`, `Old Lore`, `Customs`, `Advantage / +2`, `Endurance roll`, `Valour TN 14`.
+- Purged all non-canonical terms and mechanics (fabricated supply mechanics, fake/1e legacy skills, 5e advantage wording, and fixed non-attribute target numbers).
 
 ---
 
@@ -42,7 +42,7 @@ Every requirement from the Survey and ORIGINAL_REQUEST is cataloged below:
 | 7 | Balrog Miasma Environmental Rules | Formalize *Breath of the Pit* Protection tests vs Strength TN, respirator craft endeavour, herbal remedies | M2 | R2, Survey 2 | DONE |
 | 8 | Operational Mechanics & Purge | Purge "+50 Garrison Supply Points" from background/operations; convert 5e modifiers | M2 | R2, Survey 2 | DONE |
 | 9 | Campaign Context & Pre-Gens | Update `00_overview_and_background.md` & `01_campaign_context.md` with exact Hero Attribute TNs & traits | M2 | R2, Survey 2 | DONE |
-| 10 | Adversary Stat Block Math Audit | Unify math for The Mauler (Parry —), Grimnar (End 36, Might 2, Parry +2), Grik (AL 3, End 12), Orc ranks | M3 | R3, Survey 3 | DONE |
+| 10 | Adversary Stat Block Math Audit | Unify math for The Mauler (Parry —), Grimnar (End 36, Might 2, Parry +2), Orc ranks | M3 | R3, Survey 3 | DONE |
 | 11 | The Mauler Riddle Duel | Refactor "Dull-Witted" Riddle combat task in Forward stance (Wits TN, removing Hate per 6 icon) | M3 | R3, Survey 3 | DONE |
 | 12 | Adversary Fell Abilities & Hazards | Convert all Strike Fear, Carapace, and hazard checks to Hero Attribute TNs (Valour vs Heart TN, etc.) | M3 | R3, Survey 3 | DONE |
 | 13 | Relics & Enchanted Qualities | Refactor *Durin's Axe*, *Shield of the Deep Gate*, *Mattock of Moria-Silver*, *Mail of Unyielding Stone* to TOR 2e qualities | M4 | R4, Survey 3 | DONE |

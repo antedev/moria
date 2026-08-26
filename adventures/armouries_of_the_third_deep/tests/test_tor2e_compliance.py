@@ -324,11 +324,11 @@ class TestTier1FeatureCoverage(BaseTOR2eTest):
         """F5.3: Verify all 5 Band Dispositions are correct (War 3d, Vigilance 2d, Manoeuvre 2d, Expertise 2d, Rally 1d)."""
         text = self.get_text("02_band_mechanics.md") + self.get_text("00_overview_and_background.md")
         if text:
-            self.assertTrue(re.search(r"War\s*3", text, re.IGNORECASE))
-            self.assertTrue(re.search(r"Vigilance\s*2", text, re.IGNORECASE))
-            self.assertTrue(re.search(r"Manoeuvre\s*2", text, re.IGNORECASE))
-            self.assertTrue(re.search(r"Expertise\s*2", text, re.IGNORECASE))
-            self.assertTrue(re.search(r"Rally\s*1", text, re.IGNORECASE))
+            self.assertTrue(re.search(r"War(?::|\s|\s*\(Rating\s*)*3", text, re.IGNORECASE))
+            self.assertTrue(re.search(r"Vigilance(?::|\s|\s*\(Rating\s*)*2", text, re.IGNORECASE))
+            self.assertTrue(re.search(r"Manoeuvre(?::|\s|\s*\(Rating\s*)*2", text, re.IGNORECASE))
+            self.assertTrue(re.search(r"Expertise(?::|\s|\s*\(Rating\s*)*2", text, re.IGNORECASE))
+            self.assertTrue(re.search(r"Rally(?::|\s|\s*\(Rating\s*)*1", text, re.IGNORECASE))
 
     def test_f5_band_marching_discipline_and_noise_mechanics(self):
         """F5.4: Verify marching discipline specifies noise escalation on failure and noise reduction on 6s."""
@@ -396,12 +396,12 @@ class TestTier1FeatureCoverage(BaseTOR2eTest):
             self.assertTrue(re.search(r"MIGHT:\s*2", text))
             self.assertTrue(re.search(r"HATE:\s*6", text))
 
-    def test_f7_grik_stat_block_math_endurance_12(self):
-        """F7.3: Verify Grik the Skulker has AL 3, Endurance 12, Might 1, Hate 2, Parry +3."""
+    def test_f7_udun_sniffers_stat_block_math_endurance_16(self):
+        """F7.3: Verify Udûn Sniffers have AL 4, Endurance 16, Might 1, Hate 4, Armour 3d."""
         text = self.get_text("03_adversaries_and_hazards.md") + self.get_text("05_adversaries_and_hazards.md")
         if text:
-            self.assertTrue(re.search(r"ENDURANCE:\s*12", text))
-            self.assertTrue(re.search(r"HATE:\s*2", text))
+            self.assertTrue(re.search(r"ENDURANCE(?:\*\*|\s|:)*16", text, re.IGNORECASE))
+            self.assertTrue(re.search(r"HATE(?:\*\*|\s|:)*4", text, re.IGNORECASE))
 
     def test_f7_mauler_dull_witted_riddle_combat_task(self):
         """F7.4: Verify The Mauler's Dull-Witted Riddle task uses RIDDLE (Wits TN) in Forward stance."""
@@ -764,9 +764,9 @@ class TestTier4RealWorldUsability(BaseTOR2eTest):
         """T4.5: Verify band_worksheet.md contains actionable tracking boxes for Hope, Shadow, and Readiness."""
         text = self.get_text("band_worksheet.md")
         if text:
-            self.assertTrue("Readiness" in text)
-            self.assertTrue("Hope" in text)
-            self.assertTrue("Shadow" in text)
+            self.assertTrue("Readiness" in text or "READINESS" in text)
+            self.assertTrue("Hope" in text or "HOPE" in text)
+            self.assertTrue("Shadow" in text or "SHADOW" in text)
 
     def test_t4_dying_scribe_letter_lore_and_cipher_usability(self):
         """T4.6: Verify dying_scribe_letter.md provides clear investigative handout props for players."""

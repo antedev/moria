@@ -13,14 +13,15 @@
   [SURFACE / UPPER LEVELS]
   • The Great Gates of the Dimrill Dale (East-Gate Encampment & Lord Balin)
      │
-     ▼ (Wild Land Travel — TRAVEL [Heart TN: Torvir 18, Einar 17, Khoril 16])
-  • THE CAVES OF THRYM THISTLEBEARD (Second Deep Safe Haven)
+     ▼ (Wild Land Travel — **TRAVEL roll**)
+  • THE CAVES OF THRYM THISTLEBEARD (Safe Haven - Location 18)
      │
-     │ [Vertical Counterweight Shaft of the Pillars: 400-Foot Ingress/Egress Drop]
-     ▼
+     └──► [The Westward Drift / Great Transverse Gallery: Lateral Paved Ingress]
+           │
+           ▼
   ====================================================================================== [LEVEL 3A: UPPER STAGING TIER]
   ┌────────────────────────────────────────────────────────┐
-  │ 1. THE MUSTERING-YARD                                  │ (Crossroads Landing, Balrog Scorches, Grik Contact)
+  │ 1. THE MUSTERING-YARD                                  │ (Crossroads Landing, Balrog Scorches, Sentry Camp)
   └───────────────────────────┬────────────────────────────┘
                               │ (30-ft Granite Archway)
                               ▼
@@ -91,13 +92,13 @@
 ========================================================================================================================
  FROM ROOM             TO ROOM               PASSAGE / DOOR TYPE             LOCK / TRAP / MECHANISM
 ------------------------------------------------------------------------------------------------------------------------
- Safe Haven (Thrym)    1. Mustering-Yard     400-ft Vertical Bucket Shaft    Counterweight ropes & iron ladder flues
+ Safe Haven (Thrym)    1. Mustering-Yard     Paved Westward Drift (Gallery)  Ancient transverse military road
  1. Mustering-Yard     2. Upper Gatehouse    30-ft Open Granite Archway      None (Open transit)
- 1. Mustering-Yard     3. First Armoury      East Smuggler's Crawl-Vent      Concealed stone grating (Explore [WIT TN])
+ 1. Mustering-Yard     3. First Armoury      East Smuggler's Crawl-Vent      Concealed stone grating (**EXPLORE roll**)
  2. Upper Gatehouse    3. First Armoury      Sloping 20-ft Granite Ramp      Buckled Adamant Blast-Doors; Keystone Winch
- 3. First Armoury      4. Broken Hall        Open Pillared Archway           2 Interlocking Scythe Scrap-Traps (Scan [WIT TN])
- 3. First Armoury      5. Second Armoury     West Maintenance Duct           Narrow duct (Explore [WIT TN]; bypasses Room 4)
- 4. Broken Hall        5. Second Armoury     Heavy Double Cedar Doors        Bronze-bound; barred from inside (Athletics [STR TN])
+ 3. First Armoury      4. Broken Hall        Open Pillared Archway           2 Interlocking Scythe Scrap-Traps (**SCAN roll**)
+ 3. First Armoury      5. Second Armoury     West Maintenance Duct           Narrow duct (**EXPLORE roll**; bypasses Room 4)
+ 4. Broken Hall        5. Second Armoury     Heavy Double Cedar Doors        Bronze-bound; barred from inside (**ATHLETICS roll**)
  5. Second Armoury     6. Hall of Mauler     Heavy Bronze Double Doors       Swings outward; target for Grond-ram
  5. Second Armoury     7. Poisoned Halls     Sealed Iron Pressure-Door       Wheel-latch with airtight lead gasket
  7. Poisoned Halls     8. Upper Armoury      Reinforced Bronze Door          Greased pivots; airtight seal
@@ -130,8 +131,8 @@
 |                    └────────────────────────────────────┘                            |
 |                                                                                      |
 |  [Pillar 5]               [Pillar 6]               [Pillar 7]             [Pillar 8] |
-|                                                                           (Grik Drain|
-|                                                                            Alcove)   |
+|                                                                           (Sentry Camp|
+|                                                                            Brazier)   |
 |  ══════════════════════════════════════════════════════════════════════════════════  |
 |                                         │                                            |
 |                                         ▼                                            |
@@ -295,17 +296,14 @@
 ========================================================================================================================
  FLUE NAME             CONNECTS                  DETECTION & TRANSIT TEST     TACTICAL UTILITY
 ------------------------------------------------------------------------------------------------------------------------
- 1. Smuggler's Vent    Loc 1 -> Loc 3            EXPLORE (Wits TN)            Completely bypasses the sentries and 
-                                                 (Einar Favoured)             buckled blast-doors of Location 2.
+ 1. Smuggler's Vent    Loc 1 -> Loc 3            **EXPLORE roll (Favoured)**  Completely bypasses the sentries and 
+                                                                              buckled blast-doors of Location 2.
 ------------------------------------------------------------------------------------------------------------------------
- 2. Maintenance Flue   Loc 3 -> Loc 5            EXPLORE (Wits TN)            Bypasses the Balrog Idol in Location 4,
-                                                 (Burglary Trait / Bróga +1d) avoiding all Dread tests!
+ 2. Maintenance Flue   Loc 3 -> Loc 5            **EXPLORE roll (+1d)**       Bypasses the Balrog Idol in Location 4,
+                                                 (Invoking *Burglary*)        avoiding all Dread tests!
 ------------------------------------------------------------------------------------------------------------------------
- 3. Arsenal Flue       Loc 8 -> Loc 9            SCAN (Wits TN)               Direct connecting chute from Upper Armoury
+ 3. Arsenal Flue       Loc 8 -> Loc 9            **SCAN roll**                Direct connecting chute from Upper Armoury
                                                                               to King's Door; bypasses Location 6 Troll!
-------------------------------------------------------------------------------------------------------------------------
- 4. Grik's Chute       Loc 1 -> Lower Slag Pits  PERSUADE or RIDDLE (Wits TN) Grik's personal escape drain (6 inches;
-                                                 (Grik only; unpassable)      goblins only; unpursuable).
 ========================================================================================================================
 ```
 
@@ -321,7 +319,7 @@
   [TRIGGER: LIFTING DURIN'S AXE] ──► +4 Strategic Eye Awareness ──► ALERT TIER 3 (Drums in the Deep!)
                                                                                 │
                                                                                 ▼
-  [LOCATION 10: VAULT REDOUBT]   ──► Short Rest (30 min) / Distribute Relics / Pack 50 Suits of Mail (Heavy Burden)
+  [LOCATION 10: VAULT REDOUBT]   ──► Brief Rest (30 min) / Distribute Relics / Pack 50 Suits of Mail (Heavy Burden)
                                                                                 │
                                                                                 ▼
   [LOCATION 9: KING'S DOOR EXIT] ──► Rearguard deploys / Band Clash vs Orc Advance Squad (Band WAR 3d vs Band TN 15)
@@ -341,13 +339,13 @@
                                      Southern rampway permanently sealed with 10 tons of rubble!
                                                                                 │
                                                                                 ▼
-  [LOCATION 1: MUSTERING-YARD]   ──► Hook salvage crates to counterweight bucket-slings; overwatch covers ropes
-                                                                                │
-                                                                                ▼
-  [VERTICAL ASCENT (400 FT)]     ──► Winch squad up Shaft of the Pillars into The Caves of Thrym Thistlebeard
-                                                                                │
-                                                                                ▼
-  [SAFE HAVEN & EAST-GATE CAMP]  ──► Extraction Complete! 40 Mail-shirts, 30 Shields, 50 Mattocks/Axes (+2 Readiness,
+   [LOCATION 1: MUSTERING-YARD]   ──► Secure heavy salvage onto wheel-sledges & litters; overwatch covers portals
+                                                                                 │
+                                                                                 ▼
+   [THE WESTWARD DRIFT (RETREAT)] ──► Phalanx rearguard falls back along Transverse Gallery to Thistlebeard Haven
+                                                                                 │
+                                                                                 ▼
+   [SAFE HAVEN & EAST-GATE CAMP]  ──► Extraction Complete! 40 Mail-shirts, 30 Shields, 50 Mattocks/Axes (+2 Readiness,
                                      50 Treasure Points in tribute, and Royal Renown for King Dáin Ironfoot!)
 ========================================================================================================================
 ```

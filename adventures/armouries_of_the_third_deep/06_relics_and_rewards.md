@@ -24,7 +24,7 @@ When the Balrog (*Durin's Bane*) awoke in 1980 TA and slew King Durin VI and Kin
                                                     Key to convincing King Dáin Ironfoot.
  2. Tunnel-Guard Wargear    Locations 8 & 10        Masterwork Mithril & Gromril Gear; 
                                                     Favoured combat bonuses & Virtues.
- 3. The Marshal's Key       Rooms 3/5, Grik, Craft  Unlocks Location 9 (The King's Door); 
+ 3. The Marshal's Key       Rooms 3/5, Sentry, Craft Unlocks Location 9 (The King's Door); 
                                                     Vital puzzle key / bypass mechanic.
  4. Garrison Armament Haul  Location 8 (Upper Arm.) 40+ Mail, 30 Shields, Crates of Axes; 
                                                     Equips 50 frontline Dwarves for Balin.
@@ -89,14 +89,14 @@ When Khazad-dûm fell in 1981 TA, the dying royal guards placed the axe upon the
       the Company.
     • In combat, the wielder may spend 1 point of Hope to inspire all allies: every 
       companion and Player-Hero gains +1d on all attack rolls and Protection tests for the 
-      next combat round, or clears the Faltering condition immediately.
+      next combat round, or clears the Weary condition immediately.
  
  2. GLEAM OF TERROR:
     • When the axe is drawn in battle, its keen edge rings with the thunder of the forge.
     • Intimidate Foe combat tasks (AWE) made by the wielder are automatically FAVOURED.
     • On a success, the targeted adversary (or all minions of Attribute Level <= 4 in the 
       opposing front rank) loses 2 Hate/Resolve instead of 1, and must make an immediate 
-      Dread test against Heart TN (Ill-favoured) or flee to the rear rank.
+      Dread test (**VALOUR roll**, Ill-favoured) or flee to the rear rank.
 ----------------------------------------------------------------------------------------
  SHADOW ATTRACTION & THE WEIGHT OF DOOM:
  • The ancient malice of Moria is bound to the axe. The moment a hero lifts Durin's Axe 
@@ -112,7 +112,7 @@ When Khazad-dûm fell in 1981 TA, the dying royal guards placed the axe upon the
 
 ### 2.3 Strategic & Narrative Impact in the Campaign
 1. **The Mandate of King Dáin Ironfoot**: Presenting Durin's Axe to the emissaries of Erebor provides irrefutable royal proof that Khazad-dûm can be reclaimed. It guarantees that King Dáin will mobilize **five hundred heavy Dwarf veterans** from the Iron Hills and Lonely Mountain to reinforce Balin's colony in 2990 TA.
-2. **Torvir Hammerstone's Destiny**: If Torvir (a Champion of Durin's Folk with Great Axe Mastery) takes up the axe, his *Curse of Vengeance* is both empowered and imperiled. When fighting Orcs with Durin's Axe, Torvir scores Piercing Blows on a Feat die roll of **7, 8, 9, 10, or Gandalf Rune** (stacking Mastery with Superior Keen). However, failing a **VALOUR** test (**Heart TN 18**) while wielding the axe adds **+2 Shadow (Dread)** instead of 1.
+2. **Heir of Durin's Destiny**: If a Dwarf hero of Durin's Folk (such as a Champion with Great Axe Mastery) takes up the axe, their resolve is both empowered and imperiled. When fighting Orcs with Durin's Axe, a wielder with Great Axe Mastery scores Piercing Blows on a Feat die roll of **7, 8, 9, 10, or Gandalf Rune** (stacking Mastery with Superior Keen). However, failing a **VALOUR roll** while wielding the axe adds **+2 Shadow (Dread)** instead of 1.
 
 ---
 
@@ -234,18 +234,18 @@ The Player-Heroes have three distinct operational pathways to secure or bypass t
   * **Grik’s Disposition**: Opportunistic, terrified of the Udûn Orcs, greedy for luxuries.
   * **Grik’s Demands (The Price)**: Grik will deliver the key (or lead the heroes to its exact hiding spot) in exchange for any **two** of the following:
     1. **Bright Silver / Dwarf Coin**: 5 Treasure Points / 30 Silver Pennies.
-    2. **Fragrant Surface Tobacco**: A pouch of *Old Toby* or Longbottom Leaf (carried by Einar or Khoril).
+    2. **Fragrant Surface Tobacco**: A pouch of *Old Toby* or Longbottom Leaf (carried by a hero or companion).
     3. **Blood Revenge**: The heroes must ambush and slaughter Grashnak's brute squad without implicating Grik.
-    4. **Dwarven Strong Spirits**: Khoril’s iron flask of fiery Mountain Spirits.
+    4. **Dwarven Strong Spirits**: An iron flask of fiery Mountain Spirits.
   * **Skill Resolution**:
-    * **RIDDLE** (**Wits TN: Torvir 15, Einar 15, Khoril 16**) or **PERSUADE** (**Wits TN: Torvir 15, Einar 15, Khoril 16**): Success convinces Grik to accept a single offering and provide a crude charcoal map of the patrol's blind spot.
-    * **ENHEARTEN** (**Heart TN: Torvir 18, Einar 17, Khoril 16**) or **AWE** (**Strength TN: Torvir 13, Einar 14, Khoril 13**): Torvir can terrify Grik into surrendering the key immediately. However, an intimidated Grik will alert Grimnar at Alert Tier 2 out of spite (+1 Eye Awareness).
+    * **RIDDLE roll** or **PERSUADE roll**: Success convinces Grik to accept a single offering and provide a crude charcoal map of the patrol's blind spot.
+    * **ENHEARTEN roll** or **AWE roll**: A hero can terrify Grik into surrendering the key immediately. However, an intimidated Grik will alert Grimnar at Alert Tier 2 out of spite (+1 Eye Awareness).
 * **Benefit**: A completely silent acquisition (**+0 Noise Points, +0 Alert increase**).
 
 ---
 
 ### 4.3 Pathway 3: Masterwork Craft Skill Endeavour (The Lockbreaker Bypass)
-* **Context**: If the heroes fail to find the physical key or wish to bypass the search entirely, Einar son of Anar and Bróga Vaultbreaker can attempt to crack the ancient triple-tumbler adamant lock of the King's Door using masterwork lockpicks, stone-wedges, counterweights, and *The Broken Key*.
+* **Context**: If the Company fails to find the physical key or wishes to bypass the search entirely, a hero or companion can attempt to crack the ancient triple-tumbler adamant lock of the King's Door using masterwork lockpicks, stone-wedges, counterweights, and cunning tools.
 
 ```
 ========================================================================================
@@ -254,8 +254,8 @@ The Player-Heroes have three distinct operational pathways to secure or bypass t
  RESISTANCE RATING:   6 Successes Required
  TIME LIMIT:          3 Endeavour Turns (Each turn = 10 minutes of intense work)
  KEYED HAZARD:        Internal Deadfall Trap & Acoustic Chime
- PARTICIPANTS:        Primary: Einar (Treasure Hunter) & Bróga (Vaultbreaker)
-                      Support: Torvir (Anchor/Brace), Khoril (Lookout/Acoustic Dampener)
+ PARTICIPANTS:        Primary: Lockbreaker (Craft / Scan / Riddle)
+                      Support: Company Helpers (Anchor / Brace / Lookout)
 ========================================================================================
 ```
 
@@ -267,16 +267,16 @@ Turn 1: Tumbler Alignment ──► Turn 2: Tension & Deadfall Bypass ──► 
 ```
 
 1. **Turn 1: Aligning the Internal Wards**:
-   * *Eligible Skills*: **SCAN** (**Wits TN: Torvir 15, Einar 15, Khoril 16**) or **CRAFT** (**Strength TN: Torvir 13, Einar 14, Khoril 13**).
-   * *Einar Synergy*: Einar gains **Favoured** status on his Scan test using *The Broken Key*.
-   * *Bróga Synergy*: Bróga adds **+1d** via his *Vaultbreaker* Trait.
+   * *Eligible Skills*: **SCAN roll** or **CRAFT roll**.
+   * *Tool & Trait Synergy*: Invoking a Trait such as *Burglary* or using keen locksmith tools grants $+1\text{d}$ (or Favoured status).
+   * *Companion Synergy*: A companion invoking *Vaultbreaker* grants $+1\text{d}$.
    * *Degrees of Success (6 icons)*: Each standard success adds 1 point toward Resistance; each Success icon ($\mathbf{6}$) adds 1 additional point (2 points total). Gandalf Rune ($\mathbf{G}$) contributes 2 points and reveals the internal gear sequence.
 2. **Turn 2: Disarming the Counterweight Deadfall**:
-   * *Eligible Skills*: **CRAFT** (**Strength TN: Torvir 13, Einar 14, Khoril 13**, $+1\text{d}$ if invoking the *Burglary* Trait) or **RIDDLE** (**Wits TN: Torvir 15, Einar 15, Khoril 16**) (deciphering the runic puzzle sequence).
+   * *Eligible Skills*: **CRAFT roll** ($+1\text{d}$ if invoking the *Burglary* Trait) or **RIDDLE roll** (deciphering the runic puzzle sequence).
    * *Complication on Failure*: If no successes are rolled on Turn 2, an internal stone needle snaps: the lock releases a loud harmonic chime, generating **+2 Noise Points** (advancing the Alert Tracker).
 3. **Turn 3: Forcing the Final Gromril Tumbler**:
-   * *Eligible Skills*: **CRAFT** (**Strength TN: Torvir 13, Einar 14, Khoril 13**), **ATHLETICS** (**Strength TN: Torvir 13, Einar 14, Khoril 13**) (turning heavy iron levers), or Band **EXPERTISE** (2d vs **Band TN 15**).
-   * *Torvir Support*: Torvir can spend 1 Hope to brace the torsion bar, granting $+1\text{d}$ to the roller.
+   * *Eligible Skills*: **CRAFT roll**, **ATHLETICS roll** (turning heavy iron levers), or Band **EXPERTISE roll** (2d vs **Band TN 15**).
+   * *Bracing Support*: A supporting hero can spend 1 Hope to brace the torsion bar, granting $+1\text{d}$ to the roller.
 
 #### Endeavour Outcomes
 * **Total Success ($\ge 6$ Successes within 3 Turns)**: The massive adamant doors slide back silently along oiled basalt tracks. The King's Door opens without triggering the alarm (+0 Noise).
@@ -428,7 +428,7 @@ Every single one of the 36 entries is detailed below with evocative lore, immedi
  44   Iron Hills Field Flask      A heavy pewter canteen containing aged,   Drinking a draught during battle im-   1 Treasure
                                   fiery plum brandy from the East.          mediately removes the Weary condition. Point
 ------------------------------------------------------------------------------------------------------------------------
- 45   Runic Key-Blank             An uncut brass key-blank stamped with     Bróga can file it into a skeleton key  2 Treasure
+ 45   Runic Key-Blank             An uncut brass key-blank stamped with     Can be filed into a skeleton key       2 Treasure
                                   the cipher of the Royal Locksmiths.       (+1d to CRAFT when picking locks).     Points
 ------------------------------------------------------------------------------------------------------------------------
  46   Severed Troll-Claw Amulet   A fossilized cave-troll talon strung on   Wearing it grants +1d to AWE on        1 Treasure

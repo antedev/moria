@@ -14,9 +14,9 @@ The *Armouries of the Third Deep* is structured as a high-tension, squad-level t
                                            3-ACT NARRATIVE ARCHITECTURE
 ========================================================================================================================
 
-  ACT I: THE DESCENT & FORWARD REDOUBT (Session 1: ~3.5 Hours)
+  ACT I: THE LATERAL ADVANCE & FORWARD REDOUBT (Session 1: ~3.5 Hours)
   ┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-  │ • Staging from The Caves of Thrym Thistlebeard (Safe Haven) down the Shaft of the Pillars (Level 3A).            │
+  │ • Staging from The Caves of Thrym Thistlebeard (Safe Haven) along the Westward Drift (Level 3A).                 │
   │ • Infiltration of Location 1 (The Mustering-Yard): Stealth reconnaissance, Udûn sentries, Grik social parley.   │
   │ • Fortifying Location 2 (The Upper Gatehouse): Rigging the keystone collapse trap and stationing the rearguard.  │
   │ • Breaching Location 3 (The First Armoury): Disarming venom-coated scrap-traps and securing tactical routes.    │
@@ -42,7 +42,7 @@ The *Armouries of the Third Deep* is structured as a high-tension, squad-level t
   │ • Location 10 (The Lower Armoury): Claiming Durin's Axe (+4 Eye Awareness trigger!) and the Greater Hoard.      │
   │ • THE FIGHTING WITHDRAWAL: Escorting the overburdened Band across Level 3C -> 3B -> 3A while holding chokes.     │
   │ • GATEHOUSE STAND: Triggering the Keystone Collapse at Location 2 to crush Malech's pursuit vanguard.           │
-  │ • EPILOGUE: Ascending to Thrym's Haven, East-Gate debrief with Lord Balin, Royal Proof for King Dáin in Erebor.  │
+  │ • EPILOGUE: Retreat to Thrym's Haven, East-Gate debrief with Lord Balin, Royal Proof for King Dáin in Erebor.    │
   └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ========================================================================================================================
 ```
@@ -63,7 +63,7 @@ This section provides granular, turn-by-turn facilitator notes for running the m
 ========================================================================================================================
  SESSION   ACT     EST. DURATION   LOCATIONS COVERED       CORE OBJECTIVES & KEY CLIMAX
 ------------------------------------------------------------------------------------------------------------------------
- Session 1 Act I   3.5 Hours       Loc 1, Loc 2, Loc 3     Descend vertical shaft; neutralize sentries; fortify 
+ Session 1 Act I   3.5 Hours       Loc 1, Loc 2, Loc 3     Advance along Westward Drift; neutralize sentries; fortify 
                                                            Gatehouse redoubt; disarm scrap-traps; parley with Grik.
                                                            Climax: Grimnar sighted in the lower flues.
 ------------------------------------------------------------------------------------------------------------------------
@@ -84,7 +84,7 @@ This section provides granular, turn-by-turn facilitator notes for running the m
 * **Real-Time Duration**: ~3.5 Hours (210 Minutes)
 * **Pacing Arc**: Low-to-Moderate Tension (Alert Tier 0 $\rightarrow$ Alert Tier 1).
 * **Primary Theme**: Stealth, tactical preparation, spatial orientation, establishing lines of communication.
-* **Hero Reference**: Torvir (STR 13 / HRT 18 / WIT 15) | Einar (STR 14 / HRT 17 / WIT 15) | Khoril (STR 13 / HRT 16 / WIT 16) | Band TN 15
+* **System Reference**: Hero Attribute TNs (20 - Attribute) | Band TN 15 (20 - Readiness 5)
 
 ```
 +----------------------------------------------------------------------------------------------------------------------+
@@ -95,29 +95,29 @@ This section provides granular, turn-by-turn facilitator notes for running the m
 |                                            • Review Band roster (7 companions), Band Readiness 5 (Band TN 15), roles.|
 |                                            • Confirm The Eye of Thrym is inert past the threshold.                   |
 +----------------------------------------------------------------------------------------------------------------------+
-| 020–050     Vertical Ingress               • Describe the 400-foot descent down the Shaft of the Pillars via hemp    |
-|             (Shaft of the Pillars)           bucket-slings and iron winches.                                         |
-|                                            • Khoril rolls TRAVEL (Heart TN 16) or Band MANOEUVRE (2d vs Band TN 15);|
-|                                              Austri scouts ahead with Forward Screen.                                |
-|                                            • Touchdown on the high overlook of Location 1 (The Mustering-Yard).      |
+| 020–050     Lateral Ingress                • Describe the march along the Westward Drift (Great Transverse Gallery), |
+|             (The Westward Drift)             transitioning from natural karst to ancient dressed basalt masonry.     |
+|                                            • The Guide makes a **TRAVEL roll** or Band **MANOEUVRE roll**            |
+|                                              (2d vs **Band TN 15**); a scout ranges ahead on the Forward Screen.     |
+|                                            • Arrive at the high overlook portal of Location 1 (The Mustering-Yard).  |
 +----------------------------------------------------------------------------------------------------------------------+
 | 050–100     The Mustering-Yard             • Boxed read-aloud text. Establish sensory cues: Balrog scorches,        |
 |             (Keyed Location 1)               cold drafts, extreme acoustic echo.                                     |
-|                                            • Einar uses SCAN (Wits TN 15, Favoured via The Broken Key) to spot the   |
-|                                              Udûn sentry post behind Pillar #4 and Grik in north drainage slit.      |
-|                                            • Social or Stealth challenge: Bypass (STEALTH [Wits TN]) or ambush       |
-|                                              (BATTLE [Heart TN]) sentries (1-round kill = 0 Noise). Optional parley  |
-|                                              with Grik (PERSUADE/RIDDLE [Wits TN]).                                  |
+|                                            • A scouting hero makes a **SCAN roll (Favoured)** to spot the            |
+|                                              Udûn sentry post behind Pillar #4 and Grik in the north drainage slit.  |
+|                                            • Social or Stealth challenge: Bypass (**STEALTH roll**) or ambush        |
+|                                              (**BATTLE roll**) sentries (1-round kill = 0 Noise). Optional parley    |
+|                                              with Grik (**PERSUADE roll** or **RIDDLE roll**).                       |
 +----------------------------------------------------------------------------------------------------------------------+
 | 100–150     The Upper Gatehouse            • Boxed read-aloud text. Highlight the buckled adamant doors.            |
-|             (Keyed Location 2)             • Strategic Decision: The party fortifies the Gatehouse (CRAFT [Strength  |
-|                                              TN]) and decides whether to leave 2 companions (Bláin & Fáin) as Rearguard.|
-|                                            • Rigging the Keystone Winch Trap (CRAFT [Strength TN] or BATTLE [Heart   |
-|                                              TN]) for a controlled 30-damage cave-in during the future escape.       |
+|             (Keyed Location 2)             • Strategic Decision: The party fortifies the Gatehouse (**CRAFT roll**)  |
+|                                              and decides whether to leave 2 companions as a Rearguard.               |
+|                                            • Rigging the Keystone Winch Trap (**CRAFT roll** or **BATTLE roll**)     |
+|                                              for a controlled 30-damage cave-in during the future escape.            |
 +----------------------------------------------------------------------------------------------------------------------+
 | 150–195     The First Armoury              • Boxed read-aloud text. Scent of rot and black Orc-venom.               |
-|             (Keyed Location 3)             • Einar and Bróga detect and disarm the scythe tripwires (SCAN [Wits TN] /|
-|                                              CRAFT [Strength TN, +1d invoking Trait Burglary]).                      |
+|             (Keyed Location 3)             • A hero or companion detects and disarms the scythe tripwires            |
+|                                              (**SCAN roll** or **CRAFT roll**, $+1\text{d}$ invoking *Burglary*).   |
 |                                            • Harvest 3 doses of Black Orc-Venom; search loose flagstone cache.       |
 +----------------------------------------------------------------------------------------------------------------------+
 | 195–210     Session 1 Cliffhanger          • A low whistle sounds from the southern ramp. Austri whispers that heavy |
@@ -129,7 +129,7 @@ This section provides granular, turn-by-turn facilitator notes for running the m
 #### Detailed GM Session 1 Running Tips
 1. **Emphasize the Sound Economy Early**: Give players physical tokens representing Noise Points. Whenever a character speaks loudly, drops gear, or prolongs combat, hand them a token. Showing the Alert Tracker gauge moving from Alert 0 toward Alert 1 creates visceral tension without rolling dice.
 2. **Reward Companion Deployment**: If the players assign Austri and Bróga to the *Forward Scout Screen*, explicitly tell them: *"Austri spots the tripwire before your boots touch the wire."* This builds immediate player trust in the Band system.
-3. **The Gatehouse Choice**: Strongly encourage Khoril's player to deliberate over stationing a Rearguard at Location 2. Remind them of the Moria rule: unheld corridors in Khazad-dûm do not stay empty.
+3. **The Gatehouse Choice**: Strongly encourage the Company's leader to deliberate over stationing a Rearguard at Location 2. Remind them of the Moria rule: unheld corridors in Khazad-dûm do not stay empty.
 
 ---
 
@@ -147,23 +147,21 @@ This section provides granular, turn-by-turn facilitator notes for running the m
 |             (Location 3 Threshold)           and the lurking shadow of Grimnar. Review Hope and Fatigue.             |
 +----------------------------------------------------------------------------------------------------------------------+
 | 015–060     The Broken Hall                • Boxed read-aloud text. Present the 12-foot jagged Balrog Idol.         |
-|             (Keyed Location 4)             • All characters make Dread Tests (VALOUR vs Heart TN: Torvir 18,        |
-|                                              Einar 17, Khoril 16).                                                   |
-|                                              - Torvir (Curse of Vengeance): Risks berserk fury.                      |
-|                                              - Einar (Dragon-sickness): Covets gold veins in the idol base.          |
-|                                            • Deciphering the Secret Cartouche (LORE [Wits TN] or RIDDLE [Wits TN]): |
+|             (Keyed Location 4)             • All characters make Dread Tests (**VALOUR roll**).                      |
+|                                              - Heroes with flaws such as Vengeance risk wrathful impulses on fail.   |
+|                                              - Heroes with flaws such as Greed covet gold veins in the idol base.    |
+|                                            • Deciphering the Secret Cartouche (**LORE roll** or **RIDDLE roll**):    |
 |                                              Discovers the dual King's Key & Marshal's Key requirement.             |
-|                                            • Optional: Topple the idol (ATHLETICS [Strength TN]; muffle with canvas).|
+|                                            • Optional: Topple the idol (**ATHLETICS roll**; muffle with canvas).     |
 +----------------------------------------------------------------------------------------------------------------------+
 | 060–105     The Second Armoury             • Boxed read-aloud text. Smells of dry cedar and linseed oil.            |
 |             (Keyed Location 5)             • Explore the siege sandbox: Grond-ram, torsion ballistas, crane hoist.   |
-|                                            • Hjoldring tests CRAFT (Strength TN) to grease and prime the ballista.   |
+|                                            • A hero or companion tests **CRAFT roll** to prime the ballista.         |
 |                                            • Intercepting Captain Grashnak's Udûn patrol (Pathway 1 for the Key) or  |
 |                                              preparing an artillery ambush.                                          |
 +----------------------------------------------------------------------------------------------------------------------+
 | 105–150     The Poisoned Halls             • Boxed read-aloud text. Unveil the emerald Balrog miasma.               |
-|             (Keyed Location 7)             • Crafting squad respirators (CRAFT [Strength TN: Torvir 13, Einar 14,    |
-|                                              Khoril 13]) using leather and charcoal.                                 |
+|             (Keyed Location 7)             • Crafting squad respirators (**CRAFT roll**) using leather and charcoal. |
 |                                            • Discover the petrified Dwarven captains and Scribe Frár at his desk.    |
 |                                            • PRESENT HANDOUT #1: The Dying Scribe's Slate. Let players read the prop!|
 +----------------------------------------------------------------------------------------------------------------------+
@@ -202,16 +200,16 @@ This section provides granular, turn-by-turn facilitator notes for running the m
 |             (Keyed Location 6)             • Dynamic Arena Tactics: Scaling catwalks (High Ground), dropping 20-Dmg  |
 |                                              stalactites, called shots to sever scrap-armor copper wires.            |
 |                                            • The Riddle Duel: Hero in Forward Stance exploits Dull-Witted trait via  |
-|                                              RIDDLE (Wits TN: Torvir 15, Einar 15, Khoril 16); 3 successes pacify/   |
-|                                              panic the troll!                                                        |
-|                                            • Dolg and Dúrmer use Shield-Wall to intercept crushing maul strikes.     |
+|                                              **RIDDLE roll**; 3 successes pacify or panic the troll!                 |
+|                                            • Companions use Shield-Wall to intercept crushing maul strikes.          |
 +----------------------------------------------------------------------------------------------------------------------+
 | 075–125     The King's Door & Ambush       • Boxed read-aloud text. Ithildin runes pulse with blue starlight.        |
 |             (Keyed Location 9)             • Unlocking the portal: Marshal's Key (1 round) vs Lockbreaker Skill      |
-|                                              Endeavour (Resistance 6, Time Limit 3 Turns, SCAN/CRAFT/RIDDLE).        |
+|                                              Endeavour (Resistance 6, Time Limit 3 Turns: SCAN, CRAFT, or RIDDLE).   |
 |                                            • Grimnar's Ambush: Grimnar and 4 Udûn stalkers attack from the parapet!  |
-|                                            • Torvir vs Grimnar Duel: Avenge Durin's Bridge; negate Might penalty.   |
-|                                            • Fáin overwatch suppresses javelin-throwers. Slay or rout Grimnar!       |
+|                                            • Single Combat vs Grimnar: A champion may challenge Grimnar to negate    |
+|                                              Might penalties.                                                        |
+|                                            • Companion overwatch suppresses javelin-throwers. Slay or rout Grimnar!  |
 +----------------------------------------------------------------------------------------------------------------------+
 | 125–155     The Royal Vault (Location 10)  • Boxed read-aloud text. Pure starlight, mithril filigree.                |
 |             & Durin's Axe Claiming         • Bolting the Vault Barricade: 30-minute rest, restore Hope.              |
@@ -228,7 +226,7 @@ This section provides granular, turn-by-turn facilitator notes for running the m
 |                                            • GATEHOUSE STAND (Location 2): Pulling the keystone winch to collapse    |
 |                                              the archway (30 Dmg), crushing Malech's pursuit vanguard!               |
 +----------------------------------------------------------------------------------------------------------------------+
-| 215–240     Ascension & Campaign Epilogue  • Hoisting wargear and wounded up the Shaft of the Pillars to Thistlebeard|
+| 215–240     Transverse Retreat & Epilogue  • Hauling wargear and wounded along the Westward Drift to Thistlebeard    |
 |             (Safe Haven & East-Gate Camp)    Caves Safe Haven.                                                       |
 |                                            • Grand Council with Lord Balin and Commander Fróra at the East-Gate.     |
 |                                            • Distribute XP, AP, SP, and calculate garrison armament rewards.         |
@@ -256,30 +254,30 @@ Each Player-Hero possesses unique motivations, signature masteries, and psycholo
 ========================================================================================================================
  HERO       SIGNATURE UTILITY            KEY SPOTLIGHT SCENES             SHADOW FLAW & VULNERABILITY TRIGGERS
 ------------------------------------------------------------------------------------------------------------------------
- Torvir     Great Axe Mastery;           • Smashes Balrog Idol in Room 4  • Curse of Vengeance: Triggered by Orc
- Hammer-    Frontline Breacher;          • Catwalk duel with The Mauler     taunts, defaced king murals, or seeing
- stone      Redoubtable Cultural Virtue  • Single combat vs Grimnar (Rm 9)  allies wounded. Must test VALOUR vs Heart
-            (STR 13 / HRT 18 / WIT 15)                                      TN 18 or succumb to rage!
+ Champion   Great Axe Mastery;           • Smashes Balrog Idol in Room 4  • Curse of Vengeance: Triggered by Orc
+ (Frontline Frontline Breacher;          • Catwalk duel with The Mauler     taunts, defaced king murals, or seeing
+ Vanguard)  Redoubtable Cultural Virtue  • Single combat vs Grimnar (Rm 9)  allies wounded. Must make a VALOUR roll
+                                                                            or succumb to wrathful impulses!
 ------------------------------------------------------------------------------------------------------------------------
- Einar      The Broken Key (Favoured     • Disarms scrap-traps in Room 3  • Dragon-sickness: Triggered by gold-leaf
- son of     SCAN); Trait *Burglary*      • Deciphers Scribe Slate (Rm 7)    in idol (Rm 4) and Greater Hoard (Rm 10).
- Anar       (+1d Craft/Stealth);         • Cracks King's Door locks (Rm 9)  Must test VALOUR vs Heart TN 17 or hoard
-            (STR 14 / HRT 17 / WIT 15)                                      recklessly.
+ Treasure   Masterwork Lockpicks / Tools • Disarms scrap-traps in Room 3  • Dragon-sickness: Triggered by gold-leaf
+ Hunter     Trait *Burglary*;            • Deciphers Scribe Slate (Rm 7)    in idol (Rm 4) and Greater Hoard (Rm 10).
+ (Scout)    Keen SCAN & STEALTH          • Cracks King's Door locks (Rm 9)  Must make a VALOUR roll or hoard
+                                                                            recklessly.
 ------------------------------------------------------------------------------------------------------------------------
- Khoril     Battle-horn (+1d BATTLE);    • Coordinates Gatehouse Redoubt  • Lure of Power: Obsessed with ancient
- Horn-      Trait *Leadership*;          • Directs siege engines (Room 5)   ciphers and the Dimrill Stair Key. Must
- blower     ENHEARTEN (Heart TN 16);     • Commands Fighting Withdrawal     test COURTESY/VALOUR vs Heart TN 16 or
-            (STR 13 / HRT 16 / WIT 16)                                      refuse tactical retreat!
+ Scholar /  Battle-horn (+1d BATTLE);    • Coordinates Gatehouse Redoubt  • Lure of Power: Obsessed with ancient
+ Captain    Trait *Leadership*;          • Directs siege engines (Room 5)   ciphers and the Dimrill Stair Key. Must
+ (Leader)   Inspiring ENHEARTEN          • Commands Fighting Withdrawal     make a COURTESY roll or VALOUR roll or
+                                                                            refuse tactical retreat!
 ========================================================================================================================
 ```
 
 ### 3.1 Managing the Companion Band's Personal Arcs
-* **Bláin the Cleaver**: Sullen, scarred survivor. Yearns to avenge his Bridge wound against Grimnar. If Torvir duels Grimnar, Bláin guards Torvir's flank against interfering sniffers with ferocious loyalty.
+* **Bláin the Cleaver**: Sullen, scarred survivor. Yearns to avenge his Bridge wound against Grimnar. If a champion duels Grimnar, Bláin guards their flank against interfering sniffers with ferocious loyalty.
 * **Fáin Iron-Visor**: Refuses to remove his enclosed iron helm. His keen eyesight in darkness makes him the ultimate counter-sniper against Grimnar's parapet javelin-throwers.
 * **Dúrmer the Hardened**: The moral and physical rock. Whenever the Band's resolve wavers during the withdrawal, Dúrmer takes a swig from his iron flask and shoulders the heaviest crate of gromril-mail without a word.
 * **Hjoldring the Armourer**: Deeply emotional when inspecting pristine First Age craft in Locations 8 and 10. He treats each suit of mail as a living Dwarven ancestor.
-* **Bróga & Austri**: The infiltration duo. They move like smoke along the cornices. If Einar is working the locks on the King's Door, Bróga provides the vital tension wrench via his *Vaultbreaker* Trait.
-* **Dolg the Bulwark**: The selfless protector. When The Mauler swings its tree-trunk club or Grimnar lunges at Einar, Dolg uses his *Shield-Bearer* reaction to take the blow on his notched tower-shield.
+* **Bróga & Austri**: The infiltration duo. They move like smoke along the cornices. If a hero is working the locks on the King's Door, Bróga provides the vital tension wrench via his *Vaultbreaker* Trait.
+* **Dolg the Bulwark**: The selfless protector. When The Mauler swings its tree-trunk club or Grimnar lunges at an ally, Dolg uses his *Shield-Bearer* reaction to take the blow on his notched tower-shield.
 
 ---
 
@@ -332,10 +330,10 @@ The climax of the adventure is not merely slaying an adversary, but the **discip
    • Alert 3: Drums in Deep!       • Porters haul wargear            • Band Clash vs Orc Pursuit Packs
                                                                                     │
                                                                                     ▼
-  [PHASE 6: HAVEN REUNION]    ◄── [PHASE 5: SHAFT HOISTING]     ◄── [PHASE 4: GATEHOUSE STAND (ROOM 2)]
-   • Secure in Thrym's Haven       • Winch crates up 400 ft          • Hold the adamant blast-doors
-   • First Aid for Wounded         • Overwatch covers ropes          • TRIGGER KEYSTONE CAVE-IN TRAP!
-   • Return to East-Gate Camp      • Last squad climbs out           • 30 Crushing Dmg seals the chasm!
+  [PHASE 6: HAVEN REUNION]    ◄── [PHASE 5: TRANSVERSE RETREAT] ◄── [PHASE 4: GATEHOUSE STAND (ROOM 2)]
+   • Secure in Thrym's Haven       • Phalanx covers Westward Drift   • Hold the adamant blast-doors
+   • First Aid for Wounded         • Porters wheel wargear sledges   • TRIGGER KEYSTONE CAVE-IN TRAP!
+   • Return to East-Gate Camp      • Haven gate slammed and barred   • 30 Crushing Dmg seals the chasm!
 ========================================================================================================================
 ```
 
@@ -355,22 +353,22 @@ The climax of the adventure is not merely slaying an adversary, but the **discip
 3. **Room-by-Room Backward Traversal & Clashes**:
    * The Company must traverse the rooms in reverse sequence: **Location 10 $\rightarrow$ Location 9 $\rightarrow$ Location 6/5 $\rightarrow$ Location 4 $\rightarrow$ Location 3 $\rightarrow$ Location 2 $\rightarrow$ Location 1**.
    * In each major sector, the GM resolves one **Band Clash** or **Tactical Choke Encounter**:
-     * **Sector 1 (Locations 9 & 6)**: An advance squad of 6 Orc Guards attempts to cut off the colonnade. Khoril commands the Band in *Guarded Stance* while Torvir and the vanguard clear the path.
+     * **Sector 1 (Locations 9 & 6)**: An advance squad of 6 Orc Guards attempts to cut off the colonnade. The Company commands the Band in *Guarded Stance* while the vanguard clears the path.
      * **Sector 2 (Locations 5 & 4)**: A pack of 8 Udûn Sniffers with torch-staves pours from side flues. If the party pre-assembled the cedar barricades or rigged the Grond-ram, they bypass this clash automatically!
-     * **Sector 3 (Location 3)**: Orc scrap-traps previously re-armed by Einar catch the pursuing vanguard, delaying them by 2 rounds.
+     * **Sector 3 (Location 3)**: Orc scrap-traps previously re-armed by the Company catch the pursuing vanguard, delaying them by 2 rounds.
 4. **The Gatehouse Stand (Keyed Location 2)**:
    * When the Company reaches the Upper Gatehouse, the pursuing main host (a warband of 20+ Black Uruks and Orc Guards) is less than 50 paces behind.
    * **If a Rearguard was stationed at Location 2** (e.g. Bláin & Fáin):
      * The rearguard covers the porters as they pass through the adamant doors.
      * The Company gains an automatic **+2 bonus to Band Readiness** (reducing Band TN from 15 to 13).
    * **Triggering the Keystone Collapse Trap**:
-     * As the lead ranks of Black Uruks surge beneath the gatehouse archway, a hero or companion pulls the quick-release winch lever (**CRAFT** or **ATHLETICS** [Strength TN: Torvir 13, Einar 14, Khoril 13]).
+     * As the lead ranks of Black Uruks surge beneath the gatehouse archway, a hero or companion pulls the quick-release winch lever (**CRAFT roll** or **ATHLETICS roll**).
      * The three-ton granite keystone crashes down, unleashing a catastrophic **Controlled Cave-In**!
      * **Mechanical Effect**: Deals **30 Crushing Damage** to the pursuing vanguard and buries the southern rampway under ten tons of solid granite rubble, completely severing the pursuit!
-5. **The Vertical Ascent (Location 1 $\rightarrow$ Safe Haven)**:
-   * Arriving at the Mustering-Yard, the porters hook the heavy salvage crates to the counterweight bucket-slings.
-   * Dúrmer and Torvir man the ascent winches while Khoril and Fáin form a perimeter overwatch with bows.
-   * As the last dwarf is winched 400 feet up the Shaft of the Pillars into *The Caves of Thrym Thistlebeard*, the distant war-drums rumble harmlessly beneath the sealed stone floors.
+5. **The Transverse Withdrawal (Location 1 $\rightarrow$ Safe Haven)**:
+   * Arriving at the Mustering-Yard, the porters secure the heavy salvage on iron-wheeled sledges and pack-litters.
+   * Dúrmer and the vanguard anchor the rearguard shield-wall across the Mustering-Yard portals while archers form a perimeter overwatch with bows.
+   * The Company falls back steadily along the paved avenue of the *Westward Drift* (Great Transverse Gallery), entering the fortified gates of *The Caves of Thrym Thistlebeard* and barring the massive iron portals as the distant war-drums rumble harmlessly against the sealed stone defenses.
 
 ---
 
@@ -406,7 +404,7 @@ Successfully returning from the Third Deep represents a monumental turning point
 ### 6.1 The High Council at the East-Gate
 Upon emerging into the fresh mountain air of the East-Gate Camp, the Company is received by **Lord Balin** and **Commander Fróra** amidst tears and triumphant horn-blasts:
 * **Lord Balin's Speech**: Holding *Durin's Axe* aloft before the assembled colony, Balin proclaims:
-  > *"Look upon the handiwork of the First King! While the steel of Durin remains in the hands of his sons, the shadow shall never claim the Mountain! To Torvir, Einar, and Khoril, and their seven brave companions, the House of Durin owes a debt that all the gold of Erebor cannot repay!"*
+  > *"Look upon the handiwork of the First King! While the steel of Durin remains in the hands of his sons, the shadow shall never claim the Mountain! To the brave heroes of the Company and their seven companions, the House of Durin owes a debt that all the gold of Erebor cannot repay!"*
 * **Commander Fróra's Logistics Report**: Fróra immediately puts Hjoldring and the armourers to work distributing the 40 suits of gromril-mail and 30 shields. Balin's frontline soldiers are transformed from a ragtag militia into an iron-clad phalanx capable of holding the Deeps against any assault.
 
 ---
@@ -416,7 +414,7 @@ During the subsequent Fellowship Phase at *The Caves of Thrym Thistlebeard* or t
 
 1. **Attune Ancient Relic**: A hero who claimed one of the wondrous relics (*Durin's Axe*, *Shield of the Deep Gate*, *Mattock of Moria-Silver*, or *Mail of Unyielding Stone*) spends the phase communing with the weapon's history, cementing its virtues into their character sheet.
 2. **Refine Moria-Silver (Craft Undertaking)**: Working with Hjoldring at the newly rekindled forges of Thrym's Haven, a hero uses the recovered Mithril ingots to upgrade a standard weapon or armor piece with a permanent Craft Quality (*Keen*, *Grievous*, or *Close Fitting*).
-3. **Study Scribe Frár's Schematics (Lore Undertaking)**: Khoril or Einar studies the architectural maps found in the lead scroll tube, gaining **Favoured status on all EXPLORE rolls** in future delves into the *Fifth Deep* and *The Endless Stair*.
+3. **Study Scribe Frár's Schematics (Lore Undertaking)**: A hero studies the architectural maps found in the lead scroll tube, gaining **Favoured status on all EXPLORE rolls** in future delves into the *Fifth Deep* and *The Endless Stair*.
 4. **Heal the Wounded Veterans**: Tend to any companion Dwarves who suffered *Severe* or *Lingering Injuries*, restoring the Band roster to full readiness before the next campaign milestone.
 
 ---

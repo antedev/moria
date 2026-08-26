@@ -64,3 +64,49 @@ Audit and update `04_loot_relics_and_rewards.md`, `06_relics_and_rewards.md`, `0
 
 ### Verification
 - [ ] Module documents and handouts are fully consistent, cross-referenced, and ready for immediate table use.
+
+## 2026-08-26T06:51:54Z
+
+Comprehensive structural, narrative, and mechanical revision of "The Armouries of the Third Deep" adventure module for The One Ring 2nd Edition (TOR 2e) to restore player agency, eliminate redundant pre-gen stat blocks, fix boxed read-aloud text spoiler flaws, and enforce strict canonical TOR 2e rules.
+
+Working directory: c:/Users/ante/Documents/github/Moria/adventures/armouries_of_the_third_deep
+Integrity mode: development
+
+## Requirements
+
+### R1. Player Agency & Neutral Scene Presentation
+Remove all narrative assumptions and prescriptive text that dictates character actions (e.g. "Khoril rolls...", "Einar searches...", "Torvir invokes..."). Reframe all scenes, rooms, encounters, and obstacles so the GM presents the environment, sensory details, and available tactical choices neutrally, letting the players decide how their company responds and who attempts what action.
+
+### R2. Streamline Skill Checks & Remove Hardcoded Pregen Attribute TNs
+Remove all hardcoded target number listings for specific pre-gens (e.g. `(Wits TN: Torvir 15, Einar 15, Khoril 16)`) across all keyed locations, hazards, and encounters. Format all checks using standard The One Ring 2e conventions (e.g., "**SCAN roll**", "**STEALTH roll**", "**EXPLORE roll**" along with standard situational modifiers such as `+1d`, `-1d`, `Favoured`, or `Ill-favoured`). Players roll against the Target Numbers on their own character sheets.
+
+### R3. Boxed Read-Aloud Text Clean-Up & Spoiler Removal
+Rewrite all boxed read-aloud descriptions across all 10 keyed locations so they are concise, evocative, and atmosphere-setting without overly flowery purple prose. Strip out all spoilers of hidden information—such as concealed tripwires, scythe traps, poison vats, ambush positions, or hidden doors. Those elements must remain strictly in the GM reference sections until players inspect or detect them.
+
+### R4. Canon TOR 2e Rule Audit & Condition Correction
+Remove all non-canonical rules and invented conditions (specifically the "Daunted" condition, which does not exist in TOR 2e core rules). Replace effects with canonical TOR 2e mechanics (Shadow points/Dread, Weary, Miserable, Wounded, Hope loss, Bout of Madness triggers). Audit adversary stats, abilities, and hazard mechanics to ensure strict adherence to The One Ring 2nd Edition rules.
+
+### R5. Master Document, Quickstart, and Handout Synchronization
+Apply the revisions consistently across all modular chapter markdown files (`01_campaign_context.md` through `07_gm_playbook_and_pacing.md`), quickstart files (`quickstart/00` to `05`), and handouts. Ensure the build pipeline (`scripts/build_master_document.py`, `scripts/build_handouts.py`) compiles the updated master document (`armouries_of_the_third_deep_master.md`), HTML, and print assets cleanly with zero build errors.
+
+## Acceptance Criteria
+
+### Player Agency & Presentation
+- [ ] No keyed location or event contains text dictating player character actions or assuming specific PCs perform specific actions.
+- [ ] Environmental features and tactical options are phrased as GM presentation tools and player choices.
+
+### Mechanical Notation & Pregen Stat Removal
+- [ ] Zero occurrences of hardcoded pregen Target Numbers (e.g., `Torvir 15, Einar 15, Khoril 16`) across all adventure files.
+- [ ] All skill tests are expressed in standard TOR 2e format (Skill name with situational dice modifiers or Favoured/Ill-favoured states where appropriate).
+
+### Read-Aloud Text Quality & Integrity
+- [ ] All boxed read-aloud texts (Locations 1 through 10) describe only immediate sensory impressions (sight, sound, smell, scale) visible upon entry.
+- [ ] Zero concealed traps, tripwires, hidden mechanisms, or stealth ambushers are revealed in read-aloud text.
+
+### TOR 2e Rule Accuracy
+- [ ] Zero occurrences of the non-canonical "Daunted" condition across the entire repository.
+- [ ] All adversary special abilities (e.g. Strike Fear, Craven, Hate expenditures) and dread/hazard effects use official TOR 2e rules (Weary, Miserable, Wounded, Shadow gains).
+
+### Build & Asset Verification
+- [ ] Running `python scripts/build_master_document.py` succeeds with returncode 0 and updates `armouries_of_the_third_deep_master.md` and HTML files without errors.
+- [ ] Running `python scripts/build_handouts.py` succeeds with returncode 0.

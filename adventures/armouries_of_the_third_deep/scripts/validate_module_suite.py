@@ -72,6 +72,7 @@ PURGED_TERMS: List[Tuple[str, str]] = [
     (r"\b(?:saving\s+throw|saving\s+throws)\b", "Saving throw (D&D 5e phrasing)"),
     (r"\b(?:spell\s+slots?|hit\s+dice)\b", "Spell slots / Hit dice (D&D 5e phrasing)"),
     (r"\bdc\s*\d+\b", "DC (D&D 5e Difficulty Class)"),
+    (r"\bdaunted\b", "Invented condition 'Daunted' (must use Shadow/Dread or Miserable)"),
 ]
 
 HERO_CANONICAL_STATS = {
@@ -103,19 +104,19 @@ SKILL_ENDEAVOUR_LOCATIONS = {
 }
 
 MODULE_FILES_ORDER: List[str] = [
-    "00_overview_and_background.md",
     "01_campaign_context.md",
-    "01_delve_mechanics_and_alert_system.md",
     "02_band_mechanics.md",
-    "02_keyed_locations.md",
-    "03_adversaries_and_hazards.md",
     "03_operational_mechanics.md",
     "04_keyed_locations.md",
-    "04_loot_relics_and_rewards.md",
     "05_adversaries_and_hazards.md",
-    "05_gm_screen_and_play_aids.md",
     "06_relics_and_rewards.md",
     "07_gm_playbook_and_pacing.md",
+    "quickstart/00_overview_and_background.md",
+    "quickstart/01_delve_mechanics_and_alert_system.md",
+    "quickstart/02_keyed_locations.md",
+    "quickstart/03_adversaries_and_hazards.md",
+    "quickstart/04_loot_relics_and_rewards.md",
+    "quickstart/05_gm_screen_and_play_aids.md",
     "handouts/band_worksheet.md",
     "handouts/dying_scribe_letter.md",
     "handouts/gm_cheat_sheet.md",
@@ -123,6 +124,7 @@ MODULE_FILES_ORDER: List[str] = [
     "README.md",
     "PROJECT.md",
     "TEST_INFRA.md",
+    "TEST_READY.md",
 ]
 
 # =============================================================================
@@ -311,8 +313,8 @@ class ModuleSuiteValidator:
         if file_path.name not in ["02_keyed_locations.md", "04_keyed_locations.md", "01_delve_mechanics_and_alert_system.md", "03_operational_mechanics.md"]:
             return
 
-        # Look for skill check headers: e.g., "* **Perimeter Infiltration — STEALTH (Wits TN...):"
-        skill_blocks = re.findall(r"\*\s+\*\*[^*]+—\s*[A-Z\s]+\s*\([^\)]*TN[^\)]*\)\*\*:", text)
+        # Look for skill check headers: e.g., "* **Perimeter Infiltration — STEALTH roll:**", "* **Perimeter Infiltration — STEALTH (Wits TN...):"
+        skill_blocks = re.findall(r"\*\s+\*\*[^*]+—\s*[A-Za-z\s,/]+\s*(?:roll|test|\([^\)]*TN[^\)]*\))\*\*:", text)
         
         # Check presence of standard subsections in the file
         has_failure_consequences = bool(re.search(r"\*Consequence of Failure\*|\*Failure\*|Consequence of Failure:", text, re.IGNORECASE))
@@ -402,10 +404,10 @@ class ModuleSuiteValidator:
         Verifies that Breath of the Pit / Balrog toxic gas exposure tests use Hero Strength TNs,
         specify respirator mechanics, and herbal remedy recovery.
         """
-        if file_path.name in ["01_delve_mechanics_and_alert_system.md", "03_operational_mechanics.md", "02_keyed_locations.md"]:
+        if file_path.name in ["01_delve_mechanics_and_alert_system.md", "03_operational_mechanics.md", "02_keyed_locations.md", "04_keyed_locations.md"]:
             if "Breath of the Pit" in text or "Balrog" in text and "Miasma" in text:
                 # Should test Strength TN or Protection vs Strength TN
-                if not re.search(r"(?:Strength\s+TN|Protection\s+test.*Strength\s+TN|Strength\s*\(TN\s*13/14\))", text, re.IGNORECASE):
+                if not re.search(r"(?:Strength\s+TN|Protection\s+test|PROTECTION\s+test|PROTECTION\s+roll|Protection\s+roll|Strength\s*\(TN\s*13/14\))", text, re.IGNORECASE):
                     self.report.issues.append(ValidationIssue(
                         file_path=str(file_path.relative_to(self.root_dir)),
                         line_number=1,
@@ -421,7 +423,7 @@ class ModuleSuiteValidator:
         Verifies adversary stat blocks in 03_adversaries_and_hazards.md, 05_adversaries_and_hazards.md:
         - The Mauler: Parry —, Endurance 80, Might 2
         - Grimnar: AL 6, Endurance 36, Might 2, Hate 6, Parry +2
-        - Grik: AL 3, Endurance 12, Might 1, Hate 2, Parry +3
+        - Udûn Sniffers: AL 4, Endurance 16, Might 1, Hate 4
         - The Mauler Dull-Witted Riddle task: Forward stance, RIDDLE (Wits TN), removes Hate per 6 icon
         """
         if file_path.name in ["03_adversaries_and_hazards.md", "05_adversaries_and_hazards.md"]:
@@ -463,15 +465,15 @@ class ModuleSuiteValidator:
                     ))
                     self.report.tier1_errors += 1
 
-            # Check Grik
-            if "GRIK" in text.upper():
-                if not re.search(r"ENDURANCE:\s*12", text):
+            # Check Udûn Sniffers
+            if "UDÛN SNIFFER" in text.upper() or "UDUN SNIFFER" in text.upper():
+                if not re.search(r"ENDURANCE(?:\*\*|\s|:)*16", text, re.IGNORECASE):
                     self.report.issues.append(ValidationIssue(
                         file_path=str(file_path.relative_to(self.root_dir)),
                         line_number=1,
                         severity="ERROR",
-                        category="GRIK_ENDURANCE_MISMATCH",
-                        message="Grik the Skulker must have Endurance: 12.",
+                        category="SNIFFER_ENDURANCE_MISMATCH",
+                        message="Udûn Sniffers must have Endurance: 16.",
                         context=""
                     ))
                     self.report.tier1_errors += 1

@@ -75,11 +75,11 @@ To equip Balin’s vanguard and send back irrefutable proof to King Dáin, the C
 
 ### 2.2 The Player Heroes (The Fellowship)
 
-| Hero | Culture & Calling | Mechanical Profile & Key Relics | Narrative Role in the Delve |
+| Hero | Culture & Calling | Mechanical Profile & Key Relics | Role in the Delve |
 | :--- | :--- | :--- | :--- |
-| **Torvir Hammerstone** | Dwarf of Durin<br>*Champion* (Shadow: *Curse of Vengeance*) | • STR 7 (TN 13), HRT 2 (TN 18), WIT 5 (TN 15)<br>• Parry 15, Mail 5d<br>• Great Axe (*Damage 8, Injury 20, Pierce 9–10, Grievous*)<br>• Carries ***The Eye of Thrym*** (inert in Third Deep)<br>• Distinctive Features: *Fierce*, *Willful*, *Enemy-lore (Orcs)* (+1d) | **The Breacher & Vengeance Seeker**: Drives the frontline assault. Torvir's burning hatred for the defilers of Moria makes him formidable in melee, but he must resist reckless wrath when witnessing desecrated ancestral monuments in the Broken Hall. |
-| **Einar son of Anar** | Dwarf of Iron Hills<br>*Treasure Hunter* (Shadow: *Dragon-sickness*) | • STR 6 (TN 14), HRT 3 (TN 17), WIT 5 (TN 15)<br>• Parry 20, Mail 3d<br>• Sword (*Damage 4, Injury 16, Keen: Pierce 9–10*), Reinforced Shield<br>• Carries ***The Broken Key*** (makes **SCAN** rolls **Favoured**)<br>• Distinctive Features: *Cunning*, *Wary*, *Burglary* (+1d on locks/traps)<br>• *Durin's Way* (+2 Parry underground) | **The Infiltrator & Lock-Picker**: Operates on point. Using *The Broken Key*, Einar identifies hidden Dwarven bypasses, spots crude Orc traps, and searches for the runic mechanisms sealing the King’s Door. His greed must be tempered against alarming the deeps. |
-| **Khoril Hornblower** | Dwarf of Durin<br>*Captain* (Shadow: *Lure of Power*) | • STR 7 (TN 13), HRT 3 (TN 16 via *Prowess*), WIT 4 (TN 16)<br>• Parry 17, Mail 3d<br>• Long-hafted Axe & Bow<br>• Carries ***Battle-horn of the Realm*** (+1d **BATTLE** / Band **WAR** or **RALLY**, +1 AP / +2 Eye on sounding)<br>• Expedition **Guide** (**TRAVEL** — Heart TN 16), invoking *Leadership* (+1d) | **The Tactician & March Leader**: Maintains marching discipline across the 6–8 companion Dwarves, organizes defensive perimeters, coordinates tactical withdrawals, and decides when noise must be sacrificed for raw martial power. |
+| **Torvir Hammerstone** | Dwarf of Durin<br>*Champion* (Shadow: *Curse of Vengeance*) | • STR 7 (TN 13), HRT 2 (TN 18), WIT 5 (TN 15)<br>• Parry 15, Mail 5d<br>• Great Axe (*Damage 8, Injury 20, Pierce 9–10, Grievous*)<br>• Bearer of ***The Eye of Thrym*** (inert in Third Deep)<br>• Distinctive Features: *Fierce*, *Willful*, *Enemy-lore (Orcs)* (+1d) | **The Breacher & Frontline Warrior**: Drives the frontline assault. Formidable in melee combat, but must resist reckless wrath when witnessing desecrated ancestral monuments. |
+| **Einar son of Anar** | Dwarf of Iron Hills<br>*Treasure Hunter* (Shadow: *Dragon-sickness*) | • STR 6 (TN 14), HRT 3 (TN 17), WIT 5 (TN 15)<br>• Parry 20, Mail 3d<br>• Sword (*Damage 4, Injury 16, Keen: Pierce 9–10*), Reinforced Shield<br>• Bearer of ***The Broken Key*** (makes **SCAN** rolls **Favoured**)<br>• Distinctive Features: *Cunning*, *Wary*, *Burglary* (+1d on locks/traps)<br>• *Durin's Way* (+2 Parry underground) | **The Infiltrator & Scout**: Operates on point. Skilled at identifying hidden Dwarven bypasses, spotting crude Orc traps, and searching for runic mechanisms sealing the vaults. |
+| **Khoril Hornblower** | Dwarf of Durin<br>*Captain* (Shadow: *Lure of Power*) | • STR 7 (TN 13), HRT 3 (TN 16 via *Prowess*), WIT 4 (TN 16)<br>• Parry 17, Mail 3d<br>• Long-hafted Axe & Bow<br>• Bearer of ***Battle-horn of the Realm*** (+1d **BATTLE** / Band **WAR** or **RALLY**, +1 AP / +2 Eye on sounding)<br>• Expedition **Guide** (invoking *Leadership* for **+1d** on **TRAVEL** rolls) | **The Tactician & March Leader**: Maintains marching discipline across the companion squad, organizes defensive perimeters, coordinates tactical withdrawals, and decides when noise must be sacrificed for martial power. |
 
 ### 2.3 The Companion Band (The Dwarf Veterans)
 The party is accompanied by **6 to 8 veteran Dwarf warriors** drawn from Balin’s vanguard, managed using the *Moria Solo/Band Rules* (Moria p. 191–196):
@@ -171,7 +171,7 @@ The Armouries are currently a fractured, perilous buffer zone:
 +-----------------------------------------------------------------------------+
 | ACT I: INFILTRATION & THE MUSTERING YARD (Session 1: ~3-4 hours)            |
 +-----------------------------------------------------------------------------+
-| • Descent via the secret climbing shafts from Thrym Thistlebeard's Haven.   |
+| • Lateral advance via the paved Westward Drift from Thistlebeard's Haven.   |
 | • Infiltration of the shattered Upper Gatehouse; establishing a rally camp. |
 | • Scouting the Mustering-Yard; stealthily bypassing or eliminating patrols. |
 | • Key Decision: Direct infiltration vs. silent assassination of sentries.   |
@@ -185,7 +185,7 @@ The Armouries are currently a fractured, perilous buffer zone:
 | • Navigating the Second Armoury; utilizing ancient siege engines as cover.  |
 | • Braving the toxic miasma of the Poisoned Halls with masks and herbs.      |
 | • Recovering the Dying Scribe's Journal and deciphering the Key Clue.       |
-| • Tactical encounter with Grik or Udûn Sniffers for the Marshal's Key.      |
+| • Tactical encounter with Udûn Sniffer patrols for the Marshal's Key.       |
 +-----------------------------------------------------------------------------+
                                        |
                                        v

@@ -1,22 +1,29 @@
-# Sentinel Handoff Report — Armouries of the Third Deep Alignment
+# Sentinel Handoff Report — Armouries of the Third Deep Revision
 
 ## Observation
-The user requested a 100% rigorous refactor and rules alignment of the entire **Armouries of the Third Deep** adventure module suite for *The One Ring 2e* (TOR 2e) and *Moria: Through the Doors of Durin*. Key directives required eliminating arbitrary fixed hero TNs, formatting all skill checks with official attributes, consequences of failure, and degrees of success (6 icons), converting complex operations into formal Skill Endeavours, ensuring skill/trait integrity, certifying adversary stat blocks and combat proficiencies, updating relics with authentic TOR 2e enchanted qualities, and purging all fabricated terminology and placeholder mechanics.
+The user requested a comprehensive structural, narrative, and mechanical revision of "The Armouries of the Third Deep" adventure module for The One Ring 2nd Edition (TOR 2e) across five core requirements:
+- **R1**: Player Agency & Neutral Scene Presentation (eliminate prescriptive character actions e.g. "Khoril rolls...", "Einar searches...", "Torvir invokes...").
+- **R2**: Streamline Skill Checks & Remove Hardcoded Pregen Attribute TNs (eliminate hardcoded TNs like `Torvir 15, Einar 15, Khoril 16`, standardize all skill test blocks).
+- **R3**: Boxed Read-Aloud Text Clean-Up & Spoiler Removal (purely sensory atmosphere descriptions, zero spoiled traps/ambushes/mechanisms).
+- **R4**: Canon TOR 2e Rule Audit & Condition Correction (eradicate non-canonical "Daunted" condition, strictly enforce official TOR 2e conditions and mechanics).
+- **R5**: Master Document, Quickstart, and Handout Synchronization (`01`–`07`, `quickstart/00`–`05`, `handouts/`, build scripts with returncode 0).
 
 ## Logic Chain
-1. **Request Intake & Routing**: Recorded verbatim user request to `.agents/ORIGINAL_REQUEST.md`. Evaluated request per the Task Routing Decision Table and routed to `teamwork_preview_orchestrator` (General path).
-2. **Orchestration & Execution**: The Project Orchestrator executed a 4-milestone plan (M1: Keyed Locations & Atlas; M2: Delve, Band & Operational Mechanics; M3: Adversaries & Hazards; M4: Relics, GM Screen & Handouts) supported by an automated validation harness of over 100 tests and an adversarial verification panel.
-3. **Completion & Mandatory Victory Audit**: Upon the orchestrator's claim of completion, Sentinel dispatched `teamwork_preview_victory_auditor` for a blocking 3-phase audit against `.agents/ORIGINAL_REQUEST.md`.
-4. **Audit Outcome**: The Victory Auditor independently verified zero arbitrary hero TNs, 100% compliance with TOR 2e core rules and Moria boxed set mechanics, authentic adversary math, formal Skill Endeavours, and complete purge of fabricated mechanics, returning `VERDICT: VICTORY CONFIRMED`.
-5. **Teardown & Cleanup**: Scheduled monitoring crons were cancelled and all subagents terminated per Sentinel cleanup protocol.
+1. **Request Intake & Routing**: Appended user request to `.agents/ORIGINAL_REQUEST.md`. Evaluated against the Task Routing Decision Table and routed to `teamwork_preview_orchestrator` (General path).
+2. **Orchestration & Dual-Track Execution**: Orchestrator executed a 4-milestone plan (M1: Keyed Locations Atlas; M2: Delve Mechanics, Band Rules & Adversaries; M3: Relics, GM Aids, Handouts & Quickstarts; M4: Build Pipeline & Compilation) alongside an automated E2E test suite.
+3. **Internal Verification & Challenge**: Reviewers, Challengers, and Internal Auditor conducted multi-layer audits and certified all acceptance criteria.
+4. **Mandatory Independent Victory Audit**: Sentinel dispatched `teamwork_preview_victory_auditor` for a blocking 3-phase audit against `.agents/ORIGINAL_REQUEST.md`.
+5. **Audit Outcome**: The Victory Auditor confirmed all 5 requirements passed with zero defects, 158 passing automated tests, clean build execution (returncode 0), and certified `VERDICT: VICTORY CONFIRMED`.
+6. **Teardown & Cleanup**: Scheduled monitoring crons killed (`task-25`, `task-27`) and all subagents terminated per Sentinel cleanup protocol.
 
 ## Caveats
-- All hero tests throughout the module suite now strictly refer to hero character-sheet Attribute TNs ($20 - \text{Attribute}$) rather than fixed GM target numbers.
-- Handouts and GM play aids are completely synchronized with the module text.
+- All boxed read-aloud texts in both English master chapters and Swedish quickstart files now describe only immediate sensory impressions upon entering an area; hidden features and traps remain in GM-only reference notes.
+- Skill checks throughout the adventure require players to test against their own character sheet Attribute TNs ($20 - \text{Attribute}$).
 
 ## Conclusion
-Refactoring and alignment is 100% complete and independently verified. The module suite is fully compliant with official TOR 2e rules and ready for immediate tabletop play.
+Comprehensive revision is 100% complete, synchronized across all modular chapters, quickstarts, handouts, and build artifacts, and independently certified with `VICTORY CONFIRMED`.
 
 ## Verification Method
-- Independent 3-phase post-victory audit by `teamwork_preview_victory_auditor` (Timeline PASS, Integrity PASS, Test Execution PASS).
-- Automated test suites (`tests/test_tor2e_compliance.py`, `tests/test_adversarial_coverage.py`, `tests/test_math_and_balance.py`, `scripts/validate_module_suite.py`) passing with 0 failures across all 19 module documents and handouts.
+- Independent 3-phase victory audit (`teamwork_preview_victory_auditor_2`): Phase A (Timeline PASS), Phase B (Integrity PASS), Phase C (Independent Test Execution PASS).
+- 158 automated unit and integration tests passing in `tests/` across 8 suites.
+- `scripts/validate_module_suite.py`, `scripts/build_master_document.py`, and `scripts/build_handouts.py` running cleanly with returncode 0.

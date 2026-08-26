@@ -4,229 +4,176 @@
 <meta charset="UTF-8">
 <title>Tactical Node Map — The Armouries of the Third Deep</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=JetBrains+Mono:wght@400;600&display=swap');
 
 @page {
     size: A4 portrait;
-    margin: 10mm 12mm 12mm 12mm;
-}
-
-@page :left {
-    @bottom-left {
-        content: "The Armouries of the Third Deep — The One Ring 2e";
-        font-family: 'Cinzel', serif;
-        font-size: 7pt;
-        color: #666;
-    }
-    @bottom-right {
-        content: counter(page);
-        font-family: 'Cinzel', serif;
-        font-size: 8pt;
-        font-weight: bold;
-    }
-}
-
-@page :right {
-    @bottom-left {
-        content: "The Armouries of the Third Deep — The One Ring 2e";
-        font-family: 'Cinzel', serif;
-        font-size: 7pt;
-        color: #666;
-    }
-    @bottom-right {
-        content: counter(page);
-        font-family: 'Cinzel', serif;
-        font-size: 8pt;
-        font-weight: bold;
-    }
-}
-
-* {
-    box-sizing: border-box;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
+    margin: 10mm 10mm 10mm 10mm;
 }
 
 body {
-    font-family: 'Cormorant Garamond', 'Georgia', serif;
-    font-size: 9.5pt;
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 8.5pt;
     line-height: 1.25;
-    color: #111;
-    background-color: #fff;
+    color: #1a1a1a;
+    background: #fff;
     margin: 0;
     padding: 0;
 }
 
-h1, h2, h3, h4, .cinzel {
-    font-family: 'Cinzel', 'Palatino', serif;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin: 0;
-    color: #000;
-}
-
 h1 {
-    font-size: 15pt;
-    font-weight: 900;
+    font-family: 'Cinzel', serif;
+    font-size: 13pt;
+    font-weight: 800;
     text-align: center;
-    border-bottom: 2px solid #222;
+    letter-spacing: 0.08em;
+    margin: 0 0 2px 0;
+    color: #2b1d0c;
+    border-bottom: 1.5px solid #8b5a2b;
     padding-bottom: 2px;
-    margin-bottom: 4px;
 }
 
 h2 {
-    font-size: 11pt;
-    font-weight: 700;
-    border-bottom: 1px solid #444;
-    padding-bottom: 1px;
-    margin-top: 6px;
-    margin-bottom: 3px;
-    background: #f0f0f0;
-    padding-left: 4px;
-}
-
-h3 {
+    font-family: 'Cinzel', serif;
     font-size: 9.5pt;
     font-weight: 700;
-    margin-top: 4px;
-    margin-bottom: 2px;
+    margin: 4px 0 2px 0;
+    color: #4a2c0f;
+    border-bottom: 0.5px solid #8b5a2b;
+    padding-bottom: 1px;
 }
 
 .subtitle {
     text-align: center;
-    font-size: 8pt;
     font-style: italic;
-    color: #444;
-    margin-bottom: 6px;
+    font-size: 8pt;
+    color: #555;
+    margin-bottom: 4px;
 }
 
-/* Grayscale Table Styling */
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+}
+
+.card {
+    border: 1px solid #8b5a2b;
+    border-radius: 2px;
+    padding: 4px 6px;
+    background: #faf8f5;
+    margin-bottom: 4px;
+}
+
+.card-header {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 8pt;
+    color: #2b1d0c;
+    background: #e8ded2;
+    margin: -4px -6px 4px -6px;
+    padding: 2px 6px;
+    border-bottom: 1px solid #8b5a2b;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 3px;
-    margin-bottom: 5px;
-    font-size: 8.5pt;
+    font-size: 7.5pt;
+    margin: 2px 0;
 }
 
 th, td {
-    border: 1px solid #333;
-    padding: 2.5px 4px;
+    border: 0.5px solid #a8947e;
+    padding: 2px 3px;
     text-align: left;
     vertical-align: top;
 }
 
 th {
-    background-color: #e2e2e2;
+    background-color: #dfd5c6;
     font-family: 'Cinzel', serif;
-    font-size: 8pt;
-    font-weight: bold;
-    color: #000;
+    font-weight: 700;
+    font-size: 7pt;
+    color: #2b1d0c;
 }
 
-tr:nth-child(even) td {
-    background-color: #f7f7f7;
+tr:nth-child(even) {
+    background-color: #f3efe8;
 }
 
-/* Grids & Cards */
-.grid-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-}
-
-.grid-3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 6px;
-}
-
-.card {
-    border: 1.5px solid #222;
-    padding: 5px 7px;
-    background: #fff;
-    margin-bottom: 5px;
-    border-radius: 2px;
-}
-
-.card-header {
-    font-family: 'Cinzel', serif;
-    font-size: 8.5pt;
-    font-weight: bold;
-    background: #e8e8e8;
-    margin: -5px -7px 4px -7px;
-    padding: 2px 7px;
-    border-bottom: 1px solid #333;
-}
-
-/* Rune & In-World Prop Styling */
-.rune-frame {
-    border: 3px double #222;
-    padding: 10px;
-    background: #fafafa;
-    position: relative;
-}
-
-.cirth-inscription {
+.mono {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 11pt;
-    letter-spacing: 0.15em;
-    background: #eee;
-    padding: 8px;
-    border: 1px dashed #444;
-    text-align: center;
-    margin: 6px 0;
+    font-size: 7pt;
 }
 
-/* Checkboxes & Form Elements */
-.checkbox-box {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border: 1.2px solid #000;
-    margin-right: 3px;
-    vertical-align: middle;
-}
-
-.bubble {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    border: 1.2px solid #000;
-    border-radius: 50%;
-    margin-right: 2px;
-    vertical-align: middle;
+.avoid-break {
+    break-inside: avoid;
 }
 
 .page-break {
     page-break-before: always;
-    break-before: page;
 }
 
-.avoid-break {
-    page-break-inside: avoid;
-    break-inside: avoid;
+.checkbox-box {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #444;
+    margin-right: 3px;
+    vertical-align: middle;
 }
 
-/* High-Density ASCII Map Container */
+.rune-frame {
+    border: 2px double #8b5a2b;
+    padding: 6px;
+    background: #fbf9f4;
+    margin-top: 4px;
+}
+
+.cirth-inscription {
+    font-family: 'Cinzel', serif;
+    font-size: 11pt;
+    letter-spacing: 0.15em;
+    text-align: center;
+    color: #4a2c0f;
+    margin: 4px 0;
+}
+
 .ascii-map {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 6.8pt;
+    font-size: 6.5pt;
     line-height: 1.1;
-    background: #fdfdfd;
-    border: 1.5px solid #333;
-    padding: 6px;
     white-space: pre;
+    background: #1e1e1e;
+    color: #e0e0e0;
+    padding: 4px;
+    border-radius: 2px;
     overflow: hidden;
 }
 
-.stat-badge {
+.bubble {
     display: inline-block;
-    border: 1px solid #444;
-    background: #e8e8e8;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 1px solid #333;
+    background: #fff;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+.bubble-filled {
+    background: #333;
+}
+
+.tag {
+    display: inline-block;
+    font-size: 6.5pt;
     padding: 1px 3px;
-    font-size: 7.5pt;
-    font-family: 'Cinzel', serif;
+    border-radius: 2px;
+    background: #dfd5c6;
+    color: #2b1d0c;
     font-weight: bold;
     margin-right: 3px;
 }
@@ -242,29 +189,29 @@ tr:nth-child(even) td {
                                 3-TIER ELEVATION CROSS-SECTION & FLOWCHART
 ========================================================================================================
 
- [LEVEL 3A: UPPER RESIDENCE]  <--- Secret Climbing Shaft from Thrym Thistlebeard's Haven
+ [LEVEL 3A: UPPER RESIDENCE]  <--- The Westward Drift from Thrym Thistlebeard's Haven
                │
                ▼
    +───────────────────────+
    │ 2. UPPER GATEHOUSE    │  <--- [EXPEDITION RALLY REDOUBT] (CRAFT Res 3 to fortify; -1 AP/Act)
    +───────────┬───────────+
-               │ (Wide Granitic Stairway - March Test: Travel HRT TN 16 / Band Manoeuvre TN 15)
+               │ (Wide Granitic Stairway - March Test: TRAVEL roll / Band Manoeuvre TN 15)
                ▼
    +───────────────────────+
 ┌──┤ 1. MUSTERING-YARD     ├──┐  <--- [NEUTRAL GROUND] (Sentry Squad: 4 Orc Soldiers, 1 Udûn Sniffer)
-│  +───────────┬───────────+  │       (Stealth WIT TN 15 to slip past | Battle HRT TN 16 to ambush)
+│  +───────────┬───────────+  │       (STEALTH roll to slip past | BATTLE roll to ambush)
 │ (West Flank) │ (Central)    │ (East Flank)
 ▼              ▼              ▼
 +───────────+  +───────────+  +───────────+
 │ 3. FIRST  │  │ 4. BROKEN │  │ 5. SECOND │ [LEVEL 3B: THE WEAPONS MANUFACTORY]
-│   ARMOURY │  │    HALL   │  │   ARMOURY │ • Area 3: Scrap-traps (Scan WIT TN 15) | 12 Spearheads
-│(Scrap-Trap│  │ (Morgoth  │  │ (Siege     │ • Area 4: Valour HRT TN 18 vs Dread | Last Redoubt Clue
+│   ARMOURY │  │    HALL   │  │   ARMOURY │ • Area 3: Scrap-traps (SCAN roll) | 12 Spearheads
+│(Scrap-Trap│  │ (Morgoth  │  │ (Siege     │ • Area 4: VALOUR roll vs Dread | Last Redoubt Clue
 │ Traps)    │  │  Idol)    │  │  Engines) │ • Area 5: Heavy Ballista (Craft Res 3; 24 Dmg to Troll!)
 +───────────+  +─────┬─────+  +─────┬─────+
                      │              │
                      ▼              │
         +─────────────────────────+ │
-        │ 7. THE POISONED HALLS   │◄┘  <--- [FATAL HAZARD] (Balrog Miasma: Protection STR TN 13 hourly)
+        │ 7. THE POISONED HALLS   │◄┘  <--- [FATAL HAZARD] (Balrog Miasma: PROTECTION roll hourly)
         │ (12th & 14th Halls)     │         (Preserved Dwarf Knights | Scribe's Dying Slate recovered)
         +────────────┬────────────+
                      │
@@ -280,7 +227,7 @@ tr:nth-child(even) td {
 │ (Armoured Cave-Troll)   │           │ (Adamant Ithildin Seal) │ • Area 6: The Mauler (AL 10 Troll)
 │ • Forward Riddle Duel   │           +────────────┬────────────+ • Area 9: Skill Endeavour Res 6
 │ • Grimnar Catwalk Ambush│                        │              (Marshal's Key + Blood of Durin)
-+─────────────────────────+                        ▼
++───────────┬─────────────+                        ▼
                                       +─────────────────────────+
                                       │ 10. THE LOWER ARMOURY   │ <--- [THE GREATER HOARD]
                                       │ (The Grand Royal Vault) │ • 120 Treasure Points in Mithril
@@ -289,7 +236,7 @@ tr:nth-child(even) td {
 
 ========================================================================================================
 CONNECTING SUBTERRANEAN PATHWAYS:
-• Eastern Fissure: Descends 2 miles to Goblin Village (Granny Goblin & Grik's Under-Market).
+• Eastern Fissure: Descends 2 miles to Goblin Village (Lower Moria Orc Warrens).
 • South-Eastern Gallery: Connects to the Ledge of Woe & The Wailing Stairs descending to the Mines.
 ========================================================================================================
 </div>
@@ -298,9 +245,9 @@ CONNECTING SUBTERRANEAN PATHWAYS:
     <div class="card">
         <div class="card-header">CRITICAL TACTICAL BYPASSES & CHOKEPOINTS</div>
         <div style="font-size:8pt; line-height:1.25;">
-            • <b>The Flue Bypass</b>: A narrow ventilation shaft connects Area 2 directly to Area 5, bypassing the central Mustering-Yard entirely (requires <b>EXPLORE [WIT TN 15]</b>).<br>
+            • <b>The Flue Bypass</b>: A narrow ventilation shaft connects Area 2 directly to Area 5, bypassing the central Mustering-Yard entirely (requires <b>EXPLORE roll</b>).<br>
             • <b>The Catwalk Overwatch</b>: High stone walkways run above Area 6 and Area 1, accessible via stone rungs. Perfect for companion crossbow marksmen (Bláin & Bróga).<br>
-            • <b>The Keystone Collapse Point</b>: Over Area 2, an unstable archway can be rigged to collapse during the final withdrawal, sealing the shafts against Malech's shock-troops.
+            • <b>The Keystone Collapse Point</b>: Over Area 2, an unstable archway can be rigged to collapse during the final withdrawal, sealing the gallery against Malech's shock-troops.
         </div>
     </div>
 
@@ -311,7 +258,7 @@ CONNECTING SUBTERRANEAN PATHWAYS:
             2. <span class="checkbox-box"></span> Recover Scribe Slate & Marshal's Key in Act II.<br>
             3. <span class="checkbox-box"></span> Prime Heavy Ballista in Area 5 for troll defense.<br>
             4. <span class="checkbox-box"></span> Claim Durin's Axe (<b>Eye Awareness +4</b>) in Act III.<br>
-            5. <span class="checkbox-box"></span> Form Companion Shield-Wall and extract 600 lbs wargear back up to Thistlebeard Haven!
+            5. <span class="checkbox-box"></span> Form Companion Shield-Wall and extract 600 lbs wargear along the Westward Drift to Thistlebeard Haven!
         </div>
     </div>
 </div>

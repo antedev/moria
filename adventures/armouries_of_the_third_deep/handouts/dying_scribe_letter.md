@@ -117,28 +117,28 @@
 
 ## 4. Runemaster's Translation & Linguistic Notes
 
-When **Einar son of Anar** (*Treasure Hunter*), **Khoril Hornblower** (*Captain & Scholar*), or **Hjoldring the Armourer** examines the stone slab, the GM may share the following detailed observations based on standard skill tests:
+When a player-hero or companion examines the stone slab, the GM may share the following detailed observations based on standard skill tests:
 
 ```
 ========================================================================================
                               SKILL REVELATIONS & LORE CUES
 ========================================================================================
- SKILL TEST & ATTRIBUTE TN     RUNIC INSIGHT & OPERATIONAL BENEFIT
+ SKILL TEST & MODIFIERS        RUNIC INSIGHT & OPERATIONAL BENEFIT
 ----------------------------------------------------------------------------------------
- LORE / SCAN (Wits TN)         • Confirms the date of writing: 1981 TA (The Fall of Moria).
- (Favoured for Einar with      • Identifies the key mechanism: The King's Door uses a 
-  The Broken Key)                synchronized double-cylinder tumbler requiring either 
+ LORE roll or SCAN roll        • Confirms the date of writing: 1981 TA (The Fall of Moria).
+ (Favoured / +1d if invoking   • Identifies the key mechanism: The King's Door uses a 
+  relevant Traits or tools)      synchronized double-cylinder tumbler requiring either 
                                  the King's Key, the Marshal's Key, or a Craft bypass.
 ----------------------------------------------------------------------------------------
- CRAFT (Strength TN) /         • Analyzes the yellow crust on the slate: Confirms it is 
- HEALING (Heart TN)              residue of the Balrog's neurotoxic miasma.
- (Hjoldring or Einar)          • Reveals the remedy: Vinegar-soaked linen and crushed 
-                                 charcoal will filter the vapor (see CRAFT [Strength TN] 
+ CRAFT roll or HEALING roll    • Analyzes the yellow crust on the slate: Confirms it is 
+ (+1d if invoking Smith or       residue of the Balrog's neurotoxic miasma.
+  Herbal lore)                 • Reveals the remedy: Vinegar-soaked linen and crushed 
+                                 charcoal will filter the vapor (see CRAFT roll 
                                  respirator masks).
 ----------------------------------------------------------------------------------------
- RIDDLE (Wits TN)              • Deciphers the marginal scratches at the bottom of the 
- (Khoril Hornblower invoking     slab: Scribe Frár scratched the tumbler layout—3 left, 
-  Old Khuzdul lore)              2 right, 1 center—granting +2d on the Turn 1 roll of 
+ RIDDLE roll                   • Deciphers the marginal scratches at the bottom of the 
+ (+1d if invoking ancient        slab: Scribe Frár scratched the tumbler layout—3 left, 
+  Dwarven lore)                  2 right, 1 center—granting +2d on the Turn 1 roll of 
                                  the Lockbreaker Skill Endeavour (see Chapter 6 §4.3).
 ========================================================================================
 ```
@@ -152,5 +152,5 @@ When **Einar son of Anar** (*Treasure Hunter*), **Khoril Hornblower** (*Captain 
 * **Sensory Staging**: Describe the heavy chill of the hall, the emerald mist swirling at knee height, and the eerie, untouched dignity of the fallen Dwarven captains. The slate is cold as mountain ice and leaves a faint smudge of sulfur on the finder's fingers.
 * **Tactical Value to the Party**:
   1. **Solves the Vault Mystery**: Explicitly tells the players that *Durin's Axe* is inside Location 10 and that Location 9 (The King's Door) is currently sealed.
-  2. **Points to Key Locations**: Directs the heroes to seek the *Marshal's Key* among local Orc patrols (Grashnak in Rooms 3/5) or negotiate with Grik the Skulker, while noting the *King's Key* lies far away in the Last Redoubt.
+  2. **Points to Key Locations**: Directs the heroes to seek the *Marshal's Key* among local Orc patrols (Grashnak in Rooms 3/5) or Udûn sentries, while noting the *King's Key* lies far away in the Last Redoubt.
   3. **Unlocks the Craft Bypass Option**: Grants tactical advantages (+2d on Tumbler Alignment) if the players decide to pick the adamant lock via the Skill Endeavour.

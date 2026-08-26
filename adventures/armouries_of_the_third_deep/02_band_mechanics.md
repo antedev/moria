@@ -7,13 +7,11 @@
 
 ## 1. The Moria Band System: Core Rules & Foundations
 
-In *The One Ring 2e* supplement *Moria: Through the Doors of Durin*, expeditions operating in deep subterranean territory utilize the **Band Mechanics** to manage supporting companions, tactical formations, mass skirmishes, and collective endurance without bogging down individual initiative.
-
-The expeditionary force led by Torvir, Einar, and Khoril commands a seasoned vanguard of **seven veteran Dwarf Companions** (*Bláin, Fáin, Dúrmer, Hjoldring, Bróga, Austri, Dolg*).
+In *The One Ring 2e* supplement *Moria: Through the Doors of Durin*, expeditions operating in deep subterranean territory utilize the **Band Mechanics** to manage supporting companions, tactical formations, mass skirmishes, and collective endurance without bogging down individual initiative.The expeditionary force commands a seasoned vanguard of **seven veteran Dwarf Companions** (*Bláin, Fáin, Dúrmer, Hjoldring, Bróga, Austri, Dolg*).
 
 ```
 ========================================================================================
-                               BAND STATISTICAL PROFILE
+                                BAND STATISTICAL PROFILE
 ========================================================================================
  BAND READINESS RATING:       5 (Base 4 + 1 for Hardened Veteran Dúrmer)
  BAND READINESS TN:          15 (Calculated as 20 - Band Readiness)
@@ -68,7 +66,7 @@ The Band’s tactical capabilities are divided into five specialized ratings:
    * *Specialist Champions*: Hjoldring (*Smith*), Bróga (*Vaultbreaker*).
 5. **RALLY (Rating 1 — 1d6)**:
    * *Scope*: Resisting the supernatural Dread of Morgoth/Balrog idols, making Band Fatigue tests, recovering from shock, and performing emergency triage under fire.
-   * *Specialist Champions*: Supported directly by Khoril's *Leadership* and *Battle-horn*.
+   * *Specialist Champions*: Supported directly by a hero's *Leadership* Trait or the *Battle-horn of the Realm*.
 
 ---
 
@@ -83,7 +81,8 @@ The Player-Heroes can assign their seven companions to four distinct tactical ro
  ROLE                      ASSIGNED DWARVES    PRIMARY BENEFIT & MECHANIC
 ----------------------------------------------------------------------------------------
  1. Forward Scout Screen   Austri & Bróga      Rolls Vigilance (2d) vs Band TN 15. Prevents 
-                                               surprise; enables Einar's Favoured SCAN checks.
+                                               surprise; enables Favoured SCAN rolls for 
+                                               heroes inspecting the route.
  2. Shield-Wall Phalanx    Dúrmer, Dolg,       Rolls War (3d) vs Band TN 15. Intercepts 1 
                            Bláin               melee attack/round; prevents swarming.
  3. Rearguard Choke Point  Bláin & Fáin        Held at Location 2 Gatehouse. Guarantees 
@@ -101,7 +100,7 @@ The Player-Heroes can assign their seven companions to four distinct tactical ro
 * **Operational Rules**:
   * Whenever the expedition enters a new keyed location or intersection, the GM rolls **Band Vigilance (2d6)** or **Band Manoeuvre (2d6)** against **Band TN 15** (modified by ambient Alert Level).
   * **On a Success**: The scouts identify enemy sentry posts (such as the Udûn sniffers in Location 1), tripwires, or acoustic traps before the main expedition steps into danger. The Company cannot be surprised, and Player-Heroes gain **+1d** on their opening actions.
-  * **Einar Synergy**: Einar can move up alongside the screen without breaking stealth, allowing him to use *The Broken Key* (making **SCAN** rolls **Favoured**) to locate hidden compartments or mechanisms safely.
+  * **Scouting Synergy**: A hero moving alongside the screen can make **SCAN rolls (Favoured)** to locate hidden compartments or mechanisms safely without breaking group stealth.
   * **On a Failure**: The scouts blunder into an acoustic tripwire or loose shale, generating **+1 Noise Point** on the Alert Tracker.
 
 ---
@@ -112,7 +111,7 @@ The Player-Heroes can assign their seven companions to four distinct tactical ro
 * **Operational Rules**:
   * **Interception Reaction**: Once per combat round, Dolg or Dúrmer can interpose their tower-shields to absorb one incoming physical melee attack targeted at a Player-Hero or wounded companion. The damage is resolved against the companion’s Endurance and Armour dice (Armour 3d/4d).
   * **Anti-Swarm Bastion**: While the Shield-Wall remains unbroken, enemy adversaries cannot utilize flanking bonuses, and Orc swarm attacks (such as Udûn Sniffers trying to overwhelm through numbers) cannot target rear-rank characters (such as Fáin or archers in Rearward stance).
-  * **Shield-Bash Manoeuvre**: When the Band tests **War (3d6)** in combat, spending a Success icon ($\mathbf{6}$) allows the Phalanx to push the enemy frontline back 10 paces, creating room for Torvir's Great Axe swings.
+  * **Shield-Bash Manoeuvre**: When the Band tests **War (3d6)** in combat, spending a Success icon ($\mathbf{6}$) allows the Phalanx to push the enemy frontline back 10 paces, creating room for devastating close combat strikes.
 
 ---
 
@@ -120,7 +119,7 @@ The Player-Heroes can assign their seven companions to four distinct tactical ro
 * **Assigned Roster**: **Bláin the Cleaver** and **Fáin Iron-Visor** (2 Dwarves).
 * **Positioning**: Stationed at a fortified fallback position, specifically **Keyed Location 2: The Upper Gatehouse**.
 * **Operational Rules**:
-  * **Securing the Line of Retreat**: Leaving 2 companions to fortify and hold Location 2 creates an active forward redoubt. The rearguard watches the murder-holes, keeps the winch ropes secure, and prevents enemy patrols from cutting off the descent shafts back to Thrym's Caves.
+  * **Securing the Line of Retreat**: Leaving 2 companions to fortify and hold Location 2 creates an active forward redoubt. The rearguard watches the murder-holes, keeps the barricades secure, and prevents enemy patrols from cutting off the transverse retreat gallery (Westward Drift) back to Thrym's Caves.
   * **Extraction Bonus**: During Act III's *Fighting Withdrawal*, having an established Rearguard provides **+1d** on Band extraction tests and grants the Company one automatic free round to cross the Mustering-Yard without taking missile fire.
   * **Keystone Trap Trigger**: Fáin and Bláin can be instructed to pull the ceiling winch keystone, triggering a controlled cave-in on pursuing Orc warbands (dealing 30 damage / crushing the pursuing vanguard).
 
@@ -134,7 +133,7 @@ The Player-Heroes can assign their seven companions to four distinct tactical ro
   * **Burden Shift**: Packing this immense weight shifts the Band’s Burden rating from **Medium Burden** to **Heavy / Overburdened**:
     * Band Manoeuvre rolls suffer **-1d**.
     * Marching Fatigue tests suffer a **-1d penalty** (or **-2d** if fully Overburdened).
-    * Stealth checks to move silently generate **+1 Noise Point** per hall traversed unless padded with cloth (**CRAFT** — Strength TN: Torvir 13, Einar 14, Khoril 13).
+    * Stealth checks to move silently generate **+1 Noise Point** per hall traversed unless padded with cloth (**CRAFT roll**).
   * **Strategic Payoff**: Safely extracting this wargear back to the East-Gate Camp equips 40–50 frontline Dwarves in Balin’s vanguard with gromril-mail and masterwork weapons, eliminating the colony's defensive vulnerability and securing royal recognition from King Dáin.
 
 ---
@@ -178,7 +177,7 @@ When the Band is targeted by area attacks, traps, or melee clashes, injuries are
 
 ```
 [FLEETING] ──(Prolonged Rest)──> [MODERATE] ──(First Aid)──> [SEVERE] ──(Emergency 1-Hr)──> [GRIEVOUS]
-(Short Rest)                     (Prolonged)                  (+1 Shadow)                    (Dying!)
+(Brief Rest)                     (Prolonged)                  (+1 Shadow)                    (Dying!)
 ```
 
 ```
@@ -187,16 +186,16 @@ When the Band is targeted by area attacks, traps, or melee clashes, injuries are
 ========================================================================================
  TIER         SEVERITY & EFFECTS                       RECOVERY & TREATMENT
 ----------------------------------------------------------------------------------------
- 1. Fleeting   Bruises, shallow cuts, winded (-2 End)   Cleared completely after a Short 
+ 1. Fleeting   Bruises, shallow cuts, winded (-2 End)   Cleared completely after a Brief 
                                                        Rest (30 minutes).
  2. Moderate   Deep gashes, cracked ribs (-5 End)       Cleared after a Prolonged Rest in 
                                                        a Safe Haven (Thrym's Caves).
- 3. Severe     Broken bones, deep thrusts (-10 End).    Requires First Aid (HEALING — Heart 
-               Adds +1 Band Shadow (Dread).             TN or Band EXPERTISE 2d vs Band TN 
-                                                       15) during Prolonged Rest to reduce 
-                                                       to Moderate.
- 4. Grievous   DYING! Mortal wound, artery severed.     MUST receive First Aid (HEALING or 
-               Adds +1 Band Shadow (Dread).             Band EXPERTISE vs Band TN 15) within 
+ 3. Severe     Broken bones, deep thrusts (-10 End).    Requires First Aid (**HEALING roll** 
+               Adds +1 Band Shadow (Dread).             or Band EXPERTISE 2d vs Band TN 15) 
+                                                       during Prolonged Rest to reduce to 
+                                                       Moderate.
+ 4. Grievous   DYING! Mortal wound, artery severed.     MUST receive First Aid (**HEALING roll** 
+               Adds +1 Band Shadow (Dread).             or Band EXPERTISE vs Band TN 15) within 
                                                        1 hour or companion dies. Prolonged 
                                                        rest reduces to Lingering.
  5. Lingering  Permanent crippling trauma. Second       Permanent until next Fellowship Phase. 
@@ -288,7 +287,7 @@ Navigating the echoing stone vaults of Khazad-dûm requires rigid marching disci
 
 ### 4.1 Group Stealth & Marching Tests
 * **Resolving Group Movement**: When the expedition attempts to traverse hostile sectors or bypass enemy sentry posts (such as the Udûn sniffers in Location 1 or wandering patrols in Location 5), marching discipline is tested:
-  * **Leader Check**: Khoril rolls **TRAVEL** (Heart TN 16) or **ENHEARTEN** (Heart TN 16), invoking his *Leadership* Trait for **+1d**.
+  * **Leader Check**: The company's Guide or leader makes a **TRAVEL roll** or **ENHEARTEN roll** (invoking a Trait such as *Leadership* for **+1d**).
   * **Alternative Band Check**: The GM rolls Band **MANOEUVRE** (2d6) against **Band TN 15** ($20 - \text{Readiness } 5$).
 * **Noise Escalation & Consequences of Failure**:
   * **Failure**: Clanking wargear or loose gravel echoes down the galleries: **+1 Alert / Noise Point**.
@@ -340,10 +339,10 @@ At the start of each combat round, the Company chooses a collective Band Stance:
 ### 5.2 Step 2: Hero Leader Actions
 During a Clash round, each Player-Hero takes a specialized Leader Action before the Band rolls:
 
-* **Command (Khoril)**: Khoril rolls **BATTLE** (Strength TN 13 / Heart TN 16), invoking *Leadership* for **+1d**. On a success, he grants **+1d** to the Band’s Clash roll and can change the Band’s Stance mid-round.
-* **Inspire (Torvir or Khoril)**: Hero rolls **ENHEARTEN** (Heart TN: Torvir 18, Khoril 16). Success restores **1 point of Band Hope** or clears the *Faltering* fatigue condition from all companions.
-* **Fight (Torvir or Einar)**: Hero attacks the enemy frontline in standard combat stance using Combat Proficiency against their **Strength TN** (Torvir 13, Einar 14), modified by adversary Parry. Success reduces enemy Resistance by their weapon’s full Damage.
-* **Duel (Torvir)**: Torvir engages the enemy Champion (e.g. Grimnar the Disgraced) in single combat, nullifying the Champion's Might penalty on the Band Clash roll.
+* **Command**: A hero makes a **BATTLE roll** (invoking a Trait such as *Leadership* for **+1d**). On a success, the hero grants **+1d** to the Band’s Clash roll and can change the Band’s Stance mid-round.
+* **Inspire**: A hero makes an **ENHEARTEN roll**. Success restores **1 point of Band Hope** or clears the *Faltering* fatigue condition from all companions.
+* **Fight**: A hero attacks the enemy frontline in a close combat stance using their Combat Proficiency against the adversary's Parry rating. A successful attack reduces enemy Resistance by the weapon’s full Damage.
+* **Duel**: A hero engages the enemy Champion (e.g. Grimnar the Disgraced) in single combat, nullifying the Champion's Might penalty on the Band Clash roll while locked in duel.
 
 ---
 

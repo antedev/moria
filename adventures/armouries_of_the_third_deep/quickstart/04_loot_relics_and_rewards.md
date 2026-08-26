@@ -25,15 +25,15 @@
 | • Superior Grievous: Increases weapon Damage by +2 (included above).       |
 | • Superior Keen: Scores a Piercing Blow on a roll of 8, 9, 10 on the Feat   |
 |   die (or Gandalf Rune).                                                    |
-| • Flame of Hope (Dwarf Bearer): When wielded by a Dwarf of Durin's line     |
-|   (Torvir or Khoril), the runes blaze with cold azure light (30 ft radius,  |
-|   negating darkness penalties). The wielder may spend 1 Hope to grant all   |
-|   allies +1d on attack rolls and Protection tests for 1 combat round, or    |
-|   clear the Faltering condition immediately.                                |
+| • Flame of Hope (Dwarf Bearer): When wielded by a Dwarf of Durin's line,    |
+|   the runes blaze with cold azure light (30 ft radius, negating darkness    |
+|   penalties). The wielder may spend 1 Hope to grant all allies +1d on attack|
+|   rolls and Protection tests for 1 combat round, or clear the Weary         |
+|   condition immediately.                                                    |
 | • Gleam of Terror (Dwarf Bearer): The wielder's AWE rolls for Intimidate    |
 |   Foe combat tasks are automatically Favoured. On a success, the target      |
 |   loses 2 Hate/Resolve and minions of Attribute Level <= 4 flee to the rear |
-|   rank (or must make a Dread test against Heart TN).                        |
+|   rank (or must make a Dread test: **VALOUR roll**, Ill-favoured).          |
 |                                                                             |
 | THE SHADOW PRICE & THE WEIGHT OF DOOM:                                      |
 | • The Eye Awakens: The moment Durin's Axe is lifted from the granite dais   |
@@ -49,7 +49,7 @@
 
 In addition to Durin's Axe, the Lower Armoury (Keyed Location 10) and Upper Armoury / Poisoned Halls (Keyed Locations 7 & 8) contain the masterwork armaments of the Dwarven vanguard:
 
-### 1. The Shield of the Deep Gate (Torvir or Einar)
+### 1. The Shield of the Deep Gate
 * **Item Type**: Reinforced Dwarf-Shield (Great Shield)
 * **Parry Modifier**: **+3** | **Load**: 3 | **Reward Qualities**: *Reinforced* (Unbreakable), *Cunning Make*
 * **Craft Virtue (*Unyielding*)**:
@@ -57,7 +57,7 @@ In addition to Durin's Axe, the Lower Armoury (Keyed Location 10) and Upper Armo
   * **Shield-Wall Bulwark**: When the bearer forms part of a *Shield-Wall Phalanx*, the Band gains an automatic **+1d on all Band War rolls** and absorbs 1 additional point of enemy Resistance damage per round.
   * **Adversary Weapon Sunder**: When an adversary rolls a failure on an attack against the bearer showing an Eye of Sauron ($\mathbf{S}$) on the Feat die, their mundane weapon shatters against the adamant rim.
 
-### 2. The Mattock of Moria-Silver / Mattock of the Iron Vanguard (Torvir)
+### 2. The Mattock of Moria-Silver / Mattock of the Iron Vanguard
 * **Item Type**: Two-handed Mattock
 * **Damage Rating**: **8** (Base 7 + Grievous +1) | **Injury Rating**: **18** | **Load**: 3 (Forged of lightweight Mithril-steel)
 * **Craft Qualities**: *Grievous*, *Close Fitting* (Load reduced from 5 to 3), *Superior Craftsmanship*
@@ -66,7 +66,7 @@ In addition to Durin's Axe, the Lower Armoury (Keyed Location 10) and Upper Armo
   * **Armour Penetration**: On a Piercing Blow, the target adversary's Protection roll suffers a **-1d penalty** due to the razor-keen Moria-silver pick-head.
   * **Breaching Utility**: Adds **+2d** on all Craft, Athletics, or Band War checks made to shatter stone doors, breach Orc barricades, or smash siege masonry.
 
-### 3. The Mail of Unyielding Stone (Einar or Khoril)
+### 3. The Mail of Unyielding Stone
 * **Item Type**: Coat of Mail
 * **Protection Rating**: **5d** | **Load**: **12** (Specially treated dwarf-iron rings laced with gromril wire; Load reduced from 16 to 12)
 * **Craft Qualities**: *Close Fitting* (-4 Load), *Reinforced*
@@ -74,7 +74,7 @@ In addition to Durin's Axe, the Lower Armoury (Keyed Location 10) and Upper Armo
   * **Injury Reduction**: When the wearer suffers a Piercing Blow and fails their Protection test, they may spend **1 point of Hope** to immediately reduce the severity of the resulting Injury by one step (*Grievous $\rightarrow$ Severe $\rightarrow$ Moderate $\rightarrow$ Fleeting*).
   * **Crush & Tremor Resistance**: The wearer takes half damage (rounded down) from environmental hazards involving falling rocks, ceiling collapses, or boulder strikes.
 
-### 4. The Helm of the Iron Watch (Torvir or Khoril)
+### 4. The Helm of the Iron Watch
 * **Item Type**: Dwarven Helm
 * **Protection Modifier**: **+1d** | **Load**: 1 (Forged of fluted, blackened steel with electrum inlays)
 * **Craft Virtue (*Vigilant Sentinel*)**:
@@ -82,7 +82,7 @@ In addition to Durin's Axe, the Lower Armoury (Keyed Location 10) and Upper Armo
   * **Immunity to Drop Ambushes**: The wearer cannot be surprised or ambushed by foes attacking from catwalks, ceiling fissures, or overhead shadows.
   * **Tremor-Sense**: The helm hums faintly when structural cave-ins or heavy beast footsteps approach within 100 yards, granting the Company **+1 round of preparation** before encounters.
 
-### 5. The Pike of the Under-Gate (Khoril or Torvir)
+### 5. The Pike of the Under-Gate
 * **Item Type**: Long Spear / Pike (Two-handed)
 * **Damage Rating**: **5** | **Injury Rating**: **16** | **Load**: 3
 * **Craft Qualities**: *Keen* (Pierce on 9–10), *Grievous* (+1 Damage)
@@ -140,23 +140,23 @@ When heroes search despoiled chests, side-chambers, or fallen bodies, roll **D66
 | 41: A heavy iron crowbar stamped with the mark of the Master-Founders (+2d to pry doors).   |
 | 42: A sealed clay pot of dwarven axle grease; ideal for quieting squeaking armor or gears.  |
 | 43: A necklace of dried Orc ears; holding it grants +1d to AWE against goblins.             |
-| 44: A pouch of dried healing roots; allows a hero to make an immediate HEALING test         |
-|     against their Heart TN (Torvir 18, Einar 17, Khoril 16).                                |
+| 44: A pouch of dried healing roots; allows a hero to make an immediate **HEALING roll**     |
+|     to treat wounds and clear fatigue.                                                       |
 | 45: An ancient brass key stamped with the number "14" (Opens a side supply chest in Area 7).|
 | 46: A carved stone gaming board with 12 miniature quartz dwarf warriors.                    |
 |                                                                                             |
 | 51: A gold-plated ring bearing no inscription (Lesser Ring; grants +1d to STEALTH).         |
 | 52: An iron flask of virulent Orc venom; can coat 3 arrows/blades (inflicts poison injury). |
-| 53: A heavy bronze horn mouthpiece; when fitted to Khoril's horn, grants +1d to BATTLE.     |
+| 53: A heavy bronze horn mouthpiece; when fitted to a war-horn, grants +1d to BATTLE.        |
 | 54: A chunk of slag containing 10 ounces of raw mithril ore (Worth 15 Treasure Points).     |
 | 55: A dwarf miner's journal describing a secret drainage pipe leading past Area 6.          |
 | 56: A leather pouch of fine silver shavings used for runic engraving.                       |
 |                                                                                             |
 | 61: A bundle of 3 Dwarf torches made of slow-burning resin (burns for 4 hours each).        |
-| 62: A rusted iron key that bends when turned (Grants Favoured status on Einar's next SCAN). |
+| 62: A rusted iron key that bends when turned (Grants Favoured status on the next SCAN roll).|
 | 63: A pair of heavy fur-lined gauntlets (+1d to resist frost or burning metal).             |
 | 64: A pouch of black Orc tobacco; smoking it causes coughing but cures Weary for 30 min.   |
-| 65: An ancient dwarven medallion of the Tunnel-Guards (+1d to VALOUR tests against Heart TN)|
+| 65: An ancient dwarven medallion of the Tunnel-Guards (+1d to **VALOUR rolls** vs Dread).   |
 | 66: THE JACKPOT: A hidden stone safe containing 30 Treasure Points in ancient gold coin!    |
 +=============================================================================================+
 ```

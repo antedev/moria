@@ -136,7 +136,7 @@ The delve into the Third Deep is entrusted to three seasoned Player-Heroes who h
 * **Culture**: Dwarf of Durin's Folk (Age: 85)  
 * **Standard of Living**: Prosperous | **Cultural Blessing**: *Redoubtable*  
 * **Calling**: Captain | **Shadow Path**: Lure of Power  
-* **Journey Role**: Guide (**TRAVEL** — Heart TN 16) / Squad Commander  
+* **Journey Role**: Guide / Squad Commander  
 
 #### Attributes & Target Numbers
 * **STRENGTH 7** $\rightarrow$ **Target Number (TN) 13**
@@ -170,7 +170,7 @@ The delve into the Third Deep is entrusted to three seasoned Player-Heroes who h
 
 ## 3. The Dwarf Companion Band (The Seven Veterans)
 
-Accompanying the three heroes is a seasoned squad of **seven veteran Dwarf Companions**. These warriors operate under *The One Ring 2e* Moria Band rules (see Chapter 2).
+Accompanying the three heroes is a seasoned squad of **seven veteran Dwarf Companions**. These warriors operate under *The One Ring 2e* Moria Band rules with **Readiness Rating: 5** and **Band TN: 15** ($20 - 5 = 15$) (see Chapter 2).
 
 ```
 ========================================================================================
@@ -249,26 +249,27 @@ Accompanying the three heroes is a seasoned squad of **seven veteran Dwarf Compa
 ## 4. Staging Ground: Safe Haven & Non-Combat NPCs
 
 ### 4.1 The Safe Haven: The Caves of Thrym Thistlebeard
-The staging base for this expedition is not the distant East-Gate, but the newly reclaimed **Caves of Thrym Thistlebeard**, located in the lower vaults of the **Second Deep** beneath the great cleft of Mount Silvertine.
+The staging base for this expedition is not the distant East-Gate, but the newly reclaimed **Caves of Thrym Thistlebeard**, located along the eastern flank of the **Third Deep stratum** (Location 18 on the master elevation map) beneath the great cleft of Mount Silvertine.
 
 ```
 ========================================================================================
                           THE CAVES OF THRYM THISTLEBEARD
 ========================================================================================
- • LOCATION: Second Deep, beneath Thrym's Cleft (Mount Silvertine).
+ • LOCATION: Eastern Third Deep stratum (Location 18), beneath Thrym's Cleft.
  • STATUS: Cleansed Safe Haven (Moria Supplement pp. 112–114).
  • STRATEGIC VALUE: Shifts all travel routes between the East-Gate and the Deeps 
    from Dark Land (Hunt 14) to Wild Land (Hunt 16).
  • REST & RECOVERY: Allows prolonged rests, First Aid healing of Severe Injuries, 
    and Fellowship Phase Undertakings underground.
- • CONNECTION TO THIRD DEEP: A series of ancient counterweight lift-shafts and spiral 
-   ventilation flues descends 400 feet directly into Location 1 (The Mustering-Yard).
+ • CONNECTION TO THE ARMOURIES: An ancient paved military gallery—the Westward Drift 
+   (Great Transverse Gallery)—runs horizontally westward from the haven gates directly 
+   into Location 1 (The Mustering-Yard).
 ========================================================================================
 ```
 
 * **Environment**: A subterranean wonder of the Elder Days—petrified flowering stone, phosphorescent moss gardens, weeping mineral springs, and stone terraces carved by the ancient King Thrym.
 * **Cleansed Sanctum**: The party cleared the foul blood-vines and brood-spiders in their previous delve, consecrating the hall with songs of Durin. The air is sweet and fresh, insulated from the sulfurous stench of the Deeps.
-* **The Vertical Descent**: From the lowest terrace of Thistlebeard's garden, the expedition descends via heavy hemp ropes and counterweight bucket chains down the *Shaft of the Pillars* into the high galleries of the Third Deep's Mustering-Yard.
+* **The Lateral Advance (The Westward Drift)**: From the western gate-arch of Thistlebeard's garden, the expedition advances horizontally along the *Great Transverse Gallery* (The Westward Drift). The rough karst walls and weeping mineral flowstones of the natural caverns gradually give way to smooth, dressed basalt, ancient Dwarven defensive breastworks, and massive iron-reinforced archways opening directly onto the high overlook of the Third Deep's Mustering-Yard.
 
 ### 4.2 Safe Placement of Non-Combat Rescued NPCs
 During prior operations in the Slave-Mines and upper halls, the Fellowship liberated several captives. To preserve operational security, these non-combat NPCs have been escorted back to the **East-Gate Camp** under the direct protection of Lord Balin and Commander Fróra:
@@ -296,18 +297,18 @@ During prior operations in the Slave-Mines and upper halls, the Fellowship liber
 ### 5.1 The Eye of Thrym (Strictly Inactive in Third Deep)
 * **Description**: A carved oval talisman of midnight-blue sapphire held in a filigree setting of star-iron, recovered from King Thrym’s sarcophagus.
 * **Attunement Mechanics**: The relic is bound by ancient geomantic craft exclusively to the hundred stone sentinel statues carved into the rock walls of *The Caves of Thrym Thistlebeard*. When the bearer rests within the Caves, they may look through the eyes of any statue in the haven.
-* **Operational Constraint**: The moment Torvir descends past the threshold into the Third Deep, the sapphire dims to a dull, cold pebble. **The Eye of Thrym provides zero magical, scrying, or sensory benefits within the Armouries of the Third Deep.**
+* **Operational Constraint**: The moment the bearer crosses the threshold archway out of the natural caverns and advances along the Westward Drift into the Third Deep, the sapphire dims to a dull, cold pebble. **The Eye of Thrym provides zero magical, scrying, or sensory benefits within the Armouries of the Third Deep.**
 
-### 5.2 The Broken Key (Einar's Masterwork Tool)
+### 5.2 The Broken Key (Ancient Masterwork Tool)
 * **Description**: A heavy, fractured key of blackened gromril-steel, etched with the runic cipher of the Royal Locksmiths of Durin III.
-* **Operational Mechanics**: Makes all of Einar's **SCAN** rolls **Favoured** (roll 2 Feat dice, keep the higher result) to locate concealed doors, detect mechanical tripwires, bypass pressure plates, and identify weakened structural lintels. Also allows invoking the *Burglary* Trait for **+1d** on lockpicking and trap-disarming **CRAFT** tests.
+* **Operational Mechanics**: Makes the bearer's **SCAN** rolls **Favoured** (roll 2 Feat dice, keep the higher result) to locate concealed doors, detect mechanical tripwires, bypass pressure plates, and identify weakened structural lintels. Also allows invoking the *Burglary* Trait for **+1d** on lockpicking and trap-disarming **CRAFT** tests.
 * **Limitation**: While it reveals the locking mechanisms of *The King's Door* (Location 9), the physical fragment is incomplete and cannot open the door alone without the *Marshal's Key* or a masterwork Craft Endeavour.
 
-### 5.3 Battle-horn of the Realm (Khoril's Double-Edged Weapon)
+### 5.3 Battle-horn of the Realm (Double-Edged War Horn)
 * **Description**: A colossal war-horn carved from the horn of a Great Kine of Araw, banded in engraved silver and inscribed with the Battle-Runes of the Lonely Mountain.
 * **Operational Mechanics**:
-  * Grants **+1d on all BATTLE rolls** made by Khoril or Band **WAR** / **RALLY** rolls.
-  * Allows Khoril to execute the *Rally Companions* action in combat, clearing the *Faltering* condition or restoring 1 point of Band Hope.
+  * Grants **+1d on all BATTLE rolls** made by the bearer or Band **WAR** / **RALLY** rolls.
+  * Allows the bearer to execute the *Rally Companions* action in combat, clearing the *Faltering* condition or restoring 1 point of Band Hope.
 * **Acoustic Trade-Off**: Sounding the great horn in the vaulted stone chambers of the Third Deep produces a deafening, harmonic roar that carries for miles. Sounding the horn **immediately raises the Alert Tracker by +1 Tier** and adds **+2 to the Company's Strategic Eye Awareness**.
 
 ---
